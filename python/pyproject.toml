@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "generals-api"
+version = "0.1.0"
+description = "Python client for the C&C Generals Zero Hour script API"
+requires-python = ">=3.11"
+dependencies = ["websockets>=13,<16"]
+
+[project.optional-dependencies]
+test = ["pytest>=8", "pytest-asyncio>=0.24", "pytest-timeout>=2.3"]
+
+[tool.setuptools.packages.find]
+include = ["generals_api*"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
+testpaths = ["tests"]
+markers = ["integration: needs the built game in GameFiles", "leak_baseline(n): leak report allowance for a clean exit"]
+timeout = 300

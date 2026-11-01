@@ -1,0 +1,21 @@
+Traceback (most recent call last):
+  File "C:\Users\user\Documents\CNC_Generals_AI\tournament\p10-rehearsal\agents\Echo\bot.py", line 52, in <module>
+    asyncio.run(main())
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\user\Documents\CNC_Generals_AI\tournament\p10-rehearsal\agents\Echo\bot.py", line 37, in main
+    snap = await c.state()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\user\Documents\CNC_Generals_AI\python\generals_api\client.py", line 253, in state
+    return await self.request("state")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Documents\CNC_Generals_AI\python\generals_api\client.py", line 118, in request
+    raise ApiError(reply.get("error", "UNKNOWN"), reply.get("message", ""), reply)
+generals_api.client.ApiError: WRONG_STATE: only available in a game

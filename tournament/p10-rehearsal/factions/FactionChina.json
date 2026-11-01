@@ -1,0 +1,1532 @@
+{
+ "faction": "FactionChina",
+ "ok": true,
+ "reply_to": 4,
+ "sciences": [
+  {
+   "cost": 1,
+   "name": "SCIENCE_RedGuardTraining",
+   "tier": 1
+  },
+  {
+   "cost": 1,
+   "name": "SCIENCE_ArtilleryTraining",
+   "tier": 1
+  },
+  {
+   "cost": 1,
+   "name": "SCIENCE_NukeLauncher",
+   "tier": 1
+  },
+  {
+   "cost": 1,
+   "name": "SCIENCE_ClusterMines",
+   "tier": 2
+  },
+  {
+   "cost": 1,
+   "name": "Early_SCIENCE_ChinaCarpetBomb",
+   "tier": 2
+  },
+  {
+   "cost": 1,
+   "name": "SCIENCE_ArtilleryBarrage1",
+   "tier": 2
+  },
+  {
+   "cost": 1,
+   "name": "SCIENCE_ArtilleryBarrage2",
+   "tier": 2
+  },
+  {
+   "cost": 1,
+   "name": "SCIENCE_ArtilleryBarrage3",
+   "tier": 2
+  },
+  {
+   "cost": 1,
+   "name": "SCIENCE_CashHack1",
+   "tier": 2
+  },
+  {
+   "cost": 1,
+   "name": "SCIENCE_CashHack2",
+   "tier": 2
+  },
+  {
+   "cost": 1,
+   "name": "SCIENCE_CashHack3",
+   "tier": 2
+  },
+  {
+   "cost": 1,
+   "name": "SCIENCE_EmergencyRepair1",
+   "tier": 2
+  },
+  {
+   "cost": 1,
+   "name": "SCIENCE_EmergencyRepair2",
+   "tier": 2
+  },
+  {
+   "cost": 1,
+   "name": "SCIENCE_EmergencyRepair3",
+   "tier": 2
+  },
+  {
+   "cost": 1,
+   "name": "SCIENCE_Frenzy1",
+   "tier": 2
+  },
+  {
+   "cost": 1,
+   "name": "SCIENCE_Frenzy2",
+   "tier": 2
+  },
+  {
+   "cost": 1,
+   "name": "SCIENCE_Frenzy3",
+   "tier": 2
+  },
+  {
+   "cost": 1,
+   "name": "SCIENCE_EMPPulse",
+   "tier": 3
+  }
+ ],
+ "side": "China",
+ "structures": [
+  {
+   "abilities": [
+    {
+     "name": "Command_UpgradeChinaAircraftArmor",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_ChinaAircraftArmor"
+    },
+    {
+     "name": "Command_UpgradeChinaMines",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_ChinaMines"
+    }
+   ],
+   "build_time": 60.0,
+   "buildable": true,
+   "built_by": [
+    "ChinaVehicleDozer"
+   ],
+   "cost": 1000,
+   "energy": -1,
+   "kinds": [
+    "SELECTABLE",
+    "IMMOBILE",
+    "STRUCTURE",
+    "PRELOAD",
+    "MP_COUNT_FOR_VICTORY",
+    "SCORE",
+    "CAPTURABLE",
+    "FS_FACTORY",
+    "FS_TECHNOLOGY",
+    "AUTO_RALLYPOINT",
+    "FS_AIRFIELD"
+   ],
+   "name": "ChinaAirfield",
+   "prerequisites": [
+    [
+     "ChinaSupplyCenter"
+    ]
+   ],
+   "radius": 112.53887939453125,
+   "science_prerequisites": [],
+   "side": "China"
+  },
+  {
+   "abilities": [
+    {
+     "name": "Command_UpgradeChinaRedguardCaptureBuilding",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_InfantryCaptureBuilding"
+    },
+    {
+     "name": "Command_UpgradeChinaMines",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_ChinaMines"
+    }
+   ],
+   "build_time": 20.0,
+   "buildable": true,
+   "built_by": [
+    "ChinaVehicleDozer"
+   ],
+   "cost": 500,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "IMMOBILE",
+    "STRUCTURE",
+    "PRELOAD",
+    "HEAL_PAD",
+    "MP_COUNT_FOR_VICTORY",
+    "SCORE",
+    "CAPTURABLE",
+    "FS_FACTORY",
+    "AUTO_RALLYPOINT",
+    "FS_BARRACKS"
+   ],
+   "name": "ChinaBarracks",
+   "prerequisites": [],
+   "radius": 56.85068130493164,
+   "science_prerequisites": [],
+   "side": "China"
+  },
+  {
+   "abilities": [
+    {
+     "name": "Command_Evacuate",
+     "required_science": null,
+     "target": "none",
+     "type": "evacuate"
+    },
+    {
+     "name": "Command_UpgradeChinaMines",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_ChinaMines"
+    }
+   ],
+   "build_time": 10.0,
+   "buildable": true,
+   "built_by": [
+    "ChinaVehicleDozer"
+   ],
+   "cost": 400,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "IMMOBILE",
+    "STICK_TO_TERRAIN_SLOPE",
+    "STRUCTURE",
+    "PRELOAD",
+    "SCORE",
+    "FS_BASE_DEFENSE",
+    "GARRISONABLE_UNTIL_DESTROYED",
+    "IMMUNE_TO_CAPTURE"
+   ],
+   "name": "ChinaBunker",
+   "prerequisites": [
+    [
+     "ChinaBarracks"
+    ]
+   ],
+   "radius": 22.627416610717773,
+   "science_prerequisites": [],
+   "side": "China"
+  },
+  {
+   "abilities": [
+    {
+     "name": "Early_Command_ChinaCarpetBomb",
+     "required_science": "Early_SCIENCE_ChinaCarpetBomb",
+     "special_power": "Early_SuperweaponChinaCarpetBomb",
+     "target": "position",
+     "type": "special_power"
+    },
+    {
+     "name": "Command_NapalmStrike",
+     "required_science": "SCIENCE_NapalmStrike",
+     "special_power": "SuperweaponNapalmStrike",
+     "target": "position",
+     "type": "special_power"
+    },
+    {
+     "name": "Command_ClusterMines",
+     "required_science": "SCIENCE_ClusterMines",
+     "special_power": "SuperweaponClusterMines",
+     "target": "position",
+     "type": "special_power"
+    },
+    {
+     "name": "Command_CashHack",
+     "required_science": "SCIENCE_CashHack1",
+     "special_power": "SuperweaponCashHack",
+     "target": "object",
+     "type": "special_power"
+    },
+    {
+     "name": "Command_ArtilleryBarrage",
+     "required_science": "SCIENCE_ArtilleryBarrage1",
+     "special_power": "SuperweaponArtilleryBarrage",
+     "target": "position",
+     "type": "special_power"
+    },
+    {
+     "name": "Command_EmergencyRepair",
+     "required_science": "SCIENCE_EmergencyRepair1",
+     "special_power": "SuperweaponEmergencyRepair",
+     "target": "position",
+     "type": "special_power"
+    },
+    {
+     "name": "Command_EMPPulse",
+     "required_science": "SCIENCE_EMPPulse",
+     "special_power": "SuperweaponEMPPulse",
+     "target": "position",
+     "type": "special_power"
+    },
+    {
+     "name": "Command_UpgradeChinaRadar",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_ChinaRadar"
+    },
+    {
+     "name": "Command_Frenzy",
+     "required_science": "SCIENCE_Frenzy1",
+     "special_power": "SuperweaponFrenzy",
+     "target": "position",
+     "type": "special_power"
+    },
+    {
+     "name": "Command_UpgradeChinaMines",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_ChinaMines"
+    }
+   ],
+   "build_time": 90.0,
+   "buildable": true,
+   "built_by": [
+    "ChinaVehicleDozer"
+   ],
+   "cost": 2000,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "IMMOBILE",
+    "STRUCTURE",
+    "COMMANDCENTER",
+    "PRELOAD",
+    "MP_COUNT_FOR_VICTORY",
+    "SCORE",
+    "CAPTURABLE",
+    "FS_FACTORY",
+    "AUTO_RALLYPOINT"
+   ],
+   "name": "ChinaCommandCenter",
+   "prerequisites": [],
+   "radius": 87.0,
+   "science_prerequisites": [],
+   "side": "China"
+  },
+  {
+   "abilities": [
+    {
+     "name": "Command_UpgradeChinaMines",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_ChinaMines"
+    }
+   ],
+   "build_time": 50.0,
+   "buildable": true,
+   "built_by": [
+    "ChinaVehicleDozer"
+   ],
+   "cost": 1200,
+   "energy": -3,
+   "kinds": [
+    "SELECTABLE",
+    "IMMOBILE",
+    "CAN_ATTACK",
+    "STRUCTURE",
+    "PRELOAD",
+    "SCORE",
+    "ATTACK_NEEDS_LINE_OF_SIGHT",
+    "FS_BASE_DEFENSE",
+    "POWERED",
+    "IMMUNE_TO_CAPTURE"
+   ],
+   "name": "ChinaGattlingCannon",
+   "prerequisites": [
+    [
+     "ChinaPowerPlant"
+    ]
+   ],
+   "radius": 11.313708305358887,
+   "science_prerequisites": [],
+   "side": "China"
+  },
+  {
+   "abilities": [
+    {
+     "name": "Command_Evacuate",
+     "required_science": null,
+     "target": "none",
+     "type": "evacuate"
+    },
+    {
+     "name": "Command_UpgradeChinaSatelliteHackOne",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_ChinaSatelliteHackOne"
+    },
+    {
+     "name": "Command_UpgradeChinaMines",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_ChinaMines"
+    }
+   ],
+   "build_time": 60.0,
+   "buildable": true,
+   "built_by": [
+    "ChinaVehicleDozer"
+   ],
+   "cost": 2500,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "IMMOBILE",
+    "STRUCTURE",
+    "PRELOAD",
+    "MP_COUNT_FOR_VICTORY",
+    "SCORE",
+    "IMMUNE_TO_CAPTURE",
+    "FS_INTERNET_CENTER"
+   ],
+   "name": "ChinaInternetCenter",
+   "prerequisites": [
+    [
+     "ChinaWarFactory"
+    ]
+   ],
+   "radius": 70.71067810058594,
+   "science_prerequisites": [],
+   "side": "China"
+  },
+  {
+   "abilities": [
+    {
+     "name": "Command_NeutronMissile",
+     "required_science": null,
+     "special_power": "SuperweaponNeutronMissile",
+     "target": "position",
+     "type": "special_power"
+    },
+    {
+     "name": "Command_UpgradeChinaUraniumShells",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_ChinaUraniumShells"
+    },
+    {
+     "name": "Command_UpgradeChinaNuclearTanks",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_ChinaNuclearTanks"
+    },
+    {
+     "name": "Command_UpgradeChinaNeutronShells",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_ChinaNeutronShells"
+    },
+    {
+     "name": "Command_UpgradeChinaMines",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_ChinaMines"
+    }
+   ],
+   "build_time": 120.0,
+   "buildable": true,
+   "built_by": [
+    "ChinaVehicleDozer"
+   ],
+   "cost": 5000,
+   "energy": -10,
+   "kinds": [
+    "SELECTABLE",
+    "IMMOBILE",
+    "STRUCTURE",
+    "PRELOAD",
+    "MP_COUNT_FOR_VICTORY",
+    "SCORE",
+    "CAPTURABLE",
+    "FS_TECHNOLOGY",
+    "POWERED",
+    "FS_SUPERWEAPON"
+   ],
+   "name": "ChinaNuclearMissileLauncher",
+   "prerequisites": [
+    [
+     "ChinaPropagandaCenter"
+    ]
+   ],
+   "radius": 71.0633544921875,
+   "science_prerequisites": [],
+   "side": "China"
+  },
+  {
+   "abilities": [
+    {
+     "name": "Command_Overcharge",
+     "required_science": null,
+     "target": "none",
+     "type": "overcharge"
+    },
+    {
+     "name": "Command_UpgradeChinaMines",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_ChinaMines"
+    }
+   ],
+   "build_time": 20.0,
+   "buildable": true,
+   "built_by": [
+    "ChinaVehicleDozer"
+   ],
+   "cost": 1000,
+   "energy": 10,
+   "kinds": [
+    "SELECTABLE",
+    "IMMOBILE",
+    "STRUCTURE",
+    "PRELOAD",
+    "MP_COUNT_FOR_VICTORY",
+    "SCORE",
+    "CAPTURABLE",
+    "FS_POWER"
+   ],
+   "name": "ChinaPowerPlant",
+   "prerequisites": [],
+   "radius": 43.416587829589844,
+   "science_prerequisites": [],
+   "side": "China"
+  },
+  {
+   "abilities": [
+    {
+     "name": "Command_UpgradeChinaNationalism",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_Nationalism"
+    },
+    {
+     "name": "Command_UpgradeChinaSubliminalMessaging",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_ChinaSubliminalMessaging"
+    },
+    {
+     "name": "Command_UpgradeChinaMines",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_ChinaMines"
+    }
+   ],
+   "build_time": 90.0,
+   "buildable": true,
+   "built_by": [
+    "ChinaVehicleDozer"
+   ],
+   "cost": 2000,
+   "energy": -2,
+   "kinds": [
+    "SELECTABLE",
+    "IMMOBILE",
+    "STRUCTURE",
+    "PRELOAD",
+    "MP_COUNT_FOR_VICTORY",
+    "SCORE",
+    "CAPTURABLE",
+    "FS_TECHNOLOGY",
+    "FS_ADVANCED_TECH"
+   ],
+   "name": "ChinaPropagandaCenter",
+   "prerequisites": [
+    [
+     "ChinaWarFactory"
+    ]
+   ],
+   "radius": 65.86349487304688,
+   "science_prerequisites": [],
+   "side": "China"
+  },
+  {
+   "abilities": [],
+   "build_time": 20.0,
+   "buildable": true,
+   "built_by": [
+    "ChinaVehicleDozer"
+   ],
+   "cost": 500,
+   "energy": -1,
+   "kinds": [
+    "SELECTABLE",
+    "IMMOBILE",
+    "STRUCTURE",
+    "PRELOAD",
+    "MP_COUNT_FOR_VICTORY",
+    "SCORE",
+    "FS_BASE_DEFENSE",
+    "POWERED",
+    "IMMUNE_TO_CAPTURE"
+   ],
+   "name": "ChinaSpeakerTower",
+   "prerequisites": [
+    [
+     "ChinaPropagandaCenter"
+    ]
+   ],
+   "radius": 8.485280990600586,
+   "science_prerequisites": [],
+   "side": "China"
+  },
+  {
+   "abilities": [
+    {
+     "name": "Command_UpgradeChinaMines",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_ChinaMines"
+    }
+   ],
+   "build_time": 20.0,
+   "buildable": true,
+   "built_by": [
+    "ChinaVehicleDozer"
+   ],
+   "cost": 1500,
+   "energy": -1,
+   "kinds": [
+    "SELECTABLE",
+    "IMMOBILE",
+    "STRUCTURE",
+    "PRELOAD",
+    "CASH_GENERATOR",
+    "MP_COUNT_FOR_VICTORY",
+    "SCORE",
+    "CAPTURABLE",
+    "AUTO_RALLYPOINT",
+    "CANNOT_BUILD_NEAR_SUPPLIES",
+    "FS_SUPPLY_CENTER"
+   ],
+   "name": "ChinaSupplyCenter",
+   "prerequisites": [
+    [
+     "ChinaPowerPlant"
+    ]
+   ],
+   "radius": 70.0927963256836,
+   "science_prerequisites": [],
+   "side": "China"
+  },
+  {
+   "abilities": [
+    {
+     "name": "Command_UpgradeChinaChainGuns",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_ChinaChainGuns"
+    },
+    {
+     "name": "Command_UpgradeChinaBlackNapalm",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_ChinaBlackNapalm"
+    },
+    {
+     "name": "Command_UpgradeChinaMines",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_ChinaMines"
+    }
+   ],
+   "build_time": 30.0,
+   "buildable": true,
+   "built_by": [
+    "ChinaVehicleDozer"
+   ],
+   "cost": 2000,
+   "energy": -1,
+   "kinds": [
+    "SELECTABLE",
+    "IMMOBILE",
+    "STRUCTURE",
+    "PRELOAD",
+    "REPAIR_PAD",
+    "MP_COUNT_FOR_VICTORY",
+    "SCORE",
+    "CAPTURABLE",
+    "FS_FACTORY",
+    "AUTO_RALLYPOINT",
+    "FS_WARFACTORY"
+   ],
+   "name": "ChinaWarFactory",
+   "prerequisites": [
+    [
+     "ChinaSupplyCenter"
+    ]
+   ],
+   "radius": 83.48652648925781,
+   "science_prerequisites": [],
+   "side": "China"
+  }
+ ],
+ "type": "reply",
+ "units": [
+  {
+   "abilities": [
+    {
+     "name": "Command_ChinaInfantryBlackLotusCaptureHack",
+     "required_science": null,
+     "special_power": "SpecialAbilityBlackLotusCaptureBuilding",
+     "target": "object",
+     "type": "special_power"
+    },
+    {
+     "name": "Command_ChinaInfantryBlackLotusVehicleHack",
+     "required_science": null,
+     "special_power": "SpecialAbilityBlackLotusDisableVehicleHack",
+     "target": "object",
+     "type": "special_power"
+    },
+    {
+     "name": "Command_ChinaInfantryBlackLotusCashHack",
+     "required_science": null,
+     "special_power": "SpecialAbilityBlackLotusStealCashHack",
+     "target": "object",
+     "type": "special_power"
+    }
+   ],
+   "build_time": 40.0,
+   "buildable": true,
+   "built_by": [
+    "ChinaBarracks"
+   ],
+   "cost": 1500,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "CAN_ATTACK",
+    "CAN_CAST_REFLECTIONS",
+    "INFANTRY",
+    "PRELOAD",
+    "SCORE",
+    "HERO",
+    "CANNOT_RETALIATE"
+   ],
+   "name": "ChinaInfantryBlackLotus",
+   "prerequisites": [
+    [
+     "ChinaBarracks"
+    ],
+    [
+     "ChinaPropagandaCenter"
+    ]
+   ],
+   "radius": 10.0,
+   "science_prerequisites": [],
+   "side": "China"
+  },
+  {
+   "abilities": [
+    {
+     "name": "Command_ChinaInfantryHackerDisableBuilding",
+     "required_science": null,
+     "special_power": "SpecialAbilityHackerDisableBuilding",
+     "target": "object",
+     "type": "special_power"
+    },
+    {
+     "name": "Command_ChinaInfantryHackerInternetHack",
+     "required_science": null,
+     "target": "none",
+     "type": "hack_internet"
+    }
+   ],
+   "build_time": 40.0,
+   "buildable": true,
+   "built_by": [
+    "ChinaBarracks"
+   ],
+   "cost": 625,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "CAN_ATTACK",
+    "CAN_CAST_REFLECTIONS",
+    "INFANTRY",
+    "PRELOAD",
+    "SCORE",
+    "IGNORES_SELECT_ALL",
+    "MONEY_HACKER"
+   ],
+   "name": "ChinaInfantryHacker",
+   "prerequisites": [
+    [
+     "ChinaBarracks"
+    ],
+    [
+     "ChinaPropagandaCenter"
+    ]
+   ],
+   "radius": 10.0,
+   "science_prerequisites": [],
+   "side": "China"
+  },
+  {
+   "abilities": [
+    {
+     "name": "Command_ChinaInfantryRedGuardCaptureBuilding",
+     "required_science": null,
+     "special_power": "SpecialAbilityRedGuardCaptureBuilding",
+     "target": "object",
+     "type": "special_power",
+     "upgrade": "Upgrade_InfantryCaptureBuilding"
+    }
+   ],
+   "build_time": 20.0,
+   "buildable": true,
+   "built_by": [
+    "ChinaBarracks"
+   ],
+   "cost": 300,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "CAN_ATTACK",
+    "CAN_CAST_REFLECTIONS",
+    "INFANTRY",
+    "PRELOAD",
+    "SCORE",
+    "PARACHUTABLE",
+    "ATTACK_NEEDS_LINE_OF_SIGHT"
+   ],
+   "name": "ChinaInfantryRedguard",
+   "prerequisites": [
+    [
+     "ChinaBarracks"
+    ]
+   ],
+   "radius": 7.0,
+   "science_prerequisites": [],
+   "side": "China"
+  },
+  {
+   "abilities": [
+    {
+     "name": "Command_ChinaInfantryTankHunterTNTAttack",
+     "required_science": null,
+     "special_power": "SpecialAbilityTankHunterTNTAttack",
+     "target": "object",
+     "type": "special_power"
+    }
+   ],
+   "build_time": 10.0,
+   "buildable": true,
+   "built_by": [
+    "ChinaBarracks"
+   ],
+   "cost": 300,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "CAN_ATTACK",
+    "CAN_CAST_REFLECTIONS",
+    "INFANTRY",
+    "PRELOAD",
+    "SCORE",
+    "ATTACK_NEEDS_LINE_OF_SIGHT"
+   ],
+   "name": "ChinaInfantryTankHunter",
+   "prerequisites": [
+    [
+     "ChinaBarracks"
+    ]
+   ],
+   "radius": 10.0,
+   "science_prerequisites": [],
+   "side": "China"
+  },
+  {
+   "abilities": [],
+   "build_time": 20.0,
+   "buildable": true,
+   "built_by": [
+    "ChinaAirfield"
+   ],
+   "cost": 1200,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "CAN_ATTACK",
+    "CAN_CAST_REFLECTIONS",
+    "VEHICLE",
+    "AIRCRAFT",
+    "PRELOAD",
+    "SCORE"
+   ],
+   "name": "ChinaJetMIG",
+   "prerequisites": [
+    [
+     "ChinaAirfield"
+    ]
+   ],
+   "radius": 15.65247631072998,
+   "science_prerequisites": [],
+   "side": "China"
+  },
+  {
+   "abilities": [],
+   "build_time": 20.0,
+   "buildable": true,
+   "built_by": [
+    "ChinaWarFactory"
+   ],
+   "cost": 800,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "CAN_ATTACK",
+    "CAN_CAST_REFLECTIONS",
+    "VEHICLE",
+    "PRELOAD",
+    "SCORE",
+    "ATTACK_NEEDS_LINE_OF_SIGHT"
+   ],
+   "name": "ChinaTankBattleMaster",
+   "prerequisites": [
+    [
+     "ChinaWarFactory"
+    ]
+   ],
+   "radius": 15.81138801574707,
+   "science_prerequisites": [],
+   "side": "China"
+  },
+  {
+   "abilities": [],
+   "build_time": 20.0,
+   "buildable": true,
+   "built_by": [
+    "ChinaWarFactory"
+   ],
+   "cost": 800,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "CAN_ATTACK",
+    "CAN_CAST_REFLECTIONS",
+    "VEHICLE",
+    "PRELOAD",
+    "SCORE",
+    "ATTACK_NEEDS_LINE_OF_SIGHT"
+   ],
+   "name": "ChinaTankDragon",
+   "prerequisites": [
+    [
+     "ChinaWarFactory"
+    ]
+   ],
+   "radius": 18.027755737304688,
+   "science_prerequisites": [],
+   "side": "China"
+  },
+  {
+   "abilities": [],
+   "build_time": 20.0,
+   "buildable": true,
+   "built_by": [
+    "ChinaWarFactory"
+   ],
+   "cost": 800,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "CAN_ATTACK",
+    "CAN_CAST_REFLECTIONS",
+    "VEHICLE",
+    "PRELOAD",
+    "SCORE",
+    "ATTACK_NEEDS_LINE_OF_SIGHT",
+    "CANNOT_RETALIATE"
+   ],
+   "name": "ChinaTankECM",
+   "prerequisites": [
+    [
+     "ChinaWarFactory"
+    ],
+    [
+     "ChinaPropagandaCenter"
+    ]
+   ],
+   "radius": 18.027755737304688,
+   "science_prerequisites": [],
+   "side": "China"
+  },
+  {
+   "abilities": [],
+   "build_time": 20.0,
+   "buildable": true,
+   "built_by": [
+    "ChinaWarFactory"
+   ],
+   "cost": 800,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "CAN_ATTACK",
+    "CAN_CAST_REFLECTIONS",
+    "VEHICLE",
+    "PRELOAD",
+    "SCORE",
+    "ATTACK_NEEDS_LINE_OF_SIGHT"
+   ],
+   "name": "ChinaTankGattling",
+   "prerequisites": [
+    [
+     "ChinaWarFactory"
+    ]
+   ],
+   "radius": 18.027755737304688,
+   "science_prerequisites": [],
+   "side": "China"
+  },
+  {
+   "abilities": [
+    {
+     "name": "Command_UpgradeChinaOverlordBattleBunker",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_ChinaOverlordBattleBunker"
+    },
+    {
+     "name": "Command_UpgradeChinaOverlordGattlingCannon",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_ChinaOverlordGattlingCannon"
+    },
+    {
+     "name": "Command_UpgradeChinaOverlordPropagandaTower",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_ChinaOverlordPropagandaTower"
+    }
+   ],
+   "build_time": 40.0,
+   "buildable": true,
+   "built_by": [
+    "ChinaWarFactory"
+   ],
+   "cost": 2000,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "CAN_ATTACK",
+    "CAN_CAST_REFLECTIONS",
+    "VEHICLE",
+    "HUGE_VEHICLE",
+    "PRELOAD",
+    "SCORE",
+    "ATTACK_NEEDS_LINE_OF_SIGHT"
+   ],
+   "name": "ChinaTankOverlord",
+   "prerequisites": [
+    [
+     "ChinaWarFactory"
+    ],
+    [
+     "ChinaPropagandaCenter"
+    ]
+   ],
+   "radius": 29.068883895874023,
+   "science_prerequisites": [],
+   "side": "China"
+  },
+  {
+   "abilities": [],
+   "build_time": 10.0,
+   "buildable": true,
+   "built_by": [
+    "ChinaCommandCenter"
+   ],
+   "cost": 1000,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "CAN_CAST_REFLECTIONS",
+    "VEHICLE",
+    "DOZER",
+    "PRELOAD",
+    "SCORE"
+   ],
+   "name": "ChinaVehicleDozer",
+   "prerequisites": [],
+   "radius": 19.72308349609375,
+   "science_prerequisites": [],
+   "side": "China"
+  },
+  {
+   "abilities": [
+    {
+     "name": "Command_UpgradeChinaHelixBattleBunker",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_ChinaHelixBattleBunker"
+    },
+    {
+     "name": "Command_UpgradeChinaHelixNapalmBomb",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_HelixNapalmBomb"
+    },
+    {
+     "name": "Command_UpgradeChinaHelixPropagandaTower",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_ChinaHelixPropagandaTower"
+    },
+    {
+     "name": "Command_ChinaHelixDropNapalmBomb",
+     "required_science": null,
+     "special_power": "SpecialAbilityHelixNapalmBomb",
+     "target": "position",
+     "type": "special_power"
+    },
+    {
+     "name": "Command_UpgradeChinaHelixGattlingCannon",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_ChinaHelixGattlingCannon"
+    },
+    {
+     "name": "Command_Evacuate",
+     "required_science": null,
+     "target": "none",
+     "type": "evacuate"
+    }
+   ],
+   "build_time": 40.0,
+   "buildable": true,
+   "built_by": [
+    "ChinaAirfield"
+   ],
+   "cost": 1500,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "CAN_ATTACK",
+    "CAN_CAST_REFLECTIONS",
+    "VEHICLE",
+    "AIRCRAFT",
+    "HUGE_VEHICLE",
+    "TRANSPORT",
+    "PRELOAD",
+    "SCORE",
+    "PRODUCED_AT_HELIPAD"
+   ],
+   "name": "ChinaVehicleHelix",
+   "prerequisites": [
+    [
+     "ChinaAirfield"
+    ]
+   ],
+   "radius": 35.0,
+   "science_prerequisites": [],
+   "side": "China"
+  },
+  {
+   "abilities": [],
+   "build_time": 30.0,
+   "buildable": true,
+   "built_by": [
+    "ChinaWarFactory"
+   ],
+   "cost": 900,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "CAN_ATTACK",
+    "CAN_CAST_REFLECTIONS",
+    "VEHICLE",
+    "PRELOAD",
+    "SCORE"
+   ],
+   "name": "ChinaVehicleInfernoCannon",
+   "prerequisites": [
+    [
+     "ChinaWarFactory"
+    ],
+    [
+     "ChinaPropagandaCenter"
+    ]
+   ],
+   "radius": 18.027755737304688,
+   "science_prerequisites": [],
+   "side": "China"
+  },
+  {
+   "abilities": [
+    {
+     "name": "Command_EmptyCrawler",
+     "required_science": null,
+     "target": "none",
+     "type": "evacuate"
+    }
+   ],
+   "build_time": 30.0,
+   "buildable": true,
+   "built_by": [
+    "ChinaWarFactory"
+   ],
+   "cost": 800,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "CAN_ATTACK",
+    "CAN_CAST_REFLECTIONS",
+    "VEHICLE",
+    "TRANSPORT",
+    "PRELOAD",
+    "SCORE",
+    "REVEALS_ENEMY_PATHS",
+    "CANNOT_RETALIATE"
+   ],
+   "name": "ChinaVehicleListeningOutpost",
+   "prerequisites": [
+    [
+     "ChinaWarFactory"
+    ]
+   ],
+   "radius": 22.360679626464844,
+   "science_prerequisites": [],
+   "side": "China"
+  },
+  {
+   "abilities": [
+    {
+     "name": "Command_ChinaNukeWarhead",
+     "required_science": null,
+     "target": "none",
+     "type": "switch_weapon"
+    },
+    {
+     "name": "Command_ChinaNeutronWarhead",
+     "required_science": null,
+     "target": "none",
+     "type": "switch_weapon",
+     "upgrade": "Upgrade_ChinaNeutronShells"
+    }
+   ],
+   "build_time": 40.0,
+   "buildable": true,
+   "built_by": [
+    "ChinaWarFactory"
+   ],
+   "cost": 1600,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "CAN_ATTACK",
+    "CAN_CAST_REFLECTIONS",
+    "VEHICLE",
+    "PRELOAD",
+    "SCORE"
+   ],
+   "name": "ChinaVehicleNukeLauncher",
+   "prerequisites": [
+    [
+     "ChinaWarFactory"
+    ],
+    [
+     "ChinaPropagandaCenter"
+    ]
+   ],
+   "radius": 33.52610778808594,
+   "science_prerequisites": [
+    "SCIENCE_NukeLauncher"
+   ],
+   "side": "China"
+  },
+  {
+   "abilities": [],
+   "build_time": 20.0,
+   "buildable": true,
+   "built_by": [
+    "ChinaSupplyCenter"
+   ],
+   "cost": 600,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "CAN_CAST_REFLECTIONS",
+    "VEHICLE",
+    "HARVESTER",
+    "PRELOAD",
+    "SCORE"
+   ],
+   "name": "ChinaVehicleSupplyTruck",
+   "prerequisites": [
+    [
+     "ChinaSupplyCenter"
+    ]
+   ],
+   "radius": 18.384777069091797,
+   "science_prerequisites": [],
+   "side": "China"
+  },
+  {
+   "abilities": [
+    {
+     "name": "Command_EmptyCrawler",
+     "required_science": null,
+     "target": "none",
+     "type": "evacuate"
+    }
+   ],
+   "build_time": 30.0,
+   "buildable": true,
+   "built_by": [
+    "ChinaWarFactory"
+   ],
+   "cost": 1400,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "CAN_ATTACK",
+    "CAN_CAST_REFLECTIONS",
+    "VEHICLE",
+    "TRANSPORT",
+    "PRELOAD",
+    "SCORE"
+   ],
+   "name": "ChinaVehicleTroopCrawler",
+   "prerequisites": [
+    [
+     "ChinaWarFactory"
+    ]
+   ],
+   "radius": 23.76972770690918,
+   "science_prerequisites": [],
+   "side": "China"
+  }
+ ],
+ "upgrades": [
+  {
+   "build_time": 40.0,
+   "built_by": [
+    "ChinaAirfield"
+   ],
+   "cost": 1000,
+   "name": "Upgrade_ChinaAircraftArmor",
+   "type": "player"
+  },
+  {
+   "build_time": 45.0,
+   "built_by": [
+    "ChinaWarFactory"
+   ],
+   "cost": 2000,
+   "name": "Upgrade_ChinaBlackNapalm",
+   "type": "player"
+  },
+  {
+   "build_time": 45.0,
+   "built_by": [
+    "ChinaWarFactory"
+   ],
+   "cost": 1500,
+   "name": "Upgrade_ChinaChainGuns",
+   "type": "player"
+  },
+  {
+   "build_time": 15.0,
+   "built_by": [
+    "ChinaVehicleHelix"
+   ],
+   "cost": 400,
+   "name": "Upgrade_ChinaHelixBattleBunker",
+   "type": "object"
+  },
+  {
+   "build_time": 20.0,
+   "built_by": [
+    "ChinaVehicleHelix"
+   ],
+   "cost": 1200,
+   "name": "Upgrade_ChinaHelixGattlingCannon",
+   "type": "object"
+  },
+  {
+   "build_time": 10.0,
+   "built_by": [
+    "ChinaVehicleHelix"
+   ],
+   "cost": 500,
+   "name": "Upgrade_ChinaHelixPropagandaTower",
+   "type": "object"
+  },
+  {
+   "build_time": 20.0,
+   "built_by": [
+    "ChinaAirfield",
+    "ChinaBarracks",
+    "ChinaBunker",
+    "ChinaCommandCenter",
+    "ChinaGattlingCannon",
+    "ChinaInternetCenter",
+    "ChinaNuclearMissileLauncher",
+    "ChinaPowerPlant",
+    "ChinaPropagandaCenter",
+    "ChinaSupplyCenter",
+    "ChinaWarFactory"
+   ],
+   "cost": 600,
+   "name": "Upgrade_ChinaMines",
+   "type": "object"
+  },
+  {
+   "build_time": 60.0,
+   "built_by": [
+    "ChinaNuclearMissileLauncher"
+   ],
+   "cost": 2500,
+   "name": "Upgrade_ChinaNeutronShells",
+   "type": "player"
+  },
+  {
+   "build_time": 60.0,
+   "built_by": [
+    "ChinaNuclearMissileLauncher"
+   ],
+   "cost": 2000,
+   "name": "Upgrade_ChinaNuclearTanks",
+   "type": "player"
+  },
+  {
+   "build_time": 15.0,
+   "built_by": [
+    "ChinaTankOverlord"
+   ],
+   "cost": 400,
+   "name": "Upgrade_ChinaOverlordBattleBunker",
+   "type": "object"
+  },
+  {
+   "build_time": 20.0,
+   "built_by": [
+    "ChinaTankOverlord"
+   ],
+   "cost": 1200,
+   "name": "Upgrade_ChinaOverlordGattlingCannon",
+   "type": "object"
+  },
+  {
+   "build_time": 10.0,
+   "built_by": [
+    "ChinaTankOverlord"
+   ],
+   "cost": 500,
+   "name": "Upgrade_ChinaOverlordPropagandaTower",
+   "type": "object"
+  },
+  {
+   "build_time": 20.0,
+   "built_by": [
+    "ChinaCommandCenter"
+   ],
+   "cost": 500,
+   "name": "Upgrade_ChinaRadar",
+   "type": "object"
+  },
+  {
+   "build_time": 20.0,
+   "built_by": [
+    "ChinaInternetCenter"
+   ],
+   "cost": 1000,
+   "name": "Upgrade_ChinaSatelliteHackOne",
+   "type": "player"
+  },
+  {
+   "build_time": 40.0,
+   "built_by": [
+    "ChinaPropagandaCenter"
+   ],
+   "cost": 500,
+   "name": "Upgrade_ChinaSubliminalMessaging",
+   "type": "player"
+  },
+  {
+   "build_time": 60.0,
+   "built_by": [
+    "ChinaNuclearMissileLauncher"
+   ],
+   "cost": 2500,
+   "name": "Upgrade_ChinaUraniumShells",
+   "type": "player"
+  },
+  {
+   "build_time": 20.0,
+   "built_by": [
+    "ChinaVehicleHelix"
+   ],
+   "cost": 800,
+   "name": "Upgrade_HelixNapalmBomb",
+   "type": "object"
+  },
+  {
+   "build_time": 30.0,
+   "built_by": [
+    "ChinaBarracks"
+   ],
+   "cost": 1000,
+   "name": "Upgrade_InfantryCaptureBuilding",
+   "type": "player"
+  },
+  {
+   "build_time": 60.0,
+   "built_by": [
+    "ChinaPropagandaCenter"
+   ],
+   "cost": 2000,
+   "name": "Upgrade_Nationalism",
+   "type": "player"
+  }
+ ]
+}

@@ -1,0 +1,76 @@
+11:40:05 strategy reloaded ok
+11:40:05 train dozer
+11:40:05 build ChinaPowerPlant at [875, 761] dozer 144
+11:40:17 train dozer
+11:41:41 strategy reloaded ok
+11:41:41 build ChinaSupplyCenter at [803, 672] dozer 162
+11:42:03 build ChinaWarFactory at [786, 560] dozer 161
+11:42:03 train truck
+11:42:06 build ChinaBarracks at [826, 454] dozer 144
+11:42:08 build refused ChinaPowerPlant NOT_AVAILABLE NOT_AVAILABLE: build that is not available right now (prerequisites, power or state)
+11:42:10 build refused ChinaPowerPlant NOT_AVAILABLE NOT_AVAILABLE: build that is not available right now (prerequisites, power or state)
+11:42:12 build refused ChinaPowerPlant NOT_AVAILABLE NOT_AVAILABLE: build that is not available right now (prerequisites, power or state)
+11:42:14 build refused ChinaPowerPlant NOT_AVAILABLE NOT_AVAILABLE: build that is not available right now (prerequisites, power or state)
+11:42:14 train truck
+11:42:16 build refused ChinaPowerPlant NOT_AVAILABLE NOT_AVAILABLE: build that is not available right now (prerequisites, power or state)
+11:42:18 build refused ChinaPowerPlant NOT_AVAILABLE NOT_AVAILABLE: build that is not available right now (prerequisites, power or state)
+11:42:20 build refused ChinaPowerPlant NOT_AVAILABLE NOT_AVAILABLE: build that is not available right now (prerequisites, power or state)
+11:42:22 strategy reloaded ok
+11:42:22 build refused ChinaPowerPlant NOT_AVAILABLE NOT_AVAILABLE: build that is not available right now (prerequisites, power or state)
+11:42:22 train truck
+11:42:24 build ChinaPowerPlant at [915, 382] dozer 162
+11:42:24 train refused TankBattleMaster INSUFFICIENT_FUNDS
+11:42:46 defend vs CarScrap with 1
+11:42:52 defend vs CarScrap with 1
+11:42:58 defend vs CarScrap with 2
+11:43:04 defend vs CarScrap with 2
+11:43:10 defend vs CarScrap with 3
+11:43:17 defend vs CarScrap with 3
+11:43:19 strategy reloaded ok
+11:43:23 defend vs CarScrap with 4
+11:43:27 train TankBattleMaster
+11:43:29 defend vs CarScrap with 4
+11:43:35 defend vs CarScrap with 4
+11:43:37 strategy reloaded ok
+11:44:11 train TankBattleMaster
+11:44:27 defend vs SupW_AmericaVehicleHumvee with 6
+11:44:33 defend vs SupW_AmericaVehicleHumvee with 4
+11:44:39 defend vs SupW_AmericaVehicleHumvee with 5
+11:44:45 strategy reloaded ok
+11:44:46 defend vs SupW_AmericaVehicleHumvee with 6
+11:44:48 clear refused NOT_VISIBLE
+11:44:50 clear refused NOT_VISIBLE
+11:44:52 clear refused NOT_VISIBLE
+11:44:54 defend vs SupW_AmericaInfantryRanger with 6
+11:44:56 clear refused NOT_VISIBLE
+11:44:58 clear refused NOT_VISIBLE
+11:45:00 defend vs SupW_AmericaInfantryRanger with 6
+11:45:02 clear refused NOT_VISIBLE
+11:45:04 clear refused NOT_VISIBLE
+11:45:06 train TankGattling
+11:45:06 defend vs SupW_AmericaInfantryRanger with 6
+11:45:08 clear refused NOT_VISIBLE
+11:45:10 clear refused NOT_VISIBLE
+11:45:12 strategy reloaded ok
+11:45:12 defend vs SupW_AmericaInfantryRanger with 6
+11:45:14 clear forward structure SupW_AmericaPatriotBattery with 6
+11:45:18 defend vs SupW_AmericaInfantryRanger with 6
+11:45:24 defend vs SupW_AmericaInfantryRanger with 7
+11:45:26 clear forward structure SupW_AmericaPatriotBattery with 7
+11:45:30 defend vs SupW_AmericaInfantryRanger with 7
+11:45:38 clear forward structure SupW_AmericaPatriotBattery with 7
+11:45:40 train TankBattleMaster
+11:45:50 clear forward structure SupW_AmericaPatriotBattery with 6
+11:45:54 strategy reloaded ok
+11:46:02 clear forward structure SupW_AmericaPatriotBattery with 6
+11:46:14 clear forward structure SupW_AmericaPatriotBattery with 5
+11:46:31 strategy reloaded ok
+11:46:33 train TankBattleMaster
+11:47:13 train TankGattling
+11:47:33 train TankBattleMaster
+11:47:45 strategy reloaded ok
+11:47:49 ATTACK with 8
+11:47:57 defend vs SupW_AmericaVehicleHumvee with 5
+11:48:03 defend vs SupW_AmericaVehicleHumvee with 6
+11:48:09 defend vs SupW_AmericaVehicleHumvee with 7
+11:48:15 clear forward structure SupW_AmericaPatriotBattery with 8

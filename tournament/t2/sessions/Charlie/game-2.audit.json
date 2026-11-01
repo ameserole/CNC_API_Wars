@@ -1,0 +1,12 @@
+{
+  "violations": [],
+  "liveness": {
+    "window_seconds": 873,
+    "longest_gap_seconds": 72,
+    "watch_seconds": 550,
+    "watch_coverage": 0.63,
+    "handbacks": 0,
+    "actions": 4,
+    "median_reaction_seconds": 316.735
+  }
+}

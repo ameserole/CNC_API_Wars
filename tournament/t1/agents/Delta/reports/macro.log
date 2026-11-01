@@ -1,0 +1,125 @@
+08:13:46 start home=[1004.8322143554688, 583.6339721679688] enemy=[1010.8099975585938, 2102.68994140625] dozer=144
+08:14:13 built AmericaPowerPlant id=149
+08:14:13 build AmericaBarracks refused ILLEGAL_LOCATION
+08:14:25 CRASH Traceback (most recent call last):
+  File "C:\Users\user\Documents\CNC_Generals_AI\tournament\t1\agents\Delta\scripts\macro.py", line 90, in <module>
+    asyncio.run(main(sys.argv[1]))
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\user\Documents\CNC_Generals_AI\tournament\t1\agents\Delta\scripts\macro.py", line 59, in main
+    barracks = await build(client, dozer, "AmericaBarracks", home)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Documents\CNC_Generals_AI\tournament\t1\agents\Delta\scripts\macro.py", line 40, in build
+    await client.wait_for_event("construction_complete", lambda e: e["id"] == b, timeout=180)
+  File "C:\Users\user\Documents\CNC_Generals_AI\python\generals_api\client.py", line 376, in wait_for_event
+    return await asyncio.wait_for(future, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+generals_api.client.ConnectionClosed: connection closed (code=1006, reason='')
+
+08:15:50 start home=[1010.8062744140625, 2102.68896484375] enemy=[1004.8300170898438, 583.6300048828125] dozer=144 money=10000
+08:15:50 build AmericaPowerPlant at (1260.8062744140625, 2102.68896484375) accepted: {'client_frame': 294, 'messages': 1, 'ok': True, 'reply_to': 7, 'type': 'reply'}
+08:15:50 construction_started AmericaPowerPlant id=149
+08:16:00 status money=9200 units=[('AmericaPowerPlant', ['under_construction'], 142.3333740234375), ('AmericaVehicleDozer', ['idle'], 250.0), ('AmericaCommandCenter', [], 5000.0)]
+08:16:10 status money=9200 units=[('AmericaPowerPlant', ['under_construction'], 509.00152587890625), ('AmericaVehicleDozer', ['idle'], 250.0), ('AmericaCommandCenter', [], 5000.0)]
+08:16:19 built AmericaPowerPlant id=149
+08:16:19 build AmericaBarracks refused ILLEGAL_LOCATION: ILLEGAL_LOCATION: objects_in_the_way
+08:16:19 build AmericaBarracks at (1227.3126253601722, 2227.68896484375) accepted: {'client_frame': 1055, 'messages': 1, 'ok': True, 'reply_to': 11, 'type': 'reply'}
+08:16:19 construction_started AmericaBarracks id=152
+08:16:20 status money=8600 units=[('AmericaBarracks', ['under_construction'], 1.0), ('AmericaPowerPlant', [], 800.0), ('AmericaVehicleDozer', [], 250.0), ('AmericaCommandCenter', [], 5000.0)]
+08:16:30 status money=8600 units=[('AmericaBarracks', ['under_construction'], 710.9994506835938), ('AmericaPowerPlant', [], 800.0), ('AmericaVehicleDozer', ['idle'], 250.0), ('AmericaCommandCenter', [], 5000.0)]
+08:16:33 built AmericaBarracks id=152
+08:16:33 build AmericaWarFactory refused NOT_AVAILABLE: NOT_AVAILABLE: cannot be made right now (prerequisites or disabled factory)
+08:16:33 build AmericaSupplyCenter refused ILLEGAL_LOCATION: ILLEGAL_LOCATION: objects_in_the_way
+08:16:34 build AmericaSupplyCenter refused ILLEGAL_LOCATION: ILLEGAL_LOCATION: objects_in_the_way
+08:16:34 build AmericaSupplyCenter at (1135.8062744140625, 2319.1953157898597) accepted: {'client_frame': 1447, 'messages': 1, 'ok': True, 'reply_to': 17, 'type': 'reply'}
+08:16:34 construction_started AmericaSupplyCenter id=156
+08:16:40 status money=6600 units=[('AmericaSupplyCenter', ['under_construction'], 74.33333587646484), ('AmericaBarracks', [], 1000.0), ('AmericaPowerPlant', [], 800.0), ('AmericaVehicleDozer', ['idle'], 250.0), ('AmericaCommandCenter', [], 5000.0)]
+08:16:50 status money=6600 units=[('AmericaSupplyCenter', ['under_construction'], 1860.99609375), ('AmericaBarracks', [], 1000.0), ('AmericaPowerPlant', [], 800.0), ('AmericaVehicleDozer', ['idle'], 250.0), ('AmericaCommandCenter', [], 5000.0)]
+08:16:51 built AmericaSupplyCenter id=156
+08:16:51 done build: power=149 barracks=152 factory=None supply=156
+08:17:00 status money=5475 units=[('AmericaInfantryRanger', [], 180.0), ('AmericaVehicleChinook', ['harvesting'], 300.0), ('AmericaSupplyCenter', [], 2000.0), ('AmericaBarracks', [], 1000.0), ('AmericaPowerPlant', [], 800.0), ('AmericaVehicleDozer', ['idle'], 250.0), ('AmericaCommandCenter', [], 5000.0)]
+08:17:10 status money=5475 units=[('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', ['idle'], 180.0), ('AmericaInfantryRanger', ['idle'], 180.0), ('AmericaVehicleChinook', ['harvesting'], 300.0), ('AmericaSupplyCenter', [], 2000.0), ('AmericaBarracks', [], 1000.0), ('AmericaPowerPlant', [], 800.0), ('AmericaVehicleDozer', ['idle'], 250.0), ('AmericaCommandCenter', [], 5000.0)]
+08:17:20 status money=6075 units=[('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', ['idle'], 180.0), ('AmericaInfantryRanger', ['idle'], 180.0), ('AmericaInfantryRanger', ['idle'], 180.0), ('AmericaVehicleChinook', ['harvesting'], 300.0), ('AmericaSupplyCenter', [], 2000.0), ('AmericaBarracks', [], 1000.0), ('AmericaPowerPlant', [], 800.0), ('AmericaVehicleDozer', ['idle'], 250.0), ('AmericaCommandCenter', [], 5000.0)]
+08:17:21 attack-move 5 units to [1004.8300170898438, 583.6300048828125] money=6075
+08:17:30 status money=4950 units=[('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaVehicleChinook', ['harvesting'], 300.0), ('AmericaSupplyCenter', [], 2000.0), ('AmericaBarracks', [], 1000.0), ('AmericaPowerPlant', [], 800.0), ('AmericaVehicleDozer', ['idle'], 250.0), ('AmericaCommandCenter', [], 5000.0)]
+08:17:36 start home=[1010.8062744140625, 2102.68896484375] enemy=[1004.8300170898438, 583.6300048828125] dozer=144 money=4950
+08:17:36 build AmericaWarFactory refused ILLEGAL_LOCATION: ILLEGAL_LOCATION: objects_in_the_way
+08:17:36 build AmericaWarFactory refused ILLEGAL_LOCATION: ILLEGAL_LOCATION: objects_in_the_way
+08:17:36 build AmericaWarFactory refused ILLEGAL_LOCATION: ILLEGAL_LOCATION: objects_in_the_way
+08:17:36 build AmericaWarFactory at (1010.8062744140625, 2352.68896484375) accepted: {'client_frame': 3119, 'messages': 1, 'ok': True, 'reply_to': 10, 'type': 'reply'}
+08:17:36 construction_started AmericaWarFactory id=170
+08:17:40 status error ConnectionClosed("connection closed (code=4001, reason='superseded')")
+08:17:46 status money=3550 units=[('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', ['idle'], 180.0), ('AmericaWarFactory', ['under_construction'], 387.6669921875), ('AmericaInfantryRanger', ['idle'], 180.0), ('AmericaInfantryRanger', ['idle'], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaVehicleChinook', ['harvesting'], 300.0), ('AmericaSupplyCenter', [], 2000.0), ('AmericaBarracks', [], 1000.0), ('AmericaPowerPlant', [], 800.0), ('AmericaVehicleDozer', ['idle'], 250.0), ('AmericaCommandCenter', [], 5000.0)]
+08:17:50 status error ConnectionClosed("connection closed (code=4001, reason='superseded')")
+08:17:51 CRASH Traceback (most recent call last):
+  File "C:\Users\user\Documents\CNC_Generals_AI\tournament\t1\agents\Delta\scripts\macro.py", line 109, in <module>
+    snap = await client.state()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\user\Documents\CNC_Generals_AI\tournament\t1\agents\Delta\scripts\macro.py", line 99, in main
+    if barracks is not None:
+       ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Documents\CNC_Generals_AI\python\generals_api\client.py", line 242, in state
+    return await self.request("state")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Documents\CNC_Generals_AI\python\generals_api\client.py", line 91, in request
+    raise ConnectionClosed(self.close_code, self.close_reason)
+generals_api.client.ConnectionClosed: connection closed (code=4001, reason='superseded')
+
+08:17:56 status money=3550 units=[('AmericaInfantryRanger', ['idle'], 180.0), ('AmericaInfantryRanger', ['idle'], 180.0), ('AmericaInfantryRanger', ['idle'], 180.0), ('AmericaWarFactory', ['under_construction'], 1552.114990234375), ('AmericaInfantryRanger', ['idle'], 180.0), ('AmericaInfantryRanger', ['idle'], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaVehicleChinook', ['harvesting'], 300.0), ('AmericaSupplyCenter', [], 2000.0), ('AmericaBarracks', [], 1000.0), ('AmericaPowerPlant', [], 800.0), ('AmericaVehicleDozer', ['idle'], 250.0), ('AmericaCommandCenter', [], 5000.0)]
+08:18:00 built AmericaWarFactory id=170
+08:18:00 done build: power=149 barracks=152 factory=170 supply=156
+08:18:06 status money=625 units=[('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', ['idle'], 180.0), ('AmericaInfantryRanger', ['idle'], 180.0), ('AmericaInfantryRanger', ['idle'], 180.0), ('AmericaWarFactory', [], 2000.0), ('AmericaInfantryRanger', ['idle'], 180.0), ('AmericaInfantryRanger', ['idle'], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaVehicleChinook', ['harvesting'], 300.0), ('AmericaSupplyCenter', [], 2000.0), ('AmericaBarracks', [], 1000.0), ('AmericaPowerPlant', [], 800.0), ('AmericaVehicleDozer', ['idle'], 250.0), ('AmericaCommandCenter', [], 5000.0)]
+08:18:16 status money=1225 units=[('AmericaTankCrusader', [], 480.0), ('AmericaInfantryRanger', ['idle'], 180.0), ('AmericaInfantryRanger', ['idle'], 180.0), ('AmericaInfantryRanger', ['idle'], 180.0), ('AmericaInfantryRanger', ['idle'], 180.0), ('AmericaInfantryRanger', ['idle'], 180.0), ('AmericaWarFactory', [], 2000.0), ('AmericaInfantryRanger', ['idle'], 180.0), ('AmericaInfantryRanger', ['idle'], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaVehicleChinook', ['harvesting'], 300.0), ('AmericaSupplyCenter', [], 2000.0), ('AmericaBarracks', [], 1000.0), ('AmericaPowerPlant', [], 800.0), ('AmericaVehicleDozer', ['idle'], 250.0), ('AmericaCommandCenter', [], 5000.0)]
+08:18:26 status money=1225 units=[('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', ['idle'], 180.0), ('AmericaTankCrusader', ['idle'], 480.0), ('AmericaInfantryRanger', ['idle'], 180.0), ('AmericaInfantryRanger', ['idle'], 180.0), ('AmericaInfantryRanger', ['idle'], 180.0), ('AmericaInfantryRanger', ['idle'], 180.0), ('AmericaInfantryRanger', ['idle'], 180.0), ('AmericaWarFactory', [], 2000.0), ('AmericaInfantryRanger', ['idle'], 180.0), ('AmericaInfantryRanger', ['idle'], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaVehicleChinook', ['harvesting'], 300.0), ('AmericaSupplyCenter', [], 2000.0), ('AmericaBarracks', [], 1000.0), ('AmericaPowerPlant', [], 800.0), ('AmericaVehicleDozer', ['idle'], 250.0), ('AmericaCommandCenter', [], 5000.0)]
+08:18:30 attack-move 16 units to [1004.8300170898438, 583.6300048828125] money=1225
+08:18:30 train crusader refused INSUFFICIENT_FUNDS: INSUFFICIENT_FUNDS: not enough money
+08:18:36 status money=100 units=[('AmericaTankCrusader', ['idle'], 480.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaTankCrusader', [], 480.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaWarFactory', [], 2000.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaVehicleChinook', ['harvesting'], 300.0), ('AmericaSupplyCenter', [], 2000.0), ('AmericaBarracks', [], 1000.0), ('AmericaPowerPlant', [], 800.0), ('AmericaVehicleDozer', ['idle'], 250.0), ('AmericaCommandCenter', [], 5000.0)]
+08:18:46 status money=700 units=[('ToxicInfantryBeta', [], 10.0), ('ToxicInfantryBeta', [], 10.0), ('ToxicInfantryBeta', [], 10.0), ('AmericaInfantryRanger', ['idle'], 180.0), ('AmericaInfantryRanger', ['idle'], 180.0), ('AmericaTankCrusader', ['idle'], 480.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaTankCrusader', [], 480.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaWarFactory', [], 2000.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaVehicleChinook', ['harvesting'], 300.0), ('AmericaSupplyCenter', [], 2000.0), ('AmericaBarracks', [], 1000.0), ('AmericaPowerPlant', [], 800.0), ('AmericaVehicleDozer', ['idle'], 250.0), ('AmericaCommandCenter', [], 5000.0)]
+08:18:56 status money=700 units=[('AmericaInfantryRanger', ['idle'], 180.0), ('AmericaInfantryRanger', ['idle'], 180.0), ('AmericaInfantryRanger', ['idle'], 180.0), ('AmericaInfantryRanger', ['idle'], 180.0), ('AmericaTankCrusader', ['idle'], 480.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaTankCrusader', [], 480.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaWarFactory', [], 2000.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaVehicleChinook', ['harvesting'], 300.0), ('AmericaSupplyCenter', [], 2000.0), ('AmericaBarracks', [], 1000.0), ('AmericaPowerPlant', [], 800.0), ('AmericaVehicleDozer', ['idle'], 250.0), ('AmericaCommandCenter', [], 5000.0)]
+08:19:00 attack-move 17 units to [1004.8300170898438, 583.6300048828125] money=700
+08:19:00 train ranger refused INSUFFICIENT_FUNDS: INSUFFICIENT_FUNDS: not enough money once the 0 for orders still on their way is spent
+08:19:00 train crusader refused INSUFFICIENT_FUNDS: INSUFFICIENT_FUNDS: not enough money
+08:19:06 status money=1300 units=[('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaTankCrusader', [], 480.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaTankCrusader', [], 480.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaWarFactory', [], 2000.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaVehicleChinook', ['harvesting'], 300.0), ('AmericaSupplyCenter', [], 2000.0), ('AmericaBarracks', [], 1000.0), ('AmericaPowerPlant', [], 800.0), ('AmericaVehicleDozer', ['idle'], 250.0), ('AmericaCommandCenter', [], 5000.0)]
+08:19:16 status money=1300 units=[('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaTankCrusader', [], 480.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaTankCrusader', [], 480.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaWarFactory', [], 2000.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaInfantryRanger', [], 180.0), ('AmericaVehicleChinook', ['harvesting'], 300.0), ('AmericaSupplyCenter', [], 2000.0), ('AmericaBarracks', [], 1000.0), ('AmericaPowerPlant', [], 800.0), ('AmericaVehicleDozer', ['idle'], 250.0), ('AmericaCommandCenter', [], 5000.0)]
+08:19:26 status error ConnectionClosed("connection closed (code=1006, reason='')")
+08:19:30 CRASH Traceback (most recent call last):
+  File "C:\Users\user\Documents\CNC_Generals_AI\tournament\t1\agents\Delta\scripts\macro.py", line 119, in <module>
+    asyncio.run(main(sys.argv[1]))  # add --resume to reuse existing buildings
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\user\Documents\CNC_Generals_AI\tournament\t1\agents\Delta\scripts\macro.py", line 109, in main
+    snap = await client.state()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Documents\CNC_Generals_AI\python\generals_api\client.py", line 242, in state
+    return await self.request("state")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Documents\CNC_Generals_AI\python\generals_api\client.py", line 91, in request
+    raise ConnectionClosed(self.close_code, self.close_reason)
+generals_api.client.ConnectionClosed: connection closed (code=1006, reason='')
+

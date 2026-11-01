@@ -1,0 +1,7 @@
+08:27:50 connected ws://127.0.0.1:50956 faction ChinaTankGeneral
+08:27:50 home [1010.8062744140625, 2102.68896484375, 40.0] enemy_start [1004.8300170898438, 583.6300048828125] money 500
+08:28:05 frame=5844 money=100 power={'consumed': 2, 'produced': 10} units={'ChinaTankGattling': 1, 'ChinaTankBattleMaster': 4, 'ChinaVehicleSupplyTruck': 3, 'ChinaVehicleDozer': 3, 'ChinaWarFactory': 1, 'ChinaSupplyCenter': 1, 'ChinaPowerPlant': 1, 'ChinaCommandCenter': 1} enemy_structs=0 visible=2
+08:28:20 frame=6279 money=0 power={'consumed': 2, 'produced': 10} units={'ChinaTankGattling': 2, 'ChinaTankBattleMaster': 4, 'ChinaVehicleSupplyTruck': 3, 'ChinaVehicleDozer': 3, 'ChinaWarFactory': 1, 'ChinaSupplyCenter': 1, 'ChinaPowerPlant': 1, 'ChinaCommandCenter': 1} enemy_structs=0 visible=5
+08:28:35 frame=6444 money=0 power={'consumed': 2, 'produced': 10} units={'ChinaTankGattling': 2, 'ChinaTankBattleMaster': 4, 'ChinaVehicleSupplyTruck': 3, 'ChinaVehicleDozer': 3, 'ChinaWarFactory': 1, 'ChinaSupplyCenter': 1, 'ChinaPowerPlant': 1, 'ChinaCommandCenter': 1} enemy_structs=0 visible=5
+08:28:50 frame=6774 money=600 power={'consumed': 2, 'produced': 10} units={'ChinaTankGattling': 3, 'ChinaTankBattleMaster': 4, 'ChinaVehicleSupplyTruck': 3, 'ChinaVehicleDozer': 3, 'ChinaWarFactory': 1, 'ChinaSupplyCenter': 1, 'ChinaPowerPlant': 1, 'ChinaCommandCenter': 1} enemy_structs=0 visible=6
+08:28:50 powers: connection closed connection closed (code=4001, reason='superseded') -> exiting

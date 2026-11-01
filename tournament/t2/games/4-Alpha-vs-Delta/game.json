@@ -1,0 +1,76 @@
+{
+  "number": 4,
+  "round": 1,
+  "match": 2,
+  "game_in_match": 2,
+  "best_of": 3,
+  "folder": "4-Alpha-vs-Delta",
+  "players": [
+    "Alpha",
+    "Delta"
+  ],
+  "host": "Delta",
+  "models": {
+    "Alpha": "opus",
+    "Delta": "haiku"
+  },
+  "ports": {
+    "Delta": 54163,
+    "Alpha": 54164
+  },
+  "observer_port": 54165,
+  "started": "2026-11-01 12:40:50",
+  "warnings": {},
+  "pids": {
+    "bot1": 35288,
+    "bot2": 20548,
+    "observer": 22820
+  },
+  "factions": {
+    "Alpha": "FactionChina",
+    "Delta": "FactionChina"
+  },
+  "start_positions": {
+    "Alpha": 2,
+    "Delta": 1
+  },
+  "status": "done",
+  "reason": "game_over",
+  "tiebreak": null,
+  "winner": "Alpha",
+  "loser": "Delta",
+  "frames": 11467,
+  "game_minutes": 6.37,
+  "stats": [
+    {
+      "buildings_built": 5,
+      "buildings_destroyed": 0,
+      "buildings_lost": 4,
+      "index": 2,
+      "money_earned": 1500,
+      "money_spent": 7000,
+      "score": 5200,
+      "side": "China",
+      "units_built": 27,
+      "units_destroyed": 5,
+      "units_lost": 26,
+      "name": "Delta"
+    },
+    {
+      "buildings_built": 6,
+      "buildings_destroyed": 4,
+      "buildings_lost": 0,
+      "index": 3,
+      "money_earned": 19500,
+      "money_spent": 8500,
+      "score": 27000,
+      "side": "China",
+      "units_built": 39,
+      "units_destroyed": 26,
+      "units_lost": 5,
+      "name": "Alpha"
+    }
+  ],
+  "replay": true,
+  "ended": "2026-11-01 12:48:06"
+}

@@ -1,0 +1,5 @@
+08:32:05 connected ws://127.0.0.1:50956 faction ChinaTankGeneral
+08:32:05 home [1010.8062744140625, 2102.68896484375, 40.0] enemy_start [1004.8300170898438, 583.6300048828125] money 0
+08:32:20 frame=13021 money=900 power={'consumed': 3, 'produced': 10} units={'ChinaTankBattleMaster': 7, 'ChinaWarFactory': 2, 'ChinaTankGattling': 2, 'ChinaVehicleSupplyTruck': 4, 'ChinaVehicleDozer': 3, 'ChinaSupplyCenter': 1, 'ChinaPowerPlant': 1, 'ChinaCommandCenter': 1} enemy_structs=4 visible=6 enemies={'IndustrialBuilding02': 1, 'MogadishuGarage': 1, 'WatchTower03': 1, 'WaterfrontWherehouse01': 1, 'CarScrap': 1, 'SupplyDock': 1}
+08:32:35 frame=13366 money=1200 power={'consumed': 3, 'produced': 10} units={'ChinaTankBattleMaster': 7, 'ChinaWarFactory': 2, 'ChinaTankGattling': 2, 'ChinaVehicleSupplyTruck': 4, 'ChinaVehicleDozer': 3, 'ChinaSupplyCenter': 1, 'ChinaPowerPlant': 1, 'ChinaCommandCenter': 1} enemy_structs=4 visible=6 enemies={'IndustrialBuilding02': 1, 'MogadishuGarage': 1, 'WatchTower03': 1, 'WaterfrontWherehouse01': 1, 'CarScrap': 1, 'SupplyDock': 1}
+08:32:36 powers: connection closed connection closed (code=4001, reason='superseded') -> exiting

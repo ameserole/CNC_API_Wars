@@ -1,0 +1,73 @@
+{
+  "number": 2,
+  "round": 1,
+  "folder": "2-Alpha-vs-Delta",
+  "players": [
+    "Alpha",
+    "Delta"
+  ],
+  "host": "Alpha",
+  "models": {
+    "Alpha": "opus",
+    "Delta": "haiku"
+  },
+  "ports": {
+    "Alpha": 55156,
+    "Delta": 55157
+  },
+  "observer_port": 55158,
+  "started": "2026-11-01 08:35:52",
+  "warnings": {},
+  "pids": {
+    "bot1": 4144,
+    "bot2": 21264,
+    "observer": 22804
+  },
+  "factions": {
+    "Alpha": "FactionChinaTankGeneral",
+    "Delta": "FactionAmerica"
+  },
+  "start_positions": {
+    "Delta": 1,
+    "Alpha": 2
+  },
+  "status": "done",
+  "reason": "game_over",
+  "tiebreak": null,
+  "winner": "Alpha",
+  "loser": "Delta",
+  "frames": 21081,
+  "game_minutes": 11.71,
+  "stats": [
+    {
+      "buildings_built": 7,
+      "buildings_destroyed": 5,
+      "buildings_lost": 0,
+      "index": 2,
+      "money_earned": 22500,
+      "money_spent": 10500,
+      "score": 36900,
+      "side": "ChinaTankGeneral",
+      "units_built": 54,
+      "units_destroyed": 78,
+      "units_lost": 33,
+      "name": "Alpha"
+    },
+    {
+      "buildings_built": 5,
+      "buildings_destroyed": 0,
+      "buildings_lost": 5,
+      "index": 3,
+      "money_earned": 12000,
+      "money_spent": 7400,
+      "score": 21700,
+      "side": "America",
+      "units_built": 59,
+      "units_destroyed": 33,
+      "units_lost": 78,
+      "name": "Delta"
+    }
+  ],
+  "replay": true,
+  "ended": "2026-11-01 08:48:50"
+}

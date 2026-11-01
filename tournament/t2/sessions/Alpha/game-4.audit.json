@@ -1,0 +1,14 @@
+{
+  "violations": [
+    "port 56554 is not this agent's: {\"command\": \"cd /c/Users/user/Documents/CNC_Generals_AI/tournament/t2/agents/Alpha && sed -i 's#watcher_url(\\\"ws://127.0.0.1:56554\\\")#watcher_url(sys.argv[1..."
+  ],
+  "liveness": {
+    "window_seconds": 436,
+    "longest_gap_seconds": 65,
+    "watch_seconds": 321,
+    "watch_coverage": 0.74,
+    "handbacks": 0,
+    "actions": 0,
+    "median_reaction_seconds": null
+  }
+}

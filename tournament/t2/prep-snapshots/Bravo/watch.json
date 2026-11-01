@@ -1,0 +1,1 @@
+{"enemy_types": ["Chem_GLAStingerSite", "Chem_GLAInfantryWorker", "Chem_GLACommandCenter", "Chem_GLAInfantryRebel", "Chem_GLABarracks"], "supply_max": {"123": 3750, "127": 3750, "109": 3750, "128": 3750, "111": 3750, "110": 3750, "125": 3750}, "supply_low_reported": ["123"], "money_high_since": null, "last_frame": 7297, "last_earned": 1500, "last_earned_frame": 7297}

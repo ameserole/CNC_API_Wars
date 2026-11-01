@@ -1,0 +1,17 @@
+11:42:47 connected ws://127.0.0.1:49942 state=in_game
+11:45:21 connected ws://127.0.0.1:49942 state=in_game
+11:45:35 bot error: ConnectionClosed("connection closed (code=4001, reason='superseded')")
+11:46:11 connected ws://127.0.0.1:49942 state=in_game
+11:46:38 bot error: ConnectionClosed("connection closed (code=4001, reason='superseded')")
+11:47:01 connected ws://127.0.0.1:49942 state=in_game
+11:57:30 bot error: ConnectionClosed("connection closed (code=4001, reason='superseded')")
+12:33:41 connected ws://127.0.0.1:56555 state=in_game
+12:34:52 bot error: ConnectionClosed("connection closed (code=4001, reason='superseded')")
+12:35:01 connected ws://127.0.0.1:56555 state=in_game
+12:37:55 connected ws://127.0.0.1:56555 state=in_game
+12:38:21 bot error: ConnectionClosed("connection closed (code=4001, reason='superseded')")
+12:40:10 game over: defeat
+12:40:36 bot error: ConnectionClosed("connection closed (code=4001, reason='superseded')")
+12:42:03 connected ws://127.0.0.1:54163 state=in_game
+12:47:55 game over: defeat
+12:48:21 bot error: ConnectionClosed("connection closed (code=4001, reason='superseded')")

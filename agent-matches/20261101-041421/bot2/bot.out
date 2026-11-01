@@ -1,0 +1,839 @@
+04:18:39 SCIENCE SCIENCE_PaladinTank
+04:18:39 BUILD SupplyCenter at [929, 424] by 148
+04:18:39 BUILD Barracks at [1005, 924] by 149
+04:18:41 build err AmericaWarFactory NOT_AVAILABLE cannot be made right now (prerequisites or disabled factory)
+04:18:43 build err AmericaWarFactory NOT_AVAILABLE cannot be made right now (prerequisites or disabled factory)
+04:18:45 build err AmericaWarFactory NOT_AVAILABLE cannot be made right now (prerequisites or disabled factory)
+04:18:47 build err AmericaWarFactory NOT_AVAILABLE cannot be made right now (prerequisites or disabled factory)
+04:18:49 build err AmericaWarFactory NOT_AVAILABLE cannot be made right now (prerequisites or disabled factory)
+04:18:51 build err AmericaWarFactory NOT_AVAILABLE cannot be made right now (prerequisites or disabled factory)
+04:18:53 build err AmericaWarFactory NOT_AVAILABLE cannot be made right now (prerequisites or disabled factory)
+04:18:56 BUILD WarFactory at [1132, 711] by 148
+04:18:56 BUILD PowerPlant at [1074, 750] by 146
+04:18:56 TRAIN VehicleChinook
+04:19:01 build err AmericaPowerPlant NOT_AVAILABLE build that is not available right now (prerequisites, power or state)
+04:19:01 TRAIN VehicleChinook
+04:19:23 BUILD PowerPlant at [936, 750] by 148
+04:19:29 STATUS f 7512 money 0 power {'consumed': 2, 'produced': 5} rank 1 {'PowerPlant': 2, 'VehicleChinook': 3, 'WarFactory': 1, 'Barracks': 1, 'SupplyCenter': 1, 'VehicleDozer': 3, 'CommandCenter': 1} vis 0 known 0
+04:19:36 TRAIN InfantryMissileDefender
+04:20:00 STATUS f 8410 money 900 power {'consumed': 2, 'produced': 10} rank 1 {'InfantryMissileDefender': 1, 'PowerPlant': 2, 'VehicleChinook': 3, 'WarFactory': 1, 'Barracks': 1, 'SupplyCenter': 1, 'VehicleDozer': 3, 'CommandCenter': 1} vis 0 known 0
+04:20:16 BUILD SupplyCenter at [1491, 395] by 146
+04:20:30 STATUS f 9303 money 700 power {'consumed': 2, 'produced': 10} rank 1 {'SupplyCenter': 2, 'InfantryMissileDefender': 1, 'PowerPlant': 2, 'VehicleChinook': 3, 'WarFactory': 1, 'Barracks': 1, 'VehicleDozer': 3, 'CommandCenter': 1} vis 0 known 0
+04:20:42 BUILD PatriotBattery at [1004, 1180] by 149
+04:21:00 BUILD PowerPlant at [878, 711] by 148
+04:21:02 STATUS f 10118 money 100 power {'consumed': 3, 'produced': 10} rank 1 {'PowerPlant': 3, 'PatriotBattery': 1, 'VehicleChinook': 4, 'SupplyCenter': 2, 'InfantryMissileDefender': 1, 'WarFactory': 1, 'Barracks': 1, 'VehicleDozer': 3, 'CommandCenter': 1} vis 0 known 0
+04:21:12 BUILD PatriotBattery at [800, 1130] by 146
+04:21:12 TRAIN InfantryRanger
+04:21:14 POWER Command_A10ThunderboltMissileStrike at [991, 1389] AmericaInfantryMissileDefender
+04:21:14 DEFEND vs 3 ['InfantryMissileDefender', 'InfantryMissileDefender', 'InfantryMissileDefender'] at [991, 1389] with 1
+04:21:20 DEFEND vs 8 ['TankCrusader', 'InfantryMissileDefender', 'InfantryMissileDefender', 'InfantryMissileDefender', 'InfantryMissileDefender', 'InfantryMissileDefender'] at [1032, 1289] with 2
+04:21:24 repair PatriotBattery
+04:21:24 repair PatriotBattery
+04:21:26 DEFEND vs 9 ['InfantryMissileDefender', 'TankCrusader', 'InfantryMissileDefender', 'InfantryMissileDefender', 'InfantryMissileDefender', 'InfantryMissileDefender'] at [1032, 1283] with 2
+04:21:28 killed AmericaInfantryRanger
+04:21:30 lost AmericaPatriotBattery 179
+04:21:32 BUILD PatriotBattery at [869, 1116] by 148
+04:21:32 DEFEND vs 9 ['TankCrusader', 'InfantryMissileDefender', 'TankCrusader', 'InfantryMissileDefender', 'InfantryMissileDefender', 'InfantryMissileDefender'] at [1040, 1292] with 5
+04:21:32 STATUS f 11020 money 1275 power {'consumed': 3, 'produced': 15} rank 1 {'InfantryRanger': 4, 'PatriotBattery': 1, 'PowerPlant': 3, 'VehicleChinook': 4, 'SupplyCenter': 2, 'InfantryMissileDefender': 1, 'WarFactory': 1, 'Barracks': 1, 'VehicleDozer': 3, 'CommandCenter': 1} vis 9 known 0
+04:21:34 lost AmericaVehicleDozer 149
+04:21:34 eva UNITLOST
+04:21:36 lost AmericaDeadDozerHulk 312
+04:21:37 lost GenericDebris 319
+04:21:37 lost GenericDebris 313
+04:21:37 lost GenericDebris 321
+04:21:37 lost GenericDebris 314
+04:21:37 lost GenericDebris 320
+04:21:37 lost GenericDebris 315
+04:21:37 lost GenericDebris 317
+04:21:38 lost GenericDebris 318
+04:21:38 lost GenericDebris 316
+04:21:38 lost GenericDebris 323
+04:21:38 lost GenericDebris 322
+04:21:39 DEFEND vs 8 ['TankCrusader', 'TankCrusader', 'InfantryMissileDefender', 'InfantryMissileDefender', 'InfantryMissileDefender', 'InfantryMissileDefender'] at [1040, 1292] with 5
+04:21:41 killed AmericaTankCrusader
+04:21:41 killed DeadCrusaderHulk
+04:21:43 killed GenericDebris
+04:21:44 killed GenericDebris
+04:21:44 killed AmericaInfantryMissileDefender
+04:21:44 killed GenericDebris
+04:21:44 lost AmericaInfantryRanger 279
+04:21:45 killed GenericDebris
+04:21:45 DEFEND vs 7 ['InfantryPilot', 'TankCrusader', 'InfantryMissileDefender', 'InfantryMissileDefender', 'InfantryMissileDefender', 'InfantryMissileDefender'] at [1038, 1293] with 4
+04:21:45 killed GenericDebris
+04:21:45 killed GenericDebris
+04:21:45 killed GenericDebris
+04:21:45 killed GenericDebris
+04:21:46 killed GenericDebris
+04:21:46 killed GenericDebris
+04:21:46 killed GenericDebris
+04:21:46 killed GenericDebris
+04:21:46 killed AmericaInfantryPilot
+04:21:46 killed GenericDebris
+04:21:47 POWER Command_A10ThunderboltMissileStrike at [990, 1307] AmericaInfantryMissileDefender
+04:21:47 killed GenericDebris
+04:21:48 killed AmericaInfantryMissileDefender
+04:21:51 TRAIN TankPaladin
+04:21:51 DEFEND vs 5 ['TankCrusader', 'InfantryMissileDefender', 'InfantryMissileDefender', 'InfantryMissileDefender', 'InfantryMissileDefender'] at [971, 1301] with 4
+04:21:52 killed AmericaInfantryMissileDefender
+04:21:53 killed AmericaInfantryMissileDefender
+04:21:55 killed AmericaInfantryMissileDefender
+04:21:57 DEFEND vs 4 ['TankCrusader', 'TankCrusader', 'InfantryMissileDefender', 'InfantryMissileDefender'] at [931, 1301] with 4
+04:21:58 killed AmericaInfantryMissileDefender
+04:22:03 TRAIN VehicleDozer
+04:22:03 DEFEND vs 3 ['TankCrusader', 'TankCrusader', 'InfantryMissileDefender'] at [1025, 1397] with 4
+04:22:03 STATUS f 11912 money 1575 power {'consumed': 3, 'produced': 15} rank 1 {'PatriotBattery': 2, 'InfantryRanger': 3, 'PowerPlant': 3, 'VehicleChinook': 4, 'SupplyCenter': 2, 'InfantryMissileDefender': 1, 'WarFactory': 1, 'Barracks': 1, 'VehicleDozer': 2, 'CommandCenter': 1} vis 5 known 0
+04:22:09 DEFEND vs 5 ['InfantryMissileDefender', 'TankCrusader', 'TankCrusader', 'TankCrusader', 'InfantryMissileDefender'] at [1025, 1396] with 5
+04:22:11 killed AmericaTankCrusader
+04:22:11 killed DeadCrusaderHulk
+04:22:13 killed GenericDebris
+04:22:13 killed GenericDebris
+04:22:13 killed GenericDebris
+04:22:14 killed GenericDebris
+04:22:14 killed GenericDebris
+04:22:14 killed GenericDebris
+04:22:14 killed GenericDebris
+04:22:14 killed GenericDebris
+04:22:14 killed GenericDebris
+04:22:14 killed GenericDebris
+04:22:14 killed GenericDebris
+04:22:15 DEFEND vs 5 ['InfantryRanger', 'InfantryMissileDefender', 'TankCrusader', 'TankCrusader', 'InfantryMissileDefender'] at [1045, 1403] with 5
+04:22:16 killed GenericDebris
+04:22:16 killed GenericDebris
+04:22:17 killed GenericDebris
+04:22:18 killed AmericaTankCrusader
+04:22:18 killed DeadCrusaderHulk
+04:22:19 POWER Command_A10ThunderboltMissileStrike at [1062, 1688] AmericaInfantryRanger
+04:22:21 killed GenericDebris
+04:22:21 killed GenericDebris
+04:22:21 killed GenericDebris
+04:22:21 killed GenericDebris
+04:22:21 killed GenericDebris
+04:22:21 killed GenericDebris
+04:22:21 killed GenericDebris
+04:22:21 DEFEND vs 5 ['InfantryRanger', 'InfantryRanger', 'InfantryMissileDefender', 'TankCrusader', 'InfantryMissileDefender'] at [1017, 1473] with 5
+04:22:22 killed GenericDebris
+04:22:22 killed GenericDebris
+04:22:22 killed GenericDebris
+04:22:22 lost AmericaInfantryRanger 280
+04:22:22 killed GenericDebris
+04:22:22 eva UNITLOST
+04:22:22 killed GenericDebris
+04:22:24 killed GenericDebris
+04:22:25 killed GenericDebris
+04:22:27 lost AmericaInfantryRanger 278
+04:22:28 DEFEND vs 6 ['InfantryMissileDefender', 'InfantryRanger', 'InfantryRanger', 'InfantryMissileDefender', 'TankCrusader', 'InfantryMissileDefender'] at [995, 1464] with 3
+04:22:29 killed AmericaTankCrusader
+04:22:29 killed DeadCrusaderHulk
+04:22:30 BUILD WarFactory at [1185, 584] by 485
+04:22:31 killed MissileDefenderMissile
+04:22:31 lost PointDefenseLaserBeam 604
+04:22:32 killed GenericDebris
+04:22:32 killed GenericDebris
+04:22:32 killed GenericDebris
+04:22:32 killed GenericDebris
+04:22:32 killed GenericDebris
+04:22:32 killed GenericDebris
+04:22:32 killed GenericDebris
+04:22:33 killed GenericDebris
+04:22:33 killed GenericDebris
+04:22:33 killed GenericDebris
+04:22:33 killed MissileDefenderMissile
+04:22:33 killed GenericDebris
+04:22:33 lost PointDefenseLaserBeam 613
+04:22:34 killed GenericDebris
+04:22:34 DEFEND vs 5 ['InfantryMissileDefender', 'InfantryRanger', 'InfantryRanger', 'InfantryMissileDefender', 'InfantryMissileDefender'] at [1032, 1442] with 3
+04:22:34 STATUS f 12810 money 375 power {'consumed': 9, 'produced': 15} rank 1 {'WarFactory': 2, 'VehicleDozer': 3, 'TankPaladin': 1, 'PatriotBattery': 2, 'InfantryRanger': 1, 'PowerPlant': 3, 'VehicleChinook': 4, 'SupplyCenter': 2, 'InfantryMissileDefender': 1, 'Barracks': 1, 'CommandCenter': 1} vis 6 known 0
+04:22:34 killed GenericDebris
+04:22:34 killed MissileDefenderMissile
+04:22:34 lost PointDefenseLaserBeam 622
+04:22:34 killed GenericDebris
+04:22:34 lost AmericaInfantryRanger 191
+04:22:35 killed GenericDebris
+04:22:35 killed GenericDebris
+04:22:36 killed MissileDefenderMissile
+04:22:36 lost PointDefenseLaserBeam 630
+04:22:37 killed MissileDefenderMissile
+04:22:37 lost PointDefenseLaserBeam 637
+04:22:38 killed MissileDefenderMissile
+04:22:38 lost PointDefenseLaserBeam 644
+04:22:38 killed GenericDebris
+04:22:39 killed MissileDefenderMissile
+04:22:39 lost PointDefenseLaserBeam 652
+04:22:39 killed GenericDebris
+04:22:40 killed GenericDebris
+04:22:40 killed MissileDefenderMissile
+04:22:40 BUILD PowerPlant at [825, 584] by 148
+04:22:40 DEFEND vs 5 ['InfantryMissileDefender', 'InfantryRanger', 'InfantryRanger', 'InfantryMissileDefender', 'InfantryMissileDefender'] at [1008, 1433] with 2
+04:22:40 lost PointDefenseLaserBeam 660
+04:22:41 lost AmericaTankPaladin 472
+04:22:41 eva UNITLOST
+04:22:43 lost DeadPaladinHulk 667
+04:22:43 killed GenericDebris
+04:22:44 killed AmericaInfantryRanger
+04:22:45 killed GenericDebris
+04:22:45 lost GenericDebris 668
+04:22:45 killed GenericDebris
+04:22:46 lost GenericDebris 669
+04:22:46 DEFEND vs 5 ['TankCrusader', 'InfantryMissileDefender', 'InfantryRanger', 'InfantryMissileDefender', 'InfantryMissileDefender'] at [1031, 1391] with 1
+04:22:48 lost AmericaInfantryMissileDefender 174
+04:22:50 POWER Command_A10ThunderboltMissileStrike at [1092, 1470] AmericaTankCrusader
+04:22:58 killed AmericaInfantryMissileDefender
+04:23:05 STATUS f 13704 money 1975 power {'consumed': 10, 'produced': 15} rank 1 {'PowerPlant': 4, 'WarFactory': 2, 'VehicleDozer': 3, 'PatriotBattery': 2, 'VehicleChinook': 4, 'SupplyCenter': 2, 'Barracks': 1, 'CommandCenter': 1} vis 1 known 2
+04:23:05 killed AmericaTankCrusader
+04:23:12 BUILD StrategyCenter at [1104, 824] by 485
+04:23:26 BUILD PatriotBattery at [1220, 1130] by 146
+04:23:37 STATUS f 14628 money 275 power {'consumed': 10, 'produced': 20} rank 1 {'PatriotBattery': 3, 'StrategyCenter': 1, 'PowerPlant': 4, 'WarFactory': 2, 'VehicleDozer': 3, 'VehicleChinook': 4, 'SupplyCenter': 2, 'Barracks': 1, 'CommandCenter': 1} vis 0 known 2
+04:23:39 BUILD PowerPlant at [839, 515] by 148
+04:23:47 TRAIN InfantryMissileDefender
+04:23:53 TRAIN TankCrusader
+04:24:07 STATUS f 15522 money 675 power {'consumed': 13, 'produced': 25} rank 1 {'TankCrusader': 1, 'InfantryMissileDefender': 1, 'PowerPlant': 5, 'PatriotBattery': 3, 'StrategyCenter': 1, 'WarFactory': 2, 'VehicleDozer': 3, 'VehicleChinook': 4, 'SupplyCenter': 2, 'Barracks': 1, 'CommandCenter': 1} vis 0 known 2
+04:24:10 BUILD Airfield at [1189, 400] by 148
+04:24:21 BUILD PowerPlant at [905, 824] by 485
+04:24:25 BATTLEPLAN search and destroy
+04:24:33 TRAIN VehicleChinook
+04:24:50 TRAIN InfantryRanger
+04:24:54 STATUS f 16867 money 450 power {'consumed': 16, 'produced': 30} rank 1 {'VehicleChinook': 5, 'PowerPlant': 6, 'Airfield': 1, 'TankCrusader': 1, 'InfantryMissileDefender': 1, 'PatriotBattery': 3, 'StrategyCenter': 1, 'WarFactory': 2, 'VehicleDozer': 3, 'SupplyCenter': 2, 'Barracks': 1, 'CommandCenter': 1} vis 3 known 2
+04:24:56 TRAIN TankCrusader
+04:25:04 TRAIN InfantryMissileDefender
+04:25:08 TRAIN TankCrusader
+04:25:17 TRAIN InfantryRanger
+04:25:23 TRAIN TankPaladin
+04:25:25 STATUS f 17764 money 25 power {'consumed': 16, 'produced': 30} rank 1 {'TankCrusader': 3, 'InfantryRanger': 2, 'InfantryMissileDefender': 2, 'VehicleChinook': 5, 'PowerPlant': 6, 'Airfield': 1, 'PatriotBattery': 3, 'StrategyCenter': 1, 'WarFactory': 2, 'VehicleDozer': 3, 'SupplyCenter': 2, 'Barracks': 1, 'CommandCenter': 1} vis 5 known 2
+04:25:33 TRAIN VehicleChinook
+04:25:56 STATUS f 18658 money 1825 power {'consumed': 16, 'produced': 30} rank 1 {'VehicleChinook': 6, 'TankPaladin': 1, 'TankCrusader': 3, 'InfantryRanger': 2, 'InfantryMissileDefender': 2, 'PowerPlant': 6, 'Airfield': 1, 'PatriotBattery': 3, 'StrategyCenter': 1, 'WarFactory': 2, 'VehicleDozer': 3, 'SupplyCenter': 2, 'Barracks': 1, 'CommandCenter': 1} vis 5 known 2
+04:26:00 TRAIN TankAvenger
+04:26:14 TRAIN TankPaladin
+04:26:14 WAVE 9 -> [985, 1644]
+04:26:22 TRAIN TankPaladin
+04:26:27 STATUS f 19554 money 625 power {'consumed': 16, 'produced': 30} rank 1 {'TankAvenger': 1, 'VehicleChinook': 6, 'TankPaladin': 1, 'TankCrusader': 3, 'InfantryRanger': 2, 'InfantryMissileDefender': 2, 'PowerPlant': 6, 'Airfield': 1, 'PatriotBattery': 3, 'StrategyCenter': 1, 'WarFactory': 2, 'VehicleDozer': 3, 'SupplyCenter': 2, 'Barracks': 1, 'CommandCenter': 1} vis 6 known 2
+04:26:37 TRAIN TankPaladin
+04:26:37 ATTACK 10 -> [992, 1570] money 1225
+04:26:38 lost AmericaTankPaladin 778
+04:26:38 eva UNITLOST
+04:26:39 killed AmericaTankCrusader
+04:26:39 eva GENERALLEVELUP
+04:26:41 SCIENCE Early_SCIENCE_EmergencyRepair1
+04:26:41 POWER Command_A10ThunderboltMissileStrike at [1009, 1723] AmericaPatriotBattery
+04:26:44 killed AmericaTankCrusader
+04:26:46 lost AmericaInfantryRanger 775
+04:26:47 killed AmericaInfantryMissileDefender
+04:26:47 TRAIN InfantryRanger
+04:26:48 killed AmericaTankCrusader
+04:26:51 lost AmericaInfantryRanger 771
+04:26:51 TRAIN TankPaladin
+04:26:54 killed AmericaTankCrusader
+04:26:57 lost AmericaTankCrusader 774
+04:26:57 eva UNITLOST
+04:26:58 TRAIN InfantryRanger
+04:26:58 STATUS f 20442 money 600 power {'consumed': 16, 'produced': 30} rank 2 {'TankPaladin': 3, 'InfantryRanger': 1, 'TankAvenger': 1, 'VehicleChinook': 6, 'TankCrusader': 2, 'InfantryMissileDefender': 2, 'PowerPlant': 6, 'Airfield': 1, 'PatriotBattery': 3, 'StrategyCenter': 1, 'WarFactory': 2, 'VehicleDozer': 3, 'SupplyCenter': 2, 'Barracks': 1, 'CommandCenter': 1} vis 14 known 1
+04:26:59 killed AmericaInfantryRanger
+04:27:00 ATTACK 9 -> [932, 1486] money 375
+04:27:00 lost AmericaTankCrusader 764
+04:27:03 lost AmericaTankCrusader 776
+04:27:06 TRAIN TankPaladin
+04:27:06 lost AmericaInfantryMissileDefender 762
+04:27:08 TRAIN InfantryMissileDefender
+04:27:14 POWER Command_A10ThunderboltMissileStrike at [1050, 1615] AmericaInfantryMissileDefender
+04:27:19 lost AmericaTankAvenger 782
+04:27:19 lost AmericaTankAvengerLaserTurret 783
+04:27:19 eva UNITLOST
+04:27:20 lost AmericaInfantryMissileDefender 773
+04:27:20 TRAIN InfantryMissileDefender
+04:27:23 ATTACK 7 -> [973, 1433] money 1075
+04:27:24 lost AmericaTankPaladin 784
+04:27:25 TRAIN TankCrusader
+04:27:26 killed AmericaInfantryRanger
+04:27:29 STATUS f 21324 money 175 power {'consumed': 16, 'produced': 30} rank 2 {'InfantryMissileDefender': 2, 'TankPaladin': 4, 'InfantryRanger': 2, 'VehicleChinook': 6, 'PowerPlant': 6, 'Airfield': 1, 'PatriotBattery': 3, 'StrategyCenter': 1, 'WarFactory': 2, 'VehicleDozer': 3, 'SupplyCenter': 2, 'Barracks': 1, 'CommandCenter': 1} vis 16 known 1
+04:27:32 lost AmericaInfantryRanger 1036
+04:27:33 TRAIN InfantryRanger
+04:27:36 killed AmericaTankPaladin
+04:27:38 lost AmericaTankPaladin 1043
+04:27:38 eva UNITLOST
+04:27:39 TRAIN TankPaladin
+04:27:40 lost AmericaTankPaladin 812
+04:27:45 TRAIN TankPaladin
+04:27:45 killed AmericaTankCrusader
+04:27:45 ATTACK 7 -> [940, 1388] money 1250
+04:27:47 POWER Command_A10ThunderboltMissileStrike at [1111, 1784] AmericaInfantryMissileDefender
+04:27:49 lost AmericaInfantryRanger 1267
+04:27:56 lost AmericaInfantryMissileDefender 1483
+04:27:56 eva UNITLOST
+04:27:56 killed AmericaTankCrusader
+04:27:58 TRAIN InfantryMissileDefender
+04:28:00 STATUS f 22213 money 1050 power {'consumed': 16, 'produced': 30} rank 2 {'TankPaladin': 3, 'TankCrusader': 1, 'InfantryRanger': 1, 'InfantryMissileDefender': 1, 'VehicleChinook': 6, 'PowerPlant': 6, 'Airfield': 1, 'PatriotBattery': 3, 'StrategyCenter': 1, 'WarFactory': 2, 'VehicleDozer': 3, 'SupplyCenter': 2, 'Barracks': 1, 'CommandCenter': 1} vis 17 known 1
+04:28:00 lost AmericaTankPaladin 1393
+04:28:08 TRAIN InfantryRanger
+04:28:08 ATTACK 7 -> [993, 1381] money 1050
+04:28:10 lost AmericaInfantryRanger 1766
+04:28:12 killed AmericaInfantryMissileDefender
+04:28:12 eva GENERALLEVELUP
+04:28:12 SCIENCE SCIENCE_A10ThunderboltMissileStrike1
+04:28:12 TRAIN TankAvenger
+04:28:14 lost AmericaTankCrusader 1777
+04:28:14 eva UNITLOST
+04:28:17 lost AmericaTankPaladin 1655
+04:28:20 POWER Command_A10ThunderboltMissileStrike at [1087, 1349] AmericaInfantryMissileDefender
+04:28:21 lost AmericaVehicleDozer 146
+04:28:23 lost AmericaDeadDozerHulk 2135
+04:28:26 lost AmericaInfantryMissileDefender 1661
+04:28:27 TRAIN TankPaladin
+04:28:29 killed AmericaInfantryMissileDefender
+04:28:30 lost AmericaTankPaladin 1970
+04:28:30 eva UNITLOST
+04:28:31 ATTACK 4 -> [1034, 1314] money 125
+04:28:31 STATUS f 23097 money 125 power {'consumed': 16, 'produced': 30} rank 3 {'TankAvenger': 1, 'InfantryRanger': 1, 'InfantryMissileDefender': 1, 'TankPaladin': 1, 'VehicleChinook': 6, 'PowerPlant': 6, 'Airfield': 1, 'PatriotBattery': 3, 'StrategyCenter': 1, 'WarFactory': 2, 'VehicleDozer': 2, 'SupplyCenter': 2, 'Barracks': 1, 'CommandCenter': 1} vis 7 known 6
+04:28:34 killed AmericaInfantryMissileDefender
+04:28:37 killed AmericaInfantryMissileDefender
+04:28:39 TRAIN InfantryMissileDefender
+04:28:41 TRAIN TankCrusader
+04:28:41 lost AmericaInfantryMissileDefender 1981
+04:28:51 killed AmericaInfantryMissileDefender
+04:28:53 TRAIN TankPaladin
+04:28:54 POWER Command_SpectreGunship at [975, 1685] AmericaTankPaladin
+04:28:54 ATTACK 5 -> [1036, 1635] money 1325
+04:29:02 STATUS f 23976 money 225 power {'consumed': 16, 'produced': 30} rank 3 {'TankCrusader': 1, 'InfantryMissileDefender': 1, 'TankPaladin': 2, 'TankAvenger': 1, 'InfantryRanger': 1, 'VehicleChinook': 6, 'PowerPlant': 6, 'Airfield': 1, 'PatriotBattery': 3, 'StrategyCenter': 1, 'WarFactory': 2, 'VehicleDozer': 2, 'SupplyCenter': 2, 'Barracks': 1, 'CommandCenter': 1} vis 14 known 7
+04:29:06 BUILD FireBase at [1004, 1180] by 485
+04:29:07 BATTLEPLAN search and destroy
+04:29:09 TRAIN InfantryMissileDefender
+04:29:17 lost AmericaTankAvenger 2171
+04:29:17 lost AmericaTankAvengerLaserTurret 2172
+04:29:19 lost AmericaInfantryRanger 2060
+04:29:21 BUILD FireBase at [947, 1107] by 148
+04:29:21 TRAIN InfantryRanger
+04:29:25 killed AmericaJetA10Thunderbolt
+04:29:31 lost AmericaTankPaladin 2318
+04:29:31 eva UNITLOST
+04:29:32 TRAIN InfantryRanger
+04:29:32 killed AmericaTankPaladin
+04:29:32 lost AmericaInfantryMissileDefender 2330
+04:29:34 TRAIN TankCrusader
+04:29:36 STATUS f 24922 money 175 power {'consumed': 16, 'produced': 30} rank 3 {'InfantryRanger': 1, 'FireBase': 2, 'InfantryMissileDefender': 1, 'TankPaladin': 1, 'TankCrusader': 1, 'VehicleChinook': 6, 'PowerPlant': 6, 'Airfield': 1, 'PatriotBattery': 3, 'StrategyCenter': 1, 'WarFactory': 2, 'VehicleDozer': 2, 'SupplyCenter': 2, 'Barracks': 1, 'CommandCenter': 1} vis 17 known 7
+04:29:41 lost AmericaFireBase 2401
+04:29:44 TRAIN InfantryMissileDefender
+04:29:45 lost AmericaVehicleDozer 485
+04:29:46 lost AmericaFireBase 2596
+04:29:47 lost AmericaDeadDozerHulk 2849
+04:29:48 killed AmericaTankCrusader
+04:29:48 BUILD FireBase at [1004, 1180] by 148
+04:29:48 DEFEND vs 2 ['TankPaladin', 'TankCrusader'] at [1074, 1225] with 6
+04:29:49 killed AmericaTankPaladin
+04:29:50 lost AmericaFireBase 2876
+04:29:51 killed AmericaTankCrusader
+04:29:52 lost AmericaVehicleDozer 148
+04:29:52 eva UNITLOST
+04:29:54 lost AmericaDeadDozerHulk 2988
+04:29:55 TRAIN InfantryMissileDefender
+04:29:55 DEFEND vs 2 ['TankPaladin', 'TankCrusader'] at [1005, 1225] with 7
+04:29:59 killed AmericaTankCrusader
+04:30:01 DEFEND vs 1 ['TankPaladin'] at [1005, 1225] with 8
+04:30:01 killed AmericaTankCrusader
+04:30:03 killed AmericaTankPaladin
+04:30:03 TRAIN InfantryRanger
+04:30:06 killed AmericaInfantryMissileDefender
+04:30:06 killed AmericaTankCrusader
+04:30:07 STATUS f 25812 money 375 power {'consumed': 16, 'produced': 30} rank 3 {'InfantryMissileDefender': 3, 'TankCrusader': 2, 'InfantryRanger': 2, 'TankPaladin': 1, 'VehicleChinook': 6, 'PowerPlant': 6, 'Airfield': 1, 'PatriotBattery': 3, 'StrategyCenter': 1, 'WarFactory': 2, 'SupplyCenter': 2, 'Barracks': 1, 'CommandCenter': 1} vis 0 known 12
+04:30:09 TRAIN TankCrusader
+04:30:38 STATUS f 26697 money 1275 power {'consumed': 16, 'produced': 30} rank 3 {'TankCrusader': 3, 'InfantryRanger': 3, 'InfantryMissileDefender': 3, 'TankPaladin': 1, 'VehicleChinook': 6, 'PowerPlant': 6, 'Airfield': 1, 'PatriotBattery': 3, 'StrategyCenter': 1, 'WarFactory': 2, 'SupplyCenter': 2, 'Barracks': 1, 'CommandCenter': 1} vis 7 known 10
+04:30:49 TRAIN VehicleDozer
+04:30:57 repair PatriotBattery
+04:31:03 BUILD FireBase at [1004, 1180] by 3168
+04:31:10 STATUS f 27596 money 475 power {'consumed': 16, 'produced': 30} rank 3 {'FireBase': 1, 'VehicleDozer': 1, 'TankCrusader': 3, 'InfantryRanger': 3, 'InfantryMissileDefender': 3, 'TankPaladin': 1, 'VehicleChinook': 6, 'PowerPlant': 6, 'Airfield': 1, 'PatriotBattery': 3, 'StrategyCenter': 1, 'WarFactory': 2, 'SupplyCenter': 2, 'Barracks': 1, 'CommandCenter': 1} vis 3 known 12
+04:31:16 build err AmericaFireBase NOT_AVAILABLE build that is not available right now (prerequisites, power or state)
+04:31:16 repair PatriotBattery
+04:31:18 build err AmericaFireBase NOT_AVAILABLE build that is not available right now (prerequisites, power or state)
+04:31:20 build err AmericaFireBase NOT_AVAILABLE build that is not available right now (prerequisites, power or state)
+04:31:22 build err AmericaFireBase NOT_AVAILABLE build that is not available right now (prerequisites, power or state)
+04:31:24 build err AmericaFireBase NOT_AVAILABLE build that is not available right now (prerequisites, power or state)
+04:31:26 build err AmericaFireBase NOT_AVAILABLE build that is not available right now (prerequisites, power or state)
+04:31:26 repair PatriotBattery
+04:31:35 TRAIN VehicleDozer
+04:31:35 BATTLEPLAN search and destroy
+04:31:37 repair PatriotBattery
+04:31:44 BUILD FireBase at [919, 1026] by 3174
+04:32:05 STATUS f 29170 money 875 power {'consumed': 16, 'produced': 30} rank 3 {'FireBase': 2, 'VehicleDozer': 2, 'TankCrusader': 3, 'InfantryRanger': 3, 'InfantryMissileDefender': 3, 'TankPaladin': 1, 'VehicleChinook': 6, 'PowerPlant': 6, 'Airfield': 1, 'PatriotBattery': 3, 'StrategyCenter': 1, 'WarFactory': 2, 'SupplyCenter': 2, 'Barracks': 1, 'CommandCenter': 1} vis 5 known [('Barracks', 1010, 1803), ('CommandCenter', 1011, 2103), ('PatriotBattery', 1009, 1723), ('PatriotBattery', 1128, 1739), ('PowerPlant', 900, 2396), ('PowerPlant', 975, 2467), ('PowerPlant', 1012, 2353), ('PowerPlant', 1064, 2461), ('PowerPlant', 1131, 2366), ('SupplyCenter', 1249, 2369), ('WarFactory', 1042, 1918), ('WarFactory', 1200, 1864)]
+04:32:26 TRAIN VehicleDozer
+04:32:34 POWER Command_A10ThunderboltMissileStrike at [974, 1624] AmericaTankPaladin
+04:32:36 STATUS f 30068 money 1075 power {'consumed': 16, 'produced': 30} rank 3 {'VehicleDozer': 3, 'FireBase': 2, 'TankCrusader': 3, 'InfantryRanger': 3, 'InfantryMissileDefender': 3, 'TankPaladin': 1, 'VehicleChinook': 6, 'PowerPlant': 6, 'Airfield': 1, 'PatriotBattery': 3, 'StrategyCenter': 1, 'WarFactory': 2, 'SupplyCenter': 2, 'Barracks': 1, 'CommandCenter': 1} vis 22 known [('CommandCenter', 1011, 2103), ('PowerPlant', 900, 2396), ('PowerPlant', 975, 2467), ('PowerPlant', 1012, 2353), ('PowerPlant', 1064, 2461), ('PowerPlant', 1131, 2366), ('SupplyCenter', 1249, 2369)]
+04:32:53 killed AmericaVehicleTomahawk
+04:32:55 BATTLEPLAN search and destroy
+04:32:58 lost AmericaJetA10Thunderbolt 3182
+04:32:58 eva UNITLOST
+04:33:09 BUILD SupplyDropZone at [839, 652] by 3180
+04:33:23 STATUS f 31403 money 975 power {'consumed': 16, 'produced': 30} rank 3 {'SupplyDropZone': 1, 'VehicleDozer': 3, 'FireBase': 2, 'TankCrusader': 3, 'InfantryRanger': 3, 'InfantryMissileDefender': 3, 'TankPaladin': 1, 'VehicleChinook': 6, 'PowerPlant': 6, 'Airfield': 1, 'PatriotBattery': 3, 'StrategyCenter': 1, 'WarFactory': 2, 'SupplyCenter': 2, 'Barracks': 1, 'CommandCenter': 1} vis 2 known [('Barracks', 1010, 1803), ('CommandCenter', 1011, 2103), ('PatriotBattery', 1009, 1723), ('PatriotBattery', 1128, 1739), ('PowerPlant', 900, 2396), ('PowerPlant', 975, 2467), ('PowerPlant', 1012, 2353), ('PowerPlant', 1064, 2461), ('PowerPlant', 1131, 2366), ('StrategyCenter', 1193, 2186), ('SupplyCenter', 1249, 2369), ('WarFactory', 883, 1957), ('WarFactory', 1042, 1918), ('WarFactory', 1200, 1864)]
+04:33:48 TRAIN TankAvenger
+04:33:54 STATUS f 32306 money 175 power {'consumed': 16, 'produced': 30} rank 3 {'SupplyDropZone': 1, 'VehicleDozer': 3, 'FireBase': 2, 'TankCrusader': 3, 'InfantryRanger': 3, 'InfantryMissileDefender': 3, 'TankPaladin': 1, 'VehicleChinook': 6, 'PowerPlant': 6, 'Airfield': 1, 'PatriotBattery': 3, 'StrategyCenter': 1, 'WarFactory': 2, 'SupplyCenter': 2, 'Barracks': 1, 'CommandCenter': 1} vis 4 known [('Barracks', 1010, 1803), ('CommandCenter', 1011, 2103), ('PatriotBattery', 1009, 1723), ('PatriotBattery', 1128, 1739), ('PowerPlant', 900, 2396), ('PowerPlant', 975, 2467), ('PowerPlant', 1012, 2353), ('PowerPlant', 1064, 2461), ('PowerPlant', 1131, 2366), ('StrategyCenter', 1193, 2186), ('SupplyCenter', 1249, 2369), ('WarFactory', 883, 1957), ('WarFactory', 1042, 1918), ('WarFactory', 1200, 1864)]
+04:34:11 TRAIN TankPaladin
+04:34:25 STATUS f 33205 money 125 power {'consumed': 20, 'produced': 30} rank 3 {'TankAvenger': 1, 'SupplyDropZone': 1, 'VehicleDozer': 3, 'FireBase': 2, 'TankCrusader': 3, 'InfantryRanger': 3, 'InfantryMissileDefender': 3, 'TankPaladin': 1, 'VehicleChinook': 6, 'PowerPlant': 6, 'Airfield': 1, 'PatriotBattery': 3, 'StrategyCenter': 1, 'WarFactory': 2, 'SupplyCenter': 2, 'Barracks': 1, 'CommandCenter': 1} vis 6 known [('Barracks', 1010, 1803), ('CommandCenter', 1011, 2103), ('PatriotBattery', 1009, 1723), ('PatriotBattery', 1128, 1739), ('PowerPlant', 900, 2396), ('PowerPlant', 975, 2467), ('PowerPlant', 1012, 2353), ('PowerPlant', 1064, 2461), ('PowerPlant', 1131, 2366), ('StrategyCenter', 1193, 2186), ('SupplyCenter', 1249, 2369), ('WarFactory', 883, 1957), ('WarFactory', 1042, 1918), ('WarFactory', 1200, 1864)]
+04:34:56 STATUS f 34107 money 125 power {'consumed': 20, 'produced': 30} rank 3 {'TankPaladin': 2, 'TankAvenger': 1, 'SupplyDropZone': 1, 'VehicleDozer': 3, 'FireBase': 2, 'TankCrusader': 3, 'InfantryRanger': 3, 'InfantryMissileDefender': 3, 'VehicleChinook': 6, 'PowerPlant': 6, 'Airfield': 1, 'PatriotBattery': 3, 'StrategyCenter': 1, 'WarFactory': 2, 'SupplyCenter': 2, 'Barracks': 1, 'CommandCenter': 1} vis 8 known [('Barracks', 1010, 1803), ('CommandCenter', 1011, 2103), ('PatriotBattery', 1009, 1723), ('PatriotBattery', 1128, 1739), ('PowerPlant', 900, 2396), ('PowerPlant', 975, 2467), ('PowerPlant', 1012, 2353), ('PowerPlant', 1064, 2461), ('PowerPlant', 1131, 2366), ('StrategyCenter', 1193, 2186), ('SupplyCenter', 1249, 2369), ('WarFactory', 883, 1957), ('WarFactory', 1042, 1918), ('WarFactory', 1200, 1864)]
+04:35:07 tick exception ConnectionClosed("connection closed (code=4001, reason='superseded')")
+04:35:07 Traceback (most recent call last):
+  File "C:\Users\user\Documents\CNC_Generals_AI\agent-matches\20261101-041421\bot2\bot.py", line 410, in main
+    await bot.tick()
+  File "C:\Users\user\Documents\CNC_Generals_AI\agent-matches\20261101-041421\bot2\bot.py", line 115, in tick
+    s = await self.c.state()
+        ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Documents\CNC_Generals_AI\python\generals_api\client.py", line 234, in state
+    return await self.request("state")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Documents\CNC_Generals_AI\python\generals_api\client.py", line 91, in request
+    raise ConnectionClosed(self.close_code, self.close_reason)
+generals_api.client.ConnectionClosed: connection closed (code=4001, reason='superseded')
+
+04:35:07 exiting; over= False
+04:35:46 BATTLEPLAN search and destroy
+04:35:53 DOCK chinook 779 -> SupplyPileSmall [1421, 1190]
+04:35:53 DOCK chinook 770 -> SupplyPileSmall [1421, 1190]
+04:35:53 DOCK chinook 178 -> SupplyPileSmall [1421, 1190]
+04:35:53 dock err NOT_AVAILABLE none of the units can dock there
+04:35:53 dock err NOT_AVAILABLE none of the units can dock there
+04:35:53 dock err NOT_AVAILABLE none of the units can dock there
+04:36:16 DOCK chinook 178 -> SupplyPileSmall [1421, 1190]
+04:36:16 DOCK chinook 169 -> SupplyPileSmall [1421, 1190]
+04:36:16 DOCK chinook 166 -> SupplyPileSmall [760, 1229]
+04:36:16 DOCK chinook 162 -> SupplyPileSmall [1421, 1190]
+04:36:16 STATUS f 36263 money 125 power {'consumed': 20, 'produced': 30} rank 3 {'CrateParachute': 6, 'TankPaladin': 2, 'TankAvenger': 1, 'SupplyDropZone': 1, 'VehicleDozer': 3, 'FireBase': 2, 'TankCrusader': 3, 'InfantryRanger': 3, 'InfantryMissileDefender': 3, 'VehicleChinook': 6, 'PowerPlant': 6, 'Airfield': 1, 'PatriotBattery': 3, 'StrategyCenter': 1, 'WarFactory': 2, 'SupplyCenter': 2, 'Barracks': 1, 'CommandCenter': 1} vis 12 known [('Barracks', 1010, 1803), ('CommandCenter', 1011, 2103), ('PatriotBattery', 1009, 1723), ('PowerPlant', 900, 2396), ('PowerPlant', 975, 2467), ('PowerPlant', 1012, 2353), ('PowerPlant', 1064, 2461), ('PowerPlant', 1131, 2366), ('StrategyCenter', 1193, 2186), ('SupplyCenter', 1249, 2369), ('WarFactory', 883, 1957), ('WarFactory', 1042, 1918)]
+04:36:22 lost AmericaCrateParachute 3289
+04:36:23 lost AmericaCrateParachute 3291
+04:36:23 lost AmericaCrateParachute 3293
+04:36:24 lost AmericaCrateParachute 3295
+04:36:25 DOCK chinook 770 -> SupplyPileSmall [1421, 1190]
+04:36:27 lost AmericaCrateParachute 3297
+04:36:27 lost AmericaCrateParachute 3299
+04:36:29 BUILD SupplyCenter at [817, 873] by 3174
+04:36:39 lost AmericaJetCargoPlane 3287
+04:36:39 eva UNITLOST
+04:36:40 DOCK chinook 178 -> SupplyPileSmall [1421, 1190]
+04:36:40 DOCK chinook 169 -> SupplyPileSmall [1421, 1190]
+04:36:40 DOCK chinook 162 -> SupplyPileSmall [1421, 1190]
+04:36:48 STATUS f 37098 money 225 power {'consumed': 21, 'produced': 30} rank 3 {'VehicleChinook': 7, 'SupplyCenter': 3, 'TankPaladin': 2, 'TankAvenger': 1, 'SupplyDropZone': 1, 'VehicleDozer': 3, 'FireBase': 2, 'TankCrusader': 3, 'InfantryRanger': 3, 'InfantryMissileDefender': 3, 'PowerPlant': 6, 'Airfield': 1, 'PatriotBattery': 3, 'StrategyCenter': 1, 'WarFactory': 2, 'Barracks': 1, 'CommandCenter': 1} vis 17 known [('CommandCenter', 1011, 2103), ('PowerPlant', 900, 2396), ('PowerPlant', 975, 2467), ('PowerPlant', 1012, 2353), ('PowerPlant', 1064, 2461), ('PowerPlant', 1131, 2366), ('StrategyCenter', 1193, 2186), ('SupplyCenter', 1249, 2369), ('WarFactory', 883, 1957), ('WarFactory', 1042, 1918)]
+04:36:51 DOCK chinook 779 -> SupplyPileSmall [760, 1229]
+04:36:51 DOCK chinook 770 -> SupplyPileSmall [760, 1229]
+04:36:53 POWER Command_A10ThunderboltMissileStrike at [1080, 1760] AmericaInfantryRanger
+04:36:59 DOCK chinook 3379 -> SupplyPileSmall [760, 1229]
+04:37:03 DOCK chinook 178 -> SupplyPileSmall [760, 1229]
+04:37:03 DOCK chinook 169 -> SupplyPileSmall [760, 1229]
+04:37:07 DOCK chinook 166 -> SupplyPileSmall [760, 1229]
+04:37:13 DOCK chinook 779 -> SupplyPileSmall [760, 1229]
+04:37:13 DOCK chinook 770 -> SupplyPileSmall [760, 1229]
+04:37:14 killed AmericaInfantryMissileDefender
+04:37:14 killed AmericaInfantryRanger
+04:37:14 killed AmericaInfantryRanger
+04:37:14 killed AmericaInfantryMissileDefender
+04:37:18 DOCK chinook 162 -> SupplyPileSmall [760, 1229]
+04:37:19 lost AmericaJetA10Thunderbolt 3381
+04:37:19 eva UNITLOST
+04:37:20 STATUS f 37907 money 1425 power {'consumed': 21, 'produced': 30} rank 3 {'VehicleChinook': 7, 'SupplyCenter': 3, 'TankPaladin': 2, 'TankAvenger': 1, 'SupplyDropZone': 1, 'VehicleDozer': 3, 'FireBase': 2, 'TankCrusader': 3, 'InfantryRanger': 3, 'InfantryMissileDefender': 3, 'PowerPlant': 6, 'Airfield': 1, 'PatriotBattery': 3, 'StrategyCenter': 1, 'WarFactory': 2, 'Barracks': 1, 'CommandCenter': 1} vis 23 known [('PowerPlant', 900, 2396), ('PowerPlant', 975, 2467), ('PowerPlant', 1012, 2353), ('PowerPlant', 1064, 2461), ('PowerPlant', 1131, 2366), ('SupplyCenter', 1249, 2369)]
+04:37:23 lost AmericaJetA10Hulk 3425
+04:37:24 DOCK chinook 3379 -> SupplyPileSmall [760, 1229]
+04:37:28 DOCK chinook 178 -> SupplyPileSmall [760, 1229]
+04:37:28 DOCK chinook 169 -> SupplyPileSmall [760, 1229]
+04:37:39 BUILD SupplyCenter at [1731, 476] by 3180
+04:37:52 STATUS f 38650 money 625 power {'consumed': 21, 'produced': 30} rank 3 {'SupplyCenter': 4, 'VehicleChinook': 7, 'TankPaladin': 2, 'TankAvenger': 1, 'SupplyDropZone': 1, 'VehicleDozer': 3, 'FireBase': 2, 'TankCrusader': 3, 'InfantryRanger': 3, 'InfantryMissileDefender': 3, 'PowerPlant': 6, 'Airfield': 1, 'PatriotBattery': 3, 'StrategyCenter': 1, 'WarFactory': 2, 'Barracks': 1, 'CommandCenter': 1} vis 19 known [('CommandCenter', 1011, 2103), ('PowerPlant', 900, 2396), ('PowerPlant', 975, 2467), ('PowerPlant', 1012, 2353), ('PowerPlant', 1064, 2461), ('PowerPlant', 1131, 2366), ('StrategyCenter', 1193, 2186), ('SupplyCenter', 1249, 2369)]
+04:37:55 TRAIN VehicleChinook
+04:37:55 DOCK chinook 3379 -> SupplyPileSmall [760, 1229]
+04:37:57 DOCK chinook 162 -> SupplyPileSmall [760, 1229]
+04:38:01 DOCK chinook 166 -> SupplyPileSmall [760, 1229]
+04:38:08 DOCK chinook 178 -> SupplyPileSmall [760, 1229]
+04:38:14 DOCK chinook 770 -> SupplyPileSmall [760, 1229]
+04:38:16 DOCK chinook 169 -> SupplyPileSmall [760, 1229]
+04:38:23 DOCK chinook 779 -> SupplyPileSmall [760, 1229]
+04:38:27 STATUS f 39151 money 625 power {'consumed': 21, 'produced': 30} rank 3 {'VehicleChinook': 8, 'SupplyCenter': 4, 'TankPaladin': 2, 'TankAvenger': 1, 'SupplyDropZone': 1, 'VehicleDozer': 3, 'FireBase': 2, 'TankCrusader': 3, 'InfantryRanger': 3, 'InfantryMissileDefender': 3, 'PowerPlant': 6, 'Airfield': 1, 'PatriotBattery': 3, 'StrategyCenter': 1, 'WarFactory': 2, 'Barracks': 1, 'CommandCenter': 1} vis 19 known [('CommandCenter', 1011, 2103), ('PowerPlant', 900, 2396), ('PowerPlant', 975, 2467), ('PowerPlant', 1012, 2353), ('PowerPlant', 1064, 2461), ('PowerPlant', 1131, 2366), ('StrategyCenter', 1193, 2186), ('SupplyCenter', 1249, 2369)]
+04:38:36 DOCK chinook 3427 -> SupplyPileSmall [760, 1229]
+04:38:40 TRAIN TankPaladin
+04:38:43 BATTLEPLAN search and destroy
+04:39:00 TRAIN TankPaladin
+04:39:07 dock err NOT_AVAILABLE none of the units can dock there
+04:39:14 STATUS f 39899 money 600 power {'consumed': 22, 'produced': 30} rank 3 {'TankPaladin': 3, 'CrateParachute': 6, 'VehicleChinook': 9, 'SupplyCenter': 4, 'TankAvenger': 1, 'SupplyDropZone': 1, 'VehicleDozer': 3, 'FireBase': 2, 'TankCrusader': 3, 'InfantryRanger': 3, 'InfantryMissileDefender': 3, 'PowerPlant': 6, 'Airfield': 1, 'PatriotBattery': 3, 'StrategyCenter': 1, 'WarFactory': 2, 'Barracks': 1, 'CommandCenter': 1} vis 16 known [('CommandCenter', 1011, 2103), ('PowerPlant', 900, 2396), ('PowerPlant', 975, 2467), ('PowerPlant', 1012, 2353), ('PowerPlant', 1064, 2461), ('PowerPlant', 1131, 2366), ('StrategyCenter', 1193, 2186), ('SupplyCenter', 1249, 2369)]
+04:39:16 DOCK chinook 779 -> SupplyPileSmall [718, 1233]
+04:39:23 lost AmericaCrateParachute 3431
+04:39:24 lost AmericaCrateParachute 3433
+04:39:25 lost AmericaCrateParachute 3435
+04:39:25 TRAIN TankPaladin
+04:39:25 lost AmericaCrateParachute 3437
+04:39:29 TRAIN TankCrusader
+04:39:31 lost AmericaCrateParachute 3439
+04:39:32 lost AmericaCrateParachute 3441
+04:39:40 WAVE 14 -> [1009, 1723]
+04:39:47 STATUS f 40353 money 1225 power {'consumed': 22, 'produced': 30} rank 3 {'TankPaladin': 4, 'VehicleChinook': 9, 'SupplyCenter': 4, 'TankAvenger': 1, 'SupplyDropZone': 1, 'VehicleDozer': 3, 'FireBase': 2, 'TankCrusader': 3, 'InfantryRanger': 3, 'InfantryMissileDefender': 3, 'PowerPlant': 6, 'Airfield': 1, 'PatriotBattery': 3, 'StrategyCenter': 1, 'WarFactory': 2, 'Barracks': 1, 'CommandCenter': 1} vis 9 known [('CommandCenter', 1011, 2103), ('PowerPlant', 900, 2396), ('PowerPlant', 975, 2467), ('PowerPlant', 1012, 2353), ('PowerPlant', 1064, 2461), ('PowerPlant', 1131, 2366), ('StrategyCenter', 1193, 2186), ('SupplyCenter', 1249, 2369), ('WarFactory', 1200, 1864)]
+04:39:51 TRAIN TankPaladin
+04:40:13 ATTACK 14 -> [1009, 1723] money 725
+04:40:19 STATUS f 40835 money 725 power {'consumed': 22, 'produced': 30} rank 3 {'TankCrusader': 4, 'TankPaladin': 5, 'VehicleChinook': 9, 'SupplyCenter': 4, 'TankAvenger': 1, 'SupplyDropZone': 1, 'VehicleDozer': 3, 'FireBase': 2, 'InfantryRanger': 3, 'InfantryMissileDefender': 3, 'PowerPlant': 6, 'Airfield': 1, 'PatriotBattery': 3, 'StrategyCenter': 1, 'WarFactory': 2, 'Barracks': 1, 'CommandCenter': 1} vis 10 known [('CommandCenter', 1011, 2103), ('PowerPlant', 900, 2396), ('PowerPlant', 975, 2467), ('PowerPlant', 1012, 2353), ('PowerPlant', 1064, 2461), ('PowerPlant', 1131, 2366), ('StrategyCenter', 1193, 2186), ('SupplyCenter', 1249, 2369)]
+04:40:29 lost AmericaTankPaladin 3285
+04:40:29 eva UNITLOST
+04:40:30 DOCK chinook 3428 -> SupplyPileSmall [718, 1233]
+04:40:32 TRAIN VehicleTomahawk
+04:40:35 lost AmericaTankCrusader 2362
+04:40:41 ATTACK 12 -> [1775, 1106] money 125
+04:40:44 lost AmericaInfantryRanger 3149
+04:40:47 lost AmericaInfantryMissileDefender 2493
+04:40:49 lost AmericaTankCrusader 2870
+04:40:52 TRAIN InfantryMissileDefender
+04:40:52 STATUS f 41384 money 725 power {'consumed': 22, 'produced': 30} rank 3 {'TankPaladin': 5, 'TankCrusader': 2, 'VehicleChinook': 9, 'SupplyCenter': 4, 'TankAvenger': 1, 'SupplyDropZone': 1, 'VehicleDozer': 3, 'FireBase': 2, 'InfantryMissileDefender': 2, 'InfantryRanger': 2, 'PowerPlant': 6, 'Airfield': 1, 'PatriotBattery': 3, 'StrategyCenter': 1, 'WarFactory': 2, 'Barracks': 1, 'CommandCenter': 1} vis 21 known [('PowerPlant', 900, 2396), ('PowerPlant', 975, 2467), ('PowerPlant', 1012, 2353), ('PowerPlant', 1064, 2461), ('PowerPlant', 1131, 2366), ('StrategyCenter', 1193, 2186), ('SupplyCenter', 1249, 2369)]
+04:40:52 killed AmericaJetA10Thunderbolt
+04:40:55 lost AmericaTankPaladin 2484
+04:40:59 killed AmericaJetA10Hulk
+04:40:59 lost AmericaTankPaladin 3442
+04:40:59 eva UNITLOST
+04:40:59 lost AmericaTankPaladin 3453
+04:41:01 killed AmericaTankCrusader
+04:41:01 eva GENERALLEVELUP
+04:41:03 SCIENCE AirF_SCIENCE_A10ThunderboltMissileStrike1
+04:41:07 TRAIN InfantryRanger
+04:41:07 ATTACK 6 -> [1340, 1353] money 425
+04:41:14 lost AmericaTankAvenger 3281
+04:41:14 lost AmericaTankAvengerLaserTurret 3282
+04:41:16 killed AmericaTankCrusader
+04:41:20 lost AmericaInfantryRanger 2638
+04:41:22 TRAIN InfantryRanger
+04:41:22 lost AmericaTankCrusader 3163
+04:41:24 TRAIN TankPaladin
+04:41:24 attack over, retreat with 3
+04:41:24 STATUS f 41984 money 1325 power {'consumed': 22, 'produced': 30} rank 4 {'VehicleTomahawk': 1, 'InfantryRanger': 2, 'InfantryMissileDefender': 3, 'TankPaladin': 2, 'TankCrusader': 1, 'VehicleChinook': 9, 'SupplyCenter': 4, 'SupplyDropZone': 1, 'VehicleDozer': 3, 'FireBase': 2, 'PowerPlant': 6, 'Airfield': 1, 'PatriotBattery': 3, 'StrategyCenter': 1, 'WarFactory': 2, 'Barracks': 1, 'CommandCenter': 1} vis 19 known [('PowerPlant', 900, 2396), ('PowerPlant', 975, 2467), ('PowerPlant', 1012, 2353), ('PowerPlant', 1064, 2461), ('PowerPlant', 1131, 2366), ('StrategyCenter', 1193, 2186), ('SupplyCenter', 1249, 2369)]
+04:41:25 killed AmericaTankPaladin
+04:41:26 killed AmericaInfantryMissileDefender
+04:41:28 killed AmericaInfantryMissileDefender
+04:41:31 killed AmericaInfantryMissileDefender
+04:41:34 killed AmericaTankPaladin
+04:41:40 killed AmericaInfantryRanger
+04:41:46 TRAIN TankPaladin
+04:41:56 STATUS f 42667 money 325 power {'consumed': 22, 'produced': 30} rank 4 {'TankPaladin': 3, 'InfantryRanger': 3, 'VehicleTomahawk': 1, 'InfantryMissileDefender': 3, 'TankCrusader': 1, 'VehicleChinook': 9, 'SupplyCenter': 4, 'SupplyDropZone': 1, 'VehicleDozer': 3, 'FireBase': 2, 'PowerPlant': 6, 'Airfield': 1, 'PatriotBattery': 3, 'StrategyCenter': 1, 'WarFactory': 2, 'Barracks': 1, 'CommandCenter': 1} vis 13 known [('PowerPlant', 900, 2396), ('PowerPlant', 975, 2467), ('PowerPlant', 1012, 2353), ('PowerPlant', 1064, 2461), ('PowerPlant', 1131, 2366), ('StrategyCenter', 1193, 2186), ('SupplyCenter', 1249, 2369)]
+04:41:58 DEFEND vs 2 ['TankPaladin', 'TankCrusader'] at [1777, 847] with 11
+04:42:07 DEFEND vs 4 ['TankPaladin', 'TankPaladin', 'TankCrusader', 'TankPaladin'] at [1736, 760] with 11
+04:42:13 DEFEND vs 4 ['TankPaladin', 'TankPaladin', 'TankCrusader', 'TankPaladin'] at [1704, 640] with 12
+04:42:15 TRAIN TankAvenger
+04:42:22 DEFEND vs 4 ['TankPaladin', 'TankPaladin', 'TankCrusader', 'TankPaladin'] at [1703, 638] with 12
+04:42:22 lost AmericaVehicleDozer 3180
+04:42:22 eva UNITLOST
+04:42:25 lost AmericaDeadDozerHulk 4159
+04:42:28 STATUS f 43349 money 725 power {'consumed': 22, 'produced': 30} rank 4 {'CrateParachute': 6, 'TankPaladin': 4, 'InfantryRanger': 3, 'VehicleTomahawk': 1, 'InfantryMissileDefender': 3, 'TankCrusader': 1, 'VehicleChinook': 9, 'SupplyCenter': 4, 'SupplyDropZone': 1, 'FireBase': 2, 'VehicleDozer': 2, 'PowerPlant': 6, 'Airfield': 1, 'PatriotBattery': 3, 'StrategyCenter': 1, 'WarFactory': 2, 'Barracks': 1, 'CommandCenter': 1} vis 10 known [('CommandCenter', 1011, 2103), ('PowerPlant', 900, 2396), ('PowerPlant', 975, 2467), ('PowerPlant', 1012, 2353), ('PowerPlant', 1064, 2461), ('PowerPlant', 1131, 2366), ('StrategyCenter', 1193, 2186), ('SupplyCenter', 1249, 2369), ('WarFactory', 1200, 1864)]
+04:42:30 killed AmericaTankPaladin
+04:42:31 DEFEND vs 3 ['TankPaladin', 'TankPaladin', 'TankCrusader'] at [1802, 514] with 12
+04:42:37 TRAIN TankPaladin
+04:42:39 DEFEND vs 3 ['TankPaladin', 'TankPaladin', 'TankCrusader'] at [1794, 521] with 13
+04:42:40 lost AmericaTankPaladin 3472
+04:42:42 lost AmericaCrateParachute 4177
+04:42:43 lost AmericaCrateParachute 4179
+04:42:43 lost AmericaCrateParachute 4181
+04:42:44 TRAIN VehicleDozer
+04:42:44 lost AmericaCrateParachute 4183
+04:42:45 killed AmericaVehicleTomahawk
+04:42:45 killed AmericaTankCrusader
+04:42:45 killed AmericaVehicleTomahawkHulk
+04:42:47 lost AmericaCrateParachute 4185
+04:42:48 TRAIN TankCrusader
+04:42:48 lost AmericaCrateParachute 4187
+04:42:48 DEFEND vs 2 ['TankPaladin', 'TankPaladin'] at [1794, 521] with 12
+04:42:48 killed AmericaTankPaladin
+04:42:48 lost AmericaTankPaladin 4144
+04:42:48 eva UNITLOST
+04:42:55 BUILD FireBase at [1334, 769] by 4275
+04:42:55 BATTLEPLAN search and destroy
+04:42:56 killed AmericaTankPaladin
+04:42:56 DEFEND vs 1 ['TankPaladin'] at [1855, 499] with 11
+04:43:23 POWER Command_A10ThunderboltMissileStrike at [1042, 1918] AmericaWarFactory
+04:43:25 STATUS f 44506 money 775 power {'consumed': 22, 'produced': 30} rank 4 {'TankCrusader': 2, 'TankPaladin': 3, 'FireBase': 3, 'VehicleDozer': 3, 'TankAvenger': 1, 'InfantryRanger': 3, 'VehicleTomahawk': 1, 'InfantryMissileDefender': 3, 'VehicleChinook': 9, 'SupplyCenter': 4, 'SupplyDropZone': 1, 'PowerPlant': 6, 'Airfield': 1, 'PatriotBattery': 3, 'StrategyCenter': 1, 'WarFactory': 2, 'Barracks': 1, 'CommandCenter': 1} vis 9 known [('PowerPlant', 900, 2396), ('PowerPlant', 975, 2467), ('PowerPlant', 1012, 2353), ('PowerPlant', 1064, 2461), ('PowerPlant', 1131, 2366), ('SupplyCenter', 1249, 2369)]
+04:43:34 BUILD FireBase at [1053, 1007] by 3174
+04:43:52 killed AmericaBarracks
+04:43:57 STATUS f 45163 money 1575 power {'consumed': 22, 'produced': 30} rank 4 {'FireBase': 4, 'TankCrusader': 2, 'TankPaladin': 3, 'VehicleDozer': 3, 'TankAvenger': 1, 'InfantryRanger': 3, 'VehicleTomahawk': 1, 'InfantryMissileDefender': 3, 'VehicleChinook': 9, 'SupplyCenter': 4, 'SupplyDropZone': 1, 'PowerPlant': 6, 'Airfield': 1, 'PatriotBattery': 3, 'StrategyCenter': 1, 'WarFactory': 2, 'Barracks': 1, 'CommandCenter': 1} vis 18 known []
+04:44:29 STATUS f 45783 money 3975 power {'consumed': 22, 'produced': 30} rank 4 {'FireBase': 4, 'TankCrusader': 2, 'TankPaladin': 3, 'VehicleDozer': 3, 'TankAvenger': 1, 'InfantryRanger': 3, 'VehicleTomahawk': 1, 'InfantryMissileDefender': 3, 'VehicleChinook': 9, 'SupplyCenter': 4, 'SupplyDropZone': 1, 'PowerPlant': 6, 'Airfield': 1, 'PatriotBattery': 3, 'StrategyCenter': 1, 'WarFactory': 2, 'Barracks': 1, 'CommandCenter': 1} vis 8 known [('CommandCenter', 1011, 2103), ('PowerPlant', 900, 2396), ('PowerPlant', 975, 2467), ('PowerPlant', 1064, 2461), ('StrategyCenter', 1193, 2186), ('SupplyCenter', 1249, 2369)]
+04:44:44 BUILD ParticleCannonUplink at [877, 323] by 4275
+04:44:50 TRAIN TankCrusader
+04:45:01 STATUS f 46479 money 625 power {'consumed': 22, 'produced': 30} rank 4 {'ParticleCannonUplink': 1, 'FireBase': 4, 'TankCrusader': 2, 'TankPaladin': 3, 'VehicleDozer': 3, 'TankAvenger': 1, 'InfantryRanger': 3, 'VehicleTomahawk': 1, 'InfantryMissileDefender': 3, 'VehicleChinook': 9, 'SupplyCenter': 4, 'SupplyDropZone': 1, 'PowerPlant': 6, 'Airfield': 1, 'PatriotBattery': 3, 'StrategyCenter': 1, 'WarFactory': 2, 'Barracks': 1, 'CommandCenter': 1} vis 8 known [('CommandCenter', 1011, 2103), ('PowerPlant', 900, 2396), ('PowerPlant', 975, 2467), ('PowerPlant', 1064, 2461), ('StrategyCenter', 1193, 2186), ('SupplyCenter', 1249, 2369)]
+04:45:03 TRAIN TankPaladin
+04:45:33 lost AmericaCrateParachute 4386
+04:45:33 TRAIN TankPaladin
+04:45:33 STATUS f 47231 money 1125 power {'consumed': 22, 'produced': 30} rank 4 {'TankPaladin': 4, 'CrateParachute': 5, 'TankCrusader': 3, 'ParticleCannonUplink': 1, 'FireBase': 4, 'VehicleDozer': 3, 'TankAvenger': 1, 'InfantryRanger': 3, 'VehicleTomahawk': 1, 'InfantryMissileDefender': 3, 'VehicleChinook': 9, 'SupplyCenter': 4, 'SupplyDropZone': 1, 'PowerPlant': 6, 'Airfield': 1, 'PatriotBattery': 3, 'StrategyCenter': 1, 'WarFactory': 2, 'Barracks': 1, 'CommandCenter': 1} vis 8 known [('CommandCenter', 1011, 2103), ('PowerPlant', 900, 2396), ('PowerPlant', 975, 2467), ('PowerPlant', 1064, 2461), ('StrategyCenter', 1193, 2186), ('SupplyCenter', 1249, 2369)]
+04:45:33 lost AmericaCrateParachute 4388
+04:45:34 lost AmericaCrateParachute 4390
+04:45:34 lost AmericaCrateParachute 4392
+04:45:37 TRAIN TankPaladin
+04:45:38 lost AmericaCrateParachute 4394
+04:45:39 lost AmericaCrateParachute 4396
+04:45:41 DOCK chinook 3427 -> SupplyPileSmall [1421, 1190]
+04:45:41 DOCK chinook 770 -> SupplyPileSmall [1421, 1190]
+04:45:42 DOCK chinook 178 -> SupplyPileSmall [1421, 1190]
+04:45:50 TRAIN TankCrusader
+04:46:05 STATUS f 47895 money 25 power {'consumed': 22, 'produced': 30} rank 4 {'TankPaladin': 6, 'TankCrusader': 3, 'ParticleCannonUplink': 1, 'FireBase': 4, 'VehicleDozer': 3, 'TankAvenger': 1, 'InfantryRanger': 3, 'VehicleTomahawk': 1, 'InfantryMissileDefender': 3, 'VehicleChinook': 9, 'SupplyCenter': 4, 'SupplyDropZone': 1, 'PowerPlant': 6, 'Airfield': 1, 'PatriotBattery': 3, 'StrategyCenter': 1, 'WarFactory': 2, 'Barracks': 1, 'CommandCenter': 1} vis 6 known [('CommandCenter', 1011, 2103), ('PowerPlant', 900, 2396), ('PowerPlant', 975, 2467), ('PowerPlant', 1064, 2461), ('StrategyCenter', 1193, 2186), ('SupplyCenter', 1249, 2369), ('WarFactory', 883, 1957), ('WarFactory', 1042, 1918)]
+04:46:11 DOCK chinook 166 -> SupplyPileSmall [1357, 1377]
+04:46:30 eva LOWPOWER
+04:46:30 eva SUPERWEAPONDETECTED_OWN_PARTICLECANNON
+04:46:31 BUILD PowerPlant at [1005, 404] by 4275
+04:46:34 DOCK chinook 3428 -> SupplyPileSmall [1357, 1377]
+04:46:36 DOCK chinook 162 -> SupplyPileSmall [1510, 1244]
+04:46:38 STATUS f 48585 money 1625 power {'consumed': 32, 'produced': 30} rank 4 {'PowerPlant': 7, 'TankCrusader': 4, 'TankPaladin': 6, 'ParticleCannonUplink': 1, 'FireBase': 4, 'VehicleDozer': 3, 'TankAvenger': 1, 'InfantryRanger': 3, 'VehicleTomahawk': 1, 'InfantryMissileDefender': 3, 'VehicleChinook': 9, 'SupplyCenter': 4, 'SupplyDropZone': 1, 'Airfield': 1, 'PatriotBattery': 3, 'StrategyCenter': 1, 'WarFactory': 2, 'Barracks': 1, 'CommandCenter': 1} vis 7 known [('CommandCenter', 1011, 2103), ('PowerPlant', 900, 2396), ('PowerPlant', 975, 2467), ('PowerPlant', 1064, 2461), ('StrategyCenter', 1193, 2186), ('SupplyCenter', 1249, 2369), ('WarFactory', 883, 1957)]
+04:46:45 DOCK chinook 178 -> SupplyPileSmall [1357, 1377]
+04:46:49 TRAIN TankAvenger
+04:46:53 DOCK chinook 169 -> SupplyPileSmall [1510, 1244]
+04:47:11 TRAIN VehicleTomahawk
+04:47:11 STATUS f 49226 money 1425 power {'consumed': 32, 'produced': 35} rank 4 {'TankAvenger': 2, 'PowerPlant': 7, 'TankCrusader': 4, 'TankPaladin': 6, 'ParticleCannonUplink': 1, 'FireBase': 4, 'VehicleDozer': 3, 'InfantryRanger': 3, 'VehicleTomahawk': 1, 'InfantryMissileDefender': 3, 'VehicleChinook': 9, 'SupplyCenter': 4, 'SupplyDropZone': 1, 'Airfield': 1, 'PatriotBattery': 3, 'StrategyCenter': 1, 'WarFactory': 2, 'Barracks': 1, 'CommandCenter': 1} vis 9 known [('PowerPlant', 900, 2396), ('PowerPlant', 975, 2467), ('PowerPlant', 1064, 2461), ('StrategyCenter', 1193, 2186), ('SupplyCenter', 1249, 2369)]
+04:47:13 DOCK chinook 3379 -> SupplyPileSmall [1357, 1377]
+04:47:30 TRAIN VehicleTomahawk
+04:47:32 DOCK chinook 3427 -> SupplyPileSmall [1510, 1244]
+04:47:43 STATUS f 49819 money 225 power {'consumed': 32, 'produced': 35} rank 4 {'TankAvenger': 2, 'PowerPlant': 7, 'TankCrusader': 4, 'TankPaladin': 6, 'ParticleCannonUplink': 1, 'FireBase': 4, 'VehicleDozer': 3, 'InfantryRanger': 3, 'VehicleTomahawk': 1, 'InfantryMissileDefender': 3, 'VehicleChinook': 9, 'SupplyCenter': 4, 'SupplyDropZone': 1, 'Airfield': 1, 'PatriotBattery': 3, 'StrategyCenter': 1, 'WarFactory': 2, 'Barracks': 1, 'CommandCenter': 1} vis 12 known [('PowerPlant', 900, 2396), ('PowerPlant', 975, 2467), ('PowerPlant', 1064, 2461), ('StrategyCenter', 1193, 2186), ('SupplyCenter', 1249, 2369)]
+04:47:56 TRAIN VehicleTomahawk
+04:48:14 killed AmericaVehicleChinook
+04:48:15 STATUS f 50438 money 825 power {'consumed': 32, 'produced': 35} rank 4 {'VehicleTomahawk': 2, 'TankAvenger': 2, 'PowerPlant': 7, 'TankCrusader': 4, 'TankPaladin': 6, 'ParticleCannonUplink': 1, 'FireBase': 4, 'VehicleDozer': 3, 'InfantryRanger': 3, 'InfantryMissileDefender': 3, 'VehicleChinook': 9, 'SupplyCenter': 4, 'SupplyDropZone': 1, 'Airfield': 1, 'PatriotBattery': 3, 'StrategyCenter': 1, 'WarFactory': 2, 'Barracks': 1, 'CommandCenter': 1} vis 13 known [('CommandCenter', 1011, 2103), ('PowerPlant', 900, 2396), ('PowerPlant', 975, 2467), ('PowerPlant', 1064, 2461), ('StrategyCenter', 1193, 2186), ('SupplyCenter', 1249, 2369)]
+04:48:17 TRAIN VehicleTomahawk
+04:48:34 TRAIN TankCrusader
+04:48:36 lost AmericaCrateParachute 4511
+04:48:37 lost AmericaCrateParachute 4513
+04:48:38 lost AmericaCrateParachute 4515
+04:48:39 lost AmericaCrateParachute 4517
+04:48:39 TRAIN TankPaladin
+04:48:44 killed AmericaVehicleChinook
+04:48:44 lost AmericaCrateParachute 4519
+04:48:45 lost AmericaCrateParachute 4521
+04:48:48 STATUS f 51003 money 1075 power {'consumed': 32, 'produced': 35} rank 4 {'VehicleTomahawk': 3, 'TankAvenger': 2, 'PowerPlant': 7, 'TankCrusader': 4, 'TankPaladin': 6, 'ParticleCannonUplink': 1, 'FireBase': 4, 'VehicleDozer': 3, 'InfantryRanger': 3, 'InfantryMissileDefender': 3, 'VehicleChinook': 9, 'SupplyCenter': 4, 'SupplyDropZone': 1, 'Airfield': 1, 'PatriotBattery': 3, 'StrategyCenter': 1, 'WarFactory': 2, 'Barracks': 1, 'CommandCenter': 1} vis 12 known [('PowerPlant', 900, 2396), ('PowerPlant', 975, 2467), ('PowerPlant', 1064, 2461), ('StrategyCenter', 1193, 2186), ('SupplyCenter', 1249, 2369)]
+04:48:54 lost AmericaVehicleChinook 178
+04:48:54 eva UNITLOST
+04:48:54 TRAIN TankPaladin
+04:48:59 WAVE 22 -> [1301, 1461]
+04:49:07 TRAIN TankPaladin
+04:49:11 killed AmericaVehicleChinook
+04:49:11 DOCK chinook 3428 -> SupplyPileSmall [1538, 1269]
+04:49:11 DOCK chinook 3427 -> SupplyPileSmall [1538, 1269]
+04:49:12 DOCK chinook 3379 -> SupplyPileSmall [1538, 1269]
+04:49:12 DOCK chinook 779 -> SupplyPileSmall [1538, 1269]
+04:49:12 DOCK chinook 770 -> SupplyPileSmall [1538, 1269]
+04:49:12 DOCK chinook 169 -> SupplyPileSmall [1538, 1269]
+04:49:12 DOCK chinook 162 -> SupplyPileSmall [1538, 1269]
+04:49:20 killed AmericaVehicleChinook
+04:49:20 STATUS f 51585 money 675 power {'consumed': 32, 'produced': 35} rank 4 {'VehicleTomahawk': 4, 'TankCrusader': 5, 'TankAvenger': 2, 'PowerPlant': 7, 'TankPaladin': 6, 'ParticleCannonUplink': 1, 'FireBase': 4, 'VehicleDozer': 3, 'InfantryRanger': 3, 'InfantryMissileDefender': 3, 'VehicleChinook': 8, 'SupplyCenter': 4, 'SupplyDropZone': 1, 'Airfield': 1, 'PatriotBattery': 3, 'StrategyCenter': 1, 'WarFactory': 2, 'Barracks': 1, 'CommandCenter': 1} vis 9 known [('CommandCenter', 1011, 2103), ('PowerPlant', 900, 2396), ('PowerPlant', 975, 2467), ('PowerPlant', 1064, 2461), ('StrategyCenter', 1193, 2186), ('SupplyCenter', 1249, 2369), ('WarFactory', 883, 1957), ('WarFactory', 1042, 1918)]
+04:49:25 POWER Command_A10ThunderboltMissileStrike at [1010, 1803] AmericaBarracks
+04:49:25 ATTACK 22 -> [555, 1405] money 675
+04:49:28 killed AmericaVehicleChinook
+04:49:29 DOCK chinook 166 -> SupplyPileSmall [1509, 1284]
+04:49:32 killed AmericaBarracks
+04:49:50 ATTACK 22 -> [555, 1405] money 675
+04:49:50 killed AmericaTankPaladin
+04:49:52 STATUS f 52198 money 675 power {'consumed': 32, 'produced': 35} rank 4 {'VehicleTomahawk': 5, 'TankPaladin': 7, 'TankCrusader': 5, 'TankAvenger': 2, 'PowerPlant': 7, 'ParticleCannonUplink': 1, 'FireBase': 4, 'VehicleDozer': 3, 'InfantryRanger': 3, 'InfantryMissileDefender': 3, 'VehicleChinook': 8, 'SupplyCenter': 4, 'SupplyDropZone': 1, 'Airfield': 1, 'PatriotBattery': 3, 'StrategyCenter': 1, 'WarFactory': 2, 'Barracks': 1, 'CommandCenter': 1} vis 11 known [('PowerPlant', 900, 2396), ('PowerPlant', 975, 2467), ('PowerPlant', 1064, 2461), ('StrategyCenter', 1193, 2186), ('SupplyCenter', 1249, 2369)]
+04:49:54 killed AmericaInfantryRanger
+04:50:00 TRAIN TankPaladin
+04:50:11 killed AmericaTankPaladin
+04:50:13 ATTACK 22 -> [733, 1508] money 175
+04:50:15 killed AmericaJetA10Thunderbolt
+04:50:19 killed AmericaJetA10Hulk
+04:50:20 killed AmericaInfantryRanger
+04:50:21 TRAIN TankPaladin
+04:50:24 STATUS f 52857 money 275 power {'consumed': 32, 'produced': 35} rank 4 {'TankPaladin': 8, 'VehicleTomahawk': 5, 'TankCrusader': 5, 'TankAvenger': 2, 'PowerPlant': 7, 'ParticleCannonUplink': 1, 'FireBase': 4, 'VehicleDozer': 3, 'InfantryRanger': 3, 'InfantryMissileDefender': 3, 'VehicleChinook': 8, 'SupplyCenter': 4, 'SupplyDropZone': 1, 'Airfield': 1, 'PatriotBattery': 3, 'StrategyCenter': 1, 'WarFactory': 2, 'Barracks': 1, 'CommandCenter': 1} vis 6 known [('CommandCenter', 1011, 2103), ('PowerPlant', 900, 2396), ('PowerPlant', 975, 2467), ('PowerPlant', 1064, 2461), ('SupplyCenter', 1249, 2369), ('WarFactory', 1042, 1918)]
+04:50:30 dock err NOT_AVAILABLE none of the units can dock there
+04:50:34 ATTACK 22 -> [1075, 1678] money 275
+04:50:41 DOCK chinook 779 -> SupplyPileSmall [1509, 1284]
+04:50:45 TRAIN TankCrusader
+04:50:46 killed AmericaInfantryRanger
+04:50:50 DOCK chinook 3379 -> SupplyPileSmall [1509, 1284]
+04:50:53 killed AmericaPatriotBattery
+04:50:56 STATUS f 53513 money 725 power {'consumed': 32, 'produced': 35} rank 4 {'TankPaladin': 10, 'VehicleTomahawk': 5, 'TankCrusader': 5, 'TankAvenger': 2, 'PowerPlant': 7, 'ParticleCannonUplink': 1, 'FireBase': 4, 'VehicleDozer': 3, 'InfantryRanger': 3, 'InfantryMissileDefender': 3, 'VehicleChinook': 8, 'SupplyCenter': 4, 'SupplyDropZone': 1, 'Airfield': 1, 'PatriotBattery': 3, 'StrategyCenter': 1, 'WarFactory': 2, 'Barracks': 1, 'CommandCenter': 1} vis 10 known [('PowerPlant', 900, 2396), ('PowerPlant', 975, 2467), ('PowerPlant', 1064, 2461), ('SupplyCenter', 1249, 2369)]
+04:50:59 ATTACK 22 -> [1030, 1710] money 725
+04:51:00 killed AmericaInfantryRanger
+04:51:05 DOCK chinook 162 -> SupplyPileSmall [1509, 1284]
+04:51:06 killed AmericaInfantryRanger
+04:51:06 killed AmericaInfantryRanger
+04:51:14 killed AmericaPatriotBattery
+04:51:16 TRAIN TankPaladin
+04:51:18 DOCK chinook 770 -> SupplyPileSmall [1509, 1284]
+04:51:21 killed AmericaInfantryRanger
+04:51:24 killed AmericaInfantryRanger
+04:51:25 killed AmericaInfantryRanger
+04:51:27 pc err NOT_AVAILABLE use that is not available right now (prerequisites, power or state)
+04:51:27 ATTACK 22 -> [1400, 1650] money 225
+04:51:27 killed AmericaVehicleDozer
+04:51:29 STATUS f 54064 money 225 power {'consumed': 32, 'produced': 35} rank 4 {'TankPaladin': 11, 'VehicleTomahawk': 5, 'TankCrusader': 5, 'TankAvenger': 2, 'PowerPlant': 7, 'ParticleCannonUplink': 1, 'FireBase': 4, 'VehicleDozer': 3, 'InfantryRanger': 3, 'InfantryMissileDefender': 3, 'VehicleChinook': 8, 'SupplyCenter': 4, 'SupplyDropZone': 1, 'Airfield': 1, 'PatriotBattery': 3, 'StrategyCenter': 1, 'WarFactory': 2, 'Barracks': 1, 'CommandCenter': 1} vis 5 known [('PowerPlant', 900, 2396), ('PowerPlant', 975, 2467), ('PowerPlant', 1064, 2461), ('SupplyCenter', 1249, 2369)]
+04:51:30 killed AmericaDeadDozerHulk
+04:51:34 killed AmericaPatriotBattery
+04:51:40 killed AmericaPatriotBattery
+04:51:50 killed AmericaVehicleDozer
+04:51:51 lost AmericaCrateParachute 5777
+04:51:52 lost AmericaCrateParachute 5779
+04:51:52 lost AmericaCrateParachute 5781
+04:51:53 lost AmericaCrateParachute 5783
+04:51:54 killed AmericaDeadDozerHulk
+04:51:55 TRAIN InfantryMissileDefender
+04:51:55 ATTACK 22 -> [1318, 1672] money 1975
+04:51:57 killed AmericaInfantryRanger
+04:51:59 lost AmericaCrateParachute 5785
+04:52:00 lost AmericaCrateParachute 5787
+04:52:01 killed AmericaInfantryRanger
+04:52:01 TRAIN TankAvenger
+04:52:02 STATUS f 54587 money 2175 power {'consumed': 32, 'produced': 35} rank 4 {'TankCrusader': 6, 'TankPaladin': 11, 'VehicleTomahawk': 5, 'TankAvenger': 2, 'PowerPlant': 7, 'ParticleCannonUplink': 1, 'FireBase': 4, 'VehicleDozer': 3, 'InfantryRanger': 3, 'InfantryMissileDefender': 3, 'VehicleChinook': 8, 'SupplyCenter': 4, 'SupplyDropZone': 1, 'Airfield': 1, 'PatriotBattery': 3, 'StrategyCenter': 1, 'WarFactory': 2, 'Barracks': 1, 'CommandCenter': 1} vis 3 known [('PowerPlant', 900, 2396), ('PowerPlant', 975, 2467), ('PowerPlant', 1064, 2461), ('SupplyCenter', 1249, 2369)]
+04:52:04 killed AmericaInfantryRanger
+04:52:06 DOCK chinook 3428 -> SupplyPileSmall [1296, 1448]
+04:52:06 DOCK chinook 3427 -> SupplyPileSmall [1296, 1448]
+04:52:06 DOCK chinook 169 -> SupplyPileSmall [1296, 1448]
+04:52:15 DOCK chinook 166 -> SupplyPileSmall [1296, 1448]
+04:52:23 ATTACK 22 -> [883, 1957] money 775
+04:52:30 dock err NOT_AVAILABLE none of the units can dock there
+04:52:32 TRAIN TankPaladin
+04:52:34 STATUS f 55161 money 275 power {'consumed': 32, 'produced': 35} rank 4 {'TankAvenger': 3, 'TankPaladin': 12, 'InfantryMissileDefender': 4, 'TankCrusader': 6, 'VehicleTomahawk': 5, 'PowerPlant': 7, 'ParticleCannonUplink': 1, 'FireBase': 4, 'VehicleDozer': 3, 'InfantryRanger': 3, 'VehicleChinook': 8, 'SupplyCenter': 4, 'SupplyDropZone': 1, 'Airfield': 1, 'PatriotBattery': 3, 'StrategyCenter': 1, 'WarFactory': 2, 'Barracks': 1, 'CommandCenter': 1} vis 2 known [('PowerPlant', 900, 2396), ('PowerPlant', 975, 2467), ('PowerPlant', 1064, 2461), ('SupplyCenter', 1249, 2369)]
+04:52:49 ATTACK 22 -> [883, 1957] money 425
+04:53:06 STATUS f 55748 money 425 power {'consumed': 32, 'produced': 35} rank 4 {'TankPaladin': 13, 'TankAvenger': 3, 'InfantryMissileDefender': 4, 'TankCrusader': 6, 'VehicleTomahawk': 5, 'PowerPlant': 7, 'ParticleCannonUplink': 1, 'FireBase': 4, 'VehicleDozer': 3, 'InfantryRanger': 3, 'VehicleChinook': 8, 'SupplyCenter': 4, 'SupplyDropZone': 1, 'Airfield': 1, 'PatriotBattery': 3, 'StrategyCenter': 1, 'WarFactory': 2, 'Barracks': 1, 'CommandCenter': 1} vis 8 known []
+04:53:11 killed AmericaVehicleDozer
+04:53:14 killed AmericaDeadDozerHulk
+04:53:15 ATTACK 22 -> [883, 1957] money 425
+04:53:26 eva SUPERWEAPONREADY_OWN_PARTICLECANNON
+04:53:36 ATTACK 22 -> [883, 1957] money 425
+04:53:38 STATUS f 56429 money 425 power {'consumed': 32, 'produced': 35} rank 4 {'TankPaladin': 13, 'TankAvenger': 3, 'InfantryMissileDefender': 4, 'TankCrusader': 6, 'VehicleTomahawk': 5, 'PowerPlant': 7, 'ParticleCannonUplink': 1, 'FireBase': 4, 'VehicleDozer': 3, 'InfantryRanger': 3, 'VehicleChinook': 8, 'SupplyCenter': 4, 'SupplyDropZone': 1, 'Airfield': 1, 'PatriotBattery': 3, 'StrategyCenter': 1, 'WarFactory': 2, 'Barracks': 1, 'CommandCenter': 1} vis 7 known []
+04:53:55 ATTACK 22 -> [883, 1957] money 425
+04:54:10 STATUS f 57163 money 425 power {'consumed': 32, 'produced': 35} rank 4 {'TankPaladin': 13, 'TankAvenger': 3, 'InfantryMissileDefender': 4, 'TankCrusader': 6, 'VehicleTomahawk': 5, 'PowerPlant': 7, 'ParticleCannonUplink': 1, 'FireBase': 4, 'VehicleDozer': 3, 'InfantryRanger': 3, 'VehicleChinook': 8, 'SupplyCenter': 4, 'SupplyDropZone': 1, 'Airfield': 1, 'PatriotBattery': 3, 'StrategyCenter': 1, 'WarFactory': 2, 'Barracks': 1, 'CommandCenter': 1} vis 7 known []
+04:54:17 ATTACK 22 -> [883, 1957] money 425
+04:54:36 ATTACK 22 -> [883, 1957] money 425
+04:54:42 STATUS f 57940 money 425 power {'consumed': 32, 'produced': 35} rank 4 {'CrateParachute': 6, 'TankPaladin': 13, 'TankAvenger': 3, 'InfantryMissileDefender': 4, 'TankCrusader': 6, 'VehicleTomahawk': 5, 'PowerPlant': 7, 'ParticleCannonUplink': 1, 'FireBase': 4, 'VehicleDozer': 3, 'InfantryRanger': 3, 'VehicleChinook': 8, 'SupplyCenter': 4, 'SupplyDropZone': 1, 'Airfield': 1, 'PatriotBattery': 3, 'StrategyCenter': 1, 'WarFactory': 2, 'Barracks': 1, 'CommandCenter': 1} vis 7 known []
+04:54:46 lost AmericaCrateParachute 6048
+04:54:46 lost AmericaCrateParachute 6050
+04:54:47 lost AmericaCrateParachute 6052
+04:54:47 lost AmericaCrateParachute 6054
+04:54:48 TRAIN TankPaladin
+04:54:52 lost AmericaCrateParachute 6056
+04:54:52 lost AmericaCrateParachute 6058
+04:54:57 ATTACK 22 -> [883, 1957] money 825
+04:55:09 PARTICLE CANNON at AmericaWarFactory [1200, 1864]
+04:55:09 BATTLEPLAN search and destroy
+04:55:09 WAVE 34 -> [1200, 1864]
+04:55:09 eva SUPERWEAPONLAUNCHED_OWN_PARTICLECANNON
+04:55:18 dock err NOT_AVAILABLE none of the units can dock there
+04:55:18 dock err NOT_AVAILABLE none of the units can dock there
+04:55:18 dock err NOT_AVAILABLE none of the units can dock there
+04:55:18 dock err NOT_AVAILABLE none of the units can dock there
+04:55:18 dock err NOT_AVAILABLE none of the units can dock there
+04:55:18 dock err NOT_AVAILABLE none of the units can dock there
+04:55:18 dock err NOT_AVAILABLE none of the units can dock there
+04:55:18 dock err NOT_AVAILABLE none of the units can dock there
+04:55:26 lost AmericaTankCrusader 4649
+04:55:26 eva UNITLOST
+04:55:38 POWER Command_A10ThunderboltMissileStrike at [900, 2396] AmericaPowerPlant
+04:55:40 ATTACK 33 -> [883, 1957] money 825
+04:55:40 STATUS f 58927 money 825 power {'consumed': 32, 'produced': 35} rank 4 {'ParticleUplinkCannonTrailRemnant': 10, 'TankPaladin': 14, 'TankAvenger': 3, 'InfantryMissileDefender': 4, 'TankCrusader': 5, 'VehicleTomahawk': 5, 'PowerPlant': 7, 'ParticleCannonUplink': 1, 'FireBase': 4, 'VehicleDozer': 3, 'InfantryRanger': 3, 'VehicleChinook': 8, 'SupplyCenter': 4, 'SupplyDropZone': 1, 'Airfield': 1, 'PatriotBattery': 3, 'StrategyCenter': 1, 'WarFactory': 2, 'Barracks': 1, 'CommandCenter': 1} vis 7 known []
+04:55:46 lost AmericaTankCrusader 3473
+04:56:09 ATTACK 32 -> [883, 1957] money 825
+04:56:11 STATUS f 59427 money 825 power {'consumed': 32, 'produced': 35} rank 4 {'TankPaladin': 14, 'TankAvenger': 3, 'InfantryMissileDefender': 4, 'TankCrusader': 4, 'VehicleTomahawk': 5, 'PowerPlant': 7, 'ParticleCannonUplink': 1, 'FireBase': 4, 'VehicleDozer': 3, 'InfantryRanger': 3, 'VehicleChinook': 8, 'SupplyCenter': 4, 'SupplyDropZone': 1, 'Airfield': 1, 'PatriotBattery': 3, 'StrategyCenter': 1, 'WarFactory': 2, 'Barracks': 1, 'CommandCenter': 1} vis 7 known []
+04:56:23 killed AmericaPowerPlant
+04:56:24 killed AmericaInfantryRanger
+04:56:24 killed AmericaInfantryRanger
+04:56:35 dock err NOT_AVAILABLE none of the units can dock there
+04:56:35 dock err NOT_AVAILABLE none of the units can dock there
+04:56:35 dock err NOT_AVAILABLE none of the units can dock there
+04:56:35 dock err NOT_AVAILABLE none of the units can dock there
+04:56:35 dock err NOT_AVAILABLE none of the units can dock there
+04:56:35 dock err NOT_AVAILABLE none of the units can dock there
+04:56:35 dock err NOT_AVAILABLE none of the units can dock there
+04:56:35 dock err NOT_AVAILABLE none of the units can dock there
+04:56:37 ATTACK 32 -> [883, 1957] money 825
+04:56:41 lost AmericaInfantryRanger 4089
+04:56:41 eva UNITLOST
+04:56:41 lost AmericaTankPaladin 4802
+04:56:44 STATUS f 59961 money 825 power {'consumed': 32, 'produced': 35} rank 4 {'TankPaladin': 13, 'TankAvenger': 3, 'InfantryMissileDefender': 4, 'TankCrusader': 4, 'VehicleTomahawk': 5, 'PowerPlant': 7, 'ParticleCannonUplink': 1, 'FireBase': 4, 'VehicleDozer': 3, 'InfantryRanger': 2, 'VehicleChinook': 8, 'SupplyCenter': 4, 'SupplyDropZone': 1, 'Airfield': 1, 'PatriotBattery': 3, 'StrategyCenter': 1, 'WarFactory': 2, 'Barracks': 1, 'CommandCenter': 1} vis 6 known []
+04:56:45 killed AmericaJetA10Thunderbolt
+04:56:50 killed AmericaJetA10Hulk
+04:57:03 pc err NOT_AVAILABLE use that is not available right now (prerequisites, power or state)
+04:57:05 ATTACK 30 -> [883, 1957] money 825
+04:57:17 STATUS f 60545 money 825 power {'consumed': 32, 'produced': 35} rank 4 {'TankPaladin': 13, 'TankAvenger': 3, 'InfantryMissileDefender': 4, 'TankCrusader': 4, 'VehicleTomahawk': 5, 'PowerPlant': 7, 'ParticleCannonUplink': 1, 'FireBase': 4, 'VehicleDozer': 3, 'InfantryRanger': 2, 'VehicleChinook': 8, 'SupplyCenter': 4, 'SupplyDropZone': 1, 'Airfield': 1, 'PatriotBattery': 3, 'StrategyCenter': 1, 'WarFactory': 2, 'Barracks': 1, 'CommandCenter': 1} vis 6 known []
+04:57:36 ATTACK 30 -> [883, 1957] money 825
+04:57:50 STATUS f 61030 money 825 power {'consumed': 32, 'produced': 35} rank 4 {'TankPaladin': 13, 'TankAvenger': 3, 'InfantryMissileDefender': 4, 'TankCrusader': 4, 'VehicleTomahawk': 5, 'PowerPlant': 7, 'ParticleCannonUplink': 1, 'FireBase': 4, 'VehicleDozer': 3, 'InfantryRanger': 2, 'VehicleChinook': 8, 'SupplyCenter': 4, 'SupplyDropZone': 1, 'Airfield': 1, 'PatriotBattery': 3, 'StrategyCenter': 1, 'WarFactory': 2, 'Barracks': 1, 'CommandCenter': 1} vis 6 known []
+04:58:12 ATTACK 30 -> [883, 1957] money 825
+04:58:16 tick exception ConnectionClosed("connection closed (code=4001, reason='superseded')")
+04:58:16 Traceback (most recent call last):
+  File "C:\Users\user\Documents\CNC_Generals_AI\agent-matches\20261101-041421\bot2\bot.py", line 478, in main
+    await bot.tick()
+  File "C:\Users\user\Documents\CNC_Generals_AI\agent-matches\20261101-041421\bot2\bot.py", line 129, in tick
+    s = await self.c.state()
+        ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Documents\CNC_Generals_AI\python\generals_api\client.py", line 234, in state
+    return await self.request("state")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Documents\CNC_Generals_AI\python\generals_api\client.py", line 91, in request
+    raise ConnectionClosed(self.close_code, self.close_reason)
+generals_api.client.ConnectionClosed: connection closed (code=4001, reason='superseded')
+
+04:58:16 exiting; over= False
+04:58:41 TRAIN TankPaladin
+04:58:42 lost AmericaCrateParachute 6255
+04:58:42 BATTLEPLAN search and destroy
+04:58:42 WAVE 31 -> [1200, 1864]
+04:58:50 lost AmericaCrateParachute 6257
+04:58:51 dock err NOT_AVAILABLE none of the units can dock there
+04:58:51 dock err NOT_AVAILABLE none of the units can dock there
+04:58:51 dock err NOT_AVAILABLE none of the units can dock there
+04:58:51 dock err NOT_AVAILABLE none of the units can dock there
+04:58:51 dock err NOT_AVAILABLE none of the units can dock there
+04:58:51 dock err NOT_AVAILABLE none of the units can dock there
+04:58:51 lost AmericaCrateParachute 6259
+04:58:51 dock err NOT_AVAILABLE none of the units can dock there
+04:58:51 dock err NOT_AVAILABLE none of the units can dock there
+04:58:52 TRAIN TankCrusader
+04:59:12 SIEGE 31 -> WarFactory CommandCenter
+04:59:15 STATUS f 61987 money 325 power {'consumed': 32, 'produced': 35} rank 4 {'TankPaladin': 13, 'TankAvenger': 3, 'InfantryMissileDefender': 4, 'TankCrusader': 4, 'VehicleTomahawk': 5, 'PowerPlant': 7, 'ParticleCannonUplink': 1, 'FireBase': 4, 'VehicleDozer': 3, 'InfantryRanger': 2, 'VehicleChinook': 8, 'SupplyCenter': 4, 'SupplyDropZone': 1, 'Airfield': 1, 'PatriotBattery': 3, 'StrategyCenter': 1, 'WarFactory': 2, 'Barracks': 1, 'CommandCenter': 1} vis 6 known []
+04:59:26 killed AmericaWarFactory
+04:59:31 lost AmericaInfantryRanger 2699
+04:59:31 eva UNITLOST
+04:59:32 lost AmericaInfantryMissileDefender 3071
+04:59:33 TRAIN InfantryRanger
+04:59:49 killed AmericaInfantryRanger
+04:59:50 STATUS f 62261 money 100 power {'consumed': 32, 'produced': 35} rank 4 {'TankCrusader': 5, 'TankPaladin': 14, 'TankAvenger': 3, 'InfantryMissileDefender': 3, 'VehicleTomahawk': 5, 'PowerPlant': 7, 'ParticleCannonUplink': 1, 'FireBase': 4, 'VehicleDozer': 3, 'InfantryRanger': 1, 'VehicleChinook': 8, 'SupplyCenter': 4, 'SupplyDropZone': 1, 'Airfield': 1, 'PatriotBattery': 3, 'StrategyCenter': 1, 'WarFactory': 2, 'Barracks': 1, 'CommandCenter': 1} vis 9 known []
+04:59:52 ATTACK 29 -> [885, 1971] money 100
+04:59:53 killed AmericaInfantryRanger
+04:59:53 killed AmericaInfantryRanger
+04:59:53 killed AmericaInfantryRanger
+04:59:53 killed AmericaInfantryRanger
+05:00:20 SIEGE 29 -> CommandCenter SupplyCenter
+05:00:22 STATUS f 62626 money 100 power {'consumed': 32, 'produced': 35} rank 4 {'InfantryRanger': 2, 'TankCrusader': 5, 'TankPaladin': 14, 'TankAvenger': 3, 'InfantryMissileDefender': 3, 'VehicleTomahawk': 5, 'PowerPlant': 7, 'ParticleCannonUplink': 1, 'FireBase': 4, 'VehicleDozer': 3, 'VehicleChinook': 8, 'SupplyCenter': 4, 'SupplyDropZone': 1, 'Airfield': 1, 'PatriotBattery': 3, 'StrategyCenter': 1, 'WarFactory': 2, 'Barracks': 1, 'CommandCenter': 1} vis 5 known []
+05:00:27 killed AmericaCommandCenter
+05:00:27 eva GENERALLEVELUP
+05:00:29 SCIENCE SCIENCE_EmergencyRepair1
+05:00:31 SCIENCE SCIENCE_A10ThunderboltMissileStrike2
+05:00:34 lost AmericaVehicleTomahawk 3996
+05:00:34 eva UNITLOST
+05:00:34 SCIENCE SCIENCE_SpectreGunship1
+05:00:34 lost AmericaVehicleTomahawkHulk 6896
+05:00:34 POWER Command_SpectreGunship at [1022, 2116] AmericaInfantryRanger
+05:00:35 lost AmericaTankAvenger 4200
+05:00:35 lost AmericaTankAvengerLaserTurret 4201
+05:00:37 lost AmericaTankPaladin 4397
+05:00:40 killed AmericaInfantryRanger
+05:00:40 killed AmericaInfantryRanger
+05:00:40 killed AmericaInfantryRanger
+05:00:41 ATTACK 26 -> [990, 2058] money 100
+05:00:43 lost AmericaInfantryPilot 6950
+05:00:45 dock err NOT_AVAILABLE none of the units can dock there
+05:00:45 dock err NOT_AVAILABLE none of the units can dock there
+05:00:45 dock err NOT_AVAILABLE none of the units can dock there
+05:00:45 dock err NOT_AVAILABLE none of the units can dock there
+05:00:45 dock err NOT_AVAILABLE none of the units can dock there
+05:00:45 dock err NOT_AVAILABLE none of the units can dock there
+05:00:45 dock err NOT_AVAILABLE none of the units can dock there
+05:00:45 dock err NOT_AVAILABLE none of the units can dock there
+05:00:46 lost AmericaVehicleTomahawk 4546
+05:00:46 killed AmericaInfantryRanger
+05:00:46 lost AmericaVehicleTomahawkHulk 7073
+05:00:49 killed AmericaInfantryRanger
+05:00:49 killed AmericaInfantryRanger
+05:00:49 killed AmericaInfantryRanger
+05:00:52 killed AmericaInfantryRanger
+05:00:55 killed AmericaInfantryRanger
+05:00:55 killed AmericaInfantryRanger
+05:00:56 STATUS f 63167 money 100 power {'consumed': 32, 'produced': 35} rank 5 {'InfantryRanger': 2, 'TankCrusader': 5, 'TankPaladin': 13, 'TankAvenger': 2, 'InfantryMissileDefender': 3, 'VehicleTomahawk': 3, 'PowerPlant': 7, 'ParticleCannonUplink': 1, 'FireBase': 4, 'VehicleDozer': 3, 'VehicleChinook': 8, 'SupplyCenter': 4, 'SupplyDropZone': 1, 'Airfield': 1, 'PatriotBattery': 3, 'StrategyCenter': 1, 'WarFactory': 2, 'Barracks': 1, 'CommandCenter': 1} vis 4 known []
+05:01:00 SIEGE 25 -> SupplyCenter SupplyCenter
+05:01:15 killed AmericaSupplyCenter
+05:01:19 ATTACK 25 -> [655, 2280] money 100
+05:01:25 POWER Command_SpectreGunship at [717, 2241] AmericaInfantryRanger
+05:01:27 STATUS f 63742 money 100 power {'consumed': 32, 'produced': 35} rank 5 {'InfantryRanger': 2, 'TankCrusader': 5, 'TankPaladin': 13, 'TankAvenger': 2, 'InfantryMissileDefender': 3, 'VehicleTomahawk': 3, 'PowerPlant': 7, 'ParticleCannonUplink': 1, 'FireBase': 4, 'VehicleDozer': 3, 'VehicleChinook': 8, 'SupplyCenter': 4, 'SupplyDropZone': 1, 'Airfield': 1, 'PatriotBattery': 3, 'StrategyCenter': 1, 'WarFactory': 2, 'Barracks': 1, 'CommandCenter': 1} vis 6 known []
+05:01:29 killed AmericaInfantryRanger
+05:01:32 killed AmericaInfantryRanger
+05:01:33 killed AmericaInfantryRanger
+05:01:36 SIEGE 25 -> SupplyCenter PowerPlant
+05:01:42 killed AmericaPowerPlant
+05:01:52 killed AmericaInfantryRanger
+05:01:53 ATTACK 25 -> [985, 2408] money 100
+05:01:54 killed AmericaInfantryRanger
+05:01:55 killed AmericaSupplyCenter
+05:01:59 STATUS f 64364 money 100 power {'consumed': 32, 'produced': 35} rank 5 {'InfantryRanger': 2, 'TankCrusader': 5, 'TankPaladin': 13, 'TankAvenger': 2, 'InfantryMissileDefender': 3, 'VehicleTomahawk': 3, 'PowerPlant': 7, 'ParticleCannonUplink': 1, 'FireBase': 4, 'VehicleDozer': 3, 'VehicleChinook': 8, 'SupplyCenter': 4, 'SupplyDropZone': 1, 'Airfield': 1, 'PatriotBattery': 3, 'StrategyCenter': 1, 'WarFactory': 2, 'Barracks': 1, 'CommandCenter': 1} vis 4 known []
+05:02:09 ATTACK 25 -> [1094, 2255] money 100
+05:02:10 lost AmericaInfantryMissileDefender 6027
+05:02:10 eva UNITLOST
+05:02:12 POWER Command_SpectreGunship at [1096, 2252] AmericaInfantryRanger
+05:02:12 killed AmericaInfantryRanger
+05:02:12 killed AmericaInfantryRanger
+05:02:13 killed AmericaInfantryRanger
+05:02:24 SIEGE 24 -> PowerPlant PowerPlant
+05:02:26 killed AmericaPowerPlant
+05:02:26 GAME OVER {'event': 'game_over', 'frame': 64924, 'result': 'victory', 'type': 'event'}
+05:02:26 exiting; over= True

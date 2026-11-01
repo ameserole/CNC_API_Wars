@@ -1,0 +1,24 @@
+08:25:17 home [1004.8322143554688, 583.6339721679688, 40.0] enemy [1010.8099975585938, 2102.68994140625]
+08:25:17 placed Tank_ChinaPowerPlant 147
+08:25:49 placed Tank_ChinaSupplyCenter 150
+08:26:02 placed Tank_ChinaBarracks 153
+08:26:18 placed Tank_ChinaWarFactory 155
+08:27:05 tanks 1 money None
+08:27:30 tanks 3 money None
+08:27:30 train INSUFFICIENT_FUNDS
+08:27:55 tanks 4 money None
+08:27:55 train INSUFFICIENT_FUNDS
+08:28:20 tanks 6 money None
+08:28:20 train INSUFFICIENT_FUNDS
+08:28:45 tanks 7 money None
+08:28:45 train INSUFFICIENT_FUNDS
+08:29:10 tanks 8 money None
+08:29:10 atk CANNOT_ATTACK: none of the units can attack that target
+08:29:10 train INSUFFICIENT_FUNDS
+08:29:35 tanks 8 money None
+08:29:35 atk CANNOT_ATTACK: none of the units can attack that target
+08:29:35 train INSUFFICIENT_FUNDS
+08:30:00 tanks 6 money None
+08:30:00 train INSUFFICIENT_FUNDS
+08:30:25 tanks 6 money None
+08:30:25 train INSUFFICIENT_FUNDS

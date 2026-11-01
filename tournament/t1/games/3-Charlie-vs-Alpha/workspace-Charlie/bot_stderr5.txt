@@ -1,0 +1,13 @@
+Task exception was never retrieved
+future: <Task finished name='Task-8' coro=<Bot.build() done, defined at C:\Users\user\Documents\CNC_Generals_AI\tournament\t1\agents\Charlie\macro_bot.py:106> exception=ConnectionClosed("connection closed (code=4001, reason='superseded')")>
+Traceback (most recent call last):
+  File "C:\Users\user\Documents\CNC_Generals_AI\tournament\t1\agents\Charlie\macro_bot.py", line 118, in build
+    if bid is None:
+        ^^^^^^^^^^^^
+  File "C:\Users\user\Documents\CNC_Generals_AI\python\generals_api\client.py", line 376, in wait_for_event
+    return await asyncio.wait_for(future, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+generals_api.client.ConnectionClosed: connection closed (code=4001, reason='superseded')

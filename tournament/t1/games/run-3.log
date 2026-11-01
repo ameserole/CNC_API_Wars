@@ -1,0 +1,4 @@
+08:49:35 game 3: Charlie (FactionChinaTankGeneral) hosts Alpha (FactionChinaTankGeneral)
+08:49:51 READY {"folder": "3-Charlie-vs-Alpha", "players": {"Charlie": {"port": 56706, "faction": "FactionChinaTankGeneral"}, "Alpha": {"port": 56707, "faction": "FactionChinaTankGeneral"}}}
+08:57:50 game 3 ended at frame 13104: game_over
+RESULT {"number": 3, "winner": "Charlie", "loser": "Alpha", "reason": "game_over", "tiebreak": null, "game_minutes": 7.28}

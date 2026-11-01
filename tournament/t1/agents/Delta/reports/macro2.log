@@ -1,0 +1,262 @@
+08:37:55 start home=[1004.8322143554688, 583.6339721679688] enemy=[1010.8099975585938, 2102.68994140625] dozer=146 money=10000 sc_near=(727.7142109676684, 243.31516771587457)
+08:37:55 build AmericaPowerPlant at (1254.8322143554688, 583.6339721679688) accepted: {'client_frame': 2476, 'messages': 1, 'ok': True, 'reply_to': 7, 'type': 'reply'}
+08:37:55 construction_started AmericaPowerPlant id=152
+08:38:05 status money=9200 power={'consumed': 0, 'produced': 0} units=[('PowerPlant', 'under_construction', 1), ('VehicleDozer', '', 250), ('CommandCenter', '', 5000)]
+08:38:15 status money=9200 power={'consumed': 0, 'produced': 0} units=[('PowerPlant', 'under_construction', 383), ('VehicleDozer', 'idle', 250), ('CommandCenter', '', 5000)]
+08:38:25 status money=9200 power={'consumed': 0, 'produced': 0} units=[('PowerPlant', 'under_construction', 772), ('VehicleDozer', 'idle', 250), ('CommandCenter', '', 5000)]
+08:38:25 built AmericaPowerPlant id=152
+08:38:25 build AmericaBarracks refused ILLEGAL_LOCATION: ILLEGAL_LOCATION: objects_in_the_way
+08:38:25 build AmericaBarracks at (1221.3385653015785, 708.6339721679688) accepted: {'client_frame': 3373, 'messages': 1, 'ok': True, 'reply_to': 12, 'type': 'reply'}
+08:38:26 construction_started AmericaBarracks id=158
+08:38:35 status money=8600 power={'consumed': 0, 'produced': 5} units=[('Barracks', 'under_construction', 567), ('PowerPlant', '', 800), ('VehicleDozer', 'idle', 250), ('CommandCenter', '', 5000)]
+08:38:39 built AmericaBarracks id=158
+08:38:39 build AmericaSupplyCenter refused ILLEGAL_LOCATION: ILLEGAL_LOCATION: shroud
+08:38:39 build AmericaSupplyCenter refused ILLEGAL_LOCATION: ILLEGAL_LOCATION: shroud
+08:38:39 build AmericaSupplyCenter refused ILLEGAL_LOCATION: ILLEGAL_LOCATION: shroud
+08:38:39 build AmericaSupplyCenter refused ILLEGAL_LOCATION: ILLEGAL_LOCATION: shroud
+08:38:39 build AmericaSupplyCenter refused ILLEGAL_LOCATION: ILLEGAL_LOCATION: shroud
+08:38:39 build AmericaSupplyCenter refused ILLEGAL_LOCATION: ILLEGAL_LOCATION: shroud
+08:38:39 build AmericaSupplyCenter refused ILLEGAL_LOCATION: ILLEGAL_LOCATION: shroud
+08:38:39 build AmericaSupplyCenter refused ILLEGAL_LOCATION: ILLEGAL_LOCATION: shroud
+08:38:39 build AmericaSupplyCenter refused ILLEGAL_LOCATION: ILLEGAL_LOCATION: shroud
+08:38:39 build AmericaSupplyCenter refused ILLEGAL_LOCATION: ILLEGAL_LOCATION: shroud
+08:38:39 build AmericaSupplyCenter refused ILLEGAL_LOCATION: ILLEGAL_LOCATION: shroud
+08:38:39 build AmericaSupplyCenter refused ILLEGAL_LOCATION: ILLEGAL_LOCATION: shroud
+08:38:39 build AmericaSupplyCenter refused ILLEGAL_LOCATION: ILLEGAL_LOCATION: shroud
+08:38:39 build AmericaSupplyCenter refused ILLEGAL_LOCATION: ILLEGAL_LOCATION: shroud
+08:38:39 build AmericaSupplyCenter refused ILLEGAL_LOCATION: ILLEGAL_LOCATION: shroud
+08:38:39 build AmericaSupplyCenter refused ILLEGAL_LOCATION: ILLEGAL_LOCATION: shroud
+08:38:39 build AmericaSupplyCenter refused ILLEGAL_LOCATION: ILLEGAL_LOCATION: shroud
+08:38:39 build AmericaSupplyCenter refused ILLEGAL_LOCATION: ILLEGAL_LOCATION: shroud
+08:38:39 build AmericaSupplyCenter refused ILLEGAL_LOCATION: ILLEGAL_LOCATION: shroud
+08:38:39 build AmericaSupplyCenter refused ILLEGAL_LOCATION: ILLEGAL_LOCATION: shroud
+08:38:39 build AmericaSupplyCenter refused ILLEGAL_LOCATION: ILLEGAL_LOCATION: shroud
+08:38:39 build AmericaSupplyCenter refused ILLEGAL_LOCATION: ILLEGAL_LOCATION: shroud
+08:38:39 build AmericaSupplyCenter refused ILLEGAL_LOCATION: ILLEGAL_LOCATION: shroud
+08:38:39 build AmericaSupplyCenter refused ILLEGAL_LOCATION: ILLEGAL_LOCATION: shroud
+08:38:39 build AmericaSupplyCenter refused ILLEGAL_LOCATION: ILLEGAL_LOCATION: shroud
+08:38:39 build AmericaSupplyCenter refused ILLEGAL_LOCATION: ILLEGAL_LOCATION: shroud
+08:38:39 build AmericaSupplyCenter refused ILLEGAL_LOCATION: ILLEGAL_LOCATION: shroud
+08:38:39 build AmericaSupplyCenter refused ILLEGAL_LOCATION: ILLEGAL_LOCATION: shroud
+08:38:39 build AmericaSupplyCenter refused ILLEGAL_LOCATION: ILLEGAL_LOCATION: shroud
+08:38:39 build AmericaSupplyCenter refused ILLEGAL_LOCATION: ILLEGAL_LOCATION: shroud
+08:38:39 build AmericaSupplyCenter refused ILLEGAL_LOCATION: ILLEGAL_LOCATION: shroud
+08:38:39 build AmericaSupplyCenter refused ILLEGAL_LOCATION: ILLEGAL_LOCATION: shroud
+08:38:39 build AmericaSupplyCenter refused ILLEGAL_LOCATION: ILLEGAL_LOCATION: shroud
+08:38:39 build AmericaSupplyCenter refused ILLEGAL_LOCATION: ILLEGAL_LOCATION: shroud
+08:38:39 build AmericaSupplyCenter refused ILLEGAL_LOCATION: ILLEGAL_LOCATION: shroud
+08:38:39 build AmericaSupplyCenter refused ILLEGAL_LOCATION: ILLEGAL_LOCATION: shroud
+08:38:39 build AmericaSupplyCenter refused ILLEGAL_LOCATION: ILLEGAL_LOCATION: shroud
+08:38:39 build AmericaSupplyCenter at (866.2782755731786, 323.31516771587457) accepted: {'client_frame': 3786, 'messages': 1, 'ok': True, 'reply_to': 51, 'type': 'reply'}
+08:38:40 construction_started AmericaSupplyCenter id=160
+08:38:45 status money=6600 power={'consumed': 0, 'produced': 5} units=[('SupplyCenter', 'under_construction', 1), ('Barracks', '', 1000), ('PowerPlant', '', 800), ('VehicleDozer', '', 250), ('CommandCenter', '', 5000)]
+08:38:50 CRASH Traceback (most recent call last):
+  File "C:\Users\user\Documents\CNC_Generals_AI\tournament\t1\agents\Delta\scripts\macro2.py", line 116, in <module>
+    if len(army) >= ATTACK_MIN:
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\user\Documents\CNC_Generals_AI\tournament\t1\agents\Delta\scripts\macro2.py", line 83, in main
+    # Resume: reuse buildings already placed (run 2 placed power + barracks before the supply spot failed).
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Documents\CNC_Generals_AI\tournament\t1\agents\Delta\scripts\macro2.py", line 48, in build
+    await client.wait_for_event("construction_complete", lambda e: e["id"] == b, timeout=300)
+  File "C:\Users\user\Documents\CNC_Generals_AI\python\generals_api\client.py", line 376, in wait_for_event
+    return await asyncio.wait_for(future, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+generals_api.client.ConnectionClosed: connection closed (code=4001, reason='superseded')
+
+08:38:50 start home=[1004.8322143554688, 583.6339721679688] enemy=[1010.8099975585938, 2102.68994140625] dozer=146 money=6600 sc_near=(727.7142109676684, 243.31516771587457)
+08:38:50 build AmericaWarFactory refused NOT_AVAILABLE: NOT_AVAILABLE: cannot be made right now (prerequisites or disabled factory)
+08:38:50 done build: power=152 barracks=158 factory=None supply=160 power2=None
+08:39:00 status money=5475 power={'consumed': 0, 'produced': 5} units=[('InfantryRanger', 'idle', 180), ('SupplyCenter', 'under_construction', 1420), ('Barracks', '', 1000), ('PowerPlant', '', 800), ('VehicleDozer', 'idle', 250), ('CommandCenter', '', 5000)]
+08:39:05 start home=[1004.8322143554688, 583.6339721679688] enemy=[1010.8099975585938, 2102.68994140625] dozer=146 money=5475 sc_near=(727.7142109676684, 243.31516771587457)
+08:39:10 status error ConnectionClosed("connection closed (code=4001, reason='superseded')")
+08:39:15 CRASH Traceback (most recent call last):
+  File "C:\Users\user\Documents\CNC_Generals_AI\tournament\t1\agents\Delta\scripts\macro2.py", line 122, in <module>
+    snap = await client.state()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\user\Documents\CNC_Generals_AI\tournament\t1\agents\Delta\scripts\macro2.py", line 112, in main
+    if barracks is not None:
+       ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Documents\CNC_Generals_AI\python\generals_api\client.py", line 242, in state
+    return await self.request("state")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Documents\CNC_Generals_AI\python\generals_api\client.py", line 91, in request
+    raise ConnectionClosed(self.close_code, self.close_reason)
+generals_api.client.ConnectionClosed: connection closed (code=4001, reason='superseded')
+
+08:39:15 status money=5475 power={'consumed': 1, 'produced': 5} units=[('InfantryRanger', 'idle', 180), ('InfantryRanger', 'idle', 180), ('VehicleChinook', 'harvesting', 300), ('InfantryRanger', 'idle', 180), ('InfantryRanger', 'idle', 180), ('SupplyCenter', '', 2000), ('Barracks', '', 1000), ('PowerPlant', '', 800), ('VehicleDozer', 'idle', 250), ('CommandCenter', '', 5000)]
+08:39:25 status money=5475 power={'consumed': 1, 'produced': 5} units=[('InfantryRanger', 'idle', 180), ('InfantryRanger', 'idle', 180), ('InfantryRanger', 'idle', 180), ('VehicleChinook', 'harvesting', 300), ('InfantryRanger', 'idle', 180), ('InfantryRanger', 'idle', 180), ('SupplyCenter', '', 2000), ('Barracks', '', 1000), ('PowerPlant', '', 800), ('VehicleDozer', 'idle', 250), ('CommandCenter', '', 5000)]
+08:39:34 CRASH Traceback (most recent call last):
+  File "C:\Users\user\Documents\CNC_Generals_AI\tournament\t1\agents\Delta\scripts\macro2.py", line 132, in <module>
+    log(f"attack-move {len(army)} units to {enemy_start} money={world.money}")
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\user\Documents\CNC_Generals_AI\tournament\t1\agents\Delta\scripts\macro2.py", line 94, in main
+    if sc is not None and sc.get("status") and "under_construction" in sc["status"]:
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Documents\CNC_Generals_AI\python\generals_api\client.py", line 376, in wait_for_event
+    return await asyncio.wait_for(future, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+generals_api.client.ConnectionClosed: connection closed (code=4001, reason='superseded')
+
+08:39:34 start home=[1004.8322143554688, 583.6339721679688] enemy=[1010.8099975585938, 2102.68994140625] dozer=146 money=6075 sc_near=(727.7142109676684, 243.31516771587457)
+08:39:34 supply center 160 already complete
+08:39:34 build AmericaWarFactory refused ILLEGAL_LOCATION: ILLEGAL_LOCATION: objects_in_the_way
+08:39:34 build AmericaWarFactory refused ILLEGAL_LOCATION: ILLEGAL_LOCATION: objects_in_the_way
+08:39:34 build AmericaWarFactory refused ILLEGAL_LOCATION: ILLEGAL_LOCATION: objects_in_the_way
+08:39:34 build AmericaWarFactory at (1004.8322143554688, 833.6339721679688) accepted: {'client_frame': 5368, 'messages': 1, 'ok': True, 'reply_to': 10, 'type': 'reply'}
+08:39:34 construction_started AmericaWarFactory id=169
+08:39:44 status money=4075 power={'consumed': 1, 'produced': 5} units=[('WarFactory', 'under_construction', 1), ('InfantryRanger', 'idle', 180), ('InfantryRanger', 'idle', 180), ('InfantryRanger', 'idle', 180), ('VehicleChinook', 'harvesting', 300), ('InfantryRanger', 'idle', 180), ('InfantryRanger', 'idle', 180), ('SupplyCenter', '', 2000), ('Barracks', '', 1000), ('PowerPlant', '', 800), ('VehicleDozer', '', 250), ('CommandCenter', '', 5000)]
+08:39:54 status money=4075 power={'consumed': 1, 'produced': 5} units=[('WarFactory', 'under_construction', 654), ('InfantryRanger', 'idle', 180), ('InfantryRanger', 'idle', 180), ('InfantryRanger', 'idle', 180), ('VehicleChinook', 'harvesting', 300), ('InfantryRanger', 'idle', 180), ('InfantryRanger', 'idle', 180), ('SupplyCenter', '', 2000), ('Barracks', '', 1000), ('PowerPlant', '', 800), ('VehicleDozer', 'idle', 250), ('CommandCenter', '', 5000)]
+08:40:04 status money=4675 power={'consumed': 1, 'produced': 5} units=[('WarFactory', 'under_construction', 1952), ('InfantryRanger', 'idle', 180), ('InfantryRanger', 'idle', 180), ('InfantryRanger', 'idle', 180), ('VehicleChinook', 'harvesting', 300), ('InfantryRanger', 'idle', 180), ('InfantryRanger', 'idle', 180), ('SupplyCenter', '', 2000), ('Barracks', '', 1000), ('PowerPlant', '', 800), ('VehicleDozer', 'idle', 250), ('CommandCenter', '', 5000)]
+08:40:05 built AmericaWarFactory id=169
+08:40:05 done build: power=152 barracks=158 factory=169 supply=160 power2=None
+08:40:14 status money=1750 power={'consumed': 2, 'produced': 5} units=[('InfantryRanger', 'idle', 180), ('WarFactory', '', 2000), ('InfantryRanger', 'idle', 180), ('InfantryRanger', 'idle', 180), ('InfantryRanger', 'idle', 180), ('VehicleChinook', 'harvesting', 300), ('InfantryRanger', 'idle', 180), ('InfantryRanger', 'idle', 180), ('SupplyCenter', '', 2000), ('Barracks', '', 1000), ('PowerPlant', '', 800), ('VehicleDozer', 'idle', 250), ('CommandCenter', '', 5000)]
+08:40:24 status money=1750 power={'consumed': 2, 'produced': 5} units=[('InfantryRanger', 'idle', 180), ('TankCrusader', 'idle', 480), ('InfantryRanger', 'idle', 180), ('InfantryRanger', 'idle', 180), ('WarFactory', '', 2000), ('InfantryRanger', 'idle', 180), ('InfantryRanger', 'idle', 180), ('InfantryRanger', 'idle', 180), ('VehicleChinook', 'harvesting', 300), ('InfantryRanger', 'idle', 180), ('InfantryRanger', 'idle', 180), ('SupplyCenter', '', 2000), ('Barracks', '', 1000), ('PowerPlant', '', 800), ('VehicleDozer', 'idle', 250), ('CommandCenter', '', 5000)]
+08:40:30 attack-move 10 units to [1010.8099975585938, 2102.68994140625] money=2350
+08:40:30 train crusader refused INSUFFICIENT_FUNDS: INSUFFICIENT_FUNDS: not enough money once the 1125 for orders still on their way is spent
+08:40:34 status money=1225 power={'consumed': 2, 'produced': 5} units=[('TankCrusader', '', 480), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('TankCrusader', '', 480), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('WarFactory', '', 2000), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('VehicleChinook', 'harvesting', 300), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('SupplyCenter', '', 2000), ('Barracks', '', 1000), ('PowerPlant', '', 800), ('VehicleDozer', 'idle', 250), ('CommandCenter', '', 5000)]
+08:40:44 status money=1225 power={'consumed': 2, 'produced': 5} units=[('InfantryRanger', '', 180), ('InfantryRanger', 'idle', 180), ('TankCrusader', 'idle', 480), ('InfantryRanger', 'idle', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('TankCrusader', '', 480), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('WarFactory', '', 2000), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('VehicleChinook', 'harvesting', 300), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('SupplyCenter', '', 2000), ('Barracks', '', 1000), ('PowerPlant', '', 800), ('VehicleDozer', 'idle', 250), ('CommandCenter', '', 5000)]
+08:40:54 status money=1825 power={'consumed': 2, 'produced': 5} units=[('InfantryRanger', '', 180), ('InfantryRanger', 'idle', 180), ('InfantryRanger', 'idle', 180), ('InfantryRanger', 'idle', 180), ('TankCrusader', 'idle', 480), ('InfantryRanger', 'idle', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('TankCrusader', '', 480), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('WarFactory', '', 2000), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('VehicleChinook', 'harvesting', 300), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('SupplyCenter', '', 2000), ('Barracks', '', 1000), ('PowerPlant', '', 800), ('VehicleDozer', 'idle', 250), ('CommandCenter', '', 5000)]
+08:40:55 attack-move 16 units to [1010.8099975585938, 2102.68994140625] money=1825
+08:40:55 train crusader refused INSUFFICIENT_FUNDS: INSUFFICIENT_FUNDS: not enough money once the 1125 for orders still on their way is spent
+08:41:04 status money=700 power={'consumed': 2, 'produced': 5} units=[('InfantryRanger', '', 180), ('InfantryRanger', 'idle', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('TankCrusader', '', 480), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('TankCrusader', '', 480), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('WarFactory', '', 2000), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('VehicleChinook', 'harvesting', 300), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('SupplyCenter', '', 2000), ('Barracks', '', 1000), ('PowerPlant', '', 800), ('VehicleDozer', 'idle', 250), ('CommandCenter', '', 5000)]
+08:41:14 status money=700 power={'consumed': 2, 'produced': 5} units=[('InfantryRanger', '', 180), ('InfantryRanger', 'idle', 180), ('InfantryRanger', 'idle', 180), ('InfantryRanger', 'idle', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('TankCrusader', '', 480), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('TankCrusader', '', 120), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('WarFactory', '', 2000), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('VehicleChinook', 'harvesting', 300), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('SupplyCenter', '', 2000), ('Barracks', '', 1000), ('PowerPlant', '', 800), ('VehicleDozer', 'idle', 250), ('CommandCenter', '', 5000)]
+08:41:20 attack-move 20 units to [1010.8099975585938, 2102.68994140625] money=700
+08:41:20 train ranger refused INSUFFICIENT_FUNDS: INSUFFICIENT_FUNDS: not enough money once the 0 for orders still on their way is spent
+08:41:20 train crusader refused INSUFFICIENT_FUNDS: INSUFFICIENT_FUNDS: not enough money
+08:41:25 status money=1300 power={'consumed': 2, 'produced': 5} units=[('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('TankCrusader', '', 480), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 172), ('InfantryRanger', '', 152), ('InfantryRanger', '', 180), ('WarFactory', '', 2000), ('InfantryRanger', '', 156), ('InfantryRanger', '', 180), ('InfantryRanger', '', 161), ('VehicleChinook', 'harvesting', 300), ('InfantryRanger', '', 168), ('InfantryRanger', '', 161), ('SupplyCenter', '', 2000), ('Barracks', '', 1000), ('PowerPlant', '', 800), ('VehicleDozer', 'idle', 250), ('CommandCenter', '', 5000)]
+08:41:35 status money=1300 power={'consumed': 2, 'produced': 5} units=[('InfantryRanger', 'idle', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('TankCrusader', '', 576), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 172), ('InfantryRanger', '', 152), ('InfantryRanger', '', 180), ('WarFactory', '', 2000), ('InfantryRanger', '', 106), ('InfantryRanger', '', 108), ('InfantryRanger', '', 161), ('VehicleChinook', 'harvesting', 300), ('InfantryRanger', '', 161), ('InfantryRanger', '', 132), ('SupplyCenter', '', 2000), ('Barracks', '', 1000), ('PowerPlant', '', 800), ('VehicleDozer', 'idle', 250), ('CommandCenter', '', 5000)]
+08:41:45 status money=1300 power={'consumed': 2, 'produced': 5} units=[('InfantryRanger', 'idle', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('TankCrusader', '', 623), ('InfantryRanger', '', 180), ('InfantryRanger', '', 152), ('InfantryRanger', '', 180), ('WarFactory', '', 2000), ('InfantryRanger', '', 7), ('InfantryRanger', '', 161), ('VehicleChinook', 'harvesting', 300), ('InfantryRanger', '', 118), ('SupplyCenter', '', 2000), ('Barracks', '', 1000), ('PowerPlant', '', 800), ('VehicleDozer', 'idle', 250), ('CommandCenter', '', 5000)]
+08:41:45 attack-move 16 units to [1010.8099975585938, 2102.68994140625] money=1300
+08:41:45 train crusader refused INSUFFICIENT_FUNDS: INSUFFICIENT_FUNDS: not enough money once the 1125 for orders still on their way is spent
+08:41:55 status money=775 power={'consumed': 2, 'produced': 5} units=[('InfantryRanger', 'idle', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 126), ('InfantryRanger', '', 180), ('InfantryRanger', '', 90), ('TankCrusader', '', 623), ('InfantryRanger', '', 180), ('InfantryRanger', '', 152), ('WarFactory', '', 2000), ('VehicleChinook', 'harvesting', 300), ('InfantryRanger', '', 118), ('SupplyCenter', '', 2000), ('Barracks', '', 1000), ('PowerPlant', '', 800), ('VehicleDozer', 'idle', 250), ('CommandCenter', '', 5000)]
+08:42:05 status money=775 power={'consumed': 2, 'produced': 5} units=[('InfantryRanger', '', 180), ('InfantryRanger', 'idle', 180), ('InfantryRanger', 'idle', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 126), ('InfantryRanger', '', 180), ('TankCrusader', '', 623), ('InfantryRanger', '', 152), ('WarFactory', '', 2000), ('VehicleChinook', 'harvesting', 300), ('InfantryRanger', '', 118), ('SupplyCenter', '', 2000), ('Barracks', '', 1000), ('PowerPlant', '', 800), ('VehicleDozer', 'idle', 250), ('CommandCenter', '', 5000)]
+08:42:10 attack-move 15 units to [1010.8099975585938, 2102.68994140625] money=775
+08:42:10 train ranger refused INSUFFICIENT_FUNDS: INSUFFICIENT_FUNDS: not enough money once the 0 for orders still on their way is spent
+08:42:10 train crusader refused INSUFFICIENT_FUNDS: INSUFFICIENT_FUNDS: not enough money
+08:42:15 status money=775 power={'consumed': 2, 'produced': 5} units=[('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 118), ('InfantryRanger', '', 165), ('TankCrusader', '', 719), ('InfantryRanger', '', 152), ('WarFactory', '', 2000), ('VehicleChinook', 'harvesting', 300), ('InfantryRanger', '', 118), ('SupplyCenter', '', 2000), ('Barracks', '', 1000), ('PowerPlant', '', 800), ('VehicleDozer', 'idle', 250), ('CommandCenter', '', 5000)]
+08:42:25 status money=1375 power={'consumed': 2, 'produced': 5} units=[('InfantryRanger', 'idle', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', 'idle', 118), ('InfantryRanger', '', 165), ('TankCrusader', 'idle', 719), ('InfantryRanger', 'idle', 152), ('WarFactory', '', 2000), ('VehicleChinook', 'harvesting', 300), ('InfantryRanger', '', 118), ('SupplyCenter', '', 2000), ('Barracks', '', 1000), ('PowerPlant', '', 800), ('VehicleDozer', 'idle', 250), ('CommandCenter', '', 5000)]
+08:42:35 status money=1375 power={'consumed': 2, 'produced': 5} units=[('InfantryRanger', 'idle', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 165), ('TankCrusader', '', 719), ('InfantryRanger', 'idle', 135), ('WarFactory', '', 2000), ('VehicleChinook', 'harvesting', 300), ('InfantryRanger', '', 118), ('SupplyCenter', '', 2000), ('Barracks', '', 1000), ('PowerPlant', '', 800), ('VehicleDozer', 'idle', 250), ('CommandCenter', '', 5000)]
+08:42:35 attack-move 11 units to [1010.8099975585938, 2102.68994140625] money=1375
+08:42:35 train crusader refused INSUFFICIENT_FUNDS: INSUFFICIENT_FUNDS: not enough money once the 1125 for orders still on their way is spent
+08:42:45 status money=850 power={'consumed': 2, 'produced': 5} units=[('InfantryRanger', 'idle', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 75), ('TankCrusader', '', 620), ('InfantryRanger', '', 135), ('WarFactory', '', 2000), ('VehicleChinook', 'harvesting', 300), ('InfantryRanger', '', 118), ('SupplyCenter', '', 2000), ('Barracks', '', 1000), ('PowerPlant', '', 800), ('VehicleDozer', 'idle', 250), ('CommandCenter', '', 5000)]
+08:42:55 status money=850 power={'consumed': 2, 'produced': 5} units=[('InfantryRanger', 'idle', 180), ('InfantryRanger', 'idle', 180), ('InfantryRanger', 'idle', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 150), ('TankCrusader', 'idle', 680), ('InfantryRanger', '', 135), ('WarFactory', '', 2000), ('VehicleChinook', 'harvesting', 300), ('InfantryRanger', '', 85), ('SupplyCenter', '', 2000), ('Barracks', '', 1000), ('PowerPlant', '', 800), ('VehicleDozer', 'idle', 250), ('CommandCenter', '', 5000)]
+08:43:00 attack-move 14 units to [1010.8099975585938, 2102.68994140625] money=850
+08:43:00 train ranger refused INSUFFICIENT_FUNDS: INSUFFICIENT_FUNDS: not enough money once the 0 for orders still on their way is spent
+08:43:00 train crusader refused INSUFFICIENT_FUNDS: INSUFFICIENT_FUNDS: not enough money
+08:43:05 status money=850 power={'consumed': 2, 'produced': 5} units=[('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', 'idle', 180), ('InfantryRanger', '', 45), ('TankCrusader', 'idle', 719), ('InfantryRanger', 'idle', 135), ('WarFactory', '', 2000), ('VehicleChinook', 'harvesting', 300), ('InfantryRanger', '', 85), ('SupplyCenter', '', 2000), ('Barracks', '', 1000), ('PowerPlant', '', 800), ('VehicleDozer', 'idle', 250), ('CommandCenter', '', 5000)]
+08:43:15 status money=1450 power={'consumed': 2, 'produced': 5} units=[('InfantryRanger', 'idle', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('TankCrusader', 'idle', 673), ('WarFactory', '', 2000), ('VehicleChinook', 'harvesting', 300), ('InfantryRanger', '', 85), ('SupplyCenter', '', 2000), ('Barracks', '', 1000), ('PowerPlant', '', 800), ('VehicleDozer', 'idle', 250), ('CommandCenter', '', 5000)]
+08:43:25 status money=1450 power={'consumed': 2, 'produced': 5} units=[('InfantryRanger', 'idle', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', 'idle', 180), ('InfantryRanger', 'idle', 180), ('InfantryRanger', 'idle', 180), ('InfantryRanger', '', 180), ('TankCrusader', 'idle', 719), ('WarFactory', '', 2000), ('VehicleChinook', 'harvesting', 300), ('SupplyCenter', '', 2000), ('Barracks', '', 1000), ('PowerPlant', '', 800), ('VehicleDozer', 'idle', 250), ('CommandCenter', '', 5000)]
+08:43:25 attack-move 11 units to [1010.8099975585938, 2102.68994140625] money=1450
+08:43:25 train crusader refused INSUFFICIENT_FUNDS: INSUFFICIENT_FUNDS: not enough money once the 1125 for orders still on their way is spent
+08:43:35 status money=325 power={'consumed': 2, 'produced': 5} units=[('InfantryRanger', 'idle', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', 'idle', 180), ('InfantryRanger', '', 57), ('TankCrusader', 'idle', 719), ('WarFactory', '', 2000), ('VehicleChinook', 'harvesting', 300), ('SupplyCenter', '', 2000), ('Barracks', '', 1000), ('PowerPlant', '', 800), ('VehicleDozer', 'idle', 250), ('CommandCenter', '', 5000)]
+08:43:45 status money=925 power={'consumed': 2, 'produced': 5} units=[('InfantryRanger', '', 180), ('InfantryRanger', 'idle', 180), ('InfantryRanger', 'idle', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', 'idle', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 64), ('InfantryRanger', 'idle', 180), ('TankCrusader', '', 719), ('WarFactory', '', 2000), ('VehicleChinook', 'harvesting', 300), ('SupplyCenter', '', 2000), ('Barracks', '', 1000), ('PowerPlant', '', 800), ('VehicleDozer', 'idle', 250), ('CommandCenter', '', 5000)]
+08:43:51 attack-move 13 units to [1010.8099975585938, 2102.68994140625] money=925
+08:43:51 train ranger refused INSUFFICIENT_FUNDS: INSUFFICIENT_FUNDS: not enough money once the 0 for orders still on their way is spent
+08:43:51 train crusader refused INSUFFICIENT_FUNDS: INSUFFICIENT_FUNDS: not enough money once the 0 for orders still on their way is spent
+08:43:55 status money=925 power={'consumed': 2, 'produced': 5} units=[('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', 'idle', 180), ('InfantryRanger', '', 105), ('InfantryRanger', 'idle', 180), ('TankCrusader', '', 708), ('WarFactory', '', 2000), ('VehicleChinook', 'harvesting', 300), ('SupplyCenter', '', 2000), ('Barracks', '', 1000), ('PowerPlant', '', 800), ('VehicleDozer', 'idle', 250), ('CommandCenter', '', 5000)]
+08:44:05 status money=1525 power={'consumed': 2, 'produced': 5} units=[('InfantryRanger', 'idle', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', 'idle', 180), ('InfantryRanger', 'idle', 180), ('TankCrusader', '', 668), ('WarFactory', '', 2000), ('VehicleChinook', 'harvesting', 300), ('SupplyCenter', '', 2000), ('Barracks', '', 1000), ('PowerPlant', '', 800), ('VehicleDozer', 'idle', 250), ('CommandCenter', '', 5000)]
+08:44:15 status money=1525 power={'consumed': 2, 'produced': 5} units=[('InfantryRanger', 'idle', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', 'idle', 180), ('InfantryRanger', 'idle', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', 'idle', 180), ('InfantryRanger', 'idle', 180), ('TankCrusader', 'idle', 719), ('WarFactory', '', 2000), ('VehicleChinook', 'harvesting', 300), ('SupplyCenter', '', 2000), ('Barracks', '', 1000), ('PowerPlant', '', 800), ('VehicleDozer', 'idle', 250), ('CommandCenter', '', 5000)]
+08:44:16 attack-move 13 units to [1010.8099975585938, 2102.68994140625] money=1525
+08:44:16 train crusader refused INSUFFICIENT_FUNDS: INSUFFICIENT_FUNDS: not enough money once the 1125 for orders still on their way is spent
+08:44:26 status money=400 power={'consumed': 2, 'produced': 5} units=[('InfantryRanger', 'idle', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 105), ('InfantryRanger', '', 90), ('InfantryRanger', '', 180), ('InfantryRanger', 'idle', 180), ('TankCrusader', 'idle', 719), ('WarFactory', '', 2000), ('VehicleChinook', 'harvesting', 300), ('SupplyCenter', '', 2000), ('Barracks', '', 1000), ('PowerPlant', '', 800), ('VehicleDozer', 'idle', 250), ('CommandCenter', '', 5000)]
+08:44:36 status money=1000 power={'consumed': 2, 'produced': 5} units=[('InfantryRanger', 'idle', 180), ('InfantryRanger', 'idle', 180), ('InfantryRanger', 'idle', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', 'idle', 180), ('TankCrusader', 'idle', 719), ('WarFactory', '', 2000), ('VehicleChinook', 'harvesting', 300), ('SupplyCenter', '', 2000), ('Barracks', '', 1000), ('PowerPlant', '', 800), ('VehicleDozer', 'idle', 250), ('CommandCenter', '', 5000)]
+08:44:41 attack-move 14 units to [1010.8099975585938, 2102.68994140625] money=1000
+08:44:41 train ranger refused INSUFFICIENT_FUNDS: INSUFFICIENT_FUNDS: not enough money once the 0 for orders still on their way is spent
+08:44:41 train crusader refused INSUFFICIENT_FUNDS: INSUFFICIENT_FUNDS: not enough money once the 0 for orders still on their way is spent
+08:44:46 status money=1000 power={'consumed': 2, 'produced': 5} units=[('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 150), ('InfantryRanger', '', 180), ('TankCrusader', '', 710), ('WarFactory', '', 2000), ('VehicleChinook', 'harvesting', 300), ('SupplyCenter', '', 2000), ('Barracks', '', 1000), ('PowerPlant', '', 800), ('VehicleDozer', 'idle', 250), ('CommandCenter', '', 5000)]
+08:44:56 status money=1000 power={'consumed': 2, 'produced': 5} units=[('InfantryRanger', 'idle', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 12), ('TankCrusader', '', 692), ('WarFactory', '', 2000), ('VehicleChinook', 'harvesting', 300), ('SupplyCenter', '', 2000), ('Barracks', '', 1000), ('PowerPlant', '', 800), ('VehicleDozer', 'idle', 250), ('CommandCenter', '', 5000)]
+08:45:06 status money=1600 power={'consumed': 2, 'produced': 5} units=[('InfantryRanger', 'idle', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', 'idle', 180), ('InfantryRanger', '', 180), ('TankCrusader', '', 465), ('WarFactory', '', 2000), ('VehicleChinook', 'harvesting', 300), ('SupplyCenter', '', 2000), ('Barracks', '', 1000), ('PowerPlant', '', 800), ('VehicleDozer', 'idle', 250), ('CommandCenter', '', 5000)]
+08:45:06 attack-move 10 units to [1010.8099975585938, 2102.68994140625] money=1600
+08:45:06 train crusader refused INSUFFICIENT_FUNDS: INSUFFICIENT_FUNDS: not enough money once the 1125 for orders still on their way is spent
+08:45:16 status money=475 power={'consumed': 2, 'produced': 5} units=[('InfantryRanger', 'idle', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', 'idle', 180), ('InfantryRanger', '', 180), ('TankCrusader', '', 36), ('WarFactory', '', 2000), ('VehicleChinook', 'harvesting', 300), ('SupplyCenter', '', 2000), ('Barracks', '', 1000), ('PowerPlant', '', 800), ('VehicleDozer', 'idle', 250), ('CommandCenter', '', 5000)]
+08:45:26 status money=475 power={'consumed': 2, 'produced': 5} units=[('InfantryRanger', 'idle', 180), ('InfantryRanger', 'idle', 180), ('InfantryRanger', 'idle', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('WarFactory', '', 2000), ('VehicleChinook', 'harvesting', 300), ('SupplyCenter', '', 2000), ('Barracks', '', 1000), ('PowerPlant', '', 800), ('VehicleDozer', 'idle', 250), ('CommandCenter', '', 5000)]
+08:45:31 attack-move 9 units to [1010.8099975585938, 2102.68994140625] money=1075
+08:45:31 train ranger refused INSUFFICIENT_FUNDS: INSUFFICIENT_FUNDS: not enough money once the 0 for orders still on their way is spent
+08:45:31 train crusader refused INSUFFICIENT_FUNDS: INSUFFICIENT_FUNDS: not enough money once the 0 for orders still on their way is spent
+08:45:36 status money=1075 power={'consumed': 2, 'produced': 5} units=[('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 69), ('WarFactory', '', 2000), ('VehicleChinook', 'harvesting', 300), ('SupplyCenter', '', 2000), ('Barracks', '', 1000), ('PowerPlant', '', 800), ('VehicleDozer', 'idle', 250), ('CommandCenter', '', 5000)]
+08:45:46 status money=1075 power={'consumed': 2, 'produced': 5} units=[('InfantryRanger', 'idle', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 147), ('WarFactory', '', 2000), ('VehicleChinook', 'harvesting', 300), ('SupplyCenter', '', 2000), ('Barracks', '', 1000), ('PowerPlant', '', 800), ('VehicleDozer', 'idle', 250), ('CommandCenter', '', 5000)]
+08:45:56 status money=1675 power={'consumed': 2, 'produced': 5} units=[('InfantryRanger', 'idle', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 114), ('InfantryRanger', '', 163), ('InfantryRanger', '', 180), ('WarFactory', '', 2000), ('VehicleChinook', 'harvesting', 300), ('SupplyCenter', '', 2000), ('Barracks', '', 1000), ('PowerPlant', '', 800), ('VehicleDozer', 'idle', 250), ('CommandCenter', '', 5000)]
+08:45:56 train crusader refused INSUFFICIENT_FUNDS: INSUFFICIENT_FUNDS: not enough money once the 1125 for orders still on their way is spent
+08:46:06 status money=550 power={'consumed': 2, 'produced': 5} units=[('InfantryRanger', 'idle', 180), ('InfantryRanger', 'idle', 180), ('WarFactory', '', 2000), ('VehicleChinook', 'harvesting', 300), ('SupplyCenter', '', 2000), ('Barracks', '', 1000), ('PowerPlant', '', 800), ('VehicleDozer', 'idle', 250), ('CommandCenter', '', 5000)]
+08:46:16 status money=550 power={'consumed': 2, 'produced': 5} units=[('InfantryRanger', 'idle', 180), ('InfantryRanger', 'idle', 180), ('InfantryRanger', 'idle', 180), ('InfantryRanger', 'idle', 180), ('WarFactory', '', 2000), ('VehicleChinook', 'harvesting', 300), ('SupplyCenter', '', 2000), ('Barracks', '', 1000), ('PowerPlant', '', 800), ('VehicleDozer', 'idle', 250), ('CommandCenter', '', 5000)]
+08:46:21 train ranger refused INSUFFICIENT_FUNDS: INSUFFICIENT_FUNDS: not enough money once the 0 for orders still on their way is spent
+08:46:21 train crusader refused INSUFFICIENT_FUNDS: INSUFFICIENT_FUNDS: not enough money
+08:46:26 status money=1150 power={'consumed': 2, 'produced': 5} units=[('InfantryRanger', '', 162), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('WarFactory', '', 1992), ('VehicleChinook', 'harvesting', 300), ('SupplyCenter', '', 2000), ('Barracks', '', 1000), ('PowerPlant', '', 800), ('VehicleDozer', 'idle', 221), ('CommandCenter', '', 5000)]
+08:46:36 status money=1150 power={'consumed': 2, 'produced': 5} units=[('InfantryRanger', 'idle', 162), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('WarFactory', '', 1962), ('VehicleChinook', 'harvesting', 300), ('SupplyCenter', '', 2000), ('Barracks', '', 1000), ('PowerPlant', '', 800), ('CommandCenter', '', 5000)]
+08:46:46 status money=1150 power={'consumed': 2, 'produced': 5} units=[('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('WarFactory', '', 1848), ('VehicleChinook', 'harvesting', 300), ('SupplyCenter', '', 2000), ('Barracks', '', 1000), ('PowerPlant', '', 800), ('CommandCenter', '', 5000)]
+08:46:46 train crusader refused INSUFFICIENT_FUNDS: INSUFFICIENT_FUNDS: not enough money once the 1125 for orders still on their way is spent
+08:46:56 status money=625 power={'consumed': 2, 'produced': 5} units=[('WarFactory', '', 1376), ('VehicleChinook', 'harvesting', 300), ('SupplyCenter', '', 2000), ('Barracks', '', 1000), ('PowerPlant', '', 800), ('CommandCenter', '', 5000)]
+08:47:06 status money=625 power={'consumed': 2, 'produced': 5} units=[('InfantryRanger', '', 36), ('WarFactory', '', 678), ('VehicleChinook', 'harvesting', 300), ('SupplyCenter', '', 2000), ('Barracks', '', 1000), ('PowerPlant', '', 800), ('CommandCenter', '', 5000)]
+08:47:11 train ranger refused INSUFFICIENT_FUNDS: INSUFFICIENT_FUNDS: not enough money once the 0 for orders still on their way is spent
+08:47:11 train crusader refused INSUFFICIENT_FUNDS: INSUFFICIENT_FUNDS: not enough money
+08:47:16 status money=625 power={'consumed': 1, 'produced': 5} units=[('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 40), ('InfantryRanger', '', 180), ('InfantryRanger', '', 46), ('InfantryRanger', '', 36), ('VehicleChinook', 'harvesting', 198), ('SupplyCenter', '', 2000), ('Barracks', '', 961), ('PowerPlant', '', 800), ('CommandCenter', '', 5000)]
+08:47:26 status money=1225 power={'consumed': 1, 'produced': 5} units=[('InfantryRanger', '', 46), ('VehicleChinook', 'harvesting', 198), ('SupplyCenter', '', 2000), ('Barracks', '', 240), ('PowerPlant', '', 800), ('CommandCenter', '', 5000)]
+08:47:36 status money=1225 power={'consumed': 1, 'produced': 5} units=[('InfantryRanger', 'idle', 180), ('InfantryRanger', 'idle', 180), ('InfantryRanger', 'idle', 46), ('VehicleChinook', 'harvesting', 198), ('SupplyCenter', '', 2000), ('PowerPlant', '', 800), ('CommandCenter', '', 4288)]
+08:47:36 train ranger refused NOT_OWNED: NOT_OWNED: object 158 is not one of your units
+08:47:36 train crusader refused NOT_OWNED: NOT_OWNED: object 169 is not one of your units
+08:47:46 status money=1825 power={'consumed': 1, 'produced': 5} units=[('InfantryRanger', 'idle', 180), ('InfantryRanger', 'idle', 180), ('InfantryRanger', 'idle', 46), ('VehicleChinook', 'harvesting', 198), ('SupplyCenter', '', 2000), ('PowerPlant', '', 800), ('CommandCenter', '', 2321)]
+08:47:56 status money=1825 power={'consumed': 1, 'produced': 5} units=[('InfantryRanger', 'idle', 180), ('InfantryRanger', 'idle', 180), ('InfantryRanger', 'idle', 46), ('VehicleChinook', 'harvesting', 198), ('SupplyCenter', '', 2000), ('PowerPlant', '', 800), ('CommandCenter', '', 414)]
+08:48:02 attack-move 11 units to [1010.8099975585938, 2102.68994140625] money=1825
+08:48:02 train ranger refused NOT_OWNED: NOT_OWNED: object 158 is not one of your units
+08:48:02 train crusader refused NOT_OWNED: NOT_OWNED: object 169 is not one of your units
+08:48:07 status money=1825 power={'consumed': 1, 'produced': 5} units=[('InfantryRanger', '', 82), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 133), ('InfantryRanger', '', 180), ('InfantryRanger', '', 180), ('InfantryRanger', '', 90), ('InfantryRanger', '', 180), ('InfantryRanger', '', 46), ('VehicleChinook', 'harvesting', 198), ('SupplyCenter', '', 2000), ('PowerPlant', '', 340)]
+08:48:17 status money=2425 power={'consumed': 1, 'produced': 0} units=[('InfantryRanger', '', 28), ('VehicleChinook', 'harvesting', 198), ('SupplyCenter', '', 2000)]
+08:48:27 status money=2425 power={'consumed': 1, 'produced': 0} units=[('VehicleChinook', 'harvesting', 198), ('SupplyCenter', '', 1936)]
+08:48:27 train ranger refused NOT_OWNED: NOT_OWNED: object 158 is not one of your units
+08:48:27 train crusader refused NOT_OWNED: NOT_OWNED: object 169 is not one of your units
+08:48:37 status money=2425 power={'consumed': 1, 'produced': 0} units=[('VehicleChinook', 'harvesting', 198), ('SupplyCenter', '', 313)]
+08:48:47 status money=0 power={'consumed': 0, 'produced': 0} units=[]
+08:48:52 CRASH Traceback (most recent call last):
+  File "C:\Users\user\Documents\CNC_Generals_AI\tournament\t1\agents\Delta\scripts\macro2.py", line 136, in <module>
+    asyncio.run(main(sys.argv[1]))
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\user\Documents\CNC_Generals_AI\tournament\t1\agents\Delta\scripts\macro2.py", line 126, in main
+    snap = await client.state()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Documents\CNC_Generals_AI\python\generals_api\client.py", line 242, in state
+    return await self.request("state")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Documents\CNC_Generals_AI\python\generals_api\client.py", line 91, in request
+    raise ConnectionClosed(self.close_code, self.close_reason)
+generals_api.client.ConnectionClosed: connection closed (code=4001, reason='superseded')
+

@@ -1,0 +1,21 @@
+13:06:14 setup side=China home=[1004.8322143554688, 583.6339721679688] enemy=[1010.8099975585938, 2102.68994140625]
+13:06:14 build ChinaPowerPlant at 1305,584
+13:06:28 build ChinaBarracks at 1265,734
+13:06:30 build ChinaSupplyCenter refused NOT_AVAILABLE: NOT_AVAILABLE: cannot be made right now (prerequisites or disabled factory)
+13:06:34 build ChinaPowerPlant refused NOT_AVAILABLE: NOT_AVAILABLE: build that is not available right now (prerequisites, power or state)
+13:06:36 build ChinaSupplyCenter refused NOT_AVAILABLE: NOT_AVAILABLE: cannot be made right now (prerequisites or disabled factory)
+13:06:40 build ChinaPowerPlant refused NOT_AVAILABLE: NOT_AVAILABLE: build that is not available right now (prerequisites, power or state)
+13:06:42 build ChinaSupplyCenter refused NOT_AVAILABLE: NOT_AVAILABLE: cannot be made right now (prerequisites or disabled factory)
+13:06:46 build ChinaPowerPlant refused NOT_AVAILABLE: NOT_AVAILABLE: build that is not available right now (prerequisites, power or state)
+13:06:48 build ChinaSupplyCenter refused NOT_AVAILABLE: NOT_AVAILABLE: cannot be made right now (prerequisites or disabled factory)
+13:06:54 build ChinaSupplyCenter refused NOT_AVAILABLE: NOT_AVAILABLE: build that is not available right now (prerequisites, power or state)
+13:07:00 build ChinaSupplyCenter at 850,327
+13:07:02 build ChinaWarFactory refused NOT_AVAILABLE: NOT_AVAILABLE: cannot be made right now (prerequisites or disabled factory)
+13:07:09 build ChinaWarFactory refused NOT_AVAILABLE: NOT_AVAILABLE: cannot be made right now (prerequisites or disabled factory)
+13:07:15 build ChinaWarFactory refused NOT_AVAILABLE: NOT_AVAILABLE: cannot be made right now (prerequisites or disabled factory)
+13:07:21 build ChinaWarFactory refused NOT_AVAILABLE: NOT_AVAILABLE: cannot be made right now (prerequisites or disabled factory)
+13:07:27 build ChinaWarFactory at 1155,843
+13:07:31 build ChinaSupplyCenter at 1504,466
+13:10:01 build ChinaPropagandaCenter at 1005,884
+13:10:19 build ChinaWarFactory at 855,843
+13:11:59 ATTACK wave tanks=12 army=24

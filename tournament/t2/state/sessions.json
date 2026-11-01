@@ -1,0 +1,30 @@
+{
+ "Alpha": {
+  "prep": "a357ab36c882cf73a",
+  "game-3": "a9404f1ac84690e0c",
+  "game-4": "ad720ea0b6f0c328f",
+  "game-5": "a753dc4acbfb1daca",
+  "game-6": "a1974c480da31967f"
+ },
+ "Bravo": {
+  "prep": "ae036b36b133c5829",
+  "game-1": "ac653fbbe78459a7e",
+  "game-2": "a52b4ee8345121de3"
+ },
+ "Charlie": {
+  "prep": "aa25b27a8b0fe6e79",
+  "game-1": "a697a03a433dd60e1",
+  "game-2": "a1333cb5de3a0abf9",
+  "game-5": "a5fdcabeada1f16e0",
+  "game-6": "a3d8bb525c1f9e324"
+ },
+ "Delta": {
+  "prep": "add118a998ab6a8f8",
+  "game-3": "a392e10eb6a19b490",
+  "game-4": "ae8b484f7dd2dc4e4"
+ },
+ "notes": [
+  "game 4: Delta's prompt added one factual sentence ('you are still in: win this game to force a deciding game 3') because its game-3 report wrongly called the series lost at 0-1.",
+  "game 4: Alpha's audit flagged port 56554; reviewed: a sed edit replacing its own game-3 port in its peek.py, not a connection. Not a violation."
+ ]
+}

@@ -1,0 +1,48 @@
+08:30:39 ks sample {'id': 70, 'last_seen_frame': 3, 'owner': 0, 'pos': [632.5472412109375, 127.26425170898438, 40.0], 'template': 'SupplyDock', 'visible': False}
+08:30:39 tanks 6
+08:30:59 ks sample {'id': 70, 'last_seen_frame': 3, 'owner': 0, 'pos': [632.5472412109375, 127.26425170898438, 40.0], 'template': 'SupplyDock', 'visible': False}
+08:30:59 tanks 6
+08:31:19 ks sample {'id': 70, 'last_seen_frame': 3, 'owner': 0, 'pos': [632.5472412109375, 127.26425170898438, 40.0], 'template': 'SupplyDock', 'visible': False}
+08:31:19 tanks 6
+08:31:39 ks sample {'id': 70, 'last_seen_frame': 3, 'owner': 0, 'pos': [632.5472412109375, 127.26425170898438, 40.0], 'template': 'SupplyDock', 'visible': False}
+08:31:39 tanks 6
+08:31:59 ks sample {'id': 70, 'last_seen_frame': 3, 'owner': 0, 'pos': [632.5472412109375, 127.26425170898438, 40.0], 'template': 'SupplyDock', 'visible': False}
+08:31:59 tanks 6
+08:32:19 ks sample {'id': 70, 'last_seen_frame': 3, 'owner': 0, 'pos': [632.5472412109375, 127.26425170898438, 40.0], 'template': 'SupplyDock', 'visible': False}
+08:32:19 tanks 6
+08:32:39 ks sample {'id': 70, 'last_seen_frame': 3, 'owner': 0, 'pos': [632.5472412109375, 127.26425170898438, 40.0], 'template': 'SupplyDock', 'visible': False}
+08:32:39 tanks 6
+08:32:59 ks sample {'id': 70, 'last_seen_frame': 3, 'owner': 0, 'pos': [632.5472412109375, 127.26425170898438, 40.0], 'template': 'SupplyDock', 'visible': False}
+08:32:59 tanks 6
+08:33:19 ks sample {'id': 70, 'last_seen_frame': 3, 'owner': 0, 'pos': [632.5472412109375, 127.26425170898438, 40.0], 'template': 'SupplyDock', 'visible': False}
+08:33:19 tanks 6
+08:33:21 trucks 0 money None types ['Tank_ChinaBarracks', 'Tank_ChinaCommandCenter', 'Tank_ChinaPowerPlant', 'Tank_ChinaSupplyCenter', 'Tank_ChinaTankBattleMaster', 'Tank_ChinaVehicleDozer', 'Tank_ChinaWarFactory']
+08:33:21 truck INSUFFICIENT_FUNDS
+08:33:21 ks sample {'id': 70, 'last_seen_frame': 3, 'owner': 0, 'pos': [632.5472412109375, 127.26425170898438, 40.0], 'template': 'SupplyDock', 'visible': False}
+08:33:21 tanks 6
+08:33:41 trucks 0 money None types ['Tank_ChinaBarracks', 'Tank_ChinaCommandCenter', 'Tank_ChinaPowerPlant', 'Tank_ChinaSupplyCenter', 'Tank_ChinaTankBattleMaster', 'Tank_ChinaVehicleDozer', 'Tank_ChinaWarFactory']
+08:33:41 truck INSUFFICIENT_FUNDS
+08:33:41 ks sample {'id': 70, 'last_seen_frame': 3, 'owner': 0, 'pos': [632.5472412109375, 127.26425170898438, 40.0], 'template': 'SupplyDock', 'visible': False}
+08:33:41 tanks 6
+08:34:01 trucks 0 money None types ['Tank_ChinaBarracks', 'Tank_ChinaCommandCenter', 'Tank_ChinaPowerPlant', 'Tank_ChinaSupplyCenter', 'Tank_ChinaTankBattleMaster', 'Tank_ChinaVehicleDozer', 'Tank_ChinaWarFactory']
+08:34:01 truck INSUFFICIENT_FUNDS
+08:34:01 ks sample {'id': 70, 'last_seen_frame': 3, 'owner': 0, 'pos': [632.5472412109375, 127.26425170898438, 40.0], 'template': 'SupplyDock', 'visible': False}
+08:34:01 tanks 4
+08:34:16 trucks 0 money None types ['Tank_ChinaBarracks', 'Tank_ChinaCommandCenter', 'Tank_ChinaPowerPlant', 'Tank_ChinaSupplyCenter', 'Tank_ChinaVehicleDozer', 'Tank_ChinaWarFactory']
+08:34:16 truck INSUFFICIENT_FUNDS
+08:34:16 ks sample {'id': 70, 'last_seen_frame': 3, 'owner': 0, 'pos': [632.5472412109375, 127.26425170898438, 40.0], 'template': 'SupplyDock', 'visible': False}
+08:34:16 tanks 0
+08:34:36 trucks 0 money None types ['Tank_ChinaBarracks', 'Tank_ChinaCommandCenter', 'Tank_ChinaPowerPlant', 'Tank_ChinaSupplyCenter', 'Tank_ChinaVehicleDozer', 'Tank_ChinaWarFactory']
+08:34:36 truck INSUFFICIENT_FUNDS
+08:34:36 ks sample {'id': 70, 'last_seen_frame': 3, 'owner': 0, 'pos': [632.5472412109375, 127.26425170898438, 40.0], 'template': 'SupplyDock', 'visible': False}
+08:34:36 tanks 0
+08:34:56 trucks 0 money None types ['Tank_ChinaCommandCenter', 'Tank_ChinaPowerPlant', 'Tank_ChinaSupplyCenter']
+08:34:56 truck INSUFFICIENT_FUNDS
+08:34:56 ks sample {'id': 70, 'last_seen_frame': 3, 'owner': 0, 'pos': [632.5472412109375, 127.26425170898438, 40.0], 'template': 'SupplyDock', 'visible': False}
+08:34:56 tanks 0
+08:35:16 trucks 0 money None types ['Tank_ChinaCommandCenter']
+08:35:16 ks sample {'id': 70, 'last_seen_frame': 3, 'owner': 0, 'pos': [632.5472412109375, 127.26425170898438, 40.0], 'template': 'SupplyDock', 'visible': False}
+08:35:16 tanks 0
+08:35:36 trucks 0 money None types []
+08:35:36 ks sample {'id': 70, 'last_seen_frame': 18674, 'owner': 0, 'pos': [632.5472412109375, 127.26425170898438, 40.0], 'template': 'SupplyDock', 'visible': True}
+08:35:36 tanks 0

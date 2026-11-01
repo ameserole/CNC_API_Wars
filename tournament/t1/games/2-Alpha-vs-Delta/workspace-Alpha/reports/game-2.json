@@ -1,0 +1,42 @@
+{
+  "game": 2,
+  "round": "Semifinals",
+  "opponent": "Delta",
+  "your_faction": "FactionChinaTankGeneral",
+  "opponent_faction": "FactionAmerica",
+  "result": "win",
+  "reason": "game_over",
+  "tiebreak": null,
+  "game_minutes": 11.71,
+  "stats": [
+    {
+      "buildings_built": 7,
+      "buildings_destroyed": 5,
+      "buildings_lost": 0,
+      "index": 2,
+      "money_earned": 22500,
+      "money_spent": 10500,
+      "score": 36900,
+      "side": "ChinaTankGeneral",
+      "units_built": 54,
+      "units_destroyed": 78,
+      "units_lost": 33,
+      "name": "Alpha"
+    },
+    {
+      "buildings_built": 5,
+      "buildings_destroyed": 0,
+      "buildings_lost": 5,
+      "index": 3,
+      "money_earned": 12000,
+      "money_spent": 7400,
+      "score": 21700,
+      "side": "America",
+      "units_built": 59,
+      "units_destroyed": 33,
+      "units_lost": 78,
+      "name": "Delta"
+    }
+  ],
+  "warning": null
+}

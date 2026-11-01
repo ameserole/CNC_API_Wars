@@ -1,0 +1,4 @@
+12:41:03 game 4: Delta (FactionChina) hosts Alpha (FactionChina)
+12:41:18 READY {"folder": "4-Alpha-vs-Delta", "players": {"Alpha": {"port": 54164, "faction": "FactionChina"}, "Delta": {"port": 54163, "faction": "FactionChina"}}}
+12:47:56 game 4 ended at frame 11467: game_over
+RESULT {"number": 4, "winner": "Alpha", "loser": "Delta", "reason": "game_over", "tiebreak": null, "game_minutes": 6.37}

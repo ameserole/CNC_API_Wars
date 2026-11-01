@@ -1,0 +1,22 @@
+{
+  "agent": "Delta",
+  "ai": "easy",
+  "started": "2026-11-01 11:42:17",
+  "faction": "FactionChina",
+  "stats": [
+    {
+      "buildings_built": 5,
+      "buildings_destroyed": 0,
+      "buildings_lost": 1,
+      "index": 2,
+      "money_earned": 3750,
+      "money_spent": 7000,
+      "score": 11550,
+      "side": "China",
+      "units_built": 45,
+      "units_destroyed": 28,
+      "units_lost": 41
+    }
+  ],
+  "result": "ended by time"
+}

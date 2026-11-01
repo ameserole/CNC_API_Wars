@@ -1,0 +1,4 @@
+08:36:13 game 2: Alpha (FactionChinaTankGeneral) hosts Delta (FactionAmerica)
+08:36:30 READY {"folder": "2-Alpha-vs-Delta", "players": {"Alpha": {"port": 55156, "faction": "FactionChinaTankGeneral"}, "Delta": {"port": 55157, "faction": "FactionAmerica"}}}
+08:48:40 game 2 ended at frame 21081: game_over
+RESULT {"number": 2, "winner": "Alpha", "loser": "Delta", "reason": "game_over", "tiebreak": null, "game_minutes": 11.71}

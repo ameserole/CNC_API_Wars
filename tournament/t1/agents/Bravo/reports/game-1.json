@@ -1,0 +1,42 @@
+{
+  "game": 1,
+  "round": "Semifinals",
+  "opponent": "Charlie",
+  "your_faction": "FactionChinaTankGeneral",
+  "opponent_faction": "FactionChinaTankGeneral",
+  "result": "loss",
+  "reason": "game_over",
+  "tiebreak": null,
+  "game_minutes": 10.24,
+  "stats": [
+    {
+      "buildings_built": 6,
+      "buildings_destroyed": 4,
+      "buildings_lost": 0,
+      "index": 2,
+      "money_earned": 22800,
+      "money_spent": 10000,
+      "score": 28800,
+      "side": "ChinaTankGeneral",
+      "units_built": 36,
+      "units_destroyed": 14,
+      "units_lost": 9,
+      "name": "Charlie"
+    },
+    {
+      "buildings_built": 5,
+      "buildings_destroyed": 0,
+      "buildings_lost": 4,
+      "index": 3,
+      "money_earned": 3300,
+      "money_spent": 7000,
+      "score": 6100,
+      "side": "ChinaTankGeneral",
+      "units_built": 14,
+      "units_destroyed": 9,
+      "units_lost": 14,
+      "name": "Bravo"
+    }
+  ],
+  "warning": null
+}

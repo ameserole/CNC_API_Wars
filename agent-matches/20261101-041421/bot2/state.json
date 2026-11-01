@@ -1,0 +1,403 @@
+{
+ "frame": 1493,
+ "known_structures": [
+  {
+   "id": 70,
+   "last_seen_frame": 3,
+   "owner": 0,
+   "pos": [
+    632.5472412109375,
+    127.26425170898438,
+    40.0
+   ],
+   "template": "SupplyDock"
+  },
+  {
+   "id": 71,
+   "last_seen_frame": 3,
+   "owner": 0,
+   "pos": [
+    1408.19970703125,
+    2547.099365234375,
+    40.0
+   ],
+   "template": "SupplyDock"
+  },
+  {
+   "id": 109,
+   "last_seen_frame": 3,
+   "owner": 1,
+   "pos": [
+    1509.9208984375,
+    1244.035888671875,
+    23.11511993408203
+   ],
+   "template": "SupplyPileSmall"
+  },
+  {
+   "id": 110,
+   "last_seen_frame": 3,
+   "owner": 1,
+   "pos": [
+    1538.0084228515625,
+    1268.714599609375,
+    28.37657928466797
+   ],
+   "template": "SupplyPileSmall"
+  },
+  {
+   "id": 111,
+   "last_seen_frame": 3,
+   "owner": 1,
+   "pos": [
+    1509.314208984375,
+    1284.119873046875,
+    23.039283752441406
+   ],
+   "template": "SupplyPileSmall"
+  },
+  {
+   "id": 112,
+   "last_seen_frame": 3,
+   "owner": 1,
+   "pos": [
+    493.3608703613281,
+    1396.42431640625,
+    20.61983871459961
+   ],
+   "template": "SupplyPileSmall"
+  },
+  {
+   "id": 113,
+   "last_seen_frame": 3,
+   "owner": 1,
+   "pos": [
+    538.672607421875,
+    1404.97607421875,
+    13.37388801574707
+   ],
+   "template": "SupplyPileSmall"
+  },
+  {
+   "id": 114,
+   "last_seen_frame": 3,
+   "owner": 1,
+   "pos": [
+    512.5291748046875,
+    1430.912841796875,
+    17.65077781677246
+   ],
+   "template": "SupplyPileSmall"
+  },
+  {
+   "id": 115,
+   "last_seen_frame": 3,
+   "owner": 0,
+   "pos": [
+    1764.6451416015625,
+    1876.9935302734375,
+    60.0
+   ],
+   "template": "TechOilDerrick"
+  },
+  {
+   "id": 116,
+   "last_seen_frame": 3,
+   "owner": 0,
+   "pos": [
+    350.0,
+    980.0,
+    60.0
+   ],
+   "template": "TechOilDerrick"
+  },
+  {
+   "id": 121,
+   "last_seen_frame": 3,
+   "owner": 1,
+   "pos": [
+    1731.1397705078125,
+    295.6793518066406,
+    60.0
+   ],
+   "template": "SupplyDock"
+  },
+  {
+   "id": 122,
+   "last_seen_frame": 3,
+   "owner": 1,
+   "pos": [
+    267.9548645019531,
+    2397.4228515625,
+    60.0
+   ],
+   "template": "SupplyDock"
+  },
+  {
+   "id": 123,
+   "last_seen_frame": 3,
+   "owner": 1,
+   "pos": [
+    1421.431396484375,
+    1189.5045166015625,
+    12.67892837524414
+   ],
+   "template": "SupplyPileSmall"
+  },
+  {
+   "id": 124,
+   "last_seen_frame": 3,
+   "owner": 1,
+   "pos": [
+    638.1041870117188,
+    1456.8349609375,
+    10.0
+   ],
+   "template": "SupplyPileSmall"
+  },
+  {
+   "id": 125,
+   "last_seen_frame": 3,
+   "owner": 1,
+   "pos": [
+    760.2754516601562,
+    1228.9013671875,
+    10.0
+   ],
+   "template": "SupplyPileSmall"
+  },
+  {
+   "id": 126,
+   "last_seen_frame": 3,
+   "owner": 1,
+   "pos": [
+    718.2389526367188,
+    1232.696044921875,
+    10.0
+   ],
+   "template": "SupplyPileSmall"
+  },
+  {
+   "id": 127,
+   "last_seen_frame": 3,
+   "owner": 1,
+   "pos": [
+    1356.7379150390625,
+    1376.8333740234375,
+    10.0
+   ],
+   "template": "SupplyPileSmall"
+  },
+  {
+   "id": 128,
+   "last_seen_frame": 3,
+   "owner": 1,
+   "pos": [
+    1296.0084228515625,
+    1447.8822021484375,
+    10.0
+   ],
+   "template": "SupplyPileSmall"
+  },
+  {
+   "id": 129,
+   "last_seen_frame": 3,
+   "owner": 1,
+   "pos": [
+    662.0325927734375,
+    1196.63623046875,
+    10.0
+   ],
+   "template": "WaterfrontWherehouse01"
+  },
+  {
+   "id": 130,
+   "last_seen_frame": 3,
+   "owner": 1,
+   "pos": [
+    1352.4312744140625,
+    1502.3006591796875,
+    10.0
+   ],
+   "template": "WaterfrontWherehouse01"
+  },
+  {
+   "id": 131,
+   "last_seen_frame": 3,
+   "owner": 1,
+   "pos": [
+    843.3654174804688,
+    1459.2705078125,
+    14.494147300720215
+   ],
+   "template": "WatchTower03"
+  },
+  {
+   "id": 132,
+   "last_seen_frame": 3,
+   "owner": 1,
+   "pos": [
+    1192.5972900390625,
+    1224.173828125,
+    13.326807022094727
+   ],
+   "template": "WatchTower03"
+  },
+  {
+   "id": 133,
+   "last_seen_frame": 3,
+   "owner": 1,
+   "pos": [
+    595.2566528320312,
+    1458.250244140625,
+    10.0
+   ],
+   "template": "StanHanger01"
+  },
+  {
+   "id": 134,
+   "last_seen_frame": 3,
+   "owner": 1,
+   "pos": [
+    1454.339599609375,
+    1249.7972412109375,
+    15.896224975585938
+   ],
+   "template": "StanHanger01"
+  },
+  {
+   "id": 135,
+   "last_seen_frame": 3,
+   "owner": 1,
+   "pos": [
+    805.152587890625,
+    1262.5418701171875,
+    10.0
+   ],
+   "template": "MogadishuGarage"
+  },
+  {
+   "id": 136,
+   "last_seen_frame": 3,
+   "owner": 1,
+   "pos": [
+    1226.6822509765625,
+    1432.5556640625,
+    10.0
+   ],
+   "template": "MogadishuGarage"
+  },
+  {
+   "id": 137,
+   "last_seen_frame": 3,
+   "owner": 1,
+   "pos": [
+    1319.4384765625,
+    1229.4892578125,
+    8.75
+   ],
+   "template": "IndustrialBuilding01"
+  },
+  {
+   "id": 138,
+   "last_seen_frame": 3,
+   "owner": 1,
+   "pos": [
+    740.0999145507812,
+    1436.8673095703125,
+    8.125
+   ],
+   "template": "IndustrialBuilding02"
+  },
+  {
+   "id": 139,
+   "last_seen_frame": 3,
+   "owner": 1,
+   "pos": [
+    1570.1568603515625,
+    1056.264404296875,
+    62.89152526855469
+   ],
+   "template": "CivilianBunker01"
+  },
+  {
+   "id": 140,
+   "last_seen_frame": 3,
+   "owner": 1,
+   "pos": [
+    417.092041015625,
+    1586.745361328125,
+    65.0
+   ],
+   "template": "CivilianBunker01"
+  },
+  {
+   "id": 141,
+   "last_seen_frame": 3,
+   "owner": 1,
+   "pos": [
+    446.8327941894531,
+    1047.752685546875,
+    60.0
+   ],
+   "template": "CivilianBunker01"
+  },
+  {
+   "id": 142,
+   "last_seen_frame": 3,
+   "owner": 1,
+   "pos": [
+    1566.72216796875,
+    1582.504638671875,
+    59.63859558105469
+   ],
+   "template": "CivilianBunker01"
+  }
+ ],
+ "ok": true,
+ "reply_to": 6,
+ "self": {
+  "index": 3,
+  "money": 10000,
+  "power": {
+   "consumed": 0,
+   "produced": 0
+  },
+  "rank": 1,
+  "science_points": 1
+ },
+ "type": "reply",
+ "units": [
+  {
+   "angle": 0.0,
+   "contained_by": null,
+   "health": 250.0,
+   "id": 146,
+   "max_health": 250.0,
+   "pos": [
+    995.0,
+    465.0,
+    40.0
+   ],
+   "status": [],
+   "template": "AmericaVehicleDozer",
+   "veterancy": 0
+  },
+  {
+   "angle": -2.356194496154785,
+   "contained_by": null,
+   "health": 5000.0,
+   "id": 145,
+   "max_health": 5000.0,
+   "pos": [
+    1004.8322143554688,
+    583.6339721679688,
+    40.0
+   ],
+   "status": [],
+   "template": "AmericaCommandCenter",
+   "veterancy": 0
+  }
+ ],
+ "visible": []
+}

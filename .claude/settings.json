@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(foreach \\($t in 'cmake','ninja','git','i686-w64-mingw32-g++','g++','docker','wsl','winget'\\) { $c = Get-Command $t -ErrorAction SilentlyContinue; if \\($c\\) { \"$t : $\\($c.Source\\)\" } else { \"$t : \\(not found\\)\" } }; Test-Path 'C:\\\\msys64'; Test-Path 'C:\\\\Program Files \\(x86\\)\\\\Microsoft Visual Studio\\\\Installer\\\\vswhere.exe')"
+    ]
+  }
+}

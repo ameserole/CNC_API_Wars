@@ -1,0 +1,26 @@
+{
+  "id": "t1",
+  "agents": [
+    {
+      "name": "Alpha",
+      "model": "opus"
+    },
+    {
+      "name": "Bravo",
+      "model": "sonnet"
+    },
+    {
+      "name": "Charlie",
+      "model": "fable"
+    },
+    {
+      "name": "Delta",
+      "model": "haiku"
+    }
+  ],
+  "seed": 953226,
+  "map": "tournament desert",
+  "game_minutes": 45,
+  "iteration_minutes": 5,
+  "prep_minutes": 15
+}

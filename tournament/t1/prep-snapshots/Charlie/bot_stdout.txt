@@ -1,0 +1,19 @@
+08:21:42 connected ws://127.0.0.1:56207 faction ChinaTankGeneral
+08:21:42 home [1010.8062744140625, 2102.68896484375, 40.0] enemy_start [1004.8300170898438, 583.6300048828125] money 2700
+08:21:42 started Tank_ChinaSupplyCenter at [1435, 2376]
+08:21:57 frame=13803 money=1100 power={'consumed': 5, 'produced': 10} units={'ChinaSupplyCenter': 2, 'ChinaTankGattling': 3, 'ChinaTankBattleMaster': 5, 'ChinaGattlingCannon': 1, 'ChinaVehicleSupplyTruck': 3, 'ChinaVehicleDozer': 3, 'ChinaWarFactory': 1, 'ChinaPowerPlant': 1, 'ChinaCommandCenter': 1} enemy_structs=2 visible=29
+08:21:58 science Early_SCIENCE_EmergencyRepair1
+08:22:09 complete Tank_ChinaSupplyCenter
+08:22:12 frame=14256 money=1100 power={'consumed': 6, 'produced': 10} units={'ChinaVehicleSupplyTruck': 4, 'ChinaTankBattleMaster': 5, 'ChinaSupplyCenter': 2, 'ChinaTankGattling': 3, 'ChinaGattlingCannon': 1, 'ChinaVehicleDozer': 3, 'ChinaWarFactory': 1, 'ChinaPowerPlant': 1, 'ChinaCommandCenter': 1} enemy_structs=3 visible=13
+08:22:27 frame=14708 money=2000 power={'consumed': 6, 'produced': 10} units={'ChinaVehicleSupplyTruck': 5, 'ChinaTankBattleMaster': 5, 'ChinaSupplyCenter': 2, 'ChinaTankGattling': 3, 'ChinaGattlingCannon': 1, 'ChinaVehicleDozer': 3, 'ChinaWarFactory': 1, 'ChinaPowerPlant': 1, 'ChinaCommandCenter': 1} enemy_structs=2 visible=18
+08:22:35 build refused Tank_ChinaWarFactory INSUFFICIENT_FUNDS INSUFFICIENT_FUNDS: not enough money once the 700 for orders still on their way is spent
+08:22:42 frame=15157 money=1600 power={'consumed': 6, 'produced': 10} units={'ChinaVehicleSupplyTruck': 5, 'ChinaTankBattleMaster': 5, 'ChinaSupplyCenter': 2, 'ChinaTankGattling': 3, 'ChinaGattlingCannon': 1, 'ChinaVehicleDozer': 3, 'ChinaWarFactory': 1, 'ChinaPowerPlant': 1, 'ChinaCommandCenter': 1} enemy_structs=1 visible=27
+08:22:45 science SCIENCE_ArtilleryBarrage1
+08:22:47 build refused Tank_ChinaWarFactory INSUFFICIENT_FUNDS INSUFFICIENT_FUNDS: not enough money once the 700 for orders still on their way is spent
+08:22:57 frame=15599 money=1800 power={'consumed': 6, 'produced': 10} units={'ChinaTankBattleMaster': 6, 'ChinaVehicleSupplyTruck': 5, 'ChinaSupplyCenter': 2, 'ChinaTankGattling': 3, 'ChinaGattlingCannon': 1, 'ChinaVehicleDozer': 3, 'ChinaWarFactory': 1, 'ChinaPowerPlant': 1, 'ChinaCommandCenter': 1} enemy_structs=2 visible=14
+08:23:05 build refused Tank_ChinaWarFactory INSUFFICIENT_FUNDS INSUFFICIENT_FUNDS: not enough money once the 700 for orders still on their way is spent
+08:23:12 frame=16057 money=2000 power={'consumed': 6, 'produced': 10} units={'ChinaTankBattleMaster': 7, 'ChinaVehicleSupplyTruck': 5, 'ChinaSupplyCenter': 2, 'ChinaTankGattling': 3, 'ChinaGattlingCannon': 1, 'ChinaVehicleDozer': 3, 'ChinaWarFactory': 1, 'ChinaPowerPlant': 1, 'ChinaCommandCenter': 1} enemy_structs=2 visible=7
+08:23:16 build refused Tank_ChinaWarFactory INSUFFICIENT_FUNDS INSUFFICIENT_FUNDS: not enough money once the 700 for orders still on their way is spent
+08:23:27 frame=16508 money=1900 power={'consumed': 6, 'produced': 10} units={'ChinaTankBattleMaster': 8, 'ChinaVehicleSupplyTruck': 5, 'ChinaSupplyCenter': 2, 'ChinaTankGattling': 3, 'ChinaGattlingCannon': 1, 'ChinaVehicleDozer': 3, 'ChinaWarFactory': 1, 'ChinaPowerPlant': 1, 'ChinaCommandCenter': 1} enemy_structs=1 visible=20
+08:23:29 GAME OVER victory [2]
+08:23:42 frame=16868 money=2500 power={'consumed': 6, 'produced': 10} units={'ChinaTankBattleMaster': 9, 'ChinaVehicleSupplyTruck': 5, 'ChinaSupplyCenter': 2, 'ChinaTankGattling': 3, 'ChinaGattlingCannon': 1, 'ChinaVehicleDozer': 3, 'ChinaWarFactory': 1, 'ChinaPowerPlant': 1, 'ChinaCommandCenter': 1} enemy_structs=0 visible=13

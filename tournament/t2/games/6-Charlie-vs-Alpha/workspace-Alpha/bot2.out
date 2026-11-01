@@ -1,0 +1,26 @@
+13:13:30 setup side=China home=[1004.8322143554688, 583.6339721679688] enemy=[1010.8099975585938, 2102.68994140625]
+13:16:16 train TankGattling refused QUEUE_FULL: QUEUE_FULL: the production queue is full
+13:16:18 train TankGattling refused QUEUE_FULL: QUEUE_FULL: the production queue is full
+13:16:20 train TankGattling refused QUEUE_FULL: QUEUE_FULL: the production queue is full
+13:16:22 train TankGattling refused QUEUE_FULL: QUEUE_FULL: the production queue is full
+13:16:24 train TankGattling refused QUEUE_FULL: QUEUE_FULL: the production queue is full
+13:16:34 train TankGattling refused QUEUE_FULL: QUEUE_FULL: the production queue is full
+13:16:36 train TankGattling refused QUEUE_FULL: QUEUE_FULL: the production queue is full
+13:16:38 train TankGattling refused QUEUE_FULL: QUEUE_FULL: the production queue is full
+13:16:40 train TankGattling refused QUEUE_FULL: QUEUE_FULL: the production queue is full
+13:16:43 train TankBattleMaster refused QUEUE_FULL: QUEUE_FULL: the production queue is full
+13:16:45 train TankBattleMaster refused QUEUE_FULL: QUEUE_FULL: the production queue is full
+13:16:53 train TankBattleMaster refused QUEUE_FULL: QUEUE_FULL: the production queue is full
+13:16:55 train TankBattleMaster refused QUEUE_FULL: QUEUE_FULL: the production queue is full
+13:16:57 train TankBattleMaster refused QUEUE_FULL: QUEUE_FULL: the production queue is full
+13:16:59 train TankBattleMaster refused QUEUE_FULL: QUEUE_FULL: the production queue is full
+13:17:01 train TankGattling refused QUEUE_FULL: QUEUE_FULL: the production queue is full
+13:17:03 train TankGattling refused QUEUE_FULL: QUEUE_FULL: the production queue is full
+13:17:05 train TankGattling refused QUEUE_FULL: QUEUE_FULL: the production queue is full
+13:18:42 train TankBattleMaster refused QUEUE_FULL: QUEUE_FULL: the production queue is full
+13:18:44 train TankBattleMaster refused QUEUE_FULL: QUEUE_FULL: the production queue is full
+13:18:58 ATTACK wave tanks=12 army=46
+13:19:02 defend vs Tank_ChinaTankGattling army=47
+13:19:09 defend vs Tank_ChinaTankGattling army=47
+13:19:15 defend vs Tank_ChinaTankGattling army=47
+13:22:05 game over: victory

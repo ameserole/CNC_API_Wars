@@ -1,0 +1,8 @@
+08:13:16 PRACTICE READY port 56192 faction FactionAmerica
+{
+  "agent": "Delta",
+  "ai": "easy",
+  "started": "2026-11-01 08:13:02",
+  "faction": "FactionAmerica",
+  "result": "ended by time"
+}

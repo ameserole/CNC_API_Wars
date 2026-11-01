@@ -1,0 +1,25 @@
+Traceback (most recent call last):
+  File "C:\Users\user\Documents\CNC_Generals_AI\tournament\t1\agents\Delta\scripts\macro2.py", line 116, in <module>
+    if len(army) >= ATTACK_MIN:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\user\Documents\CNC_Generals_AI\tournament\t1\agents\Delta\scripts\macro2.py", line 83, in main
+    # Resume: reuse buildings already placed (run 2 placed power + barracks before the supply spot failed).
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Documents\CNC_Generals_AI\tournament\t1\agents\Delta\scripts\macro2.py", line 48, in build
+    await client.wait_for_event("construction_complete", lambda e: e["id"] == b, timeout=300)
+  File "C:\Users\user\Documents\CNC_Generals_AI\python\generals_api\client.py", line 376, in wait_for_event
+    return await asyncio.wait_for(future, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+generals_api.client.ConnectionClosed: connection closed (code=4001, reason='superseded')

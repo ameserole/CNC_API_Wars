@@ -1,0 +1,19 @@
+{
+  "id": "p10-rehearsal",
+  "agents": [
+    {
+      "name": "Echo",
+      "model": "sonnet"
+    },
+    {
+      "name": "Foxtrot",
+      "model": "sonnet"
+    }
+  ],
+  "seed": 1,
+  "map": "tournament desert",
+  "game_minutes": 45,
+  "iteration_minutes": 5,
+  "prep_minutes": 15,
+  "best_of": 1
+}

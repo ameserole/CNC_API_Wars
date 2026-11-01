@@ -1,0 +1,1205 @@
+{
+ "faction": "FactionGLAToxinGeneral",
+ "ok": true,
+ "reply_to": 12,
+ "sciences": [
+  {
+   "cost": 1,
+   "name": "SCIENCE_ScudLauncher",
+   "tier": 1
+  },
+  {
+   "cost": 1,
+   "name": "SCIENCE_MarauderTank",
+   "tier": 1
+  },
+  {
+   "cost": 1,
+   "name": "SCIENCE_TechnicalTraining",
+   "tier": 1
+  },
+  {
+   "cost": 1,
+   "name": "SCIENCE_RebelAmbush1",
+   "tier": 2
+  },
+  {
+   "cost": 1,
+   "name": "SCIENCE_RebelAmbush2",
+   "tier": 2
+  },
+  {
+   "cost": 1,
+   "name": "SCIENCE_RebelAmbush3",
+   "tier": 2
+  },
+  {
+   "cost": 1,
+   "name": "SCIENCE_CashBounty1",
+   "tier": 2
+  },
+  {
+   "cost": 1,
+   "name": "SCIENCE_CashBounty2",
+   "tier": 2
+  },
+  {
+   "cost": 1,
+   "name": "SCIENCE_CashBounty3",
+   "tier": 2
+  },
+  {
+   "cost": 1,
+   "name": "SCIENCE_EmergencyRepair1",
+   "tier": 2
+  },
+  {
+   "cost": 1,
+   "name": "SCIENCE_EmergencyRepair2",
+   "tier": 2
+  },
+  {
+   "cost": 1,
+   "name": "SCIENCE_EmergencyRepair3",
+   "tier": 2
+  },
+  {
+   "cost": 1,
+   "name": "SCIENCE_AnthraxBomb",
+   "tier": 3
+  },
+  {
+   "cost": 1,
+   "name": "SCIENCE_SneakAttack",
+   "tier": 3
+  }
+ ],
+ "side": "GLAToxinGeneral",
+ "structures": [
+  {
+   "abilities": [
+    {
+     "name": "Command_UpgradeGLAScorpionRocket",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_GLAScorpionRocket"
+    }
+   ],
+   "build_time": 30.0,
+   "buildable": true,
+   "built_by": [
+    "Chem_GLAInfantryWorker"
+   ],
+   "cost": 2500,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "IMMOBILE",
+    "STRUCTURE",
+    "PRELOAD",
+    "REPAIR_PAD",
+    "MP_COUNT_FOR_VICTORY",
+    "SCORE_CREATE",
+    "CAPTURABLE",
+    "FS_FACTORY",
+    "FS_TECHNOLOGY",
+    "AUTO_RALLYPOINT",
+    "FS_WARFACTORY"
+   ],
+   "name": "Chem_GLAArmsDealer",
+   "prerequisites": [
+    [
+     "Chem_GLASupplyStash"
+    ]
+   ],
+   "radius": 73.7834701538086,
+   "science_prerequisites": [],
+   "side": "GLAToxinGeneral"
+  },
+  {
+   "abilities": [
+    {
+     "name": "Command_UpgradeGLARebelCaptureBuilding",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_InfantryCaptureBuilding"
+    }
+   ],
+   "build_time": 20.0,
+   "buildable": true,
+   "built_by": [
+    "Chem_GLAInfantryWorker"
+   ],
+   "cost": 500,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "IMMOBILE",
+    "STRUCTURE",
+    "PRELOAD",
+    "HEAL_PAD",
+    "MP_COUNT_FOR_VICTORY",
+    "SCORE_CREATE",
+    "CAPTURABLE",
+    "FS_FACTORY",
+    "AUTO_RALLYPOINT",
+    "FS_BARRACKS"
+   ],
+   "name": "Chem_GLABarracks",
+   "prerequisites": [],
+   "radius": 66.84310150146484,
+   "science_prerequisites": [],
+   "side": "GLAToxinGeneral"
+  },
+  {
+   "abilities": [
+    {
+     "name": "Chem_Command_UpgradeGLAAPBullets",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_GLAAPBullets"
+    },
+    {
+     "name": "Command_UpgradeGLAAPRockets",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_GLAAPRockets"
+    },
+    {
+     "name": "Command_UpgradeGLAJunkRepair",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_GLAJunkRepair"
+    },
+    {
+     "name": "Command_UpgradeGLABuggyAmmo",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_GLABuggyAmmo"
+    },
+    {
+     "name": "Command_UpgradeGLARadarVanScan",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_GLARadarVanScan"
+    },
+    {
+     "name": "Command_UpgradeGLAWorkerShoes",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_GLAWorkerShoes"
+    }
+   ],
+   "build_time": 60.0,
+   "buildable": true,
+   "built_by": [
+    "Chem_GLAInfantryWorker"
+   ],
+   "cost": 2500,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "IMMOBILE",
+    "STRUCTURE",
+    "PRELOAD",
+    "MP_COUNT_FOR_VICTORY",
+    "SCORE_CREATE",
+    "CAPTURABLE",
+    "FS_TECHNOLOGY",
+    "FS_BLACK_MARKET"
+   ],
+   "name": "Chem_GLABlackMarket",
+   "prerequisites": [
+    [
+     "Chem_GLAPalace"
+    ]
+   ],
+   "radius": 49.497474670410156,
+   "science_prerequisites": [],
+   "side": "GLAToxinGeneral"
+  },
+  {
+   "abilities": [
+    {
+     "name": "Chem_Command_Ambush",
+     "required_science": "SCIENCE_RebelAmbush1",
+     "special_power": "SuperweaponRebelAmbush",
+     "target": "position",
+     "type": "special_power"
+    },
+    {
+     "name": "Command_EmergencyRepair",
+     "required_science": "SCIENCE_EmergencyRepair1",
+     "special_power": "SuperweaponEmergencyRepair",
+     "target": "position",
+     "type": "special_power"
+    },
+    {
+     "name": "Command_AnthraxBomb",
+     "required_science": "SCIENCE_AnthraxBomb",
+     "special_power": "SuperweaponAnthraxBomb",
+     "target": "position",
+     "type": "special_power"
+    }
+   ],
+   "build_time": 90.0,
+   "buildable": true,
+   "built_by": [
+    "Chem_GLAInfantryWorker"
+   ],
+   "cost": 2000,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "IMMOBILE",
+    "STRUCTURE",
+    "COMMANDCENTER",
+    "PRELOAD",
+    "MP_COUNT_FOR_VICTORY",
+    "SCORE_CREATE",
+    "CAPTURABLE",
+    "FS_FACTORY",
+    "AUTO_RALLYPOINT"
+   ],
+   "name": "Chem_GLACommandCenter",
+   "prerequisites": [],
+   "radius": 91.92388153076172,
+   "science_prerequisites": [],
+   "side": "GLAToxinGeneral"
+  },
+  {
+   "abilities": [
+    {
+     "name": "Command_SetDemoTrapProximityDetonation",
+     "required_science": null,
+     "target": "none",
+     "type": "switch_weapon"
+    },
+    {
+     "name": "Command_SetDemoTrapManualDetonation",
+     "required_science": null,
+     "target": "none",
+     "type": "switch_weapon"
+    },
+    {
+     "name": "Command_DetonateDemoTrap",
+     "required_science": null,
+     "target": "none",
+     "type": "switch_weapon"
+    }
+   ],
+   "build_time": 16.0,
+   "buildable": true,
+   "built_by": [
+    "Chem_GLAInfantryWorker"
+   ],
+   "cost": 600,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "IMMOBILE",
+    "STRUCTURE",
+    "PRELOAD",
+    "IMMUNE_TO_CAPTURE",
+    "DEMOTRAP"
+   ],
+   "name": "Chem_GLADemoTrap",
+   "prerequisites": [
+    [
+     "Chem_GLAArmsDealer"
+    ]
+   ],
+   "radius": 4.0,
+   "science_prerequisites": [],
+   "side": "GLAToxinGeneral"
+  },
+  {
+   "abilities": [
+    {
+     "name": "Command_Evacuate",
+     "required_science": null,
+     "target": "none",
+     "type": "evacuate"
+    },
+    {
+     "name": "Command_UpgradeGLAFortifiedStructure",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_GLAFortifiedStructure"
+    },
+    {
+     "name": "Command_UpgradeGLAArmTheMob",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_GLAArmTheMob"
+    },
+    {
+     "name": "Chem_Command_UpgradeGLAAnthraxGamma",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Chem_Upgrade_GLAAnthraxGamma"
+    }
+   ],
+   "build_time": 90.0,
+   "buildable": true,
+   "built_by": [
+    "Chem_GLAInfantryWorker"
+   ],
+   "cost": 2500,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "IMMOBILE",
+    "STRUCTURE",
+    "PRELOAD",
+    "MP_COUNT_FOR_VICTORY",
+    "SCORE_CREATE",
+    "FS_TECHNOLOGY",
+    "GARRISONABLE_UNTIL_DESTROYED",
+    "IMMUNE_TO_CAPTURE",
+    "FS_ADVANCED_TECH"
+   ],
+   "name": "Chem_GLAPalace",
+   "prerequisites": [
+    [
+     "Chem_GLAArmsDealer"
+    ]
+   ],
+   "radius": 72.20111083984375,
+   "science_prerequisites": [],
+   "side": "GLAToxinGeneral"
+  },
+  {
+   "abilities": [
+    {
+     "name": "Command_ScudStorm",
+     "required_science": null,
+     "special_power": "SuperweaponScudStorm",
+     "target": "position",
+     "type": "special_power"
+    }
+   ],
+   "build_time": 120.0,
+   "buildable": true,
+   "built_by": [
+    "Chem_GLAInfantryWorker"
+   ],
+   "cost": 5000,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "IMMOBILE",
+    "STRUCTURE",
+    "PRELOAD",
+    "MP_COUNT_FOR_VICTORY",
+    "SCORE_CREATE",
+    "CAPTURABLE",
+    "FS_TECHNOLOGY",
+    "FS_SUPERWEAPON"
+   ],
+   "name": "Chem_GLAScudStorm",
+   "prerequisites": [
+    [
+     "Chem_GLAPalace"
+    ]
+   ],
+   "radius": 97.62171936035156,
+   "science_prerequisites": [],
+   "side": "GLAToxinGeneral"
+  },
+  {
+   "abilities": [],
+   "build_time": 30.0,
+   "buildable": true,
+   "built_by": [
+    "Chem_GLAInfantryWorker"
+   ],
+   "cost": 900,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "IMMOBILE",
+    "STRUCTURE",
+    "PRELOAD",
+    "SCORE_CREATE",
+    "FS_BASE_DEFENSE",
+    "IMMUNE_TO_CAPTURE",
+    "SPAWNS_ARE_THE_WEAPONS"
+   ],
+   "name": "Chem_GLAStingerSite",
+   "prerequisites": [
+    [
+     "Chem_GLABarracks"
+    ]
+   ],
+   "radius": 36.0,
+   "science_prerequisites": [],
+   "side": "GLAToxinGeneral"
+  },
+  {
+   "abilities": [],
+   "build_time": 20.0,
+   "buildable": true,
+   "built_by": [
+    "Chem_GLAInfantryWorker"
+   ],
+   "cost": 1500,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "IMMOBILE",
+    "STRUCTURE",
+    "PRELOAD",
+    "CASH_GENERATOR",
+    "MP_COUNT_FOR_VICTORY",
+    "SCORE_CREATE",
+    "CAPTURABLE",
+    "AUTO_RALLYPOINT",
+    "CANNOT_BUILD_NEAR_SUPPLIES",
+    "FS_SUPPLY_CENTER",
+    "IGNORE_DOCKING_BONES"
+   ],
+   "name": "Chem_GLASupplyStash",
+   "prerequisites": [],
+   "radius": 50.20956039428711,
+   "science_prerequisites": [],
+   "side": "GLAToxinGeneral"
+  },
+  {
+   "abilities": [
+    {
+     "name": "Command_TunnelEvacuate",
+     "required_science": null,
+     "target": "none",
+     "type": "evacuate"
+    }
+   ],
+   "build_time": 30.0,
+   "buildable": true,
+   "built_by": [
+    "Chem_GLAInfantryWorker"
+   ],
+   "cost": 800,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "IMMOBILE",
+    "CAN_ATTACK",
+    "STRUCTURE",
+    "PRELOAD",
+    "SCORE_CREATE",
+    "ATTACK_NEEDS_LINE_OF_SIGHT",
+    "FS_BASE_DEFENSE",
+    "AUTO_RALLYPOINT",
+    "IMMUNE_TO_CAPTURE"
+   ],
+   "name": "Chem_GLATunnelNetwork",
+   "prerequisites": [
+    [
+     "Chem_GLABarracks"
+    ]
+   ],
+   "radius": 25.0,
+   "science_prerequisites": [],
+   "side": "GLAToxinGeneral"
+  }
+ ],
+ "type": "reply",
+ "units": [
+  {
+   "abilities": [],
+   "build_time": 30.0,
+   "buildable": true,
+   "built_by": [
+    "Chem_GLABarracks"
+   ],
+   "cost": 800,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "CAN_ATTACK",
+    "INFANTRY",
+    "PRELOAD",
+    "NO_COLLIDE",
+    "SCORE",
+    "MOB_NEXUS",
+    "ATTACK_NEEDS_LINE_OF_SIGHT"
+   ],
+   "name": "Chem_GLAInfantryAngryMobNexus",
+   "prerequisites": [
+    [
+     "Chem_GLABarracks"
+    ],
+    [
+     "Chem_GLAPalace"
+    ]
+   ],
+   "radius": 1.0,
+   "science_prerequisites": [],
+   "side": "GLAToxinGeneral"
+  },
+  {
+   "abilities": [],
+   "build_time": 40.0,
+   "buildable": true,
+   "built_by": [
+    "Chem_GLABarracks"
+   ],
+   "cost": 1500,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "CAN_ATTACK",
+    "CAN_CAST_REFLECTIONS",
+    "INFANTRY",
+    "SALVAGER",
+    "PRELOAD",
+    "STEALTH_GARRISON",
+    "SCORE",
+    "ATTACK_NEEDS_LINE_OF_SIGHT",
+    "HERO",
+    "CANNOT_RETALIATE"
+   ],
+   "name": "Chem_GLAInfantryJarmenKell",
+   "prerequisites": [
+    [
+     "Chem_GLABarracks"
+    ],
+    [
+     "Chem_GLAPalace"
+    ]
+   ],
+   "radius": 10.0,
+   "science_prerequisites": [],
+   "side": "GLAToxinGeneral"
+  },
+  {
+   "abilities": [
+    {
+     "name": "Command_GLAInfantryRebelCaptureBuilding",
+     "required_science": null,
+     "special_power": "SpecialAbilityRebelCaptureBuilding",
+     "target": "object",
+     "type": "special_power",
+     "upgrade": "Upgrade_InfantryCaptureBuilding"
+    }
+   ],
+   "build_time": 10.0,
+   "buildable": true,
+   "built_by": [
+    "Chem_GLABarracks"
+   ],
+   "cost": 200,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "CAN_ATTACK",
+    "CAN_CAST_REFLECTIONS",
+    "INFANTRY",
+    "SALVAGER",
+    "PRELOAD",
+    "SCORE",
+    "ATTACK_NEEDS_LINE_OF_SIGHT"
+   ],
+   "name": "Chem_GLAInfantryRebel",
+   "prerequisites": [
+    [
+     "Chem_GLABarracks"
+    ]
+   ],
+   "radius": 10.0,
+   "science_prerequisites": [],
+   "side": "GLAToxinGeneral"
+  },
+  {
+   "abilities": [],
+   "build_time": 10.0,
+   "buildable": true,
+   "built_by": [
+    "Chem_GLABarracks"
+   ],
+   "cost": 200,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "CAN_ATTACK",
+    "CAN_CAST_REFLECTIONS",
+    "INFANTRY",
+    "SALVAGER",
+    "PRELOAD",
+    "SCORE",
+    "ATTACK_NEEDS_LINE_OF_SIGHT"
+   ],
+   "name": "Chem_GLAInfantryTerrorist",
+   "prerequisites": [
+    [
+     "Chem_GLABarracks"
+    ]
+   ],
+   "radius": 10.0,
+   "science_prerequisites": [],
+   "side": "GLAToxinGeneral"
+  },
+  {
+   "abilities": [],
+   "build_time": 10.0,
+   "buildable": true,
+   "built_by": [
+    "Chem_GLABarracks"
+   ],
+   "cost": 300,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "CAN_ATTACK",
+    "CAN_CAST_REFLECTIONS",
+    "INFANTRY",
+    "SALVAGER",
+    "PRELOAD",
+    "SCORE",
+    "ATTACK_NEEDS_LINE_OF_SIGHT"
+   ],
+   "name": "Chem_GLAInfantryTunnelDefender",
+   "prerequisites": [],
+   "radius": 10.0,
+   "science_prerequisites": [],
+   "side": "GLAToxinGeneral"
+  },
+  {
+   "abilities": [
+    {
+     "name": "Command_UpgradeGLAWorkerFakeCommandSet",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_GLAWorkerFakeCommandSet"
+    }
+   ],
+   "build_time": 6.0,
+   "buildable": true,
+   "built_by": [
+    "Chem_GLACommandCenter",
+    "Chem_GLASupplyStash"
+   ],
+   "cost": 200,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "CAN_CAST_REFLECTIONS",
+    "INFANTRY",
+    "DOZER",
+    "HARVESTER",
+    "SALVAGER",
+    "PRELOAD",
+    "SCORE"
+   ],
+   "name": "Chem_GLAInfantryWorker",
+   "prerequisites": [],
+   "radius": 10.0,
+   "science_prerequisites": [],
+   "side": "GLAToxinGeneral"
+  },
+  {
+   "abilities": [],
+   "build_time": 20.0,
+   "buildable": true,
+   "built_by": [
+    "Chem_GLAArmsDealer"
+   ],
+   "cost": 900,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "CAN_ATTACK",
+    "CAN_CAST_REFLECTIONS",
+    "VEHICLE",
+    "SALVAGER",
+    "WEAPON_SALVAGER",
+    "PRELOAD",
+    "SCORE",
+    "ATTACK_NEEDS_LINE_OF_SIGHT"
+   ],
+   "name": "Chem_GLATankMarauder",
+   "prerequisites": [
+    [
+     "Chem_GLAArmsDealer"
+    ]
+   ],
+   "radius": 19.72308349609375,
+   "science_prerequisites": [
+    "SCIENCE_MarauderTank"
+   ],
+   "side": "GLAToxinGeneral"
+  },
+  {
+   "abilities": [],
+   "build_time": 14.0,
+   "buildable": true,
+   "built_by": [
+    "Chem_GLAArmsDealer"
+   ],
+   "cost": 650,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "CAN_ATTACK",
+    "CAN_CAST_REFLECTIONS",
+    "VEHICLE",
+    "SALVAGER",
+    "WEAPON_SALVAGER",
+    "PRELOAD",
+    "SCORE",
+    "ATTACK_NEEDS_LINE_OF_SIGHT"
+   ],
+   "name": "Chem_GLATankScorpion",
+   "prerequisites": [
+    [
+     "Chem_GLAArmsDealer"
+    ]
+   ],
+   "radius": 16.6433162689209,
+   "science_prerequisites": [],
+   "side": "GLAToxinGeneral"
+  },
+  {
+   "abilities": [
+    {
+     "name": "Command_Evacuate",
+     "required_science": null,
+     "target": "none",
+     "type": "evacuate"
+    }
+   ],
+   "build_time": 30.0,
+   "buildable": true,
+   "built_by": [
+    "Chem_GLAArmsDealer"
+   ],
+   "cost": 1100,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "CAN_ATTACK",
+    "CAN_CAST_REFLECTIONS",
+    "VEHICLE",
+    "SALVAGER",
+    "TRANSPORT",
+    "PRELOAD",
+    "SCORE",
+    "ARMOR_SALVAGER"
+   ],
+   "name": "Chem_GLAVehicleBattleBus",
+   "prerequisites": [
+    [
+     "Chem_GLAArmsDealer"
+    ],
+    [
+     "Chem_GLAPalace"
+    ]
+   ],
+   "radius": 20.615528106689453,
+   "science_prerequisites": [],
+   "side": "GLAToxinGeneral"
+  },
+  {
+   "abilities": [
+    {
+     "name": "Command_DisguiseAsVehicle",
+     "required_science": null,
+     "special_power": "SpecialAbilityDisguiseAsVehicle",
+     "target": "object",
+     "type": "special_power"
+    },
+    {
+     "name": "Command_UpgradeGLABombTruckBioBomb",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_GLABombTruckBioBomb"
+    }
+   ],
+   "build_time": 30.0,
+   "buildable": true,
+   "built_by": [
+    "Chem_GLAArmsDealer"
+   ],
+   "cost": 1200,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "CAN_ATTACK",
+    "CAN_CAST_REFLECTIONS",
+    "VEHICLE",
+    "SALVAGER",
+    "PRELOAD",
+    "SCORE",
+    "DISGUISER",
+    "CANNOT_RETALIATE"
+   ],
+   "name": "Chem_GLAVehicleBombTruck",
+   "prerequisites": [
+    [
+     "Chem_GLAArmsDealer"
+    ],
+    [
+     "Chem_GLAPalace"
+    ]
+   ],
+   "radius": 20.615528106689453,
+   "science_prerequisites": [],
+   "side": "GLAToxinGeneral"
+  },
+  {
+   "abilities": [],
+   "build_time": 8.0,
+   "buildable": true,
+   "built_by": [
+    "Chem_GLAArmsDealer"
+   ],
+   "cost": 550,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "CAN_ATTACK",
+    "CAN_CAST_REFLECTIONS",
+    "VEHICLE",
+    "SALVAGER",
+    "PRELOAD",
+    "SCORE",
+    "ATTACK_NEEDS_LINE_OF_SIGHT",
+    "DONT_AUTO_CRUSH_INFANTRY",
+    "CLIFF_JUMPER"
+   ],
+   "name": "Chem_GLAVehicleCombatBike",
+   "prerequisites": [
+    [
+     "Chem_GLAArmsDealer"
+    ]
+   ],
+   "radius": 11.280513763427734,
+   "science_prerequisites": [],
+   "side": "GLAToxinGeneral"
+  },
+  {
+   "abilities": [],
+   "build_time": 12.0,
+   "buildable": true,
+   "built_by": [
+    "Chem_GLAArmsDealer"
+   ],
+   "cost": 750,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "CAN_ATTACK",
+    "CAN_CAST_REFLECTIONS",
+    "VEHICLE",
+    "SALVAGER",
+    "WEAPON_SALVAGER",
+    "PRELOAD",
+    "SCORE",
+    "ATTACK_NEEDS_LINE_OF_SIGHT"
+   ],
+   "name": "Chem_GLAVehicleQuadCannon",
+   "prerequisites": [
+    [
+     "Chem_GLAArmsDealer"
+    ]
+   ],
+   "radius": 19.313207626342773,
+   "science_prerequisites": [],
+   "side": "GLAToxinGeneral"
+  },
+  {
+   "abilities": [
+    {
+     "name": "Command_RadarVanScan",
+     "required_science": null,
+     "special_power": "SpecialPowerRadarVanScan",
+     "target": "position",
+     "type": "special_power",
+     "upgrade": "Upgrade_GLARadarVanScan"
+    }
+   ],
+   "build_time": 20.0,
+   "buildable": true,
+   "built_by": [
+    "Chem_GLAArmsDealer"
+   ],
+   "cost": 550,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "CAN_CAST_REFLECTIONS",
+    "VEHICLE",
+    "SALVAGER",
+    "PRELOAD",
+    "SCORE",
+    "IGNORES_SELECT_ALL"
+   ],
+   "name": "Chem_GLAVehicleRadarVan",
+   "prerequisites": [
+    [
+     "Chem_GLAArmsDealer"
+    ]
+   ],
+   "radius": 17.0880069732666,
+   "science_prerequisites": [],
+   "side": "GLAToxinGeneral"
+  },
+  {
+   "abilities": [],
+   "build_time": 20.0,
+   "buildable": true,
+   "built_by": [
+    "Chem_GLAArmsDealer"
+   ],
+   "cost": 1100,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "CAN_ATTACK",
+    "CAN_CAST_REFLECTIONS",
+    "VEHICLE",
+    "SALVAGER",
+    "PRELOAD",
+    "SCORE",
+    "ATTACK_NEEDS_LINE_OF_SIGHT",
+    "DONT_AUTO_CRUSH_INFANTRY"
+   ],
+   "name": "Chem_GLAVehicleRocketBuggy",
+   "prerequisites": [
+    [
+     "Chem_GLAArmsDealer"
+    ],
+    [
+     "Chem_GLAPalace"
+    ]
+   ],
+   "radius": 15.81138801574707,
+   "science_prerequisites": [],
+   "side": "GLAToxinGeneral"
+  },
+  {
+   "abilities": [],
+   "build_time": 30.0,
+   "buildable": true,
+   "built_by": [
+    "Chem_GLAArmsDealer"
+   ],
+   "cost": 1200,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "CAN_ATTACK",
+    "CAN_CAST_REFLECTIONS",
+    "VEHICLE",
+    "SALVAGER",
+    "WEAPON_SALVAGER",
+    "PRELOAD",
+    "SCORE",
+    "DONT_AUTO_CRUSH_INFANTRY"
+   ],
+   "name": "Chem_GLAVehicleScudLauncher",
+   "prerequisites": [
+    [
+     "Chem_GLAArmsDealer"
+    ],
+    [
+     "Chem_GLAPalace"
+    ]
+   ],
+   "radius": 15.65247631072998,
+   "science_prerequisites": [
+    "SCIENCE_ScudLauncher"
+   ],
+   "side": "GLAToxinGeneral"
+  },
+  {
+   "abilities": [],
+   "build_time": 10.0,
+   "buildable": true,
+   "built_by": [
+    "Chem_GLAArmsDealer"
+   ],
+   "cost": 500,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "CAN_ATTACK",
+    "CAN_CAST_REFLECTIONS",
+    "VEHICLE",
+    "SALVAGER",
+    "WEAPON_SALVAGER",
+    "TRANSPORT",
+    "PRELOAD",
+    "ATTACK_NEEDS_LINE_OF_SIGHT"
+   ],
+   "name": "Chem_GLAVehicleTechnical",
+   "prerequisites": [],
+   "radius": 1.0,
+   "science_prerequisites": [],
+   "side": "GLAToxinGeneral"
+  },
+  {
+   "abilities": [],
+   "build_time": 10.0,
+   "buildable": true,
+   "built_by": [
+    "Chem_GLAArmsDealer"
+   ],
+   "cost": 650,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "CAN_ATTACK",
+    "CAN_CAST_REFLECTIONS",
+    "VEHICLE",
+    "SALVAGER",
+    "WEAPON_SALVAGER",
+    "PRELOAD",
+    "SCORE",
+    "ATTACK_NEEDS_LINE_OF_SIGHT"
+   ],
+   "name": "Chem_GLAVehicleToxinTruck",
+   "prerequisites": [
+    [
+     "Chem_GLAArmsDealer"
+    ]
+   ],
+   "radius": 15.81138801574707,
+   "science_prerequisites": [],
+   "side": "GLAToxinGeneral"
+  }
+ ],
+ "upgrades": [
+  {
+   "build_time": 60.0,
+   "built_by": [
+    "Chem_GLAPalace"
+   ],
+   "cost": 1500,
+   "name": "Chem_Upgrade_GLAAnthraxGamma",
+   "type": "player"
+  },
+  {
+   "build_time": 60.0,
+   "built_by": [
+    "Chem_GLABlackMarket"
+   ],
+   "cost": 2000,
+   "name": "Upgrade_GLAAPBullets",
+   "type": "player"
+  },
+  {
+   "build_time": 60.0,
+   "built_by": [
+    "Chem_GLABlackMarket"
+   ],
+   "cost": 2000,
+   "name": "Upgrade_GLAAPRockets",
+   "type": "player"
+  },
+  {
+   "build_time": 30.0,
+   "built_by": [
+    "Chem_GLAPalace"
+   ],
+   "cost": 1000,
+   "name": "Upgrade_GLAArmTheMob",
+   "type": "player"
+  },
+  {
+   "build_time": 5.0,
+   "built_by": [
+    "Chem_GLAVehicleBombTruck"
+   ],
+   "cost": 500,
+   "name": "Upgrade_GLABombTruckBioBomb",
+   "type": "object"
+  },
+  {
+   "build_time": 30.0,
+   "built_by": [
+    "Chem_GLABlackMarket"
+   ],
+   "cost": 1200,
+   "name": "Upgrade_GLABuggyAmmo",
+   "type": "player"
+  },
+  {
+   "build_time": 30.0,
+   "built_by": [
+    "Chem_GLAPalace"
+   ],
+   "cost": 1000,
+   "name": "Upgrade_GLAFortifiedStructure",
+   "type": "player"
+  },
+  {
+   "build_time": 60.0,
+   "built_by": [
+    "Chem_GLABlackMarket"
+   ],
+   "cost": 2000,
+   "name": "Upgrade_GLAJunkRepair",
+   "type": "player"
+  },
+  {
+   "build_time": 20.0,
+   "built_by": [
+    "Chem_GLABlackMarket"
+   ],
+   "cost": 500,
+   "name": "Upgrade_GLARadarVanScan",
+   "type": "player"
+  },
+  {
+   "build_time": 30.0,
+   "built_by": [
+    "Chem_GLAArmsDealer"
+   ],
+   "cost": 1000,
+   "name": "Upgrade_GLAScorpionRocket",
+   "type": "player"
+  },
+  {
+   "build_time": 0.0,
+   "built_by": [
+    "Chem_GLAInfantryWorker"
+   ],
+   "cost": 0,
+   "name": "Upgrade_GLAWorkerFakeCommandSet",
+   "type": "object"
+  },
+  {
+   "build_time": 10.0,
+   "built_by": [
+    "Chem_GLABlackMarket"
+   ],
+   "cost": 1000,
+   "name": "Upgrade_GLAWorkerShoes",
+   "type": "player"
+  },
+  {
+   "build_time": 30.0,
+   "built_by": [
+    "Chem_GLABarracks"
+   ],
+   "cost": 1000,
+   "name": "Upgrade_InfantryCaptureBuilding",
+   "type": "player"
+  }
+ ]
+}

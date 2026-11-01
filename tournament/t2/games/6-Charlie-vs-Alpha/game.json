@@ -1,0 +1,76 @@
+{
+  "number": 6,
+  "round": 2,
+  "match": 3,
+  "game_in_match": 2,
+  "best_of": 3,
+  "folder": "6-Charlie-vs-Alpha",
+  "players": [
+    "Charlie",
+    "Alpha"
+  ],
+  "host": "Alpha",
+  "models": {
+    "Charlie": "fable",
+    "Alpha": "opus"
+  },
+  "ports": {
+    "Alpha": 49683,
+    "Charlie": 49684
+  },
+  "observer_port": 49685,
+  "started": "2026-11-01 13:05:10",
+  "warnings": {},
+  "pids": {
+    "bot1": 20292,
+    "bot2": 11568,
+    "observer": 30804
+  },
+  "factions": {
+    "Charlie": "FactionChinaTankGeneral",
+    "Alpha": "FactionChina"
+  },
+  "start_positions": {
+    "Charlie": 2,
+    "Alpha": 1
+  },
+  "status": "done",
+  "reason": "game_over",
+  "tiebreak": null,
+  "winner": "Alpha",
+  "loser": "Charlie",
+  "frames": 27544,
+  "game_minutes": 15.3,
+  "stats": [
+    {
+      "buildings_built": 8,
+      "buildings_destroyed": 12,
+      "buildings_lost": 0,
+      "index": 2,
+      "money_earned": 55875,
+      "money_spent": 12500,
+      "score": 74175,
+      "side": "China",
+      "units_built": 103,
+      "units_destroyed": 60,
+      "units_lost": 59,
+      "name": "Alpha"
+    },
+    {
+      "buildings_built": 13,
+      "buildings_destroyed": 0,
+      "buildings_lost": 13,
+      "index": 3,
+      "money_earned": 38100,
+      "money_spent": 14000,
+      "score": 49600,
+      "side": "ChinaTankGeneral",
+      "units_built": 66,
+      "units_destroyed": 36,
+      "units_lost": 62,
+      "name": "Charlie"
+    }
+  ],
+  "replay": true,
+  "ended": "2026-11-01 13:22:15"
+}

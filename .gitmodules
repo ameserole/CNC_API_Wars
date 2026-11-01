@@ -1,0 +1,4 @@
+[submodule "ZeroHourFork/GeneralsGameCode"]
+	path = ZeroHourFork/GeneralsGameCode
+	url = https://github.com/ameserole/GeneralsGameCode.git
+	branch = main

@@ -1,0 +1,110 @@
+{
+  "1": {
+    "match": 1,
+    "game_in_match": 1,
+    "winner": "Charlie",
+    "loser": "Bravo",
+    "reason": "game_over",
+    "tiebreak": null,
+    "factions": {
+      "Bravo": "FactionChina",
+      "Charlie": "FactionChina"
+    },
+    "frames": 46347,
+    "folder": "1-Bravo-vs-Charlie",
+    "scores": {
+      "Bravo": 80050,
+      "Charlie": 97450
+    }
+  },
+  "2": {
+    "match": 1,
+    "game_in_match": 2,
+    "winner": "Charlie",
+    "loser": "Bravo",
+    "reason": "game_over",
+    "tiebreak": null,
+    "factions": {
+      "Bravo": "FactionChina",
+      "Charlie": "FactionChina"
+    },
+    "frames": 24235,
+    "folder": "2-Bravo-vs-Charlie",
+    "scores": {
+      "Bravo": 21750,
+      "Charlie": 44900
+    }
+  },
+  "3": {
+    "match": 2,
+    "game_in_match": 1,
+    "winner": "Alpha",
+    "loser": "Delta",
+    "reason": "game_over",
+    "tiebreak": null,
+    "factions": {
+      "Alpha": "FactionChina",
+      "Delta": "FactionChina"
+    },
+    "frames": 12490,
+    "folder": "3-Alpha-vs-Delta",
+    "scores": {
+      "Alpha": 30900,
+      "Delta": 8700
+    }
+  },
+  "4": {
+    "match": 2,
+    "game_in_match": 2,
+    "winner": "Alpha",
+    "loser": "Delta",
+    "reason": "game_over",
+    "tiebreak": null,
+    "factions": {
+      "Alpha": "FactionChina",
+      "Delta": "FactionChina"
+    },
+    "frames": 11467,
+    "folder": "4-Alpha-vs-Delta",
+    "scores": {
+      "Alpha": 27000,
+      "Delta": 5200
+    }
+  },
+  "5": {
+    "match": 3,
+    "game_in_match": 1,
+    "winner": "Alpha",
+    "loser": "Charlie",
+    "reason": "game_over",
+    "tiebreak": null,
+    "factions": {
+      "Charlie": "FactionChina",
+      "Alpha": "FactionChina"
+    },
+    "frames": 23531,
+    "folder": "5-Charlie-vs-Alpha",
+    "scores": {
+      "Charlie": 37725,
+      "Alpha": 58600
+    }
+  },
+  "6": {
+    "match": 3,
+    "game_in_match": 2,
+    "winner": "Alpha",
+    "loser": "Charlie",
+    "reason": "game_over",
+    "tiebreak": null,
+    "factions": {
+      "Charlie": "FactionChinaTankGeneral",
+      "Alpha": "FactionChina"
+    },
+    "frames": 27544,
+    "folder": "6-Charlie-vs-Alpha",
+    "scores": {
+      "Charlie": 49600,
+      "Alpha": 74175
+    }
+  }
+}

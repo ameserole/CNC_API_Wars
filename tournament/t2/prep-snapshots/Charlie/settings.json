@@ -1,0 +1,49 @@
+{
+  "tick_seconds": 2.0,
+  "dozers": 2,
+  "build_order": [
+    [
+      "PowerPlant",
+      1
+    ],
+    [
+      "SupplyCenter",
+      1
+    ],
+    [
+      "WarFactory",
+      1
+    ],
+    [
+      "Barracks",
+      1
+    ],
+    [
+      "PowerPlant",
+      2
+    ],
+    [
+      "WarFactory",
+      2
+    ]
+  ],
+  "trucks_per_center": 3,
+  "tank_mix": [
+    "TankBattleMaster",
+    "TankBattleMaster",
+    "TankGattling"
+  ],
+  "infantry": 4,
+  "attack_size": 8,
+  "reserve": 0,
+  "supply_hints": [
+    [
+      632,
+      127
+    ],
+    [
+      1388,
+      2573
+    ]
+  ]
+}

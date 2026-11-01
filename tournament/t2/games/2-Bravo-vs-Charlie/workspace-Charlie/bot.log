@@ -1,0 +1,695 @@
+11:40:05 strategy reloaded ok
+11:40:05 train dozer
+11:40:05 build ChinaPowerPlant at [875, 761] dozer 144
+11:40:17 train dozer
+11:41:41 strategy reloaded ok
+11:41:41 build ChinaSupplyCenter at [803, 672] dozer 162
+11:42:03 build ChinaWarFactory at [786, 560] dozer 161
+11:42:03 train truck
+11:42:06 build ChinaBarracks at [826, 454] dozer 144
+11:42:08 build refused ChinaPowerPlant NOT_AVAILABLE NOT_AVAILABLE: build that is not available right now (prerequisites, power or state)
+11:42:10 build refused ChinaPowerPlant NOT_AVAILABLE NOT_AVAILABLE: build that is not available right now (prerequisites, power or state)
+11:42:12 build refused ChinaPowerPlant NOT_AVAILABLE NOT_AVAILABLE: build that is not available right now (prerequisites, power or state)
+11:42:14 build refused ChinaPowerPlant NOT_AVAILABLE NOT_AVAILABLE: build that is not available right now (prerequisites, power or state)
+11:42:14 train truck
+11:42:16 build refused ChinaPowerPlant NOT_AVAILABLE NOT_AVAILABLE: build that is not available right now (prerequisites, power or state)
+11:42:18 build refused ChinaPowerPlant NOT_AVAILABLE NOT_AVAILABLE: build that is not available right now (prerequisites, power or state)
+11:42:20 build refused ChinaPowerPlant NOT_AVAILABLE NOT_AVAILABLE: build that is not available right now (prerequisites, power or state)
+11:42:22 strategy reloaded ok
+11:42:22 build refused ChinaPowerPlant NOT_AVAILABLE NOT_AVAILABLE: build that is not available right now (prerequisites, power or state)
+11:42:22 train truck
+11:42:24 build ChinaPowerPlant at [915, 382] dozer 162
+11:42:24 train refused TankBattleMaster INSUFFICIENT_FUNDS
+11:42:46 defend vs CarScrap with 1
+11:42:52 defend vs CarScrap with 1
+11:42:58 defend vs CarScrap with 2
+11:43:04 defend vs CarScrap with 2
+11:43:10 defend vs CarScrap with 3
+11:43:17 defend vs CarScrap with 3
+11:43:19 strategy reloaded ok
+11:43:23 defend vs CarScrap with 4
+11:43:27 train TankBattleMaster
+11:43:29 defend vs CarScrap with 4
+11:43:35 defend vs CarScrap with 4
+11:43:37 strategy reloaded ok
+11:44:11 train TankBattleMaster
+11:44:27 defend vs SupW_AmericaVehicleHumvee with 6
+11:44:33 defend vs SupW_AmericaVehicleHumvee with 4
+11:44:39 defend vs SupW_AmericaVehicleHumvee with 5
+11:44:45 strategy reloaded ok
+11:44:46 defend vs SupW_AmericaVehicleHumvee with 6
+11:44:48 clear refused NOT_VISIBLE
+11:44:50 clear refused NOT_VISIBLE
+11:44:52 clear refused NOT_VISIBLE
+11:44:54 defend vs SupW_AmericaInfantryRanger with 6
+11:44:56 clear refused NOT_VISIBLE
+11:44:58 clear refused NOT_VISIBLE
+11:45:00 defend vs SupW_AmericaInfantryRanger with 6
+11:45:02 clear refused NOT_VISIBLE
+11:45:04 clear refused NOT_VISIBLE
+11:45:06 train TankGattling
+11:45:06 defend vs SupW_AmericaInfantryRanger with 6
+11:45:08 clear refused NOT_VISIBLE
+11:45:10 clear refused NOT_VISIBLE
+11:45:12 strategy reloaded ok
+11:45:12 defend vs SupW_AmericaInfantryRanger with 6
+11:45:14 clear forward structure SupW_AmericaPatriotBattery with 6
+11:45:18 defend vs SupW_AmericaInfantryRanger with 6
+11:45:24 defend vs SupW_AmericaInfantryRanger with 7
+11:45:26 clear forward structure SupW_AmericaPatriotBattery with 7
+11:45:30 defend vs SupW_AmericaInfantryRanger with 7
+11:45:38 clear forward structure SupW_AmericaPatriotBattery with 7
+11:45:40 train TankBattleMaster
+11:45:50 clear forward structure SupW_AmericaPatriotBattery with 6
+11:45:54 strategy reloaded ok
+11:46:02 clear forward structure SupW_AmericaPatriotBattery with 6
+11:46:14 clear forward structure SupW_AmericaPatriotBattery with 5
+11:46:31 strategy reloaded ok
+11:46:33 train TankBattleMaster
+11:47:13 train TankGattling
+11:47:33 train TankBattleMaster
+11:47:45 strategy reloaded ok
+11:47:49 ATTACK with 8
+11:47:57 defend vs SupW_AmericaVehicleHumvee with 5
+11:48:03 defend vs SupW_AmericaVehicleHumvee with 6
+11:48:09 defend vs SupW_AmericaVehicleHumvee with 7
+11:48:15 clear forward structure SupW_AmericaPatriotBattery with 8
+=== GAME 1 t2 vs Bravo Sun Nov  1 11:50:09 EST 2026 ===
+11:50:10 connected in_game apm 0
+11:50:10 train dozer
+11:50:10 build ChinaPowerPlant at [875, 761] dozer 144
+11:50:42 build ChinaSupplyCenter at [763, 250] dozer 149
+11:51:00 build ChinaWarFactory at [786, 560] dozer 144
+11:51:00 train truck
+11:51:04 build ChinaBarracks at [803, 672] dozer 149
+11:51:06 build refused ChinaPowerPlant NOT_AVAILABLE NOT_AVAILABLE: build that is not available right now (prerequisites, power or state)
+11:51:08 build refused ChinaPowerPlant NOT_AVAILABLE NOT_AVAILABLE: build that is not available right now (prerequisites, power or state)
+11:51:10 build refused ChinaPowerPlant NOT_AVAILABLE NOT_AVAILABLE: build that is not available right now (prerequisites, power or state)
+11:51:10 train truck
+11:51:13 build refused ChinaPowerPlant NOT_AVAILABLE NOT_AVAILABLE: build that is not available right now (prerequisites, power or state)
+11:51:15 build refused ChinaPowerPlant NOT_AVAILABLE NOT_AVAILABLE: build that is not available right now (prerequisites, power or state)
+11:51:17 build refused ChinaPowerPlant NOT_AVAILABLE NOT_AVAILABLE: build that is not available right now (prerequisites, power or state)
+11:51:19 build refused ChinaPowerPlant NOT_AVAILABLE NOT_AVAILABLE: build that is not available right now (prerequisites, power or state)
+11:51:21 build refused ChinaPowerPlant NOT_AVAILABLE NOT_AVAILABLE: build that is not available right now (prerequisites, power or state)
+11:51:21 train truck
+11:51:23 train TankBattleMaster
+11:51:25 build ChinaPowerPlant at [826, 454] dozer 144
+11:51:31 train TankBattleMaster
+11:52:07 train TankGattling
+11:52:35 train TankBattleMaster
+11:52:47 defend vs ChinaInfantryRedguard with 7
+11:52:51 ATTACK with 8
+11:52:53 defend vs ChinaInfantryRedguard with 8
+11:52:57 train TankBattleMaster
+11:52:59 defend vs ChinaInfantryRedguard with 6
+11:53:05 defend vs ChinaInfantryRedguard with 4
+11:53:11 strategy reloaded ok
+11:53:11 defend vs ChinaInfantryRedguard with 5
+11:53:13 hold: cancel attack, army home
+11:53:17 defend vs ChinaInfantryRedguard with 7
+11:53:24 defend vs ChinaInfantryRedguard with 6
+11:53:28 train TankGattling
+11:53:30 defend vs ChinaInfantryRedguard with 7
+11:53:36 defend vs ChinaInfantryRedguard with 7
+11:53:42 defend vs ChinaInfantryRedguard with 8
+11:53:48 defend vs ChinaInfantryRedguard with 9
+11:53:54 defend vs ChinaInfantryRedguard with 9
+11:53:58 train TankBattleMaster
+11:54:00 defend vs ChinaTankBattleMaster with 9
+11:54:04 strategy reloaded ok
+11:54:12 defend vs ChinaTankBattleMaster with 9
+11:54:18 train truck
+11:54:18 train refused TankGattling INSUFFICIENT_FUNDS
+11:54:24 defend vs ChinaTankBattleMaster with 10
+11:54:28 train truck
+11:54:49 train TankGattling
+11:55:09 train TankBattleMaster
+11:55:29 train TankGattling
+11:56:25 build ChinaWarFactory at [915, 382] dozer 144
+11:56:25 train refused TankBattleMaster INSUFFICIENT_FUNDS
+11:56:47 train TankBattleMaster
+11:57:09 defend vs ChinaInfantryRedguard with 6
+11:57:21 defend vs ChinaInfantryRedguard with 6
+11:57:33 defend vs ChinaInfantryRedguard with 6
+11:57:41 train TankGattling
+11:57:46 defend vs ChinaInfantryRedguard with 4
+11:57:58 defend vs ChinaInfantryRedguard with 2
+11:58:06 strategy reloaded ok
+11:58:10 defend vs ChinaTankBattleMaster with 2
+11:58:18 train TankGattling
+11:58:22 defend vs ChinaTankBattleMaster with 1
+11:58:26 strategy reloaded ok
+11:58:26 beat frame 15885 money 425 army 0 enemies 8
+11:58:34 defend vs ChinaTankBattleMaster with 1
+11:58:44 train dozer
+11:58:44 build refused ChinaGattlingCannon INSUFFICIENT_FUNDS INSUFFICIENT_FUNDS: not enough money once the 1000 for orders still on their way is spent
+11:58:46 defend vs ChinaInfantryRedguard with 1
+11:58:58 beat frame 16804 money 850 army 1 enemies 4
+11:58:58 train TankGattling
+11:58:58 defend vs ChinaInfantryRedguard with 1
+11:59:10 defend vs ChinaInfantryRedguard with 1
+11:59:22 defend vs ChinaInfantryRedguard with 2
+11:59:24 train TankBattleMaster
+11:59:30 strategy reloaded ok
+11:59:30 beat frame 17734 money 450 army 2 enemies 4
+11:59:40 regroup 1 units
+11:59:48 build ChinaPowerPlant at [875, 761] dozer 1009
+11:59:48 train refused TankGattling INSUFFICIENT_FUNDS
+11:59:48 train refused TankGattling INSUFFICIENT_FUNDS
+12:00:03 beat frame 18679 money 650 army 3 enemies 0
+12:00:19 build ChinaGattlingCannon at [884, 813] dozer 1009
+12:00:19 train refused TankGattling INSUFFICIENT_FUNDS
+12:00:19 train refused TankGattling INSUFFICIENT_FUNDS
+12:00:35 beat frame 19625 money 650 army 3 enemies 0
+12:00:45 build refused ChinaGattlingCannon NOT_AVAILABLE NOT_AVAILABLE: build that is not available right now (prerequisites, power or state)
+12:00:45 train TankGattling
+12:01:01 regroup 1 units
+12:01:05 build ChinaGattlingCannon at [934, 847] dozer 1009
+12:01:05 train refused TankGattling INSUFFICIENT_FUNDS
+12:01:05 train refused TankGattling INSUFFICIENT_FUNDS
+12:01:07 beat frame 20554 money 150 army 4 enemies 0
+12:01:25 defend vs ChinaInfantryRedguard with 4
+12:01:28 train TankGattling
+12:01:34 strategy reloaded ok
+12:01:38 defend vs ChinaInfantryRedguard with 2
+12:01:40 beat frame 21470 money 850 army 1 enemies 32
+12:01:40 train TankBattleMaster
+12:01:50 defend vs ChinaInfantryRedguard with 1
+12:02:02 defend vs ChinaInfantryRedguard with 2
+12:02:04 train TankGattling
+12:02:12 beat frame 22384 money 525 army 2 enemies 2
+12:02:20 regroup 1 units
+12:02:22 train TankGattling
+12:02:28 defend vs ChinaInfantryRedguard with 3
+12:02:40 defend vs ChinaInfantryRedguard with 4
+12:02:44 beat frame 23329 money 925 army 4 enemies 0
+12:02:48 build ChinaGattlingCannon at [910, 867] dozer 1009
+12:02:48 train refused TankBattleMaster INSUFFICIENT_FUNDS
+12:02:48 train refused TankBattleMaster INSUFFICIENT_FUNDS
+12:03:06 train TankBattleMaster
+12:03:16 beat frame 24274 money 425 army 4 enemies 0
+12:03:22 train TankGattling
+12:03:22 regroup 1 units
+12:03:43 train TankGattling
+12:03:45 regroup 1 units
+12:03:49 beat frame 25204 money 325 army 6 enemies 0
+12:03:57 train TankBattleMaster
+12:04:07 regroup 1 units
+12:04:19 train TankGattling
+12:04:21 beat frame 26149 money 225 army 8 enemies 0
+12:04:29 train TankGattling
+12:04:29 regroup 1 units
+12:04:49 train TankBattleMaster
+12:04:51 regroup 2 units
+12:04:53 beat frame 27079 money 125 army 10 enemies 0
+12:05:07 train TankGattling
+12:05:13 strategy reloaded ok
+12:05:15 regroup 1 units
+12:05:27 beat frame 28024 money 600 army 12 enemies 0
+12:05:31 train TankGattling
+12:05:37 regroup 1 units
+12:05:41 defend vs ChinaInfantryRedguard with 12
+12:05:51 train TankBattleMaster
+12:05:53 defend vs ChinaInfantryRedguard with 11
+12:05:59 beat frame 28951 money 200 army 10 enemies 12
+12:06:05 defend vs ChinaTankBattleMaster with 6
+12:06:10 train TankBattleMaster
+12:06:18 defend vs ChinaTankBattleMaster with 6
+12:06:32 beat frame 29884 money 600 army 7 enemies 0
+12:06:32 regroup 2 units
+12:06:42 build ChinaGattlingCannon at [910, 867] dozer 1009
+12:06:42 train refused TankBattleMaster INSUFFICIENT_FUNDS
+12:06:42 train refused TankBattleMaster INSUFFICIENT_FUNDS
+12:07:00 train TankBattleMaster
+12:07:04 beat frame 30829 money 100 army 7 enemies 0
+12:07:16 train TankGattling
+12:07:16 regroup 1 units
+12:07:22 train TankBattleMaster
+12:07:36 beat frame 31759 money 450 army 9 enemies 0
+12:07:38 regroup 2 units
+12:08:09 beat frame 32704 money 450 army 10 enemies 0
+12:08:19 train TankBattleMaster
+12:08:33 train TankGattling
+12:08:35 regroup 1 units
+12:08:41 beat frame 33634 money 350 army 11 enemies 0
+12:08:47 strategy reloaded ok
+12:08:57 regroup 1 units
+12:09:13 beat frame 34579 money 950 army 12 enemies 0
+12:09:27 build ChinaSupplyCenter at [588, 1281] dozer 1009
+12:09:27 train refused TankBattleMaster INSUFFICIENT_FUNDS
+12:09:27 train refused TankBattleMaster INSUFFICIENT_FUNDS
+12:09:45 beat frame 35509 money 650 army 12 enemies 0
+12:09:47 train TankBattleMaster
+12:10:03 regroup 1 units
+12:10:17 beat frame 36454 money 450 army 13 enemies 0
+12:10:19 train truck
+12:10:29 train truck
+12:10:37 train TankBattleMaster
+12:10:48 train TankGattling
+12:10:50 beat frame 37384 money 200 army 13 enemies 0
+12:10:54 regroup 1 units
+12:11:08 train TankBattleMaster
+12:11:16 regroup 1 units
+12:11:20 train TankBattleMaster
+12:11:22 beat frame 38314 money 250 army 15 enemies 0
+12:11:26 train TankGattling
+12:11:30 ATTACK with 16
+12:11:32 train TankBattleMaster
+12:11:38 clear forward structure ChinaSupplyCenter with 17
+12:11:50 clear forward structure ChinaSupplyCenter with 16
+12:11:54 beat frame 39218 money 1050 army 16 enemies 36
+12:11:54 train TankBattleMaster
+12:12:00 dock refused NOT_VISIBLE
+12:12:00 train TankGattling
+12:12:04 strategy reloaded ok
+12:12:08 defend vs ChinaInfantryRedguard with 10
+12:12:20 strategy reloaded ok
+12:12:20 defend vs ChinaInfantryRedguard with 11
+12:12:22 hold: cancel attack, army home
+12:12:26 beat frame 40126 money 1250 army 10 enemies 12
+12:12:26 train TankBattleMaster
+12:12:32 defend vs ChinaInfantryRedguard with 9
+12:12:34 strategy reloaded ok
+12:12:34 train TankGattling
+12:12:34 clear forward structure ChinaWarFactory with 9
+12:12:46 regroup 7 units
+12:12:46 clear forward structure ChinaWarFactory with 10
+12:12:48 train TankBattleMaster
+12:12:53 train TankGattling
+12:12:59 beat frame 41044 money 300 army 11 enemies 8
+12:12:59 clear forward structure ChinaWarFactory with 11
+12:13:03 strategy reloaded ok
+12:13:05 train TankBattleMaster
+12:13:11 clear forward structure ChinaWarFactory with 12
+12:13:13 train TankGattling
+12:13:17 dock refused NOT_VISIBLE
+12:13:21 train TankBattleMaster
+12:13:23 clear forward structure ChinaBarracks with 13
+12:13:27 ATTACK with 14
+12:13:31 beat frame 41974 money 750 army 14 enemies 12
+12:13:35 clear forward structure ChinaBarracks with 14
+12:13:37 train TankGattling
+12:13:45 train TankBattleMaster
+12:13:47 clear forward structure ChinaBarracks with 15
+12:13:55 train TankGattling
+12:13:59 clear forward structure ChinaPowerPlant with 16
+12:14:03 beat frame 42904 money 375 army 16 enemies 8
+12:14:17 train TankBattleMaster
+12:14:27 attack structure ChinaCommandCenter visible
+12:14:35 beat frame 43819 money 775 army 18 enemies 5
+12:14:37 train TankGattling
+12:14:39 attack structure ChinaCommandCenter visible
+12:14:49 dock refused NOT_VISIBLE
+12:14:51 dock refused NOT_VISIBLE
+12:14:51 attack structure ChinaCommandCenter visible
+12:14:54 dock refused NOT_VISIBLE
+12:14:54 dock refused NOT_VISIBLE
+12:14:54 dock refused NOT_VISIBLE
+12:14:54 train TankBattleMaster
+12:14:56 dock refused NOT_VISIBLE
+12:14:56 dock refused NOT_VISIBLE
+12:14:56 dock refused NOT_VISIBLE
+12:14:56 dock refused NOT_VISIBLE
+12:14:56 dock refused NOT_VISIBLE
+12:14:56 dock refused NOT_VISIBLE
+12:14:58 dock refused NOT_VISIBLE
+12:14:58 dock refused NOT_VISIBLE
+12:14:58 dock refused NOT_VISIBLE
+12:14:58 dock refused NOT_VISIBLE
+12:14:58 dock refused NOT_VISIBLE
+12:14:58 dock refused NOT_VISIBLE
+12:14:58 dock refused NOT_VISIBLE
+12:15:00 dock refused NOT_VISIBLE
+12:15:00 dock refused NOT_VISIBLE
+12:15:00 dock refused NOT_VISIBLE
+12:15:00 dock refused NOT_VISIBLE
+12:15:00 dock refused NOT_VISIBLE
+12:15:00 dock refused NOT_VISIBLE
+12:15:00 dock refused NOT_VISIBLE
+12:15:00 dock refused NOT_VISIBLE
+12:15:02 dock refused NOT_VISIBLE
+12:15:02 dock refused NOT_VISIBLE
+12:15:02 dock refused NOT_VISIBLE
+12:15:02 dock refused NOT_VISIBLE
+12:15:02 dock refused NOT_VISIBLE
+12:15:02 dock refused NOT_VISIBLE
+12:15:02 dock refused NOT_VISIBLE
+12:15:02 dock refused NOT_VISIBLE
+12:15:04 dock refused NOT_VISIBLE
+12:15:04 dock refused NOT_VISIBLE
+12:15:04 dock refused NOT_VISIBLE
+12:15:04 dock refused NOT_VISIBLE
+12:15:04 dock refused NOT_VISIBLE
+12:15:04 dock refused NOT_VISIBLE
+12:15:04 dock refused NOT_VISIBLE
+12:15:04 dock refused NOT_VISIBLE
+12:15:04 attack structure ChinaCommandCenter visible
+12:15:06 dock refused NOT_VISIBLE
+12:15:06 dock refused NOT_VISIBLE
+12:15:06 dock refused NOT_VISIBLE
+12:15:06 dock refused NOT_VISIBLE
+12:15:06 dock refused NOT_VISIBLE
+12:15:06 dock refused NOT_VISIBLE
+12:15:06 dock refused NOT_VISIBLE
+12:15:08 beat frame 44779 money 450 army 21 enemies 5
+12:15:08 dock refused NOT_VISIBLE
+12:15:08 dock refused NOT_VISIBLE
+12:15:08 dock refused NOT_VISIBLE
+12:15:08 dock refused NOT_VISIBLE
+12:15:08 dock refused NOT_VISIBLE
+12:15:09 dock refused NOT_VISIBLE
+12:15:09 dock refused NOT_VISIBLE
+12:15:09 dock refused NOT_VISIBLE
+12:15:09 dock refused NOT_VISIBLE
+12:15:11 dock refused NOT_VISIBLE
+12:15:11 dock refused NOT_VISIBLE
+12:15:11 dock refused NOT_VISIBLE
+12:15:11 dock refused NOT_VISIBLE
+12:15:11 dock refused NOT_VISIBLE
+12:15:11 dock refused NOT_VISIBLE
+12:15:11 dock refused NOT_VISIBLE
+12:15:11 dock refused NOT_VISIBLE
+12:15:11 dock refused NOT_VISIBLE
+12:15:13 dock refused NOT_VISIBLE
+12:15:13 dock refused NOT_VISIBLE
+12:15:13 dock refused NOT_VISIBLE
+12:15:13 dock refused NOT_VISIBLE
+12:15:13 dock refused NOT_VISIBLE
+12:15:13 dock refused NOT_VISIBLE
+12:15:13 dock refused NOT_VISIBLE
+12:15:13 dock refused NOT_VISIBLE
+12:15:13 dock refused NOT_VISIBLE
+12:15:15 dock refused NOT_VISIBLE
+12:15:15 dock refused NOT_VISIBLE
+12:15:15 dock refused NOT_VISIBLE
+12:15:15 dock refused NOT_VISIBLE
+12:15:15 dock refused NOT_VISIBLE
+12:15:15 dock refused NOT_VISIBLE
+12:15:15 dock refused NOT_VISIBLE
+12:15:15 dock refused NOT_VISIBLE
+12:15:15 dock refused NOT_VISIBLE
+12:15:15 attack structure ChinaPowerPlant visible
+12:15:17 dock refused NOT_VISIBLE
+12:15:17 dock refused NOT_VISIBLE
+12:15:17 dock refused NOT_VISIBLE
+12:15:17 dock refused NOT_VISIBLE
+12:15:17 dock refused NOT_VISIBLE
+12:15:17 dock refused NOT_VISIBLE
+12:15:17 dock refused NOT_VISIBLE
+12:15:17 dock refused NOT_VISIBLE
+12:15:17 dock refused NOT_VISIBLE
+12:15:19 dock refused NOT_VISIBLE
+12:15:19 dock refused NOT_VISIBLE
+12:15:19 dock refused NOT_VISIBLE
+12:15:19 dock refused NOT_VISIBLE
+12:15:19 dock refused NOT_VISIBLE
+12:15:19 dock refused NOT_VISIBLE
+12:15:19 dock refused NOT_VISIBLE
+12:15:19 dock refused NOT_VISIBLE
+12:15:19 dock refused NOT_VISIBLE
+12:15:21 dock refused NOT_VISIBLE
+12:15:21 dock refused NOT_VISIBLE
+12:15:21 dock refused NOT_VISIBLE
+12:15:21 dock refused NOT_VISIBLE
+12:15:21 dock refused NOT_VISIBLE
+12:15:21 dock refused NOT_VISIBLE
+12:15:21 dock refused NOT_VISIBLE
+12:15:21 dock refused NOT_VISIBLE
+12:15:21 dock refused NOT_VISIBLE
+12:15:23 dock refused NOT_VISIBLE
+12:15:23 dock refused NOT_VISIBLE
+12:15:23 dock refused NOT_VISIBLE
+12:15:24 dock refused NOT_VISIBLE
+12:15:24 dock refused NOT_VISIBLE
+12:15:24 dock refused NOT_VISIBLE
+12:15:24 dock refused NOT_VISIBLE
+12:15:24 dock refused NOT_VISIBLE
+12:15:24 dock refused NOT_VISIBLE
+12:15:26 dock refused NOT_VISIBLE
+12:15:26 dock refused NOT_VISIBLE
+12:15:26 dock refused NOT_VISIBLE
+12:15:26 dock refused NOT_VISIBLE
+12:15:26 dock refused NOT_VISIBLE
+12:15:26 dock refused NOT_VISIBLE
+12:15:26 dock refused NOT_VISIBLE
+12:15:26 dock refused NOT_VISIBLE
+12:15:26 dock refused NOT_VISIBLE
+12:15:26 attack structure ChinaWarFactory visible
+12:15:28 dock refused NOT_VISIBLE
+12:15:28 dock refused NOT_VISIBLE
+12:15:28 dock refused NOT_VISIBLE
+12:15:28 dock refused NOT_VISIBLE
+12:15:28 dock refused NOT_VISIBLE
+12:15:28 dock refused NOT_VISIBLE
+12:15:28 dock refused NOT_VISIBLE
+12:15:28 dock refused NOT_VISIBLE
+12:15:28 dock refused NOT_VISIBLE
+12:15:30 dock refused NOT_VISIBLE
+12:15:30 dock refused NOT_VISIBLE
+12:15:30 dock refused NOT_VISIBLE
+12:15:30 dock refused NOT_VISIBLE
+12:15:30 dock refused NOT_VISIBLE
+12:15:30 dock refused NOT_VISIBLE
+12:15:30 dock refused NOT_VISIBLE
+12:15:30 dock refused NOT_VISIBLE
+12:15:30 dock refused NOT_VISIBLE
+12:15:32 dock refused NOT_VISIBLE
+12:15:32 dock refused NOT_VISIBLE
+12:15:32 dock refused NOT_VISIBLE
+12:15:32 dock refused NOT_VISIBLE
+12:15:32 dock refused NOT_VISIBLE
+12:15:32 dock refused NOT_VISIBLE
+12:15:32 dock refused NOT_VISIBLE
+12:15:32 dock refused NOT_VISIBLE
+12:15:32 dock refused NOT_VISIBLE
+12:15:34 dock refused NOT_VISIBLE
+12:15:34 dock refused NOT_VISIBLE
+12:15:34 dock refused NOT_VISIBLE
+12:15:34 dock refused NOT_VISIBLE
+12:15:34 dock refused NOT_VISIBLE
+12:15:34 dock refused NOT_VISIBLE
+12:15:34 dock refused NOT_VISIBLE
+12:15:35 dock refused NOT_VISIBLE
+12:15:35 dock refused NOT_VISIBLE
+12:15:37 dock refused NOT_VISIBLE
+12:15:37 dock refused NOT_VISIBLE
+12:15:37 dock refused NOT_VISIBLE
+12:15:37 dock refused NOT_VISIBLE
+12:15:37 dock refused NOT_VISIBLE
+12:15:37 dock refused NOT_VISIBLE
+12:15:37 dock refused NOT_VISIBLE
+12:15:37 dock refused NOT_VISIBLE
+12:15:37 dock refused NOT_VISIBLE
+12:15:37 attack structure ChinaWarFactory visible
+12:15:39 dock refused NOT_VISIBLE
+12:15:39 dock refused NOT_VISIBLE
+12:15:39 dock refused NOT_VISIBLE
+12:15:39 dock refused NOT_VISIBLE
+12:15:39 dock refused NOT_VISIBLE
+12:15:39 dock refused NOT_VISIBLE
+12:15:39 dock refused NOT_VISIBLE
+12:15:39 dock refused NOT_VISIBLE
+12:15:39 dock refused NOT_VISIBLE
+12:15:41 beat frame 45695 money 450 army 20 enemies 2
+12:15:41 dock refused NOT_VISIBLE
+12:15:41 dock refused NOT_VISIBLE
+12:15:41 dock refused NOT_VISIBLE
+12:15:41 dock refused NOT_VISIBLE
+12:15:41 dock refused NOT_VISIBLE
+12:15:41 dock refused NOT_VISIBLE
+12:15:41 dock refused NOT_VISIBLE
+12:15:41 dock refused NOT_VISIBLE
+12:15:41 dock refused NOT_VISIBLE
+12:15:43 dock refused NOT_VISIBLE
+12:15:43 dock refused NOT_VISIBLE
+12:15:43 dock refused NOT_VISIBLE
+12:15:43 dock refused NOT_VISIBLE
+12:15:43 dock refused NOT_VISIBLE
+12:15:43 dock refused NOT_VISIBLE
+12:15:43 dock refused NOT_VISIBLE
+12:15:43 dock refused NOT_VISIBLE
+12:15:43 dock refused NOT_VISIBLE
+12:15:45 dock refused NOT_VISIBLE
+12:15:45 dock refused NOT_VISIBLE
+12:15:45 dock refused NOT_VISIBLE
+12:15:45 dock refused NOT_VISIBLE
+12:15:45 dock refused NOT_VISIBLE
+12:15:45 dock refused NOT_VISIBLE
+12:15:45 dock refused NOT_VISIBLE
+12:15:45 dock refused NOT_VISIBLE
+12:15:45 dock refused NOT_VISIBLE
+12:15:47 dock refused NOT_VISIBLE
+12:15:47 dock refused NOT_VISIBLE
+12:15:47 dock refused NOT_VISIBLE
+12:15:47 dock refused NOT_VISIBLE
+12:15:47 dock refused NOT_VISIBLE
+12:15:47 dock refused NOT_VISIBLE
+12:15:47 dock refused NOT_VISIBLE
+12:15:47 dock refused NOT_VISIBLE
+12:15:47 dock refused NOT_VISIBLE
+12:15:49 dock refused NOT_VISIBLE
+12:15:49 dock refused NOT_VISIBLE
+12:15:49 dock refused NOT_VISIBLE
+12:15:49 dock refused NOT_VISIBLE
+12:15:49 dock refused NOT_VISIBLE
+12:15:50 dock refused NOT_VISIBLE
+12:15:50 dock refused NOT_VISIBLE
+12:15:50 dock refused NOT_VISIBLE
+12:15:50 dock refused NOT_VISIBLE
+12:15:50 attack structure ChinaSupplyCenter visible
+12:15:52 dock refused NOT_VISIBLE
+12:15:52 dock refused NOT_VISIBLE
+12:15:52 dock refused NOT_VISIBLE
+12:15:52 dock refused NOT_VISIBLE
+12:15:52 dock refused NOT_VISIBLE
+12:15:52 dock refused NOT_VISIBLE
+12:15:52 dock refused NOT_VISIBLE
+12:15:52 dock refused NOT_VISIBLE
+12:15:52 dock refused NOT_VISIBLE
+12:15:54 dock refused NOT_VISIBLE
+12:15:54 dock refused NOT_VISIBLE
+12:15:54 dock refused NOT_VISIBLE
+12:15:54 dock refused NOT_VISIBLE
+12:15:54 dock refused NOT_VISIBLE
+12:15:54 dock refused NOT_VISIBLE
+12:15:54 dock refused NOT_VISIBLE
+12:15:54 dock refused NOT_VISIBLE
+12:15:54 dock refused NOT_VISIBLE
+12:15:56 dock refused NOT_VISIBLE
+12:15:56 dock refused NOT_VISIBLE
+12:15:56 dock refused NOT_VISIBLE
+12:15:56 dock refused NOT_VISIBLE
+12:15:56 dock refused NOT_VISIBLE
+12:15:56 dock refused NOT_VISIBLE
+12:15:56 dock refused NOT_VISIBLE
+12:15:56 dock refused NOT_VISIBLE
+12:15:56 dock refused NOT_VISIBLE
+12:15:58 dock refused NOT_VISIBLE
+12:15:58 dock refused NOT_VISIBLE
+12:15:58 dock refused NOT_VISIBLE
+12:15:58 dock refused NOT_VISIBLE
+12:15:58 dock refused NOT_VISIBLE
+12:15:58 dock refused NOT_VISIBLE
+12:15:58 dock refused NOT_VISIBLE
+12:15:58 dock refused NOT_VISIBLE
+12:15:58 dock refused NOT_VISIBLE
+12:16:00 dock refused NOT_VISIBLE
+12:16:00 dock refused NOT_VISIBLE
+12:16:00 dock refused NOT_VISIBLE
+12:16:00 dock refused NOT_VISIBLE
+12:16:00 dock refused NOT_VISIBLE
+12:16:00 dock refused NOT_VISIBLE
+12:16:00 dock refused NOT_VISIBLE
+12:16:00 dock refused NOT_VISIBLE
+12:16:00 dock refused NOT_VISIBLE
+12:16:00 attack structure ChinaBarracks visible
+12:16:02 strategy reloaded ok
+12:16:02 dock refused NOT_VISIBLE
+12:16:02 dock refused NOT_VISIBLE
+12:16:02 dock refused NOT_VISIBLE
+12:16:02 dock refused NOT_VISIBLE
+12:16:02 dock refused NOT_VISIBLE
+12:16:03 dock refused NOT_VISIBLE
+12:16:03 dock refused NOT_VISIBLE
+12:16:03 dock refused NOT_VISIBLE
+12:16:03 dock refused NOT_VISIBLE
+12:16:05 game over: victory
+--- game2 ---
+12:18:27 connected in_game apm 0
+12:18:27 beat frame 1305 money 10000 army 0 enemies 0
+12:18:27 train dozer
+12:18:27 build ChinaPowerPlant at [881, 2280] dozer 146
+12:18:59 beat frame 2233 money 8000 army 0 enemies 0
+12:18:59 build ChinaSupplyCenter at [1159, 2500] dozer 149
+12:19:29 build ChinaWarFactory at [792, 2079] dozer 146
+12:19:29 train truck
+12:19:31 beat frame 3178 money 3900 army 0 enemies 0
+12:19:33 build ChinaGattlingCannon at [890, 1872] dozer 149
+12:19:39 build refused ChinaBarracks NOT_AVAILABLE NOT_AVAILABLE: build that is not available right now (prerequisites, power or state)
+12:19:39 train truck
+12:19:41 build refused ChinaBarracks NOT_AVAILABLE NOT_AVAILABLE: build that is not available right now (prerequisites, power or state)
+12:19:43 build refused ChinaBarracks NOT_AVAILABLE NOT_AVAILABLE: build that is not available right now (prerequisites, power or state)
+12:19:45 build refused ChinaBarracks NOT_AVAILABLE NOT_AVAILABLE: build that is not available right now (prerequisites, power or state)
+12:19:47 build refused ChinaBarracks NOT_AVAILABLE NOT_AVAILABLE: build that is not available right now (prerequisites, power or state)
+12:19:49 build refused ChinaBarracks NOT_AVAILABLE NOT_AVAILABLE: build that is not available right now (prerequisites, power or state)
+12:19:49 train truck
+12:19:51 build refused ChinaBarracks NOT_AVAILABLE NOT_AVAILABLE: build that is not available right now (prerequisites, power or state)
+12:19:53 build refused ChinaBarracks NOT_AVAILABLE NOT_AVAILABLE: build that is not available right now (prerequisites, power or state)
+12:19:53 train TankGattling
+12:19:55 build ChinaBarracks at [809, 2191] dozer 146
+12:19:59 train truck
+12:20:03 beat frame 4123 money 200 army 0 enemies 0
+12:20:22 build ChinaPowerPlant at [832, 1973] dozer 146
+12:20:22 train refused TankBattleMaster INSUFFICIENT_FUNDS
+12:20:36 beat frame 5083 money 700 army 1 enemies 0
+12:20:46 build ChinaGattlingCannon at [940, 1906] dozer 149
+12:20:46 train refused TankBattleMaster INSUFFICIENT_FUNDS
+12:21:08 beat frame 6028 money 1000 army 1 enemies 0
+12:21:26 build ChinaWarFactory at [1033, 1883] dozer 146
+12:21:26 train refused TankBattleMaster INSUFFICIENT_FUNDS
+12:21:40 beat frame 6988 money 500 army 1 enemies 0
+12:21:55 build ChinaGattlingCannon at [916, 1926] dozer 149
+12:21:55 train refused TankBattleMaster INSUFFICIENT_FUNDS
+12:21:55 train refused TankBattleMaster INSUFFICIENT_FUNDS
+12:22:05 train TankBattleMaster
+12:22:13 beat frame 7933 money 0 army 1 enemies 0
+12:22:31 train TankGattling
+12:22:45 beat frame 8878 money 700 army 2 enemies 0
+12:22:47 train TankBattleMaster
+12:22:59 train TankGattling
+12:23:15 train TankBattleMaster
+12:23:17 beat frame 9823 money 100 army 5 enemies 0
+12:23:37 train TankGattling
+12:23:49 beat frame 10753 money 800 army 6 enemies 0
+12:23:49 train TankBattleMaster
+12:24:07 train TankGattling
+12:24:21 beat frame 11698 money 700 army 8 enemies 0
+12:24:25 train TankBattleMaster
+12:24:37 train TankGattling
+12:24:53 beat frame 12628 money 600 army 10 enemies 0
+12:24:55 train TankBattleMaster
+12:25:16 train TankGattling
+12:25:26 beat frame 13573 money 500 army 12 enemies 0
+12:25:28 train TankBattleMaster
+12:25:50 train TankGattling
+12:25:58 beat frame 14518 money 400 army 14 enemies 0
+12:26:08 train TankBattleMaster
+12:26:20 train TankGattling
+12:26:30 beat frame 15448 money 300 army 16 enemies 0
+12:26:40 train TankBattleMaster
+12:26:44 strategy reloaded ok
+12:27:02 beat frame 16393 money 700 army 18 enemies 0
+12:27:04 train TankGattling
+12:27:12 train TankBattleMaster
+12:27:32 train TankGattling
+12:27:34 beat frame 17323 money 100 army 20 enemies 1
+12:27:51 train TankBattleMaster
+12:28:03 train TankGattling
+12:28:07 beat frame 18253 money 0 army 22 enemies 3
+12:28:25 train TankBattleMaster
+12:28:35 ATTACK with 22
+12:28:41 beat frame 19168 money 700 army 22 enemies 1
+12:28:43 train TankGattling
+12:29:07 train TankBattleMaster
+12:29:17 beat frame 20089 money 300 army 22 enemies 23
+12:29:23 train TankGattling
+12:29:43 train TankBattleMaster
+12:29:49 beat frame 20998 money 500 army 23 enemies 9
+12:29:55 train TankGattling
+12:30:14 train TankBattleMaster
+12:30:16 attack structure ChinaBarracks visible
+12:30:22 beat frame 21936 money 400 army 25 enemies 8
+12:30:36 train TankGattling
+12:30:40 attack structure ChinaSupplyCenter visible
+12:30:48 train TankBattleMaster
+12:30:52 attack structure ChinaWarFactory visible
+12:30:54 beat frame 22858 money 300 army 27 enemies 5
+12:31:04 attack structure ChinaPowerPlant visible
+12:31:10 train TankGattling
+12:31:16 attack structure ChinaCommandCenter visible
+12:31:26 beat frame 23803 money 1000 army 29 enemies 2
+12:31:26 train TankBattleMaster
+12:31:28 attack structure ChinaPowerPlant visible
+12:31:38 train TankGattling
+12:31:40 attack structure ChinaBarracks visible
+12:31:42 game over: victory

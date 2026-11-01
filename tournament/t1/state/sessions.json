@@ -1,0 +1,20 @@
+{
+ "Alpha": {
+  "prep": "a457ac8580235e2c7",
+  "game-2": "a813d48050c1623cd",
+  "game-3": "a25ad0101698339bf"
+ },
+ "Bravo": {
+  "prep": "adfb02888a0addc20",
+  "game-1": "afb0514f353dc6213"
+ },
+ "Charlie": {
+  "prep": "ae4a3a2b80f85a67e",
+  "game-1": "a036ba5731e54d140",
+  "game-3": "ac9b86059b5a893bd"
+ },
+ "Delta": {
+  "prep": "a81b4749101bd5573",
+  "game-2": "a22cc9f01102c09d3"
+ }
+}

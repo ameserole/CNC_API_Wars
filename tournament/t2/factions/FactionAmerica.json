@@ -1,0 +1,1617 @@
+{
+ "faction": "FactionAmerica",
+ "ok": true,
+ "reply_to": 3,
+ "sciences": [
+  {
+   "cost": 1,
+   "name": "SCIENCE_PaladinTank",
+   "tier": 1
+  },
+  {
+   "cost": 1,
+   "name": "SCIENCE_StealthFighter",
+   "tier": 1
+  },
+  {
+   "cost": 1,
+   "name": "SCIENCE_SpyDrone",
+   "tier": 1
+  },
+  {
+   "cost": 1,
+   "name": "SCIENCE_Pathfinder",
+   "tier": 2
+  },
+  {
+   "cost": 1,
+   "name": "SCIENCE_Paradrop1",
+   "tier": 2
+  },
+  {
+   "cost": 1,
+   "name": "SCIENCE_Paradrop2",
+   "tier": 2
+  },
+  {
+   "cost": 1,
+   "name": "SCIENCE_Paradrop3",
+   "tier": 2
+  },
+  {
+   "cost": 1,
+   "name": "SCIENCE_A10ThunderboltMissileStrike1",
+   "tier": 2
+  },
+  {
+   "cost": 1,
+   "name": "SCIENCE_A10ThunderboltMissileStrike2",
+   "tier": 2
+  },
+  {
+   "cost": 1,
+   "name": "SCIENCE_A10ThunderboltMissileStrike3",
+   "tier": 2
+  },
+  {
+   "cost": 1,
+   "name": "SCIENCE_EmergencyRepair1",
+   "tier": 2
+  },
+  {
+   "cost": 1,
+   "name": "SCIENCE_EmergencyRepair2",
+   "tier": 2
+  },
+  {
+   "cost": 1,
+   "name": "SCIENCE_EmergencyRepair3",
+   "tier": 2
+  },
+  {
+   "cost": 1,
+   "name": "SCIENCE_DaisyCutter",
+   "tier": 3
+  },
+  {
+   "cost": 1,
+   "name": "SCIENCE_LeafletDrop",
+   "tier": 3
+  },
+  {
+   "cost": 1,
+   "name": "SCIENCE_SpectreGunshipSolo",
+   "tier": 3
+  },
+  {
+   "cost": 0,
+   "name": "SCIENCE_MOAB",
+   "tier": 3
+  }
+ ],
+ "side": "America",
+ "structures": [
+  {
+   "abilities": [
+    {
+     "name": "Command_UpgradeComancheRocketPods",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_ComancheRocketPods"
+    },
+    {
+     "name": "Command_UpgradeAmericaLaserMissiles",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_AmericaLaserMissiles"
+    },
+    {
+     "name": "Command_UpgradeAmericaCountermeasures",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_AmericaCountermeasures"
+    },
+    {
+     "name": "Command_UpgradeAmericaBunkerBusters",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_AmericaBunkerBusters"
+    }
+   ],
+   "build_time": 60.0,
+   "buildable": true,
+   "built_by": [
+    "AmericaVehicleDozer"
+   ],
+   "cost": 1000,
+   "energy": -1,
+   "kinds": [
+    "SELECTABLE",
+    "IMMOBILE",
+    "STRUCTURE",
+    "PRELOAD",
+    "MP_COUNT_FOR_VICTORY",
+    "SCORE",
+    "CAPTURABLE",
+    "FS_FACTORY",
+    "AUTO_RALLYPOINT",
+    "FS_AIRFIELD"
+   ],
+   "name": "AmericaAirfield",
+   "prerequisites": [
+    [
+     "AmericaSupplyCenter"
+    ]
+   ],
+   "radius": 134.23858642578125,
+   "science_prerequisites": [],
+   "side": "America"
+  },
+  {
+   "abilities": [
+    {
+     "name": "Command_UpgradeAmericaRangerFlashBangGrenade",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_AmericaRangerFlashBangGrenade"
+    },
+    {
+     "name": "Command_UpgradeAmericaRangerCaptureBuilding",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_InfantryCaptureBuilding"
+    }
+   ],
+   "build_time": 20.0,
+   "buildable": true,
+   "built_by": [
+    "AmericaVehicleDozer"
+   ],
+   "cost": 600,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "IMMOBILE",
+    "STRUCTURE",
+    "PRELOAD",
+    "HEAL_PAD",
+    "MP_COUNT_FOR_VICTORY",
+    "SCORE",
+    "CAPTURABLE",
+    "FS_FACTORY",
+    "AUTO_RALLYPOINT",
+    "FS_BARRACKS"
+   ],
+   "name": "AmericaBarracks",
+   "prerequisites": [],
+   "radius": 71.0633544921875,
+   "science_prerequisites": [],
+   "side": "America"
+  },
+  {
+   "abilities": [
+    {
+     "name": "Command_SpectreGunship",
+     "required_science": "SCIENCE_SpectreGunshipSolo",
+     "special_power": "SuperweaponSpectreGunship",
+     "target": "position",
+     "type": "special_power"
+    },
+    {
+     "name": "Command_LeafletDrop",
+     "required_science": "SCIENCE_LeafletDrop",
+     "special_power": "SuperweaponLeafletDrop",
+     "target": "position",
+     "type": "special_power"
+    },
+    {
+     "name": "Command_A10ThunderboltMissileStrike",
+     "required_science": "SCIENCE_A10ThunderboltMissileStrike1",
+     "special_power": "SuperweaponA10ThunderboltMissileStrike",
+     "target": "position",
+     "type": "special_power"
+    },
+    {
+     "name": "Command_Paradrop",
+     "required_science": "SCIENCE_Paradrop1",
+     "special_power": "SuperweaponParadropAmerica",
+     "target": "position",
+     "type": "special_power"
+    },
+    {
+     "name": "Command_SpyDrone",
+     "required_science": "SCIENCE_SpyDrone",
+     "special_power": "SpecialPowerSpyDrone",
+     "target": "position",
+     "type": "special_power"
+    },
+    {
+     "name": "Command_EmergencyRepair",
+     "required_science": "SCIENCE_EmergencyRepair1",
+     "special_power": "SuperweaponEmergencyRepair",
+     "target": "position",
+     "type": "special_power"
+    },
+    {
+     "name": "Command_DaisyCutter",
+     "required_science": "SCIENCE_DaisyCutter",
+     "special_power": "SuperweaponDaisyCutter",
+     "target": "position",
+     "type": "special_power"
+    },
+    {
+     "name": "Command_SpySatelliteScan",
+     "required_science": null,
+     "special_power": "SpecialPowerSpySatellite",
+     "target": "position",
+     "type": "special_power"
+    }
+   ],
+   "build_time": 90.0,
+   "buildable": true,
+   "built_by": [
+    "AmericaVehicleDozer"
+   ],
+   "cost": 2000,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "IMMOBILE",
+    "STRUCTURE",
+    "COMMANDCENTER",
+    "PRELOAD",
+    "MP_COUNT_FOR_VICTORY",
+    "SCORE",
+    "CAPTURABLE",
+    "FS_FACTORY",
+    "AUTO_RALLYPOINT"
+   ],
+   "name": "AmericaCommandCenter",
+   "prerequisites": [],
+   "radius": 92.19544219970703,
+   "science_prerequisites": [],
+   "side": "America"
+  },
+  {
+   "abilities": [
+    {
+     "name": "Command_Evacuate",
+     "required_science": null,
+     "target": "none",
+     "type": "evacuate"
+    }
+   ],
+   "build_time": 50.0,
+   "buildable": true,
+   "built_by": [
+    "AmericaVehicleDozer"
+   ],
+   "cost": 1000,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "IMMOBILE",
+    "CAN_ATTACK",
+    "STRUCTURE",
+    "PRELOAD",
+    "SCORE",
+    "ATTACK_NEEDS_LINE_OF_SIGHT",
+    "FS_BASE_DEFENSE",
+    "FS_TECHNOLOGY",
+    "GARRISONABLE_UNTIL_DESTROYED",
+    "IMMUNE_TO_CAPTURE",
+    "SPAWNS_ARE_THE_WEAPONS"
+   ],
+   "name": "AmericaFireBase",
+   "prerequisites": [
+    [
+     "AmericaPowerPlant"
+    ]
+   ],
+   "radius": 36.769554138183594,
+   "science_prerequisites": [],
+   "side": "America"
+  },
+  {
+   "abilities": [
+    {
+     "name": "Command_FireParticleUplinkCannon",
+     "required_science": null,
+     "special_power": "SuperweaponParticleUplinkCannon",
+     "target": "position",
+     "type": "special_power"
+    }
+   ],
+   "build_time": 120.0,
+   "buildable": true,
+   "built_by": [
+    "AmericaVehicleDozer"
+   ],
+   "cost": 5000,
+   "energy": -10,
+   "kinds": [
+    "SELECTABLE",
+    "IMMOBILE",
+    "STRUCTURE",
+    "PRELOAD",
+    "MP_COUNT_FOR_VICTORY",
+    "SCORE",
+    "CAPTURABLE",
+    "FS_TECHNOLOGY",
+    "POWERED",
+    "FS_SUPERWEAPON"
+   ],
+   "name": "AmericaParticleCannonUplink",
+   "prerequisites": [
+    [
+     "AmericaStrategyCenter"
+    ]
+   ],
+   "radius": 74.4311752319336,
+   "science_prerequisites": [],
+   "side": "America"
+  },
+  {
+   "abilities": [],
+   "build_time": 50.0,
+   "buildable": true,
+   "built_by": [
+    "AmericaVehicleDozer"
+   ],
+   "cost": 1000,
+   "energy": -3,
+   "kinds": [
+    "SELECTABLE",
+    "IMMOBILE",
+    "CAN_ATTACK",
+    "STRUCTURE",
+    "PRELOAD",
+    "SCORE",
+    "ATTACK_NEEDS_LINE_OF_SIGHT",
+    "FS_BASE_DEFENSE",
+    "FS_TECHNOLOGY",
+    "POWERED",
+    "IMMUNE_TO_CAPTURE"
+   ],
+   "name": "AmericaPatriotBattery",
+   "prerequisites": [
+    [
+     "AmericaPowerPlant"
+    ]
+   ],
+   "radius": 12.0,
+   "science_prerequisites": [],
+   "side": "America"
+  },
+  {
+   "abilities": [
+    {
+     "name": "Command_UpgradeAmericaAdvancedControlRods",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_AmericaAdvancedControlRods"
+    }
+   ],
+   "build_time": 20.0,
+   "buildable": true,
+   "built_by": [
+    "AmericaVehicleDozer"
+   ],
+   "cost": 800,
+   "energy": 5,
+   "kinds": [
+    "SELECTABLE",
+    "IMMOBILE",
+    "STRUCTURE",
+    "PRELOAD",
+    "MP_COUNT_FOR_VICTORY",
+    "SCORE",
+    "CAPTURABLE",
+    "FS_POWER"
+   ],
+   "name": "AmericaPowerPlant",
+   "prerequisites": [],
+   "radius": 37.202152252197266,
+   "science_prerequisites": [],
+   "side": "America"
+  },
+  {
+   "abilities": [
+    {
+     "name": "Command_InitiateBattlePlanBombardment",
+     "required_science": null,
+     "special_power": "SpecialAbilityChangeBattlePlans",
+     "target": "none",
+     "type": "special_power"
+    },
+    {
+     "name": "Command_CIAIntelligence",
+     "required_science": null,
+     "special_power": "SuperweaponCIAIntelligence",
+     "target": "none",
+     "type": "special_power"
+    },
+    {
+     "name": "Command_InitiateBattlePlanHoldTheLine",
+     "required_science": null,
+     "special_power": "SpecialAbilityChangeBattlePlans",
+     "target": "none",
+     "type": "special_power"
+    },
+    {
+     "name": "Command_InitiateBattlePlanSearchAndDestroy",
+     "required_science": null,
+     "special_power": "SpecialAbilityChangeBattlePlans",
+     "target": "none",
+     "type": "special_power"
+    },
+    {
+     "name": "Command_UpgradeAmericaChemicalSuits",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_AmericaChemicalSuits"
+    },
+    {
+     "name": "Command_UpgradeAmericaMOAB",
+     "required_science": null,
+     "special_power": "SuperweaponDaisyCutter",
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_AmericaMOAB"
+    },
+    {
+     "name": "Command_UpgradeAmericaCompositeArmor",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_AmericaCompositeArmor"
+    },
+    {
+     "name": "Command_UpgradeAmericaAdvancedTraining",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_AmericaAdvancedTraining"
+    },
+    {
+     "name": "Command_UpgradeAmericaDroneArmor",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_AmericaDroneArmor"
+    },
+    {
+     "name": "Command_UpgradeAmericaSupplyLines",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_AmericaSupplyLines"
+    }
+   ],
+   "build_time": 120.0,
+   "buildable": true,
+   "built_by": [
+    "AmericaVehicleDozer"
+   ],
+   "cost": 2500,
+   "energy": -2,
+   "kinds": [
+    "SELECTABLE",
+    "IMMOBILE",
+    "STRUCTURE",
+    "PRELOAD",
+    "MP_COUNT_FOR_VICTORY",
+    "SCORE",
+    "CAPTURABLE",
+    "FS_TECHNOLOGY",
+    "FS_STRATEGY_CENTER",
+    "FS_ADVANCED_TECH"
+   ],
+   "name": "AmericaStrategyCenter",
+   "prerequisites": [
+    [
+     "AmericaWarFactory",
+     "AmericaAirfield"
+    ]
+   ],
+   "radius": 76.02631378173828,
+   "science_prerequisites": [],
+   "side": "America"
+  },
+  {
+   "abilities": [],
+   "build_time": 20.0,
+   "buildable": true,
+   "built_by": [
+    "AmericaVehicleDozer"
+   ],
+   "cost": 2000,
+   "energy": -1,
+   "kinds": [
+    "SELECTABLE",
+    "IMMOBILE",
+    "STRUCTURE",
+    "PRELOAD",
+    "CASH_GENERATOR",
+    "MP_COUNT_FOR_VICTORY",
+    "SCORE",
+    "CAPTURABLE",
+    "AUTO_RALLYPOINT",
+    "CANNOT_BUILD_NEAR_SUPPLIES",
+    "FS_SUPPLY_CENTER"
+   ],
+   "name": "AmericaSupplyCenter",
+   "prerequisites": [
+    [
+     "AmericaPowerPlant"
+    ]
+   ],
+   "radius": 62.93647766113281,
+   "science_prerequisites": [],
+   "side": "America"
+  },
+  {
+   "abilities": [],
+   "build_time": 90.0,
+   "buildable": true,
+   "built_by": [
+    "AmericaVehicleDozer"
+   ],
+   "cost": 2500,
+   "energy": -4,
+   "kinds": [
+    "SELECTABLE",
+    "IMMOBILE",
+    "STRUCTURE",
+    "MP_COUNT_FOR_VICTORY",
+    "SCORE",
+    "FS_TECHNOLOGY",
+    "FS_SUPPLY_DROPZONE"
+   ],
+   "name": "AmericaSupplyDropZone",
+   "prerequisites": [
+    [
+     "AmericaStrategyCenter"
+    ]
+   ],
+   "radius": 38.18376541137695,
+   "science_prerequisites": [],
+   "side": "America"
+  },
+  {
+   "abilities": [
+    {
+     "name": "Command_UpgradeAmericaSentryDroneGun",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_AmericaSentryDroneGun"
+    },
+    {
+     "name": "Command_UpgradeAmericaTOWMissile",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_AmericaTOWMissile"
+    }
+   ],
+   "build_time": 30.0,
+   "buildable": true,
+   "built_by": [
+    "AmericaVehicleDozer"
+   ],
+   "cost": 2000,
+   "energy": -1,
+   "kinds": [
+    "SELECTABLE",
+    "IMMOBILE",
+    "STRUCTURE",
+    "PRELOAD",
+    "REPAIR_PAD",
+    "MP_COUNT_FOR_VICTORY",
+    "SCORE",
+    "CAPTURABLE",
+    "FS_FACTORY",
+    "AUTO_RALLYPOINT",
+    "FS_WARFACTORY"
+   ],
+   "name": "AmericaWarFactory",
+   "prerequisites": [
+    [
+     "AmericaSupplyCenter"
+    ]
+   ],
+   "radius": 80.05622863769531,
+   "science_prerequisites": [],
+   "side": "America"
+  }
+ ],
+ "type": "reply",
+ "units": [
+  {
+   "abilities": [
+    {
+     "name": "Command_AmbulanceCleanupArea",
+     "required_science": null,
+     "special_power": "SpecialAbilityAmbulanceCleanupArea",
+     "target": "position",
+     "type": "special_power"
+    }
+   ],
+   "build_time": 10.0,
+   "buildable": false,
+   "built_by": [
+    "AmericaBarracks"
+   ],
+   "cost": 200,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "CAN_ATTACK",
+    "CAN_CAST_REFLECTIONS",
+    "INFANTRY",
+    "PRELOAD",
+    "SCORE"
+   ],
+   "name": "AmericaInfantryBiohazardTech",
+   "prerequisites": [
+    [
+     "AmericaBarracks"
+    ]
+   ],
+   "radius": 10.0,
+   "science_prerequisites": [],
+   "side": "America"
+  },
+  {
+   "abilities": [
+    {
+     "name": "Command_ColonelBurtonTimedDemoCharge",
+     "required_science": null,
+     "special_power": "SpecialAbilityColonelBurtonTimedCharges",
+     "target": "object",
+     "type": "special_power"
+    },
+    {
+     "name": "Command_ColonelBurtonRemoteDemoCharge",
+     "required_science": null,
+     "special_power": "SpecialAbilityColonelBurtonRemoteCharges",
+     "target": "object",
+     "type": "special_power"
+    },
+    {
+     "name": "Command_ColonelBurtonDetonateCharges",
+     "required_science": null,
+     "special_power": "SpecialAbilityColonelBurtonRemoteCharges",
+     "target": "none",
+     "type": "special_power"
+    }
+   ],
+   "build_time": 40.0,
+   "buildable": true,
+   "built_by": [
+    "AmericaBarracks"
+   ],
+   "cost": 1500,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "CAN_ATTACK",
+    "CAN_CAST_REFLECTIONS",
+    "INFANTRY",
+    "PRELOAD",
+    "SCORE",
+    "ATTACK_NEEDS_LINE_OF_SIGHT",
+    "HERO",
+    "CANNOT_RETALIATE"
+   ],
+   "name": "AmericaInfantryColonelBurton",
+   "prerequisites": [
+    [
+     "AmericaBarracks"
+    ],
+    [
+     "AmericaStrategyCenter"
+    ]
+   ],
+   "radius": 10.0,
+   "science_prerequisites": [],
+   "side": "America"
+  },
+  {
+   "abilities": [
+    {
+     "name": "Command_AmericaMissileDefenderLaserGuidedMissiles",
+     "required_science": null,
+     "special_power": "SpecialAbilityMissileDefenderLaserGuidedMissiles",
+     "target": "object",
+     "type": "special_power"
+    }
+   ],
+   "build_time": 10.0,
+   "buildable": true,
+   "built_by": [
+    "AmericaBarracks"
+   ],
+   "cost": 300,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "CAN_ATTACK",
+    "CAN_CAST_REFLECTIONS",
+    "INFANTRY",
+    "PRELOAD",
+    "SCORE",
+    "ATTACK_NEEDS_LINE_OF_SIGHT"
+   ],
+   "name": "AmericaInfantryMissileDefender",
+   "prerequisites": [
+    [
+     "AmericaBarracks"
+    ]
+   ],
+   "radius": 7.0,
+   "science_prerequisites": [],
+   "side": "America"
+  },
+  {
+   "abilities": [],
+   "build_time": 20.0,
+   "buildable": true,
+   "built_by": [
+    "AmericaBarracks"
+   ],
+   "cost": 600,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "CAN_ATTACK",
+    "CAN_CAST_REFLECTIONS",
+    "INFANTRY",
+    "PRELOAD",
+    "STEALTH_GARRISON",
+    "SCORE",
+    "ATTACK_NEEDS_LINE_OF_SIGHT",
+    "CANNOT_RETALIATE"
+   ],
+   "name": "AmericaInfantryPathfinder",
+   "prerequisites": [
+    [
+     "AmericaBarracks"
+    ]
+   ],
+   "radius": 10.0,
+   "science_prerequisites": [
+    "SCIENCE_Pathfinder"
+   ],
+   "side": "America"
+  },
+  {
+   "abilities": [
+    {
+     "name": "Command_AmericaRangerCaptureBuilding",
+     "required_science": null,
+     "special_power": "SpecialAbilityRangerCaptureBuilding",
+     "target": "object",
+     "type": "special_power",
+     "upgrade": "Upgrade_InfantryCaptureBuilding"
+    },
+    {
+     "name": "Command_AmericaRangerSwitchToMachineGun",
+     "required_science": null,
+     "target": "none",
+     "type": "switch_weapon"
+    },
+    {
+     "name": "Command_AmericaRangerSwitchToFlagBangGrenades",
+     "required_science": null,
+     "target": "none",
+     "type": "switch_weapon",
+     "upgrade": "Upgrade_AmericaRangerFlashBangGrenade"
+    }
+   ],
+   "build_time": 10.0,
+   "buildable": true,
+   "built_by": [
+    "AmericaBarracks"
+   ],
+   "cost": 225,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "CAN_ATTACK",
+    "CAN_CAST_REFLECTIONS",
+    "INFANTRY",
+    "PRELOAD",
+    "SCORE",
+    "CAN_RAPPEL",
+    "ATTACK_NEEDS_LINE_OF_SIGHT"
+   ],
+   "name": "AmericaInfantryRanger",
+   "prerequisites": [
+    [
+     "AmericaBarracks"
+    ]
+   ],
+   "radius": 7.0,
+   "science_prerequisites": [],
+   "side": "America"
+  },
+  {
+   "abilities": [],
+   "build_time": 60.0,
+   "buildable": true,
+   "built_by": [
+    "AmericaAirfield"
+   ],
+   "cost": 2500,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "CAN_ATTACK",
+    "CAN_CAST_REFLECTIONS",
+    "VEHICLE",
+    "AIRCRAFT",
+    "PRELOAD",
+    "SCORE"
+   ],
+   "name": "AmericaJetAurora",
+   "prerequisites": [
+    [
+     "AmericaAirfield"
+    ],
+    [
+     "AmericaStrategyCenter"
+    ]
+   ],
+   "radius": 15.65247631072998,
+   "science_prerequisites": [],
+   "side": "America"
+  },
+  {
+   "abilities": [],
+   "build_time": 40.0,
+   "buildable": true,
+   "built_by": [
+    "AmericaAirfield"
+   ],
+   "cost": 1400,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "CAN_ATTACK",
+    "CAN_CAST_REFLECTIONS",
+    "VEHICLE",
+    "AIRCRAFT",
+    "PRELOAD",
+    "SCORE"
+   ],
+   "name": "AmericaJetRaptor",
+   "prerequisites": [
+    [
+     "AmericaAirfield"
+    ]
+   ],
+   "radius": 15.65247631072998,
+   "science_prerequisites": [],
+   "side": "America"
+  },
+  {
+   "abilities": [],
+   "build_time": 50.0,
+   "buildable": true,
+   "built_by": [
+    "AmericaAirfield"
+   ],
+   "cost": 1600,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "CAN_ATTACK",
+    "CAN_CAST_REFLECTIONS",
+    "VEHICLE",
+    "AIRCRAFT",
+    "PRELOAD",
+    "SCORE"
+   ],
+   "name": "AmericaJetStealthFighter",
+   "prerequisites": [
+    [
+     "AmericaAirfield"
+    ]
+   ],
+   "radius": 7.0,
+   "science_prerequisites": [
+    "SCIENCE_StealthFighter"
+   ],
+   "side": "America"
+  },
+  {
+   "abilities": [
+    {
+     "name": "Command_ConstructAmericaVehicleBattleDrone",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_AmericaBattleDrone"
+    },
+    {
+     "name": "Command_ConstructAmericaVehicleScoutDrone",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_AmericaScoutDrone"
+    },
+    {
+     "name": "Command_ConstructAmericaVehicleHellfireDrone",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_AmericaHellfireDrone"
+    }
+   ],
+   "build_time": 20.0,
+   "buildable": true,
+   "built_by": [
+    "AmericaWarFactory"
+   ],
+   "cost": 2000,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "CAN_ATTACK",
+    "CAN_CAST_REFLECTIONS",
+    "VEHICLE",
+    "PRELOAD",
+    "SCORE",
+    "ATTACK_NEEDS_LINE_OF_SIGHT",
+    "CANNOT_RETALIATE"
+   ],
+   "name": "AmericaTankAvenger",
+   "prerequisites": [
+    [
+     "AmericaWarFactory"
+    ]
+   ],
+   "radius": 18.027755737304688,
+   "science_prerequisites": [],
+   "side": "America"
+  },
+  {
+   "abilities": [
+    {
+     "name": "Command_ConstructAmericaVehicleBattleDrone",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_AmericaBattleDrone"
+    },
+    {
+     "name": "Command_ConstructAmericaVehicleScoutDrone",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_AmericaScoutDrone"
+    },
+    {
+     "name": "Command_ConstructAmericaVehicleHellfireDrone",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_AmericaHellfireDrone"
+    }
+   ],
+   "build_time": 20.0,
+   "buildable": true,
+   "built_by": [
+    "AmericaWarFactory"
+   ],
+   "cost": 900,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "CAN_ATTACK",
+    "CAN_CAST_REFLECTIONS",
+    "VEHICLE",
+    "PRELOAD",
+    "SCORE",
+    "ATTACK_NEEDS_LINE_OF_SIGHT"
+   ],
+   "name": "AmericaTankCrusader",
+   "prerequisites": [
+    [
+     "AmericaWarFactory"
+    ]
+   ],
+   "radius": 18.027755737304688,
+   "science_prerequisites": [],
+   "side": "America"
+  },
+  {
+   "abilities": [
+    {
+     "name": "Command_ConstructAmericaVehicleBattleDrone",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_AmericaBattleDrone"
+    },
+    {
+     "name": "Command_ConstructAmericaVehicleScoutDrone",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_AmericaScoutDrone"
+    },
+    {
+     "name": "Command_ConstructAmericaVehicleHellfireDrone",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_AmericaHellfireDrone"
+    }
+   ],
+   "build_time": 20.0,
+   "buildable": true,
+   "built_by": [
+    "AmericaWarFactory"
+   ],
+   "cost": 800,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "CAN_ATTACK",
+    "CAN_CAST_REFLECTIONS",
+    "VEHICLE",
+    "PRELOAD",
+    "SCORE",
+    "ATTACK_NEEDS_LINE_OF_SIGHT",
+    "CANNOT_RETALIATE"
+   ],
+   "name": "AmericaTankMicrowave",
+   "prerequisites": [
+    [
+     "AmericaWarFactory"
+    ],
+    [
+     "AmericaStrategyCenter"
+    ]
+   ],
+   "radius": 18.027755737304688,
+   "science_prerequisites": [],
+   "side": "America"
+  },
+  {
+   "abilities": [
+    {
+     "name": "Command_ConstructAmericaVehicleBattleDrone",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_AmericaBattleDrone"
+    },
+    {
+     "name": "Command_ConstructAmericaVehicleScoutDrone",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_AmericaScoutDrone"
+    },
+    {
+     "name": "Command_ConstructAmericaVehicleHellfireDrone",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_AmericaHellfireDrone"
+    }
+   ],
+   "build_time": 24.0,
+   "buildable": true,
+   "built_by": [
+    "AmericaWarFactory"
+   ],
+   "cost": 1100,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "CAN_ATTACK",
+    "CAN_CAST_REFLECTIONS",
+    "VEHICLE",
+    "PRELOAD",
+    "SCORE",
+    "ATTACK_NEEDS_LINE_OF_SIGHT"
+   ],
+   "name": "AmericaTankPaladin",
+   "prerequisites": [
+    [
+     "AmericaWarFactory"
+    ]
+   ],
+   "radius": 18.027755737304688,
+   "science_prerequisites": [
+    "SCIENCE_PaladinTank"
+   ],
+   "side": "America"
+  },
+  {
+   "abilities": [
+    {
+     "name": "Command_ChinookUnload",
+     "required_science": null,
+     "target": "none",
+     "type": "evacuate"
+    }
+   ],
+   "build_time": 20.0,
+   "buildable": true,
+   "built_by": [
+    "AmericaSupplyCenter"
+   ],
+   "cost": 1200,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "CAN_CAST_REFLECTIONS",
+    "VEHICLE",
+    "AIRCRAFT",
+    "HARVESTER",
+    "TRANSPORT",
+    "PRELOAD",
+    "SCORE",
+    "PRODUCED_AT_HELIPAD"
+   ],
+   "name": "AmericaVehicleChinook",
+   "prerequisites": [
+    [
+     "AmericaSupplyCenter"
+    ]
+   ],
+   "radius": 20.880613327026367,
+   "science_prerequisites": [],
+   "side": "America"
+  },
+  {
+   "abilities": [],
+   "build_time": 40.0,
+   "buildable": true,
+   "built_by": [
+    "AmericaAirfield"
+   ],
+   "cost": 1500,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "CAN_ATTACK",
+    "CAN_CAST_REFLECTIONS",
+    "VEHICLE",
+    "AIRCRAFT",
+    "PRELOAD",
+    "SCORE",
+    "PRODUCED_AT_HELIPAD"
+   ],
+   "name": "AmericaVehicleComanche",
+   "prerequisites": [
+    [
+     "AmericaAirfield"
+    ]
+   ],
+   "radius": 20.2237491607666,
+   "science_prerequisites": [],
+   "side": "America"
+  },
+  {
+   "abilities": [],
+   "build_time": 10.0,
+   "buildable": true,
+   "built_by": [
+    "AmericaCommandCenter"
+   ],
+   "cost": 1000,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "CAN_CAST_REFLECTIONS",
+    "VEHICLE",
+    "DOZER",
+    "PRELOAD",
+    "SCORE"
+   ],
+   "name": "AmericaVehicleDozer",
+   "prerequisites": [],
+   "radius": 18.027755737304688,
+   "science_prerequisites": [],
+   "side": "America"
+  },
+  {
+   "abilities": [
+    {
+     "name": "Command_ConstructAmericaVehicleBattleDrone",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_AmericaBattleDrone"
+    },
+    {
+     "name": "Command_ConstructAmericaVehicleScoutDrone",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_AmericaScoutDrone"
+    },
+    {
+     "name": "Command_ConstructAmericaVehicleHellfireDrone",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_AmericaHellfireDrone"
+    },
+    {
+     "name": "Command_Evacuate",
+     "required_science": null,
+     "target": "none",
+     "type": "evacuate"
+    }
+   ],
+   "build_time": 20.0,
+   "buildable": true,
+   "built_by": [
+    "AmericaWarFactory"
+   ],
+   "cost": 700,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "CAN_ATTACK",
+    "CAN_CAST_REFLECTIONS",
+    "VEHICLE",
+    "TRANSPORT",
+    "PRELOAD",
+    "SCORE",
+    "ATTACK_NEEDS_LINE_OF_SIGHT"
+   ],
+   "name": "AmericaVehicleHumvee",
+   "prerequisites": [
+    [
+     "AmericaWarFactory"
+    ]
+   ],
+   "radius": 15.65247631072998,
+   "science_prerequisites": [],
+   "side": "America"
+  },
+  {
+   "abilities": [
+    {
+     "name": "Command_ConstructAmericaVehicleBattleDrone",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_AmericaBattleDrone"
+    },
+    {
+     "name": "Command_ConstructAmericaVehicleScoutDrone",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_AmericaScoutDrone"
+    },
+    {
+     "name": "Command_ConstructAmericaVehicleHellfireDrone",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_AmericaHellfireDrone"
+    },
+    {
+     "name": "Command_Evacuate",
+     "required_science": null,
+     "target": "none",
+     "type": "evacuate"
+    },
+    {
+     "name": "Command_AmbulanceCleanupArea",
+     "required_science": null,
+     "special_power": "SpecialAbilityAmbulanceCleanupArea",
+     "target": "position",
+     "type": "special_power"
+    }
+   ],
+   "build_time": 20.0,
+   "buildable": true,
+   "built_by": [
+    "AmericaWarFactory"
+   ],
+   "cost": 600,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "CAN_CAST_REFLECTIONS",
+    "VEHICLE",
+    "TRANSPORT",
+    "PRELOAD",
+    "SCORE"
+   ],
+   "name": "AmericaVehicleMedic",
+   "prerequisites": [
+    [
+     "AmericaWarFactory"
+    ]
+   ],
+   "radius": 15.65247631072998,
+   "science_prerequisites": [],
+   "side": "America"
+  },
+  {
+   "abilities": [],
+   "build_time": 20.0,
+   "buildable": true,
+   "built_by": [
+    "AmericaWarFactory"
+   ],
+   "cost": 800,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "CAN_ATTACK",
+    "CAN_CAST_REFLECTIONS",
+    "VEHICLE",
+    "PRELOAD",
+    "SCORE",
+    "ATTACK_NEEDS_LINE_OF_SIGHT",
+    "DRONE"
+   ],
+   "name": "AmericaVehicleSentryDrone",
+   "prerequisites": [
+    [
+     "AmericaWarFactory"
+    ]
+   ],
+   "radius": 11.401754379272461,
+   "science_prerequisites": [],
+   "side": "America"
+  },
+  {
+   "abilities": [
+    {
+     "name": "Command_ConstructAmericaVehicleBattleDrone",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_AmericaBattleDrone"
+    },
+    {
+     "name": "Command_ConstructAmericaVehicleScoutDrone",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_AmericaScoutDrone"
+    },
+    {
+     "name": "Command_ConstructAmericaVehicleHellfireDrone",
+     "required_science": null,
+     "target": "none",
+     "type": "upgrade",
+     "upgrade": "Upgrade_AmericaHellfireDrone"
+    }
+   ],
+   "build_time": 40.0,
+   "buildable": true,
+   "built_by": [
+    "AmericaWarFactory"
+   ],
+   "cost": 1200,
+   "energy": 0,
+   "kinds": [
+    "SELECTABLE",
+    "CAN_ATTACK",
+    "CAN_CAST_REFLECTIONS",
+    "VEHICLE",
+    "PRELOAD",
+    "SCORE",
+    "DONT_AUTO_CRUSH_INFANTRY"
+   ],
+   "name": "AmericaVehicleTomahawk",
+   "prerequisites": [
+    [
+     "AmericaWarFactory"
+    ],
+    [
+     "AmericaStrategyCenter"
+    ]
+   ],
+   "radius": 18.027755737304688,
+   "science_prerequisites": [],
+   "side": "America"
+  }
+ ],
+ "upgrades": [
+  {
+   "build_time": 30.0,
+   "built_by": [
+    "AmericaPowerPlant"
+   ],
+   "cost": 500,
+   "name": "Upgrade_AmericaAdvancedControlRods",
+   "type": "object"
+  },
+  {
+   "build_time": 60.0,
+   "built_by": [
+    "AmericaStrategyCenter"
+   ],
+   "cost": 1500,
+   "name": "Upgrade_AmericaAdvancedTraining",
+   "type": "player"
+  },
+  {
+   "build_time": 5.0,
+   "built_by": [
+    "AmericaTankAvenger",
+    "AmericaTankCrusader",
+    "AmericaTankMicrowave",
+    "AmericaTankPaladin",
+    "AmericaVehicleHumvee",
+    "AmericaVehicleMedic",
+    "AmericaVehicleTomahawk"
+   ],
+   "cost": 300,
+   "name": "Upgrade_AmericaBattleDrone",
+   "type": "object"
+  },
+  {
+   "build_time": 40.0,
+   "built_by": [
+    "AmericaAirfield"
+   ],
+   "cost": 1500,
+   "name": "Upgrade_AmericaBunkerBusters",
+   "type": "player"
+  },
+  {
+   "build_time": 60.0,
+   "built_by": [
+    "AmericaStrategyCenter"
+   ],
+   "cost": 1000,
+   "name": "Upgrade_AmericaChemicalSuits",
+   "type": "player"
+  },
+  {
+   "build_time": 60.0,
+   "built_by": [
+    "AmericaStrategyCenter"
+   ],
+   "cost": 2000,
+   "name": "Upgrade_AmericaCompositeArmor",
+   "type": "player"
+  },
+  {
+   "build_time": 40.0,
+   "built_by": [
+    "AmericaAirfield"
+   ],
+   "cost": 1000,
+   "name": "Upgrade_AmericaCountermeasures",
+   "type": "player"
+  },
+  {
+   "build_time": 40.0,
+   "built_by": [
+    "AmericaStrategyCenter"
+   ],
+   "cost": 500,
+   "name": "Upgrade_AmericaDroneArmor",
+   "type": "player"
+  },
+  {
+   "build_time": 5.0,
+   "built_by": [
+    "AmericaTankAvenger",
+    "AmericaTankCrusader",
+    "AmericaTankMicrowave",
+    "AmericaTankPaladin",
+    "AmericaVehicleHumvee",
+    "AmericaVehicleMedic",
+    "AmericaVehicleTomahawk"
+   ],
+   "cost": 500,
+   "name": "Upgrade_AmericaHellfireDrone",
+   "type": "object"
+  },
+  {
+   "build_time": 40.0,
+   "built_by": [
+    "AmericaAirfield"
+   ],
+   "cost": 1500,
+   "name": "Upgrade_AmericaLaserMissiles",
+   "type": "player"
+  },
+  {
+   "build_time": 60.0,
+   "built_by": [
+    "AmericaStrategyCenter"
+   ],
+   "cost": 4000,
+   "name": "Upgrade_AmericaMOAB",
+   "type": "player"
+  },
+  {
+   "build_time": 30.0,
+   "built_by": [
+    "AmericaBarracks"
+   ],
+   "cost": 800,
+   "name": "Upgrade_AmericaRangerFlashBangGrenade",
+   "type": "player"
+  },
+  {
+   "build_time": 5.0,
+   "built_by": [
+    "AmericaTankAvenger",
+    "AmericaTankCrusader",
+    "AmericaTankMicrowave",
+    "AmericaTankPaladin",
+    "AmericaVehicleHumvee",
+    "AmericaVehicleMedic",
+    "AmericaVehicleTomahawk"
+   ],
+   "cost": 100,
+   "name": "Upgrade_AmericaScoutDrone",
+   "type": "object"
+  },
+  {
+   "build_time": 30.0,
+   "built_by": [
+    "AmericaWarFactory"
+   ],
+   "cost": 1000,
+   "name": "Upgrade_AmericaSentryDroneGun",
+   "type": "player"
+  },
+  {
+   "build_time": 30.0,
+   "built_by": [
+    "AmericaStrategyCenter"
+   ],
+   "cost": 800,
+   "name": "Upgrade_AmericaSupplyLines",
+   "type": "player"
+  },
+  {
+   "build_time": 30.0,
+   "built_by": [
+    "AmericaWarFactory"
+   ],
+   "cost": 800,
+   "name": "Upgrade_AmericaTOWMissile",
+   "type": "player"
+  },
+  {
+   "build_time": 40.0,
+   "built_by": [
+    "AmericaAirfield"
+   ],
+   "cost": 800,
+   "name": "Upgrade_ComancheRocketPods",
+   "type": "player"
+  },
+  {
+   "build_time": 30.0,
+   "built_by": [
+    "AmericaBarracks"
+   ],
+   "cost": 1000,
+   "name": "Upgrade_InfantryCaptureBuilding",
+   "type": "player"
+  }
+ ]
+}

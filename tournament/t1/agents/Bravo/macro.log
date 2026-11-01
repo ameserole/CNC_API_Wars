@@ -1,0 +1,24 @@
+08:04:03 home [1010.8062744140625, 2102.68896484375, 40.0] enemy [1004.8300170898438, 583.6300048828125]
+08:04:03 placed Tank_ChinaPowerPlant 150
+08:04:36 placed Tank_ChinaSupplyCenter 156
+08:04:51 placed Tank_ChinaBarracks 159
+08:05:10 placed Tank_ChinaWarFactory 164
+08:05:57 tanks 1 money None
+08:06:22 tanks 2 money None
+08:06:22 train INSUFFICIENT_FUNDS
+08:06:47 tanks 4 money None
+08:06:47 train INSUFFICIENT_FUNDS
+08:07:12 tanks 5 money None
+08:07:12 train INSUFFICIENT_FUNDS
+08:07:37 tanks 7 money None
+08:07:37 train INSUFFICIENT_FUNDS
+08:08:02 tanks 8 money None
+08:08:03 train INSUFFICIENT_FUNDS
+08:08:28 tanks 10 money None
+08:08:28 train INSUFFICIENT_FUNDS
+08:08:53 tanks 11 money None
+08:08:53 train INSUFFICIENT_FUNDS
+08:09:18 tanks 13 money None
+08:09:18 train INSUFFICIENT_FUNDS
+08:09:43 tanks 14 money None
+08:09:43 train INSUFFICIENT_FUNDS

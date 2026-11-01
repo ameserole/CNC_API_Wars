@@ -1,0 +1,73 @@
+08:15:27 connected ws://127.0.0.1:56207 faction ChinaTankGeneral
+08:15:47 connected ws://127.0.0.1:56207 faction ChinaTankGeneral
+08:15:47 home [1010.8062744140625, 2102.68896484375, 40.0] enemy_start [1004.8300170898438, 583.6300048828125] money 10000
+08:15:48 science SCIENCE_BattlemasterTraining
+08:15:48 started Tank_ChinaPowerPlant at [1011, 2283]
+08:16:00 build refused Tank_ChinaSupplyCenter NOT_AVAILABLE NOT_AVAILABLE: cannot be made right now (prerequisites or disabled factory)
+08:16:02 build refused Tank_ChinaSupplyCenter NOT_AVAILABLE NOT_AVAILABLE: cannot be made right now (prerequisites or disabled factory)
+08:16:02 frame=3933 money=8000 power={'consumed': 0, 'produced': 0} units={'ChinaPowerPlant': 1, 'ChinaVehicleDozer': 1, 'ChinaCommandCenter': 1} enemy_structs=0 visible=0
+08:16:04 build refused Tank_ChinaSupplyCenter NOT_AVAILABLE NOT_AVAILABLE: cannot be made right now (prerequisites or disabled factory)
+08:16:06 build refused Tank_ChinaSupplyCenter NOT_AVAILABLE NOT_AVAILABLE: cannot be made right now (prerequisites or disabled factory)
+08:16:08 build refused Tank_ChinaSupplyCenter NOT_AVAILABLE NOT_AVAILABLE: cannot be made right now (prerequisites or disabled factory)
+08:16:10 build refused Tank_ChinaSupplyCenter NOT_AVAILABLE NOT_AVAILABLE: cannot be made right now (prerequisites or disabled factory)
+08:16:12 build refused Tank_ChinaSupplyCenter NOT_AVAILABLE NOT_AVAILABLE: cannot be made right now (prerequisites or disabled factory)
+08:16:14 build refused Tank_ChinaSupplyCenter NOT_AVAILABLE NOT_AVAILABLE: cannot be made right now (prerequisites or disabled factory)
+08:16:16 build refused Tank_ChinaSupplyCenter NOT_AVAILABLE NOT_AVAILABLE: cannot be made right now (prerequisites or disabled factory)
+08:16:18 frame=4323 money=8000 power={'consumed': 0, 'produced': 0} units={'ChinaVehicleDozer': 2, 'ChinaPowerPlant': 1, 'ChinaCommandCenter': 1} enemy_structs=0 visible=0
+08:16:18 build refused Tank_ChinaSupplyCenter NOT_AVAILABLE NOT_AVAILABLE: cannot be made right now (prerequisites or disabled factory)
+08:16:20 build refused Tank_ChinaSupplyCenter NOT_AVAILABLE NOT_AVAILABLE: cannot be made right now (prerequisites or disabled factory)
+08:16:20 complete Tank_ChinaPowerPlant
+08:16:22 started Tank_ChinaSupplyCenter at [1101, 2259]
+08:16:26 connected ws://127.0.0.1:56207 faction ChinaTankGeneral
+08:16:26 home [1010.8062744140625, 2102.68896484375, 40.0] enemy_start [1004.8300170898438, 583.6300048828125] money 6500
+08:16:41 frame=4934 money=6500 power={'consumed': 0, 'produced': 10} units={'ChinaSupplyCenter': 1, 'ChinaVehicleDozer': 2, 'ChinaPowerPlant': 1, 'ChinaCommandCenter': 1} enemy_structs=0 visible=0
+08:16:46 started Tank_ChinaWarFactory at [855, 2193]
+08:16:56 frame=5339 money=3900 power={'consumed': 1, 'produced': 10} units={'ChinaWarFactory': 1, 'ChinaVehicleSupplyTruck': 1, 'ChinaSupplyCenter': 1, 'ChinaVehicleDozer': 2, 'ChinaPowerPlant': 1, 'ChinaCommandCenter': 1} enemy_structs=0 visible=1
+08:17:08 complete Tank_ChinaWarFactory
+08:17:10 macro error TypeError("Bot.build() got an unexpected keyword argument 'radii'")
+08:17:11 frame=5759 money=2300 power={'consumed': 2, 'produced': 10} units={'ChinaVehicleSupplyTruck': 2, 'ChinaWarFactory': 1, 'ChinaSupplyCenter': 1, 'ChinaVehicleDozer': 2, 'ChinaPowerPlant': 1, 'ChinaCommandCenter': 1} enemy_structs=0 visible=1
+08:17:12 macro error TypeError("Bot.build() got an unexpected keyword argument 'radii'")
+08:17:14 macro error TypeError("Bot.build() got an unexpected keyword argument 'radii'")
+08:17:16 macro error TypeError("Bot.build() got an unexpected keyword argument 'radii'")
+08:17:18 macro error TypeError("Bot.build() got an unexpected keyword argument 'radii'")
+08:17:20 macro error TypeError("Bot.build() got an unexpected keyword argument 'radii'")
+08:17:22 macro error TypeError("Bot.build() got an unexpected keyword argument 'radii'")
+08:17:28 connected ws://127.0.0.1:56207 faction ChinaTankGeneral
+08:17:28 home [1010.8062744140625, 2102.68896484375, 40.0] enemy_start [1004.8300170898438, 583.6300048828125] money 2900
+08:17:28 started Tank_ChinaGattlingCannon at [1010, 1803]
+08:17:43 frame=6609 money=1300 power={'consumed': 2, 'produced': 10} units={'ChinaGattlingCannon': 1, 'ChinaVehicleSupplyTruck': 3, 'ChinaVehicleDozer': 3, 'ChinaWarFactory': 1, 'ChinaSupplyCenter': 1, 'ChinaPowerPlant': 1, 'ChinaCommandCenter': 1} enemy_structs=0 visible=1
+08:17:58 frame=7014 money=1600 power={'consumed': 2, 'produced': 10} units={'ChinaTankBattleMaster': 1, 'ChinaGattlingCannon': 1, 'ChinaVehicleSupplyTruck': 3, 'ChinaVehicleDozer': 3, 'ChinaWarFactory': 1, 'ChinaSupplyCenter': 1, 'ChinaPowerPlant': 1, 'ChinaCommandCenter': 1} enemy_structs=0 visible=1
+08:18:04 complete Tank_ChinaGattlingCannon
+08:18:13 frame=7419 money=1500 power={'consumed': 5, 'produced': 10} units={'ChinaTankBattleMaster': 1, 'ChinaGattlingCannon': 1, 'ChinaVehicleSupplyTruck': 3, 'ChinaVehicleDozer': 3, 'ChinaWarFactory': 1, 'ChinaSupplyCenter': 1, 'ChinaPowerPlant': 1, 'ChinaCommandCenter': 1} enemy_structs=0 visible=3
+08:18:28 frame=7839 money=1800 power={'consumed': 5, 'produced': 10} units={'ChinaTankGattling': 1, 'ChinaTankBattleMaster': 1, 'ChinaGattlingCannon': 1, 'ChinaVehicleSupplyTruck': 3, 'ChinaVehicleDozer': 3, 'ChinaWarFactory': 1, 'ChinaSupplyCenter': 1, 'ChinaPowerPlant': 1, 'ChinaCommandCenter': 1} enemy_structs=0 visible=3
+08:18:43 frame=8245 money=2000 power={'consumed': 5, 'produced': 10} units={'ChinaTankGattling': 1, 'ChinaTankBattleMaster': 1, 'ChinaGattlingCannon': 1, 'ChinaVehicleSupplyTruck': 3, 'ChinaVehicleDozer': 3, 'ChinaWarFactory': 1, 'ChinaSupplyCenter': 1, 'ChinaPowerPlant': 1, 'ChinaCommandCenter': 1} enemy_structs=0 visible=7
+08:19:12 connected ws://127.0.0.1:56207 faction ChinaTankGeneral
+08:19:12 home [1010.8062744140625, 2102.68896484375, 40.0] enemy_start [1004.8300170898438, 583.6300048828125] money 2200
+08:19:27 frame=9531 money=0 power={'consumed': 5, 'produced': 10} units={'ChinaTankBattleMaster': 3, 'ChinaTankGattling': 1, 'ChinaGattlingCannon': 1, 'ChinaVehicleSupplyTruck': 3, 'ChinaVehicleDozer': 3, 'ChinaWarFactory': 1, 'ChinaSupplyCenter': 1, 'ChinaPowerPlant': 1, 'ChinaCommandCenter': 1} enemy_structs=0 visible=7
+08:19:42 frame=9921 money=300 power={'consumed': 5, 'produced': 10} units={'ChinaTankBattleMaster': 4, 'ChinaTankGattling': 1, 'ChinaGattlingCannon': 1, 'ChinaVehicleSupplyTruck': 3, 'ChinaVehicleDozer': 3, 'ChinaWarFactory': 1, 'ChinaSupplyCenter': 1, 'ChinaPowerPlant': 1, 'ChinaCommandCenter': 1} enemy_structs=0 visible=7
+08:19:57 frame=10341 money=900 power={'consumed': 5, 'produced': 10} units={'ChinaTankBattleMaster': 5, 'ChinaTankGattling': 1, 'ChinaGattlingCannon': 1, 'ChinaVehicleSupplyTruck': 3, 'ChinaVehicleDozer': 3, 'ChinaWarFactory': 1, 'ChinaSupplyCenter': 1, 'ChinaPowerPlant': 1, 'ChinaCommandCenter': 1} enemy_structs=0 visible=7
+08:20:12 frame=10731 money=1500 power={'consumed': 5, 'produced': 10} units={'ChinaTankBattleMaster': 6, 'ChinaTankGattling': 1, 'ChinaGattlingCannon': 1, 'ChinaVehicleSupplyTruck': 3, 'ChinaVehicleDozer': 3, 'ChinaWarFactory': 1, 'ChinaSupplyCenter': 1, 'ChinaPowerPlant': 1, 'ChinaCommandCenter': 1} enemy_structs=0 visible=7
+08:20:27 frame=11136 money=1800 power={'consumed': 5, 'produced': 10} units={'ChinaTankBattleMaster': 7, 'ChinaTankGattling': 1, 'ChinaGattlingCannon': 1, 'ChinaVehicleSupplyTruck': 3, 'ChinaVehicleDozer': 3, 'ChinaWarFactory': 1, 'ChinaSupplyCenter': 1, 'ChinaPowerPlant': 1, 'ChinaCommandCenter': 1} enemy_structs=0 visible=9
+08:20:42 frame=11556 money=1700 power={'consumed': 5, 'produced': 10} units={'ChinaTankBattleMaster': 7, 'ChinaTankGattling': 1, 'ChinaGattlingCannon': 1, 'ChinaVehicleSupplyTruck': 3, 'ChinaVehicleDozer': 3, 'ChinaWarFactory': 1, 'ChinaSupplyCenter': 1, 'ChinaPowerPlant': 1, 'ChinaCommandCenter': 1} enemy_structs=3 visible=22
+08:20:57 frame=12006 money=1600 power={'consumed': 5, 'produced': 10} units={'ChinaTankGattling': 1, 'ChinaTankBattleMaster': 6, 'ChinaGattlingCannon': 1, 'ChinaVehicleSupplyTruck': 3, 'ChinaVehicleDozer': 3, 'ChinaWarFactory': 1, 'ChinaSupplyCenter': 1, 'ChinaPowerPlant': 1, 'ChinaCommandCenter': 1} enemy_structs=2 visible=19
+08:21:12 frame=12456 money=1500 power={'consumed': 5, 'produced': 10} units={'ChinaTankGattling': 2, 'ChinaTankBattleMaster': 6, 'ChinaGattlingCannon': 1, 'ChinaVehicleSupplyTruck': 3, 'ChinaVehicleDozer': 3, 'ChinaWarFactory': 1, 'ChinaSupplyCenter': 1, 'ChinaPowerPlant': 1, 'ChinaCommandCenter': 1} enemy_structs=2 visible=23
+08:21:27 frame=12906 money=2100 power={'consumed': 5, 'produced': 10} units={'ChinaTankGattling': 3, 'ChinaTankBattleMaster': 6, 'ChinaGattlingCannon': 1, 'ChinaVehicleSupplyTruck': 3, 'ChinaVehicleDozer': 3, 'ChinaWarFactory': 1, 'ChinaSupplyCenter': 1, 'ChinaPowerPlant': 1, 'ChinaCommandCenter': 1} enemy_structs=4 visible=32
+08:21:42 connected ws://127.0.0.1:56207 faction ChinaTankGeneral
+08:21:42 home [1010.8062744140625, 2102.68896484375, 40.0] enemy_start [1004.8300170898438, 583.6300048828125] money 2700
+08:21:42 started Tank_ChinaSupplyCenter at [1435, 2376]
+08:21:57 frame=13803 money=1100 power={'consumed': 5, 'produced': 10} units={'ChinaSupplyCenter': 2, 'ChinaTankGattling': 3, 'ChinaTankBattleMaster': 5, 'ChinaGattlingCannon': 1, 'ChinaVehicleSupplyTruck': 3, 'ChinaVehicleDozer': 3, 'ChinaWarFactory': 1, 'ChinaPowerPlant': 1, 'ChinaCommandCenter': 1} enemy_structs=2 visible=29
+08:21:58 science Early_SCIENCE_EmergencyRepair1
+08:22:09 complete Tank_ChinaSupplyCenter
+08:22:12 frame=14256 money=1100 power={'consumed': 6, 'produced': 10} units={'ChinaVehicleSupplyTruck': 4, 'ChinaTankBattleMaster': 5, 'ChinaSupplyCenter': 2, 'ChinaTankGattling': 3, 'ChinaGattlingCannon': 1, 'ChinaVehicleDozer': 3, 'ChinaWarFactory': 1, 'ChinaPowerPlant': 1, 'ChinaCommandCenter': 1} enemy_structs=3 visible=13
+08:22:27 frame=14708 money=2000 power={'consumed': 6, 'produced': 10} units={'ChinaVehicleSupplyTruck': 5, 'ChinaTankBattleMaster': 5, 'ChinaSupplyCenter': 2, 'ChinaTankGattling': 3, 'ChinaGattlingCannon': 1, 'ChinaVehicleDozer': 3, 'ChinaWarFactory': 1, 'ChinaPowerPlant': 1, 'ChinaCommandCenter': 1} enemy_structs=2 visible=18
+08:22:35 build refused Tank_ChinaWarFactory INSUFFICIENT_FUNDS INSUFFICIENT_FUNDS: not enough money once the 700 for orders still on their way is spent
+08:22:42 frame=15157 money=1600 power={'consumed': 6, 'produced': 10} units={'ChinaVehicleSupplyTruck': 5, 'ChinaTankBattleMaster': 5, 'ChinaSupplyCenter': 2, 'ChinaTankGattling': 3, 'ChinaGattlingCannon': 1, 'ChinaVehicleDozer': 3, 'ChinaWarFactory': 1, 'ChinaPowerPlant': 1, 'ChinaCommandCenter': 1} enemy_structs=1 visible=27
+08:22:45 science SCIENCE_ArtilleryBarrage1
+08:22:47 build refused Tank_ChinaWarFactory INSUFFICIENT_FUNDS INSUFFICIENT_FUNDS: not enough money once the 700 for orders still on their way is spent
+08:22:57 frame=15599 money=1800 power={'consumed': 6, 'produced': 10} units={'ChinaTankBattleMaster': 6, 'ChinaVehicleSupplyTruck': 5, 'ChinaSupplyCenter': 2, 'ChinaTankGattling': 3, 'ChinaGattlingCannon': 1, 'ChinaVehicleDozer': 3, 'ChinaWarFactory': 1, 'ChinaPowerPlant': 1, 'ChinaCommandCenter': 1} enemy_structs=2 visible=14
+08:23:05 build refused Tank_ChinaWarFactory INSUFFICIENT_FUNDS INSUFFICIENT_FUNDS: not enough money once the 700 for orders still on their way is spent
+08:23:12 frame=16057 money=2000 power={'consumed': 6, 'produced': 10} units={'ChinaTankBattleMaster': 7, 'ChinaVehicleSupplyTruck': 5, 'ChinaSupplyCenter': 2, 'ChinaTankGattling': 3, 'ChinaGattlingCannon': 1, 'ChinaVehicleDozer': 3, 'ChinaWarFactory': 1, 'ChinaPowerPlant': 1, 'ChinaCommandCenter': 1} enemy_structs=2 visible=7
+08:23:16 build refused Tank_ChinaWarFactory INSUFFICIENT_FUNDS INSUFFICIENT_FUNDS: not enough money once the 700 for orders still on their way is spent
+08:23:27 frame=16508 money=1900 power={'consumed': 6, 'produced': 10} units={'ChinaTankBattleMaster': 8, 'ChinaVehicleSupplyTruck': 5, 'ChinaSupplyCenter': 2, 'ChinaTankGattling': 3, 'ChinaGattlingCannon': 1, 'ChinaVehicleDozer': 3, 'ChinaWarFactory': 1, 'ChinaPowerPlant': 1, 'ChinaCommandCenter': 1} enemy_structs=1 visible=20
+08:23:29 GAME OVER victory [2]
+08:23:42 frame=16868 money=2500 power={'consumed': 6, 'produced': 10} units={'ChinaTankBattleMaster': 9, 'ChinaVehicleSupplyTruck': 5, 'ChinaSupplyCenter': 2, 'ChinaTankGattling': 3, 'ChinaGattlingCannon': 1, 'ChinaVehicleDozer': 3, 'ChinaWarFactory': 1, 'ChinaPowerPlant': 1, 'ChinaCommandCenter': 1} enemy_structs=0 visible=13

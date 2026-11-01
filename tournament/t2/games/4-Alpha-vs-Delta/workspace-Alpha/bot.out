@@ -1,0 +1,18 @@
+12:41:58 setup side=China home=[1010.8062744140625, 2102.68896484375] enemy=[1004.8300170898438, 583.6300048828125]
+12:41:58 build ChinaPowerPlant at 1311,2103
+12:42:12 build ChinaBarracks at 1271,2253
+12:42:13 build ChinaSupplyCenter refused NOT_AVAILABLE: NOT_AVAILABLE: cannot be made right now (prerequisites or disabled factory)
+12:42:19 build ChinaSupplyCenter refused NOT_AVAILABLE: NOT_AVAILABLE: cannot be made right now (prerequisites or disabled factory)
+12:42:21 build ChinaPowerPlant refused NOT_AVAILABLE: NOT_AVAILABLE: build that is not available right now (prerequisites, power or state)
+12:42:25 build ChinaSupplyCenter refused NOT_AVAILABLE: NOT_AVAILABLE: cannot be made right now (prerequisites or disabled factory)
+12:42:27 build ChinaPowerPlant refused NOT_AVAILABLE: NOT_AVAILABLE: build that is not available right now (prerequisites, power or state)
+12:42:31 build ChinaSupplyCenter refused NOT_AVAILABLE: NOT_AVAILABLE: cannot be made right now (prerequisites or disabled factory)
+12:42:37 build ChinaSupplyCenter refused NOT_AVAILABLE: NOT_AVAILABLE: build that is not available right now (prerequisites, power or state)
+12:42:43 build ChinaSupplyCenter at 1258,2465
+12:42:47 build ChinaWarFactory refused NOT_AVAILABLE: NOT_AVAILABLE: cannot be made right now (prerequisites or disabled factory)
+12:42:53 build ChinaWarFactory refused NOT_AVAILABLE: NOT_AVAILABLE: cannot be made right now (prerequisites or disabled factory)
+12:42:59 build ChinaWarFactory refused NOT_AVAILABLE: NOT_AVAILABLE: cannot be made right now (prerequisites or disabled factory)
+12:43:06 build ChinaWarFactory at 1011,2403
+12:43:09 build ChinaSupplyCenter at 738,2156
+12:45:47 ATTACK wave tanks=6 army=18
+12:47:57 game over: victory

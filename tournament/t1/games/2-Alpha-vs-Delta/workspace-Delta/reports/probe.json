@@ -1,0 +1,149 @@
+{
+ "game_info": {
+  "local_player": 2,
+  "logic_frames_per_second": 30,
+  "map": {
+   "display_name": "Tournament Desert (2)",
+   "extent": {
+    "max": [
+     2040.0,
+     2700.0
+    ],
+    "min": [
+     0.0,
+     0.0
+    ]
+   },
+   "name": "maps\\tournament desert\\tournament desert.map"
+  },
+  "ok": true,
+  "players": [
+   {
+    "active": true,
+    "index": 2,
+    "name": "DESKTOP-PC",
+    "relation": "self",
+    "side": "America",
+    "type": "human"
+   },
+   {
+    "active": true,
+    "index": 3,
+    "name": "Easy Army",
+    "relation": "enemy",
+    "side": "GLAStealthGeneral",
+    "type": "computer"
+   }
+  ],
+  "reply_to": 2,
+  "start_positions": [
+   [
+    1004.8300170898438,
+    583.6300048828125
+   ],
+   [
+    1010.8099975585938,
+    2102.68994140625
+   ]
+  ],
+  "type": "reply"
+ },
+ "snapshot_keys": [
+  "frame",
+  "known_structures",
+  "ok",
+  "reply_to",
+  "self",
+  "type",
+  "units",
+  "visible"
+ ],
+ "self": {
+  "index": 2,
+  "money": 10000,
+  "power": {
+   "consumed": 0,
+   "produced": 0
+  },
+  "rank": 1,
+  "science_points": 1
+ },
+ "units": [
+  {
+   "angle": 0.0,
+   "contained_by": null,
+   "health": 250.0,
+   "id": 144,
+   "max_health": 250.0,
+   "pos": [
+    1075.0,
+    545.0,
+    40.0
+   ],
+   "status": [
+    "idle"
+   ],
+   "template": "AmericaVehicleDozer",
+   "veterancy": 0
+  },
+  {
+   "angle": -2.356194496154785,
+   "contained_by": null,
+   "health": 5000.0,
+   "id": 143,
+   "max_health": 5000.0,
+   "pos": [
+    1004.8322143554688,
+    583.6339721679688,
+    40.0
+   ],
+   "status": [],
+   "template": "AmericaCommandCenter",
+   "veterancy": 0
+  }
+ ],
+ "catalog_keys": [
+  "faction",
+  "ok",
+  "reply_to",
+  "sciences",
+  "structures",
+  "type",
+  "units",
+  "upgrades"
+ ],
+ "structures": [
+  "AmericaAirfield",
+  "AmericaBarracks",
+  "AmericaCommandCenter",
+  "AmericaFireBase",
+  "AmericaParticleCannonUplink",
+  "AmericaPatriotBattery",
+  "AmericaPowerPlant",
+  "AmericaStrategyCenter",
+  "AmericaSupplyCenter",
+  "AmericaSupplyDropZone",
+  "AmericaWarFactory"
+ ],
+ "units_catalog": [
+  "AmericaInfantryBiohazardTech",
+  "AmericaInfantryColonelBurton",
+  "AmericaInfantryMissileDefender",
+  "AmericaInfantryPathfinder",
+  "AmericaInfantryRanger",
+  "AmericaJetAurora",
+  "AmericaJetRaptor",
+  "AmericaJetStealthFighter",
+  "AmericaTankAvenger",
+  "AmericaTankCrusader",
+  "AmericaTankMicrowave",
+  "AmericaTankPaladin",
+  "AmericaVehicleChinook",
+  "AmericaVehicleComanche",
+  "AmericaVehicleDozer",
+  "AmericaVehicleHumvee",
+  "AmericaVehicleMedic",
+  "AmericaVehicleSentryDrone",
+  "AmericaVehicleTomahawk"
+ ]
+}

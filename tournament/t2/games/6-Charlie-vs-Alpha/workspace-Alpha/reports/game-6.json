@@ -1,0 +1,43 @@
+{
+  "game": 6,
+  "round": "Final",
+  "series": "game 2 of best of 3; you 2, Charlie 0",
+  "opponent": "Charlie",
+  "your_faction": "FactionChina",
+  "opponent_faction": "FactionChinaTankGeneral",
+  "result": "win",
+  "reason": "game_over",
+  "tiebreak": null,
+  "game_minutes": 15.3,
+  "stats": [
+    {
+      "buildings_built": 8,
+      "buildings_destroyed": 12,
+      "buildings_lost": 0,
+      "index": 2,
+      "money_earned": 55875,
+      "money_spent": 12500,
+      "score": 74175,
+      "side": "China",
+      "units_built": 103,
+      "units_destroyed": 60,
+      "units_lost": 59,
+      "name": "Alpha"
+    },
+    {
+      "buildings_built": 13,
+      "buildings_destroyed": 0,
+      "buildings_lost": 13,
+      "index": 3,
+      "money_earned": 38100,
+      "money_spent": 14000,
+      "score": 49600,
+      "side": "ChinaTankGeneral",
+      "units_built": 66,
+      "units_destroyed": 36,
+      "units_lost": 62,
+      "name": "Charlie"
+    }
+  ],
+  "warning": null
+}

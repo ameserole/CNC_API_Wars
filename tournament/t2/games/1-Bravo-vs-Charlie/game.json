@@ -1,0 +1,76 @@
+{
+  "number": 1,
+  "round": 1,
+  "match": 1,
+  "game_in_match": 1,
+  "best_of": 3,
+  "folder": "1-Bravo-vs-Charlie",
+  "players": [
+    "Bravo",
+    "Charlie"
+  ],
+  "host": "Charlie",
+  "models": {
+    "Bravo": "sonnet",
+    "Charlie": "fable"
+  },
+  "ports": {
+    "Charlie": 65319,
+    "Bravo": 65320
+  },
+  "observer_port": 65321,
+  "started": "2026-11-01 11:48:47",
+  "warnings": {},
+  "pids": {
+    "bot1": 35752,
+    "bot2": 36988,
+    "observer": 4896
+  },
+  "factions": {
+    "Bravo": "FactionChina",
+    "Charlie": "FactionChina"
+  },
+  "start_positions": {
+    "Bravo": 2,
+    "Charlie": 1
+  },
+  "status": "done",
+  "reason": "game_over",
+  "tiebreak": null,
+  "winner": "Charlie",
+  "loser": "Bravo",
+  "frames": 46347,
+  "game_minutes": 25.75,
+  "stats": [
+    {
+      "buildings_built": 13,
+      "buildings_destroyed": 9,
+      "buildings_lost": 2,
+      "index": 2,
+      "money_earned": 62550,
+      "money_spent": 17300,
+      "score": 97450,
+      "side": "China",
+      "units_built": 84,
+      "units_destroyed": 243,
+      "units_lost": 53,
+      "name": "Charlie"
+    },
+    {
+      "buildings_built": 9,
+      "buildings_destroyed": 2,
+      "buildings_lost": 9,
+      "index": 3,
+      "money_earned": 49350,
+      "money_spent": 12000,
+      "score": 80050,
+      "side": "China",
+      "units_built": 243,
+      "units_destroyed": 53,
+      "units_lost": 243,
+      "name": "Bravo"
+    }
+  ],
+  "replay": true,
+  "ended": "2026-11-01 12:16:15"
+}

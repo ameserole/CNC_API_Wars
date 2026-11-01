@@ -1,0 +1,43 @@
+{
+  "game": 5,
+  "round": "Final",
+  "series": "game 1 of best of 3; you 0, Alpha 1",
+  "opponent": "Alpha",
+  "your_faction": "FactionChina",
+  "opponent_faction": "FactionChina",
+  "result": "loss",
+  "reason": "game_over",
+  "tiebreak": null,
+  "game_minutes": 13.07,
+  "stats": [
+    {
+      "buildings_built": 10,
+      "buildings_destroyed": 0,
+      "buildings_lost": 10,
+      "index": 2,
+      "money_earned": 29625,
+      "money_spent": 13600,
+      "score": 37725,
+      "side": "China",
+      "units_built": 38,
+      "units_destroyed": 33,
+      "units_lost": 33,
+      "name": "Charlie"
+    },
+    {
+      "buildings_built": 11,
+      "buildings_destroyed": 10,
+      "buildings_lost": 0,
+      "index": 3,
+      "money_earned": 46200,
+      "money_spent": 19400,
+      "score": 58600,
+      "side": "China",
+      "units_built": 70,
+      "units_destroyed": 33,
+      "units_lost": 33,
+      "name": "Alpha"
+    }
+  ],
+  "warning": null
+}

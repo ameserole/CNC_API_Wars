@@ -1,0 +1,235 @@
+08:37:09 setup home [1010.8062744140625, 2102.68896484375] enemy [1004.8300170898438, 583.6300048828125] side ChinaTankGeneral
+08:37:09 sample unit {"angle": 0.0, "contained_by": null, "health": 250.0, "id": 144, "max_health": 250.0, "pos": [1080.5, 2070.5, 40.0], "status": ["idle"], "template": "Tank_ChinaVehicleDozer", "veterancy": 0}
+08:37:09 self {"index": 2, "money": 10000, "power": {"consumed": 0, "produced": 0}, "rank": 1, "science_points": 1}
+08:37:09 build Tank_ChinaPowerPlant at [881, 2281]
+08:37:09 science SCIENCE_BattlemasterTraining
+08:37:09 frame 1138 money 9000 power 0 dozers 1 trucks 0 harvesting 0 bld {'PowerPlant': 0, 'SupplyCenter': 0, 'Barracks': 0, 'WarFactory': 0, 'PropagandaCenter': 0, 'GattlingCannon': 0} army 0 attacking 0 enemy_structs 0
+08:37:19 build fail Tank_ChinaBarracks NOT_AVAILABLE build that is not available right now (prerequisites, power or state)
+08:37:21 build fail Tank_ChinaBarracks NOT_AVAILABLE build that is not available right now (prerequisites, power or state)
+08:37:23 build fail Tank_ChinaBarracks NOT_AVAILABLE build that is not available right now (prerequisites, power or state)
+08:37:25 build fail Tank_ChinaBarracks NOT_AVAILABLE build that is not available right now (prerequisites, power or state)
+08:37:27 build Tank_ChinaBarracks at [810, 2192]
+08:37:29 frame 1747 money 6500 power 0 dozers 2 trucks 0 harvesting 0 bld {'PowerPlant': 1, 'SupplyCenter': 0, 'Barracks': 1, 'WarFactory': 0, 'PropagandaCenter': 0, 'GattlingCannon': 0} army 0 attacking 0 enemy_structs 0
+08:37:40 build Tank_ChinaSupplyCenter at [792, 2079]
+08:37:50 frame 2345 money 4625 power 10 dozers 3 trucks 0 harvesting 0 bld {'PowerPlant': 1, 'SupplyCenter': 1, 'Barracks': 1, 'WarFactory': 0, 'PropagandaCenter': 0, 'GattlingCannon': 0} army 0 attacking 0 enemy_structs 0
+08:37:56 build Tank_ChinaWarFactory at [922, 1902]
+08:38:08 build Tank_ChinaSupplyCenter at [639, 1861]
+08:38:11 frame 2942 money 525 power 9 dozers 3 trucks 2 harvesting 2 bld {'PowerPlant': 1, 'SupplyCenter': 2, 'Barracks': 1, 'WarFactory': 1, 'PropagandaCenter': 0, 'GattlingCannon': 0} army 1 attacking 0 enemy_structs 0
+08:38:31 frame 3549 money 525 power 7 dozers 3 trucks 3 harvesting 3 bld {'PowerPlant': 1, 'SupplyCenter': 2, 'Barracks': 1, 'WarFactory': 1, 'PropagandaCenter': 0, 'GattlingCannon': 0} army 1 attacking 0 enemy_structs 0
+08:38:40 redock truck 154
+08:38:52 redock truck 161
+08:38:52 frame 4149 money 525 power 7 dozers 3 trucks 4 harvesting 4 bld {'PowerPlant': 1, 'SupplyCenter': 2, 'Barracks': 1, 'WarFactory': 1, 'PropagandaCenter': 0, 'GattlingCannon': 0} army 1 attacking 0 enemy_structs 0
+08:39:12 redock truck 156
+08:39:12 frame 4744 money 225 power 7 dozers 3 trucks 4 harvesting 4 bld {'PowerPlant': 1, 'SupplyCenter': 2, 'Barracks': 1, 'WarFactory': 1, 'PropagandaCenter': 0, 'GattlingCannon': 0} army 1 attacking 0 enemy_structs 0
+08:39:33 frame 5324 money 225 power 7 dozers 3 trucks 5 harvesting 5 bld {'PowerPlant': 1, 'SupplyCenter': 2, 'Barracks': 1, 'WarFactory': 1, 'PropagandaCenter': 0, 'GattlingCannon': 0} army 1 attacking 0 enemy_structs 0
+08:39:53 frame 5914 money 825 power 7 dozers 3 trucks 6 harvesting 6 bld {'PowerPlant': 1, 'SupplyCenter': 2, 'Barracks': 1, 'WarFactory': 1, 'PropagandaCenter': 0, 'GattlingCannon': 0} army 1 attacking 0 enemy_structs 0
+08:40:13 frame 6509 money 1425 power 7 dozers 3 trucks 6 harvesting 6 bld {'PowerPlant': 1, 'SupplyCenter': 2, 'Barracks': 1, 'WarFactory': 1, 'PropagandaCenter': 0, 'GattlingCannon': 0} army 1 attacking 0 enemy_structs 0
+08:40:24 build Tank_ChinaWarFactory at [1140, 1925]
+08:40:34 frame 7105 money 325 power 7 dozers 3 trucks 6 harvesting 6 bld {'PowerPlant': 1, 'SupplyCenter': 2, 'Barracks': 1, 'WarFactory': 2, 'PropagandaCenter': 0, 'GattlingCannon': 0} army 1 attacking 0 enemy_structs 0
+08:40:55 frame 7702 money 75 power 6 dozers 3 trucks 6 harvesting 6 bld {'PowerPlant': 1, 'SupplyCenter': 2, 'Barracks': 1, 'WarFactory': 2, 'PropagandaCenter': 0, 'GattlingCannon': 0} army 1 attacking 0 enemy_structs 0
+08:41:05 RECALL vs 4 enemies near base
+08:41:07 RECALL vs 9 enemies near base
+08:41:09 RECALL vs 9 enemies near base
+08:41:11 RECALL vs 10 enemies near base
+08:41:13 RECALL vs 10 enemies near base
+08:41:13 redock truck 154
+08:41:15 RECALL vs 11 enemies near base
+08:41:15 frame 8299 money 575 power 6 dozers 3 trucks 6 harvesting 6 bld {'PowerPlant': 1, 'SupplyCenter': 2, 'Barracks': 1, 'WarFactory': 2, 'PropagandaCenter': 0, 'GattlingCannon': 0} army 2 attacking 0 enemy_structs 0
+08:41:18 RECALL vs 10 enemies near base
+08:41:20 RECALL vs 10 enemies near base
+08:41:22 RECALL vs 10 enemies near base
+08:41:24 RECALL vs 10 enemies near base
+08:41:26 RECALL vs 10 enemies near base
+08:41:28 RECALL vs 10 enemies near base
+08:41:30 RECALL vs 10 enemies near base
+08:41:32 RECALL vs 10 enemies near base
+08:41:34 RECALL vs 11 enemies near base
+08:41:36 RECALL vs 15 enemies near base
+08:41:36 frame 8894 money 475 power 6 dozers 3 trucks 6 harvesting 6 bld {'PowerPlant': 1, 'SupplyCenter': 2, 'Barracks': 1, 'WarFactory': 2, 'PropagandaCenter': 0, 'GattlingCannon': 0} army 2 attacking 0 enemy_structs 0
+08:41:37 setup home [1010.8062744140625, 2102.68896484375] enemy [1004.8300170898438, 583.6300048828125] side ChinaTankGeneral
+08:41:37 sample unit {"angle": -1.773814082145691, "contained_by": null, "health": 360.0, "id": 252, "max_health": 360.0, "pos": [1216.9554443359375, 1872.0638427734375, 40.0], "status": [], "template": "Tank_ChinaTankGattling", "veterancy": 1}
+08:41:37 self {"index": 2, "money": 475, "power": {"consumed": 4, "produced": 10}, "rank": 1, "science_points": 0}
+08:41:37 THREAT {'AmericaInfantryRanger': 14, 'AmericaTankCrusader': 1}
+08:41:37 RECALL vs 15 enemies near base
+08:41:37 frame 8926 money 475 power 6 dozers 3 trucks 6 harvesting 6 bld {'PowerPlant': 1, 'SupplyCenter': 2, 'Barracks': 1, 'WarFactory': 2, 'PropagandaCenter': 0, 'GattlingCannon': 0} army 2 attacking 0 enemy_structs 0
+08:41:38 step exception ConnectionClosed("connection closed (code=4001, reason='superseded')")
+08:41:39 RECALL vs 15 enemies near base
+08:41:41 RECALL vs 13 enemies near base
+08:41:43 RECALL vs 12 enemies near base
+08:41:46 RECALL vs 10 enemies near base
+08:41:48 THREAT {'AmericaInfantryRanger': 8, 'AmericaTankCrusader': 1}
+08:41:48 RECALL vs 9 enemies near base
+08:41:50 RECALL vs 7 enemies near base
+08:41:52 RECALL vs 7 enemies near base
+08:41:54 RECALL vs 7 enemies near base
+08:41:56 RECALL vs 8 enemies near base
+08:41:58 THREAT {'AmericaInfantryRanger': 7, 'AmericaTankCrusader': 1}
+08:41:58 RECALL vs 8 enemies near base
+08:41:58 frame 9523 money 675 power 6 dozers 2 trucks 6 harvesting 6 bld {'PowerPlant': 1, 'SupplyCenter': 2, 'Barracks': 1, 'WarFactory': 2, 'PropagandaCenter': 0, 'GattlingCannon': 0} army 1 attacking 0 enemy_structs 0
+08:41:58 setup home [1010.8062744140625, 2102.68896484375] enemy [1004.8300170898438, 583.6300048828125] side ChinaTankGeneral
+08:41:58 sample unit {"angle": -1.0566844940185547, "contained_by": null, "health": 508.75, "id": 286, "max_health": 520.0, "pos": [1185.579833984375, 1893.0308837890625, 40.0], "status": [], "template": "Tank_ChinaTankBattleMaster", "veterancy": 2}
+08:41:58 self {"index": 2, "money": 675, "power": {"consumed": 4, "produced": 10}, "rank": 1, "science_points": 0}
+08:41:58 THREAT {'AmericaInfantryRanger': 7, 'AmericaTankCrusader': 1}
+08:41:58 RECALL vs 8 enemies near base
+08:41:58 frame 9539 money 675 power 6 dozers 2 trucks 6 harvesting 6 bld {'PowerPlant': 1, 'SupplyCenter': 2, 'Barracks': 1, 'WarFactory': 2, 'PropagandaCenter': 0, 'GattlingCannon': 0} army 1 attacking 0 enemy_structs 0
+08:42:00 step exception ConnectionClosed("connection closed (code=4001, reason='superseded')")
+08:42:01 RECALL vs 9 enemies near base
+08:42:03 RECALL vs 11 enemies near base
+08:42:03 redock truck 161
+08:42:05 RECALL vs 10 enemies near base
+08:42:07 RECALL vs 10 enemies near base
+08:42:09 THREAT {'AmericaInfantryRanger': 9, 'AmericaTankCrusader': 1}
+08:42:09 RECALL vs 10 enemies near base
+08:42:11 RECALL vs 10 enemies near base
+08:42:13 RECALL vs 10 enemies near base
+08:42:15 RECALL vs 10 enemies near base
+08:42:17 RECALL vs 10 enemies near base
+08:42:19 THREAT {'AmericaInfantryRanger': 9, 'AmericaTankCrusader': 1}
+08:42:19 RECALL vs 10 enemies near base
+08:42:19 frame 10140 money 175 power 6 dozers 2 trucks 6 harvesting 6 bld {'PowerPlant': 1, 'SupplyCenter': 2, 'Barracks': 1, 'WarFactory': 2, 'PropagandaCenter': 0, 'GattlingCannon': 0} army 1 attacking 0 enemy_structs 0
+08:42:21 RECALL vs 10 enemies near base
+08:42:23 RECALL vs 10 enemies near base
+08:42:25 RECALL vs 10 enemies near base
+08:42:27 setup home [1010.8062744140625, 2102.68896484375] enemy [1004.8300170898438, 583.6300048828125] side ChinaTankGeneral
+08:42:27 sample unit {"angle": 2.148350477218628, "contained_by": null, "health": 327.5, "id": 318, "max_health": 360.0, "pos": [1056.8748779296875, 1893.940185546875, 40.0], "status": [], "template": "Tank_ChinaTankGattling", "veterancy": 1}
+08:42:27 self {"index": 2, "money": 625, "power": {"consumed": 4, "produced": 10}, "rank": 1, "science_points": 0}
+08:42:27 THREAT {'AmericaInfantryRanger': 9, 'AmericaTankCrusader': 1}
+08:42:27 RECALL vs 10 enemies near base
+08:42:27 frame 10371 money 625 power 6 dozers 1 trucks 6 harvesting 6 bld {'PowerPlant': 1, 'SupplyCenter': 2, 'Barracks': 1, 'WarFactory': 2, 'PropagandaCenter': 0, 'GattlingCannon': 0} army 1 attacking 0 enemy_structs 0
+08:42:27 step exception ConnectionClosed("connection closed (code=4001, reason='superseded')")
+08:42:29 RECALL vs 9 enemies near base
+08:42:31 RECALL vs 7 enemies near base
+08:42:33 RECALL vs 6 enemies near base
+08:42:35 RECALL vs 6 enemies near base
+08:42:38 THREAT {'AmericaInfantryRanger': 5, 'AmericaTankCrusader': 1}
+08:42:38 RECALL vs 6 enemies near base
+08:42:40 RECALL vs 6 enemies near base
+08:42:42 RECALL vs 6 enemies near base
+08:42:44 RECALL vs 6 enemies near base
+08:42:46 RECALL vs 6 enemies near base
+08:42:48 THREAT {'AmericaInfantryRanger': 5, 'AmericaTankCrusader': 1}
+08:42:48 RECALL vs 6 enemies near base
+08:42:48 frame 10975 money 475 power 6 dozers 1 trucks 6 harvesting 6 bld {'PowerPlant': 1, 'SupplyCenter': 2, 'Barracks': 1, 'WarFactory': 2, 'PropagandaCenter': 0, 'GattlingCannon': 0} army 1 attacking 0 enemy_structs 0
+08:42:50 RECALL vs 7 enemies near base
+08:42:52 RECALL vs 7 enemies near base
+08:42:54 RECALL vs 8 enemies near base
+08:42:56 RECALL vs 9 enemies near base
+08:42:59 THREAT {'AmericaInfantryRanger': 8, 'AmericaTankCrusader': 1}
+08:42:59 RECALL vs 9 enemies near base
+08:43:01 RECALL vs 9 enemies near base
+08:43:03 step exception ConnectionClosed("connection closed (code=4001, reason='superseded')")
+08:43:03 setup home [1010.8062744140625, 2102.68896484375] enemy [1004.8300170898438, 583.6300048828125] side ChinaTankGeneral
+08:43:03 sample unit {"angle": 0.0, "contained_by": null, "health": 1010.0, "id": 175, "max_health": 2000.0, "pos": [1140.2764892578125, 1924.8197021484375, 40.0], "status": [], "template": "Tank_ChinaWarFactory", "veterancy": 0}
+08:43:03 self {"index": 2, "money": 0, "power": {"consumed": 4, "produced": 10}, "rank": 1, "science_points": 0}
+08:43:03 THREAT {'AmericaInfantryRanger': 8, 'AmericaTankCrusader': 1} at [1040, 1945]
+08:43:03 RECALL vs 9 enemies near base
+08:43:03 frame 11405 money 0 power 6 dozers 0 trucks 6 harvesting 6 bld {'PowerPlant': 1, 'SupplyCenter': 2, 'Barracks': 1, 'WarFactory': 2, 'PropagandaCenter': 0, 'GattlingCannon': 0} army 0 attacking 0 enemy_structs 0
+08:43:05 RECALL vs 9 enemies near base
+08:43:07 RECALL vs 9 enemies near base
+08:43:09 RECALL vs 9 enemies near base
+08:43:11 RECALL vs 8 enemies near base
+08:43:13 THREAT {'AmericaInfantryRanger': 7, 'AmericaTankCrusader': 1} at [1038, 2015]
+08:43:13 RECALL vs 8 enemies near base
+08:43:15 RECALL vs 8 enemies near base
+08:43:17 RECALL vs 8 enemies near base
+08:43:20 RECALL vs 8 enemies near base
+08:43:22 RECALL vs 7 enemies near base
+08:43:24 THREAT {'AmericaInfantryRanger': 6, 'AmericaTankCrusader': 1} at [1052, 2029]
+08:43:24 RECALL vs 7 enemies near base
+08:43:24 frame 12008 money 525 power 6 dozers 0 trucks 6 harvesting 6 bld {'PowerPlant': 1, 'SupplyCenter': 2, 'Barracks': 1, 'WarFactory': 2, 'PropagandaCenter': 0, 'GattlingCannon': 0} army 1 attacking 0 enemy_structs 0
+08:43:26 RECALL vs 6 enemies near base
+08:43:28 RECALL vs 6 enemies near base
+08:43:30 RECALL vs 6 enemies near base
+08:43:32 RECALL vs 6 enemies near base
+08:43:34 THREAT {'AmericaInfantryRanger': 5, 'AmericaTankCrusader': 1} at [1054, 2063]
+08:43:34 RECALL vs 6 enemies near base
+08:43:36 RECALL vs 8 enemies near base
+08:43:38 RECALL vs 9 enemies near base
+08:43:40 RECALL vs 9 enemies near base
+08:43:42 RECALL vs 9 enemies near base
+08:43:45 THREAT {'AmericaInfantryRanger': 8, 'AmericaTankCrusader': 1} at [1063, 1860]
+08:43:45 RECALL vs 9 enemies near base
+08:43:45 frame 12612 money 350 power 6 dozers 0 trucks 6 harvesting 6 bld {'PowerPlant': 1, 'SupplyCenter': 2, 'Barracks': 1, 'WarFactory': 2, 'PropagandaCenter': 0, 'GattlingCannon': 0} army 2 attacking 0 enemy_structs 0
+08:43:45 setup home [1010.8062744140625, 2102.68896484375] enemy [1004.8300170898438, 583.6300048828125] side ChinaTankGeneral
+08:43:45 sample unit {"angle": 0.3510274589061737, "contained_by": null, "health": 120.0, "id": 400, "max_health": 120.0, "pos": [958.6976928710938, 2181.5302734375, 40.0], "status": [], "template": "Tank_ChinaInfantryRedguard", "veterancy": 0}
+08:43:45 self {"index": 2, "money": 350, "power": {"consumed": 4, "produced": 10}, "rank": 1, "science_points": 0}
+08:43:45 THREAT {'AmericaInfantryRanger': 8, 'AmericaTankCrusader': 1} at [1059, 1872]
+08:43:45 RECALL vs 9 enemies near base
+08:43:45 frame 12633 money 350 power 6 dozers 0 trucks 6 harvesting 6 bld {'PowerPlant': 1, 'SupplyCenter': 2, 'Barracks': 1, 'WarFactory': 2, 'PropagandaCenter': 0, 'GattlingCannon': 0} army 2 attacking 0 enemy_structs 0
+08:43:47 step exception ConnectionClosed("connection closed (code=4001, reason='superseded')")
+08:43:47 RECALL vs 9 enemies near base
+08:43:50 RECALL vs 9 enemies near base
+08:43:52 RECALL vs 8 enemies near base
+08:43:54 RECALL vs 8 enemies near base
+08:43:56 THREAT {'AmericaInfantryRanger': 7, 'AmericaTankCrusader': 1} at [1030, 1946]
+08:43:56 RECALL vs 8 enemies near base
+08:43:58 RECALL vs 7 enemies near base
+08:44:00 RECALL vs 7 enemies near base
+08:44:02 RECALL vs 8 enemies near base
+08:44:04 RECALL vs 8 enemies near base
+08:44:06 THREAT {'AmericaInfantryRanger': 7, 'AmericaTankCrusader': 1} at [1001, 1961]
+08:44:06 RECALL vs 8 enemies near base
+08:44:06 frame 13233 money 350 power 6 dozers 0 trucks 6 harvesting 6 bld {'PowerPlant': 1, 'SupplyCenter': 2, 'Barracks': 1, 'WarFactory': 2, 'PropagandaCenter': 0, 'GattlingCannon': 0} army 2 attacking 0 enemy_structs 0
+08:44:08 RECALL vs 8 enemies near base
+08:44:10 RECALL vs 8 enemies near base
+08:44:12 RECALL vs 8 enemies near base
+08:44:14 RECALL vs 8 enemies near base
+08:44:16 THREAT {'AmericaInfantryRanger': 7, 'AmericaTankCrusader': 1} at [978, 2021]
+08:44:16 RECALL vs 8 enemies near base
+08:44:19 RECALL vs 8 enemies near base
+08:44:21 RECALL vs 8 enemies near base
+08:44:23 RECALL vs 8 enemies near base
+08:44:25 RECALL vs 8 enemies near base
+08:44:27 THREAT {'AmericaInfantryRanger': 8, 'AmericaTankCrusader': 1} at [986, 1993]
+08:44:27 RECALL vs 9 enemies near base
+08:44:27 frame 13831 money 175 power 6 dozers 0 trucks 6 harvesting 6 bld {'PowerPlant': 1, 'SupplyCenter': 2, 'Barracks': 1, 'WarFactory': 2, 'PropagandaCenter': 0, 'GattlingCannon': 0} army 4 attacking 0 enemy_structs 0
+08:44:29 RECALL vs 8 enemies near base
+08:44:31 RECALL vs 8 enemies near base
+08:44:33 RECALL vs 8 enemies near base
+08:44:35 RECALL vs 7 enemies near base
+08:44:37 THREAT {'AmericaInfantryRanger': 9, 'AmericaTankCrusader': 1} at [1027, 1906]
+08:44:37 RECALL vs 10 enemies near base
+08:44:39 RECALL vs 9 enemies near base
+08:44:41 RECALL vs 9 enemies near base
+08:44:44 RECALL vs 9 enemies near base
+08:44:46 RECALL vs 8 enemies near base
+08:44:48 THREAT {'AmericaInfantryRanger': 7, 'AmericaTankCrusader': 1} at [1031, 1930]
+08:44:48 RECALL vs 8 enemies near base
+08:44:48 frame 14432 money 325 power 6 dozers 0 trucks 6 harvesting 6 bld {'PowerPlant': 1, 'SupplyCenter': 2, 'Barracks': 1, 'WarFactory': 2, 'PropagandaCenter': 0, 'GattlingCannon': 0} army 6 attacking 0 enemy_structs 0
+08:44:50 RECALL vs 7 enemies near base
+08:44:52 RECALL vs 7 enemies near base
+08:44:54 RECALL vs 6 enemies near base
+08:44:58 THREAT {'AmericaInfantryRanger': 4, 'AmericaTankCrusader': 1} at [1039, 2012]
+08:45:09 THREAT {'AmericaInfantryRanger': 7, 'AmericaTankCrusader': 1} at [1097, 1710]
+08:45:09 frame 15036 money 150 power 6 dozers 0 trucks 6 harvesting 6 bld {'PowerPlant': 1, 'SupplyCenter': 2, 'Barracks': 1, 'WarFactory': 2, 'PropagandaCenter': 0, 'GattlingCannon': 0} army 9 attacking 0 enemy_structs 0
+08:45:15 RECALL vs 9 enemies near base
+08:45:17 science Early_SCIENCE_EmergencyRepair1
+08:45:17 RECALL vs 9 enemies near base
+08:45:19 THREAT {'AmericaInfantryPilot': 1, 'AmericaInfantryRanger': 7} at [1078, 1735]
+08:45:30 THREAT {'AmericaInfantryRanger': 4} at [1080, 1664]
+08:45:30 frame 15648 money 525 power 6 dozers 0 trucks 6 harvesting 6 bld {'PowerPlant': 1, 'SupplyCenter': 2, 'Barracks': 1, 'WarFactory': 2, 'PropagandaCenter': 0, 'GattlingCannon': 0} army 6 attacking 0 enemy_structs 0
+08:45:36 WAVE of 6
+08:45:40 THREAT {'AmericaInfantryRanger': 1} at [1172, 1372]
+08:45:51 THREAT {'AmericaInfantryRanger': 2} at [1211, 1095]
+08:45:51 frame 16240 money 25 power 6 dozers 0 trucks 6 harvesting 6 bld {'PowerPlant': 1, 'SupplyCenter': 2, 'Barracks': 1, 'WarFactory': 2, 'PropagandaCenter': 0, 'GattlingCannon': 0} army 9 attacking 6 enemy_structs 0
+08:46:11 frame 16838 money 225 power 6 dozers 0 trucks 6 harvesting 6 bld {'PowerPlant': 1, 'SupplyCenter': 2, 'Barracks': 1, 'WarFactory': 2, 'PropagandaCenter': 0, 'GattlingCannon': 0} army 10 attacking 6 enemy_structs 1
+08:46:28 WAVE of 5
+08:46:28 redock truck 156
+08:46:32 frame 17436 money 425 power 6 dozers 0 trucks 6 harvesting 6 bld {'PowerPlant': 1, 'SupplyCenter': 2, 'Barracks': 1, 'WarFactory': 2, 'PropagandaCenter': 0, 'GattlingCannon': 0} army 11 attacking 11 enemy_structs 4
+08:46:42 science SCIENCE_RedGuardTraining
+08:46:53 frame 18039 money 475 power 6 dozers 0 trucks 6 harvesting 6 bld {'PowerPlant': 1, 'SupplyCenter': 2, 'Barracks': 1, 'WarFactory': 2, 'PropagandaCenter': 0, 'GattlingCannon': 0} army 12 attacking 11 enemy_structs 5
+08:47:14 frame 18635 money 675 power 6 dozers 0 trucks 6 harvesting 6 bld {'PowerPlant': 1, 'SupplyCenter': 2, 'Barracks': 1, 'WarFactory': 2, 'PropagandaCenter': 0, 'GattlingCannon': 0} army 14 attacking 11 enemy_structs 4
+08:47:32 redock truck 154
+08:47:34 frame 19236 money 175 power 6 dozers 0 trucks 6 harvesting 6 bld {'PowerPlant': 1, 'SupplyCenter': 2, 'Barracks': 1, 'WarFactory': 2, 'PropagandaCenter': 0, 'GattlingCannon': 0} army 15 attacking 11 enemy_structs 3
+08:47:48 setup home [1010.8062744140625, 2102.68896484375] enemy [1004.8300170898438, 583.6300048828125] side ChinaTankGeneral
+08:47:48 sample unit {"angle": -0.11466959118843079, "contained_by": null, "health": 360.0, "id": 622, "max_health": 360.0, "pos": [1215.171142578125, 1889.278564453125, 40.0], "status": ["idle"], "template": "Tank_ChinaTankGattling", "veterancy": 1}
+08:47:48 self {"index": 2, "money": 75, "power": {"consumed": 4, "produced": 10}, "rank": 3, "science_points": 0}
+08:47:49 WAVE of 15
+08:47:49 frame 19641 money 75 power 6 dozers 0 trucks 6 harvesting 6 bld {'PowerPlant': 1, 'SupplyCenter': 2, 'Barracks': 1, 'WarFactory': 2, 'PropagandaCenter': 0, 'GattlingCannon': 0} army 15 attacking 15 enemy_structs 3
+08:47:49 step exception ConnectionClosed("connection closed (code=4001, reason='superseded')")
+08:48:09 frame 20227 money 675 power 6 dozers 0 trucks 6 harvesting 5 bld {'PowerPlant': 1, 'SupplyCenter': 2, 'Barracks': 1, 'WarFactory': 2, 'PropagandaCenter': 0, 'GattlingCannon': 0} army 16 attacking 14 enemy_structs 1
+08:48:11 science SCIENCE_TankParadrop1
+08:48:12 redock truck 159
+08:48:16 redock truck 154
+08:48:30 frame 20840 money 425 power 6 dozers 1 trucks 6 harvesting 6 bld {'PowerPlant': 1, 'SupplyCenter': 2, 'Barracks': 1, 'WarFactory': 2, 'PropagandaCenter': 0, 'GattlingCannon': 0} army 14 attacking 12 enemy_structs 1
+08:48:39 GAME OVER victory

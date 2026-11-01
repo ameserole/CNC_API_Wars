@@ -1,0 +1,4 @@
+12:48:42 game 5: Charlie (FactionChina) hosts Alpha (FactionChina)
+12:48:58 READY {"folder": "5-Charlie-vs-Alpha", "players": {"Charlie": {"port": 53888, "faction": "FactionChina"}, "Alpha": {"port": 53889, "faction": "FactionChina"}}}
+13:02:34 game 5 ended at frame 23531: game_over
+RESULT {"number": 5, "winner": "Alpha", "loser": "Charlie", "reason": "game_over", "tiebreak": null, "game_minutes": 13.07}

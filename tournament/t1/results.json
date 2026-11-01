@@ -1,0 +1,50 @@
+{
+  "1": {
+    "winner": "Charlie",
+    "loser": "Bravo",
+    "reason": "game_over",
+    "tiebreak": null,
+    "factions": {
+      "Bravo": "FactionChinaTankGeneral",
+      "Charlie": "FactionChinaTankGeneral"
+    },
+    "frames": 18426,
+    "folder": "1-Bravo-vs-Charlie",
+    "scores": {
+      "Bravo": 6100,
+      "Charlie": 28800
+    }
+  },
+  "2": {
+    "winner": "Alpha",
+    "loser": "Delta",
+    "reason": "game_over",
+    "tiebreak": null,
+    "factions": {
+      "Alpha": "FactionChinaTankGeneral",
+      "Delta": "FactionAmerica"
+    },
+    "frames": 21081,
+    "folder": "2-Alpha-vs-Delta",
+    "scores": {
+      "Alpha": 36900,
+      "Delta": 21700
+    }
+  },
+  "3": {
+    "winner": "Charlie",
+    "loser": "Alpha",
+    "reason": "game_over",
+    "tiebreak": null,
+    "factions": {
+      "Charlie": "FactionChinaTankGeneral",
+      "Alpha": "FactionChinaTankGeneral"
+    },
+    "frames": 13104,
+    "folder": "3-Charlie-vs-Alpha",
+    "scores": {
+      "Charlie": 20600,
+      "Alpha": 14500
+    }
+  }
+}

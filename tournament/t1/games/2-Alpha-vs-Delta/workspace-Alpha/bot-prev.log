@@ -1,0 +1,70 @@
+08:03:24 setup home [1010.8062744140625, 2102.68896484375] enemy [1004.8300170898438, 583.6300048828125] side ChinaTankGeneral
+08:03:24 sample unit {"angle": 0.0, "contained_by": null, "health": 250.0, "id": 144, "max_health": 250.0, "pos": [960.5, 2020.5, 40.0], "status": ["idle"], "template": "Tank_ChinaVehicleDozer", "veterancy": 0}
+08:03:24 self {"index": 2, "money": 10000, "power": {"consumed": 0, "produced": 0}, "rank": 1, "science_points": 1}
+08:03:24 build Tank_ChinaPowerPlant at [881, 2281]
+08:03:24 science SCIENCE_BattlemasterTraining
+08:03:25 frame 152 money 10000 power 0 dozers 1 bld {'PowerPlant': 0, 'SupplyCenter': 0, 'Barracks': 0, 'WarFactory': 0, 'PropagandaCenter': 0, 'GattlingCannon': 0} army 0 attacking 0 enemy_structs 0
+08:03:35 build fail Tank_ChinaSupplyCenter NOT_AVAILABLE cannot be made right now (prerequisites or disabled factory)
+08:03:37 build fail Tank_ChinaSupplyCenter NOT_AVAILABLE cannot be made right now (prerequisites or disabled factory)
+08:03:39 build fail Tank_ChinaSupplyCenter NOT_AVAILABLE cannot be made right now (prerequisites or disabled factory)
+08:03:41 build fail Tank_ChinaSupplyCenter NOT_AVAILABLE cannot be made right now (prerequisites or disabled factory)
+08:03:43 build fail Tank_ChinaSupplyCenter NOT_AVAILABLE cannot be made right now (prerequisites or disabled factory)
+08:03:45 build fail Tank_ChinaSupplyCenter NOT_AVAILABLE cannot be made right now (prerequisites or disabled factory)
+08:03:45 frame 719 money 7000 power 0 dozers 2 bld {'PowerPlant': 1, 'SupplyCenter': 0, 'Barracks': 0, 'WarFactory': 0, 'PropagandaCenter': 0, 'GattlingCannon': 0} army 0 attacking 0 enemy_structs 0
+08:03:47 build fail Tank_ChinaSupplyCenter NOT_AVAILABLE cannot be made right now (prerequisites or disabled factory)
+08:03:50 build fail Tank_ChinaSupplyCenter NOT_AVAILABLE cannot be made right now (prerequisites or disabled factory)
+08:03:52 build fail Tank_ChinaSupplyCenter NOT_AVAILABLE cannot be made right now (prerequisites or disabled factory)
+08:03:54 build fail Tank_ChinaSupplyCenter NOT_AVAILABLE cannot be made right now (prerequisites or disabled factory)
+08:03:56 build Tank_ChinaSupplyCenter at [810, 2192]
+08:03:58 build Tank_ChinaBarracks at [792, 2079]
+08:04:02 build fail Tank_ChinaWarFactory NOT_AVAILABLE cannot be made right now (prerequisites or disabled factory)
+08:04:04 build fail Tank_ChinaWarFactory NOT_AVAILABLE cannot be made right now (prerequisites or disabled factory)
+08:04:06 build fail Tank_ChinaWarFactory NOT_AVAILABLE cannot be made right now (prerequisites or disabled factory)
+08:04:06 frame 1292 money 4000 power 10 dozers 4 bld {'PowerPlant': 1, 'SupplyCenter': 1, 'Barracks': 1, 'WarFactory': 0, 'PropagandaCenter': 0, 'GattlingCannon': 0} army 0 attacking 0 enemy_structs 0
+08:04:08 build fail Tank_ChinaWarFactory NOT_AVAILABLE cannot be made right now (prerequisites or disabled factory)
+08:04:11 build fail Tank_ChinaWarFactory NOT_AVAILABLE cannot be made right now (prerequisites or disabled factory)
+08:04:11 step exception ConnectionClosed("connection closed (code=4001, reason='superseded')")
+08:04:11 setup home [1010.8062744140625, 2102.68896484375] enemy [1004.8300170898438, 583.6300048828125] side ChinaTankGeneral
+08:04:11 sample unit {"angle": -2.239222764968872, "contained_by": null, "health": 250.0, "id": 156, "max_health": 250.0, "pos": [993.0596923828125, 2012.769287109375, 40.0], "status": ["idle"], "template": "Tank_ChinaVehicleDozer", "veterancy": 0}
+08:04:11 self {"index": 2, "money": 4000, "power": {"consumed": 0, "produced": 10}, "rank": 1, "science_points": 0}
+08:04:11 frame 1411 money 4000 power 10 dozers 4 bld {'PowerPlant': 1, 'SupplyCenter': 1, 'Barracks': 1, 'WarFactory': 0, 'PropagandaCenter': 0, 'GattlingCannon': 0} army 0 attacking 0 enemy_structs 0
+08:04:13 build Tank_ChinaWarFactory at [833, 1973]
+08:04:32 frame 1962 money 800 power 9 dozers 4 bld {'PowerPlant': 1, 'SupplyCenter': 1, 'Barracks': 1, 'WarFactory': 1, 'PropagandaCenter': 0, 'GattlingCannon': 0} army 0 attacking 0 enemy_structs 0
+08:04:53 frame 2532 money 200 power 8 dozers 4 bld {'PowerPlant': 1, 'SupplyCenter': 1, 'Barracks': 1, 'WarFactory': 1, 'PropagandaCenter': 0, 'GattlingCannon': 0} army 0 attacking 0 enemy_structs 0
+08:05:13 frame 3101 money 100 power 8 dozers 4 bld {'PowerPlant': 1, 'SupplyCenter': 1, 'Barracks': 1, 'WarFactory': 1, 'PropagandaCenter': 0, 'GattlingCannon': 0} army 0 attacking 0 enemy_structs 0
+08:05:34 frame 3712 money 0 power 8 dozers 4 bld {'PowerPlant': 1, 'SupplyCenter': 1, 'Barracks': 1, 'WarFactory': 1, 'PropagandaCenter': 0, 'GattlingCannon': 0} army 1 attacking 0 enemy_structs 0
+08:05:54 frame 4258 money 200 power 8 dozers 4 bld {'PowerPlant': 1, 'SupplyCenter': 1, 'Barracks': 1, 'WarFactory': 1, 'PropagandaCenter': 0, 'GattlingCannon': 0} army 2 attacking 0 enemy_structs 0
+08:06:02 setup home [1010.8062744140625, 2102.68896484375] enemy [1004.8300170898438, 583.6300048828125] side ChinaTankGeneral
+08:06:02 sample unit {"angle": -0.11463768780231476, "contained_by": null, "health": 360.0, "id": 173, "max_health": 360.0, "pos": [907.8313598632812, 1937.677734375, 40.0], "status": ["idle"], "template": "Tank_ChinaTankGattling", "veterancy": 1}
+08:06:02 self {"index": 2, "money": 200, "power": {"consumed": 2, "produced": 10}, "rank": 1, "science_points": 0}
+08:06:02 frame 4470 money 200 power 8 dozers 4 trucks 4 harvesting 4 bld {'PowerPlant': 1, 'SupplyCenter': 1, 'Barracks': 1, 'WarFactory': 1, 'PropagandaCenter': 0, 'GattlingCannon': 0} army 2 attacking 0 enemy_structs 0
+08:06:02 step exception ConnectionClosed("connection closed (code=4001, reason='superseded')")
+08:06:22 frame 5024 money 400 power 8 dozers 4 trucks 4 harvesting 4 bld {'PowerPlant': 1, 'SupplyCenter': 1, 'Barracks': 1, 'WarFactory': 1, 'PropagandaCenter': 0, 'GattlingCannon': 0} army 3 attacking 0 enemy_structs 0
+08:06:43 frame 5574 money 300 power 8 dozers 4 trucks 4 harvesting 4 bld {'PowerPlant': 1, 'SupplyCenter': 1, 'Barracks': 1, 'WarFactory': 1, 'PropagandaCenter': 0, 'GattlingCannon': 0} army 4 attacking 0 enemy_structs 0
+08:06:59 setup home [1010.8062744140625, 2102.68896484375] enemy [1004.8300170898438, 583.6300048828125] side ChinaTankGeneral
+08:06:59 sample unit {"angle": -0.11432232707738876, "contained_by": null, "health": 520.0, "id": 177, "max_health": 520.0, "pos": [907.4419555664062, 1937.722412109375, 40.0], "status": ["idle"], "template": "Tank_ChinaTankBattleMaster", "veterancy": 2}
+08:06:59 self {"index": 2, "money": 200, "power": {"consumed": 2, "produced": 10}, "rank": 1, "science_points": 0}
+08:06:59 frame 6021 money 200 power 8 dozers 4 trucks 4 harvesting 4 bld {'PowerPlant': 1, 'SupplyCenter': 1, 'Barracks': 1, 'WarFactory': 1, 'PropagandaCenter': 0, 'GattlingCannon': 0} army 5 attacking 0 enemy_structs 0
+08:06:59 step exception ConnectionClosed("connection closed (code=4001, reason='superseded')")
+08:07:11 WAVE of 6
+08:07:20 frame 6598 money 800 power 8 dozers 4 trucks 4 harvesting 4 bld {'PowerPlant': 1, 'SupplyCenter': 1, 'Barracks': 1, 'WarFactory': 1, 'PropagandaCenter': 0, 'GattlingCannon': 0} army 6 attacking 6 enemy_structs 0
+08:07:36 build Tank_ChinaSupplyCenter at [1067, 1855]
+08:07:40 frame 7212 money 200 power 8 dozers 4 trucks 4 harvesting 4 bld {'PowerPlant': 1, 'SupplyCenter': 2, 'Barracks': 1, 'WarFactory': 1, 'PropagandaCenter': 0, 'GattlingCannon': 0} army 6 attacking 6 enemy_structs 2
+08:08:01 frame 7832 money 500 power 7 dozers 4 trucks 5 harvesting 5 bld {'PowerPlant': 1, 'SupplyCenter': 2, 'Barracks': 1, 'WarFactory': 1, 'PropagandaCenter': 0, 'GattlingCannon': 0} army 5 attacking 5 enemy_structs 2
+08:08:21 frame 8445 money 1400 power 7 dozers 4 trucks 6 harvesting 6 bld {'PowerPlant': 1, 'SupplyCenter': 2, 'Barracks': 1, 'WarFactory': 1, 'PropagandaCenter': 0, 'GattlingCannon': 0} army 5 attacking 5 enemy_structs 4
+08:08:34 build Tank_ChinaWarFactory at [1212, 2013]
+08:08:36 redock truck 167
+08:08:42 frame 9069 money 300 power 7 dozers 4 trucks 6 harvesting 6 bld {'PowerPlant': 1, 'SupplyCenter': 2, 'Barracks': 1, 'WarFactory': 2, 'PropagandaCenter': 0, 'GattlingCannon': 0} army 5 attacking 5 enemy_structs 6
+08:08:44 redock truck 167
+08:09:03 frame 9691 money 100 power 6 dozers 4 trucks 6 harvesting 6 bld {'PowerPlant': 1, 'SupplyCenter': 2, 'Barracks': 1, 'WarFactory': 2, 'PropagandaCenter': 0, 'GattlingCannon': 0} army 6 attacking 5 enemy_structs 5
+08:09:15 redock truck 257
+08:09:24 frame 10269 money 600 power 6 dozers 4 trucks 6 harvesting 6 bld {'PowerPlant': 1, 'SupplyCenter': 2, 'Barracks': 1, 'WarFactory': 2, 'PropagandaCenter': 0, 'GattlingCannon': 0} army 7 attacking 5 enemy_structs 5
+08:09:38 science Early_SCIENCE_EmergencyRepair1
+08:09:45 frame 10823 money 100 power 6 dozers 4 trucks 6 harvesting 6 bld {'PowerPlant': 1, 'SupplyCenter': 2, 'Barracks': 1, 'WarFactory': 2, 'PropagandaCenter': 0, 'GattlingCannon': 0} army 8 attacking 5 enemy_structs 3
+08:10:05 frame 11392 money 600 power 6 dozers 4 trucks 6 harvesting 6 bld {'PowerPlant': 1, 'SupplyCenter': 2, 'Barracks': 1, 'WarFactory': 2, 'PropagandaCenter': 0, 'GattlingCannon': 0} army 9 attacking 5 enemy_structs 2
+08:10:07 WAVE of 5
+08:10:26 frame 11962 money 400 power 6 dozers 4 trucks 6 harvesting 6 bld {'PowerPlant': 1, 'SupplyCenter': 2, 'Barracks': 1, 'WarFactory': 2, 'PropagandaCenter': 0, 'GattlingCannon': 0} army 11 attacking 10 enemy_structs 2
+08:10:46 frame 12563 money 200 power 6 dozers 4 trucks 6 harvesting 6 bld {'PowerPlant': 1, 'SupplyCenter': 2, 'Barracks': 1, 'WarFactory': 2, 'PropagandaCenter': 0, 'GattlingCannon': 0} army 14 attacking 10 enemy_structs 1
+08:11:01 WAVE of 5
+08:11:07 frame 13139 money 700 power 6 dozers 4 trucks 6 harvesting 6 bld {'PowerPlant': 1, 'SupplyCenter': 2, 'Barracks': 1, 'WarFactory': 2, 'PropagandaCenter': 0, 'GattlingCannon': 0} army 15 attacking 15 enemy_structs 1
+08:11:17 GAME OVER victory

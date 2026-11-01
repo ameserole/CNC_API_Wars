@@ -1,0 +1,30 @@
+# Zero Hour game data (copyrighted, ~3 GB): copy a Steam install here, see README.md
+/GameFiles/
+
+# Integration-test artifacts (game logs, crash dumps, transcripts; can reach many GB)
+/test-results/
+
+# Python
+/python/.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Tournament runtime state (process ids, practice ports); the records themselves are kept
+/tournament/*/state/practice-*.json
+
+# Agent conversation transcripts: raw logs that carry the account's email and local paths.
+# Their audits and the reports summarizing them are kept.
+/tournament/*/sessions/**/*.jsonl
+/agent-matches/*/transcripts/**/*.jsonl
+
+# Editor and local tool state
+/.vscode/
+/.claude/settings.local.json
+/.claude/*.lock
+
+# OS files
+Thumbs.db
+desktop.ini
+.DS_Store

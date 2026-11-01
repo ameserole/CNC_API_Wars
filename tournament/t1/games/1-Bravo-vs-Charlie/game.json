@@ -1,0 +1,73 @@
+{
+  "number": 1,
+  "round": 1,
+  "folder": "1-Bravo-vs-Charlie",
+  "players": [
+    "Bravo",
+    "Charlie"
+  ],
+  "host": "Charlie",
+  "models": {
+    "Bravo": "sonnet",
+    "Charlie": "fable"
+  },
+  "ports": {
+    "Charlie": 50956,
+    "Bravo": 50957
+  },
+  "observer_port": 50958,
+  "started": "2026-11-01 08:24:13",
+  "warnings": {},
+  "pids": {
+    "bot1": 17040,
+    "bot2": 35648,
+    "observer": 15212
+  },
+  "factions": {
+    "Bravo": "FactionChinaTankGeneral",
+    "Charlie": "FactionChinaTankGeneral"
+  },
+  "start_positions": {
+    "Bravo": 1,
+    "Charlie": 2
+  },
+  "status": "done",
+  "reason": "game_over",
+  "tiebreak": null,
+  "winner": "Charlie",
+  "loser": "Bravo",
+  "frames": 18426,
+  "game_minutes": 10.24,
+  "stats": [
+    {
+      "buildings_built": 6,
+      "buildings_destroyed": 4,
+      "buildings_lost": 0,
+      "index": 2,
+      "money_earned": 22800,
+      "money_spent": 10000,
+      "score": 28800,
+      "side": "ChinaTankGeneral",
+      "units_built": 36,
+      "units_destroyed": 14,
+      "units_lost": 9,
+      "name": "Charlie"
+    },
+    {
+      "buildings_built": 5,
+      "buildings_destroyed": 0,
+      "buildings_lost": 4,
+      "index": 3,
+      "money_earned": 3300,
+      "money_spent": 7000,
+      "score": 6100,
+      "side": "ChinaTankGeneral",
+      "units_built": 14,
+      "units_destroyed": 9,
+      "units_lost": 14,
+      "name": "Bravo"
+    }
+  ],
+  "replay": true,
+  "ended": "2026-11-01 08:35:39"
+}

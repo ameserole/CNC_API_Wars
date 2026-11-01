@@ -1,0 +1,4 @@
+08:24:23 game 1: Charlie (FactionChinaTankGeneral) hosts Bravo (FactionChinaTankGeneral)
+08:24:39 READY {"folder": "1-Bravo-vs-Charlie", "players": {"Bravo": {"port": 50957, "faction": "FactionChinaTankGeneral"}, "Charlie": {"port": 50956, "faction": "FactionChinaTankGeneral"}}}
+08:35:29 game 1 ended at frame 18426: game_over
+RESULT {"number": 1, "winner": "Charlie", "loser": "Bravo", "reason": "game_over", "tiebreak": null, "game_minutes": 10.24}

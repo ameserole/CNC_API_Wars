@@ -1,0 +1,10 @@
+11:32:08 PRACTICE READY port 64805 faction FactionChina
+11:36:29 PRACTICE OVER ended by time
+{
+  "agent": "Bravo",
+  "ai": "easy",
+  "started": "2026-11-01 11:31:59",
+  "faction": "FactionChina",
+  "stats": null,
+  "result": "ended by time"
+}

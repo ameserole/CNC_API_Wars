@@ -1,0 +1,4 @@
+11:48:56 game 1: Charlie (FactionChina) hosts Bravo (FactionChina)
+11:49:12 READY {"folder": "1-Bravo-vs-Charlie", "players": {"Bravo": {"port": 65320, "faction": "FactionChina"}, "Charlie": {"port": 65319, "faction": "FactionChina"}}}
+12:16:04 game 1 ended at frame 46347: game_over
+RESULT {"number": 1, "winner": "Charlie", "loser": "Bravo", "reason": "game_over", "tiebreak": null, "game_minutes": 25.75}

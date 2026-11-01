@@ -1,0 +1,4 @@
+13:05:20 game 6: Alpha (FactionChina) hosts Charlie (FactionChinaTankGeneral)
+13:05:35 READY {"folder": "6-Charlie-vs-Alpha", "players": {"Charlie": {"port": 49684, "faction": "FactionChinaTankGeneral"}, "Alpha": {"port": 49683, "faction": "FactionChina"}}}
+13:22:05 game 6 ended at frame 27544: game_over
+RESULT {"number": 6, "winner": "Alpha", "loser": "Charlie", "reason": "game_over", "tiebreak": null, "game_minutes": 15.3}

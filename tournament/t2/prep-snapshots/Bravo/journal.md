@@ -1,0 +1,3 @@
+- Session 1 (prep): picked China, wrote bot.py + settings.json, ran practice game & watch loop.
+- Ended prep at ~12 min; bot works through build order and army production; attack untested.
+- Session 1b: second practice run; attack waves confirmed working; bot.py final-ish.

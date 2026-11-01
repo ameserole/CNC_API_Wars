@@ -1,0 +1,14 @@
+12:55:42 setup side=China home=[1010.8062744140625, 2102.68896484375] enemy=[1004.8300170898438, 583.6300048828125]
+12:56:15 build ChinaPropagandaCenter at 861,2362
+12:56:42 build ChinaWarFactory refused NOT_AVAILABLE: NOT_AVAILABLE: build that is not available right now (prerequisites, power or state)
+12:56:42 build ChinaGattlingCannon at 751,2253
+12:56:52 build ChinaWarFactory refused NOT_AVAILABLE: NOT_AVAILABLE: build that is not available right now (prerequisites, power or state)
+12:56:58 build ChinaWarFactory refused NOT_AVAILABLE: NOT_AVAILABLE: build that is not available right now (prerequisites, power or state)
+12:57:04 build ChinaWarFactory refused NOT_AVAILABLE: NOT_AVAILABLE: build that is not available right now (prerequisites, power or state)
+12:57:08 build ChinaGattlingCannon at 711,2103
+12:57:09 upgrade Upgrade_ChinaChainGuns
+12:57:37 build ChinaWarFactory refused NOT_AVAILABLE: NOT_AVAILABLE: build that is not available right now (prerequisites, power or state)
+12:57:41 upgrade Upgrade_Nationalism
+12:58:04 build ChinaWarFactory at 751,1953
+13:00:01 ATTACK wave tanks=15 army=25
+13:02:33 game over: victory

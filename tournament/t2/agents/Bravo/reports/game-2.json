@@ -1,0 +1,43 @@
+{
+  "game": 2,
+  "round": "Semifinals",
+  "series": "game 2 of best of 3; you 0, Charlie 2",
+  "opponent": "Charlie",
+  "your_faction": "FactionChina",
+  "opponent_faction": "FactionChina",
+  "result": "loss",
+  "reason": "game_over",
+  "tiebreak": null,
+  "game_minutes": 13.46,
+  "stats": [
+    {
+      "buildings_built": 7,
+      "buildings_destroyed": 0,
+      "buildings_lost": 7,
+      "index": 2,
+      "money_earned": 14550,
+      "money_spent": 8500,
+      "score": 21750,
+      "side": "China",
+      "units_built": 61,
+      "units_destroyed": 4,
+      "units_lost": 61,
+      "name": "Bravo"
+    },
+    {
+      "buildings_built": 10,
+      "buildings_destroyed": 7,
+      "buildings_lost": 0,
+      "index": 3,
+      "money_earned": 33000,
+      "money_spent": 13600,
+      "score": 44900,
+      "side": "China",
+      "units_built": 41,
+      "units_destroyed": 61,
+      "units_lost": 4,
+      "name": "Charlie"
+    }
+  ],
+  "warning": null
+}

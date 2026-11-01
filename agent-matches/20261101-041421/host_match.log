@@ -1,0 +1,2 @@
+MATCH READY {"bot1_url": "ws://127.0.0.1:64631", "bot2_url": "ws://127.0.0.1:64632", "observer_port": 64633, "map": "maps\\tournament desert\\tournament desert.map", "pids": {"bot1": 32368, "bot2": 26308, "observer": 7316}}
+bot games exited: 0 0

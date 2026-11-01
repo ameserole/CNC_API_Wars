@@ -1,0 +1,43 @@
+{
+  "game": 4,
+  "round": "Semifinals",
+  "series": "game 2 of best of 3; you 0, Alpha 2",
+  "opponent": "Alpha",
+  "your_faction": "FactionChina",
+  "opponent_faction": "FactionChina",
+  "result": "loss",
+  "reason": "game_over",
+  "tiebreak": null,
+  "game_minutes": 6.37,
+  "stats": [
+    {
+      "buildings_built": 5,
+      "buildings_destroyed": 0,
+      "buildings_lost": 4,
+      "index": 2,
+      "money_earned": 1500,
+      "money_spent": 7000,
+      "score": 5200,
+      "side": "China",
+      "units_built": 27,
+      "units_destroyed": 5,
+      "units_lost": 26,
+      "name": "Delta"
+    },
+    {
+      "buildings_built": 6,
+      "buildings_destroyed": 4,
+      "buildings_lost": 0,
+      "index": 3,
+      "money_earned": 19500,
+      "money_spent": 8500,
+      "score": 27000,
+      "side": "China",
+      "units_built": 39,
+      "units_destroyed": 26,
+      "units_lost": 5,
+      "name": "Alpha"
+    }
+  ],
+  "warning": null
+}

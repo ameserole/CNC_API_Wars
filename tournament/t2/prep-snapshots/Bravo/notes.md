@@ -1,0 +1,11 @@
+# Bravo: Notes
+Faction: FactionChina (base). Plan: macro bot `bot.py` (run: `python bot.py ws://127.0.0.1:N`, log to bot.log, tune `settings.json` live: attack_size, trucks, tank, inf).
+Build order in bot: PowerPlant, SupplyCenter, Barracks, WarFactory, then 2nd PP/Barracks/WarFactory; sequential with ONE dozer (bottleneck: improve by training a 2nd dozer).
+Then trucks (3), Battlemaster tanks + Redguards continuously, attack_move at attack_size army to nearest known enemy structure / enemy start.
+Facts: start money 7500 in practice; start has CommandCenter + dozer only (SupplyCenter must be built, needs PowerPlant). Template names plain (ChinaBarracks etc.).
+Costs: PP 1000 SC 1500 Barracks 500 WF 2000 Battlemaster 800 Redguard 300 (catalog in tournament/t2/factions).
+Watch loop: `generals_api.watch URL --max-wait 60 --state watch.json` works; bot runs in background.
+TODO ideas: defend base with Gattling tanks/ bunkers, research upgrades, 2nd dozer, explicit attacks on buildings (attack_move ignores plain buildings).
+Practice lessons: trucks from SupplyCenter auto-harvest (supply piles ~3750 each, far from base ~y1200-1450 vs home y583). Bot over-trained trucks (5) before a 25s throttle fix -> keep trucks 4. Money hit 200 early: all spent; income from trucks slow. Game runs ~1.2x real time; build order done by ~1:50 game time.
+Open issue: truck count reached 9 despite limit (maybe SupplyCenter spawns trucks itself, or old bot instance still ran). Check `have("VehicleSupplyTruck")` before training; income was +1832/min at 3:00 with 9 trucks. Redguard spam starves War Factory of money: consider training tanks first / limiting infantry (settings "inf"). No attack seen yet by 3:00 (attack_size 14).
+Session 2 practice (vs Easy GLA Toxin): fixed bot (infantry only trained when money>1200 once WarFactory exists; building attacks when army within 500 of enemy structure). Waves of 12+ Redguards arrived at enemy base ~3:30 game time and engaged (CC, barracks seen). Trucks stayed at 2 this time (limit OK). Only 1 tank built by 3:30: economy is thin (+600-1100/min); consider 2nd supply center/more trucks (trucks setting) and keep reinforcing waves. Watch loop works well with settings.json edits (live).
